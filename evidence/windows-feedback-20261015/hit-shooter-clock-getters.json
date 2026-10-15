@@ -1,0 +1,90 @@
+{
+  "pid": 613397,
+  "sections": [
+    {
+      "name": ".tp6",
+      "address": 5368713216,
+      "size": 36806236,
+      "flags": 1610612768
+    },
+    {
+      "name": ".tp6",
+      "address": 5405519872,
+      "size": 10039998,
+      "flags": 1073741888
+    },
+    {
+      "name": ".tp6",
+      "address": 5415563264,
+      "size": 8532824,
+      "flags": 3221225536
+    },
+    {
+      "name": ".tp6",
+      "address": 5424099328,
+      "size": 1545984,
+      "flags": 1073741888
+    },
+    {
+      "name": ".tp6",
+      "address": 5425647616,
+      "size": 2016,
+      "flags": 1073741888
+    },
+    {
+      "name": ".tp6",
+      "address": 5425651712,
+      "size": 2807784,
+      "flags": 1744830560
+    },
+    {
+      "name": ".tp6",
+      "address": 5428461568,
+      "size": 12525,
+      "flags": 1073741888
+    },
+    {
+      "name": ".tp6d",
+      "address": 5428477952,
+      "size": 127186,
+      "flags": 3758096416
+    },
+    {
+      "name": ".edata2",
+      "address": 5428609024,
+      "size": 49820,
+      "flags": 3221225504
+    }
+  ],
+  "strings": {
+    "SHOOT_TARGET_WITH_DIR_REQ_iShooter_offset_ms_get": 5410658984,
+    "SHOOT_TARGET_WITH_DIR_REQ_iShooter_logic_tick_get": 5410659536
+  },
+  "references": [
+    {
+      "address": 5390105901,
+      "length": 6,
+      "instruction": "lea eax, [rip + 0x1399d75]",
+      "reference": 5410658984
+    },
+    {
+      "address": 5390105900,
+      "length": 7,
+      "instruction": "lea r8, [rip + 0x1399d75]",
+      "reference": 5410658984
+    },
+    {
+      "address": 5390109021,
+      "length": 6,
+      "instruction": "lea eax, [rip + 0x139936d]",
+      "reference": 5410659536
+    },
+    {
+      "address": 5390109020,
+      "length": 7,
+      "instruction": "lea r8, [rip + 0x139936d]",
+      "reference": 5410659536
+    }
+  ],
+  "table_references": []
+}

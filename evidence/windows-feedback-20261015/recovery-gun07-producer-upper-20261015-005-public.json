@@ -1,0 +1,130 @@
+[
+  {
+    "sequence": 3382,
+    "timestamp": "2026-10-15T16:26:04.947462+00:00",
+    "kind": "winter_kit_initialized",
+    "synthetic": true,
+    "definition": 200907,
+    "starter_items": [
+      [
+        20002,
+        1
+      ],
+      [
+        30003,
+        15
+      ],
+      [
+        70001,
+        5
+      ],
+      [
+        200907,
+        1
+      ]
+    ],
+    "starter_item_source": "INITITEM.XML/map16010/stage1",
+    "starter_magazine_policy": "full_capacity_local",
+    "weapon_slots": 3
+  },
+  {
+    "sequence": 4175,
+    "timestamp": "2026-10-15T16:26:38.121576+00:00",
+    "kind": "actor_probe",
+    "synthetic": true,
+    "action": "hit_damage",
+    "target": "0x2040000123460",
+    "counter": 1,
+    "tick": 3220,
+    "pellet": 0,
+    "damage": 50,
+    "hp": 950,
+    "absorbed": 50,
+    "armor_durability": 250,
+    "armor_definition": 201001,
+    "experimental": true,
+    "gun_definition": 20002,
+    "hit_tag62": 3,
+    "hit_field71": 30,
+    "hit_field78": 164,
+    "hit_flag83": 0,
+    "hit_field100": 0,
+    "part_id": 3,
+    "target_path_id": 30,
+    "target_path_sequence": 0,
+    "target_path_use_c": 0,
+    "on_vehicle": 0,
+    "shooter_path_id": 164,
+    "shooter_path_sequence": 0,
+    "shooter_path_use_c": 0,
+    "shoot_id": 0,
+    "bullet_id": 1,
+    "ratio": 100,
+    "pellet_index": 0,
+    "gun_origin": [
+      365167.53125,
+      543996.75,
+      259255.859375
+    ],
+    "target_stand": [
+      365700,
+      544100,
+      259085
+    ],
+    "hit_impact": [
+      365673.8125,
+      544103.125,
+      259221.09375
+    ]
+  },
+  {
+    "sequence": 10518,
+    "timestamp": "2026-10-15T16:34:32.549947+00:00",
+    "kind": "actor_probe",
+    "synthetic": true,
+    "action": "hit_damage",
+    "target": "0x2040000123460",
+    "counter": 2,
+    "tick": 15080,
+    "pellet": 1,
+    "damage": 50,
+    "hp": 900,
+    "absorbed": 50,
+    "armor_durability": 200,
+    "armor_definition": 201001,
+    "experimental": true,
+    "gun_definition": 20002,
+    "hit_tag62": 3,
+    "hit_field71": 30,
+    "hit_field78": 164,
+    "hit_flag83": 0,
+    "hit_field100": 0,
+    "part_id": 3,
+    "target_path_id": 30,
+    "target_path_sequence": 0,
+    "target_path_use_c": 0,
+    "on_vehicle": 0,
+    "shooter_path_id": 164,
+    "shooter_path_sequence": 0,
+    "shooter_path_use_c": 0,
+    "shoot_id": 1,
+    "bullet_id": 2,
+    "ratio": 100,
+    "pellet_index": 0,
+    "gun_origin": [
+      365168.53125,
+      543996.3125,
+      259256.0
+    ],
+    "target_stand": [
+      365700,
+      544100,
+      259085
+    ],
+    "hit_impact": [
+      365670.84375,
+      544105.5625,
+      259222.03125
+    ]
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "method": "Контрфактический model replay по настоящим MOVE/heartbeat; не второй native-запуск",
+  "movement_messages": 83,
+  "skipped_bundled": 0,
+  "current_native_damage_events": 0,
+  "final_hp": {
+    "current": 1000,
+    "old_rectangle_counterfactual": 650
+  },
+  "damage_events": [
+    {
+      "model": "old_rectangle_counterfactual",
+      "utc": "2026-10-15T15:06:54.777786+00:00",
+      "action": "hazard_damage",
+      "damage": 50,
+      "hp": 950,
+      "periods": 1,
+      "position": [
+        365602,
+        544071,
+        259089
+      ],
+      "stage": 50,
+      "damage_profile": "diagnostic_rectangle"
+    },
+    {
+      "model": "old_rectangle_counterfactual",
+      "utc": "2026-10-15T15:06:55.780394+00:00",
+      "action": "hazard_damage",
+      "damage": 50,
+      "hp": 900,
+      "periods": 1,
+      "position": [
+        365489,
+        544120,
+        259300
+      ],
+      "stage": 50,
+      "damage_profile": "diagnostic_rectangle"
+    },
+    {
+      "model": "old_rectangle_counterfactual",
+      "utc": "2026-10-15T15:06:56.784009+00:00",
+      "action": "hazard_damage",
+      "damage": 50,
+      "hp": 850,
+      "periods": 1,
+      "position": [
+        365489,
+        544120,
+        259309
+      ],
+      "stage": 50,
+      "damage_profile": "diagnostic_rectangle"
+    },
+    {
+      "model": "old_rectangle_counterfactual",
+      "utc": "2026-10-15T15:06:57.785390+00:00",
+      "action": "hazard_damage",
+      "damage": 50,
+      "hp": 800,
+      "periods": 1,
+      "position": [
+        365489,
+        544120,
+        259309
+      ],
+      "stage": 50,
+      "damage_profile": "diagnostic_rectangle"
+    },
+    {
+      "model": "old_rectangle_counterfactual",
+      "utc": "2026-10-15T15:06:58.784981+00:00",
+      "action": "hazard_damage",
+      "damage": 50,
+      "hp": 750,
+      "periods": 1,
+      "position": [
+        365489,
+        544120,
+        259309
+      ],
+      "stage": 50,
+      "damage_profile": "diagnostic_rectangle"
+    },
+    {
+      "model": "old_rectangle_counterfactual",
+      "utc": "2026-10-15T15:06:59.795817+00:00",
+      "action": "hazard_damage",
+      "damage": 50,
+      "hp": 700,
+      "periods": 1,
+      "position": [
+        365489,
+        544120,
+        259309
+      ],
+      "stage": 50,
+      "damage_profile": "diagnostic_rectangle"
+    },
+    {
+      "model": "old_rectangle_counterfactual",
+      "utc": "2026-10-15T15:07:00.799585+00:00",
+      "action": "hazard_damage",
+      "damage": 50,
+      "hp": 650,
+      "periods": 1,
+      "position": [
+        365489,
+        544120,
+        260124
+      ],
+      "stage": 50,
+      "damage_profile": "diagnostic_rectangle"
+    }
+  ]
+}

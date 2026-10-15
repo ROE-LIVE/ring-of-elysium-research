@@ -1,0 +1,17 @@
+# Способности зимнего набора и оборот лута2022
+
+Состояние7 октября2026, вечерний трёхчасовой этап. EXE2022 x64 0.2.989.0 SHA2dca9b1e…6ba18; зимняя карта16010. Внешний Python peer+.NET lobby, собственный loopback namespace, Proton GE11-7/Xvfb, независимый runtime. Встроенный host не найден. [Отчёт/адреса](../snapshots/ROE_SERVER/research/builds/2022/winter-kit-loot-20261007/report.md), [повтор](../snapshots/ROE_SERVER/research/builds/2022/winter-kit-loot-20261007/README.md), [события](../snapshots/ROE_SERVER/research/builds/2022/winter-kit-loot-20261007/experiment-summary.json).
+
+Собственный pack требует10d0 RAW_ATR2/3/4, не547.200907/glider:mask1/cap150;200906/snowboard:mask2/cap225;200904/climb:mask4/cap300. Native decoder140c27d10/handler140eaee10→140d8e0b0; own actor+354mask, actor+378visual. Capacity516 index5, base/current225 etc;140c2b200→140d6a440→140e34300. SnowboardT/FSM25 и gliderFввоздухе/FSM9 реально двигались. Climb flag/cap300 и включённый компонент кирок actor+11a0/+20 (QSConfig.Weapon.Pickaxes) подтверждены, проход по подходящей скале/тросу — нет. Предыдущий отрицательный T вызван отсутствием raw3, не отсутствием способности в билде.
+
+Девять ручных XY получилиZ по клиентской гравитации/коллизии;offset10см собственный. Pickup/замена/выброс/повтор:3e80tag2→3e81; пустой3e82,50байт/refBEHslot+Bcontainer. Порядок ref отличается от5fb/3e80.5fb пересоздаёт equipment, но не удаляет отсутствующиеbag-записи; quantity0 не заменяет explicit delta. После5fb нужен4a0, иначе clip сбрасывается. clip1 сохранился при настоящем drop/re-pick; upgrade жилета вернул старый на землю.
+
+6f5 сообщает integer weight,12ga вес1.25/A81. Частичный pickup приglider:99+100→120/79, UI150/150. Full повтор0, drop120→bag0, pickup79→79, pickup120→120/79, количество сохраняется. Дистанция750см/округление вниз/ограниченный pool — правила нашего peer, не доказанный исходный сервер.
+
+Прочность — equipment wire+32/nativeitem+9e/obj+3c. A89helm800→UI80,vest2000→200,1000→100;140bcec10→140fd1ec0/140fb1f20. Свежая броня с nDurableValue включена в выдачу. Снижение урона, расход/разрушение и повреждённые экземпляры при drop ещё не реализованы; начальная прочность не доказывает бронезащиту.
+
+117регрессий,24native examples/944усечения,8побайтных round-trip armor records.49переносимых тестов наLinux иWindowsPython/Wine. Свежий packaged peer20261007T182900-361e8e далmask2/cap225/helmet80/vest200/fire/reload. NativeWindows11/NetSecurity отдельно проверяет пользователь. Комплект [run_roe_2022](https://github.com/ROE-LIVE/run_roe_2022) обновлён до d2db3a6: существующий локальный ключ включён в приватный Git по указанию владельца, зависимости устанавливаются автоматически. Архив для запуска не нужен. Оригинальные игровые ресурсы в комплект не входят. CMD -Kitglider/climb, стартG:\REsearch\Ring of Elysium-2022; первое копированиеполное, повторыreuse.
+
+Совместный cycle сновыми точками/набором дал шесть ускоренных фаз/35предупреждений, аирдроп,geton18:24:09UTC→газетуLOCAL;ReturnLobby нажат, снимокlobby доtimeout не сделан. Stats архивные. Полный исходный матч/AI/raycast/spatial generator отсутствуют. Для спавна нужны содержимоеEuLootSearchPos.xml/IceLand_001..004/EntityPointConfig.xml или исполняемыйGenericStartLoot.
+
+Следующий контролируемый опыт: nativehit-zone и синхронизация прочности при одном попадании по цели сбронёй, плюс контроль тойже цели безброни. Для climb искать native проверку размеченной скалы/троса; вертолётная лестница независима от способности.

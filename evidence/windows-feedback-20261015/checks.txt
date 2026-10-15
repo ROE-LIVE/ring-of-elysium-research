@@ -1,0 +1,15 @@
+2026-10-15 / 2022 x64 / root EXE SHA2dca9b1e...6ba18
+source unittest565 / OK
+portable unittest526 / OK
+Windows verify-only: exact W16 Scale3/Duration1500/8extra loot / OK
+PowerShell7 parser / OK
+SOURCE-MANIFEST108 / all hashes OK
+six Proton runs: planned timeout124; selected original/runtime hashes equal
+own debug Lua/TSV cleaned after six runs
+Scale3 native002: stages1/10/20/30/40/50,maxlate0.8913s,HP1000,Rescued1,Kill0
+old-hazard counterfactual replay83MOVE:7ticks50raw,HP650; not another native run
+Windows user text/video: Kill1/Rescued1,359m,03:22; raw new pair missing
+Full R animation still open; no-op17/11 and normal partialR validated004
+13 exact hit-field getters;83=shooter_path_use_c,part62 producer traced005
+Original hurtformula,part-to-bone map and oldCitori374 unresolved
+native006 result callback:140D095D6(ret only)→1412F8F20→140F15FF0(tail)→140F16750,part3/target verified; original calculation unresolved

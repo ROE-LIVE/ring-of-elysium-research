@@ -1,0 +1,15 @@
+# №56/ZONE04: точный регион зимней карты2022
+
+EXE2022 x64 SHA2dca9b1e…6ba18, winter16010, ownruntime/Proton/loopback. Результат: peer использует native fast region lookup50см, вместо консервативной проверки четырёх UI-масок400см.
+
+**Первичные данные:** `DATA/WORLD/EU_ICELAND_4096/AREAINDEX.BIN`,374732байта, SHA9dfca77d76f801485ffb31f7c3154bdc094e0d60807d1626f350e7634a853535; SFC/World_EU_ICELAND_4096_RemainingFiles.sfc ordinal21507, directory258096, block479954997; extraction index blob479955001. Это8192сжатых строки без общего заголовка: LE16run count, затем парыLE16region/LE16inclusiveEnd. Файл полностью разобран, IDs0..64, endsстрого возрастают. `RegionMaskTexture.bin`4196002байта SHAcfec…2ceb — другой ресурс дляUI, исходный старыйgrid именно он. Путь однозначно получен повторной распаковкой и сопоставлен сSFC. `EUMAPCONFIG.XML:47–48`: map10020/EU_IceLand_4096, mRegionFastIndex=areaindex.bin/mRegionMask=RegionMaskTexture.bin.
+
+**Native:** RegionMask loader1411BE910→1411B98A0→1411B9650, pointer143040CF0; fast state1411BFBD0→1411BFAA0→1411BFC00. 1411BFAA0 берёт world originTiles+418/+41C, умножает на6400 (constant1428E4274), переводит X/Y вcell50 (1428E407C), int32→float32→trunc. Y выбираетrow, X binary-search первого end≥col, возвратLE16region. Строка0 отклоняется. Внутренняя структураrowstride32/runstride4. Live cold146 восемь вызовов подтвердили originTiles32,32; точка365100/544000 —24,369600/524800 —14.
+
+**Контроль:** эмулирован только этот304-byte native фрагмент и две4-byte константы своего runtime. Все globals/row-pointers созданы синтетически из публичного ресурса, никаких session globals/AUTH не читалось.65координат, включая ±1/49/50см вокруг всех run ends строки6784 и внешние точки; peer совпал65/65. Native/live/golden JSON и bounded ASM рядом. Например404199/544000→24,404200/544000→14; старая UI-маска могла содержать оба индекса. Это golden, а не доказанный живой переход игрока через каждую границу.
+
+**Cold147:** world-fast-check без floor, safe24 до180сек. Воstage10/20/30 нет урона; stage50 closed24→HP1000/950/900/…/0,20тиков старого учебного50/1сек, одна533смерть. NativeHUD0 и смерть подтверждены147-native-fast-death.png. Original/runtime hashes после остановки совпадают; exit124 штатный timeout. Урон данного опыта диагностический; источникbuff915 проверен отдельно№58.
+
+**Код:** region_index_2022.FastRegionIndex; WorldFixture.region_grid.lookup=native_fast. Проверяется SHA374732-byte winterindex; при неверной длине/count/ends/ID/tail отказ. Out-of-world отказ от uint16wrap — наша защита. Вложенные current/future-safe списки не могут вернуть закрытый регион. Старый mask_conservative оставлен для отрицательных/историческихfixtures. Windowscycle извлекает один374732-byte ресурс вruntime/regions-iceland-fast.dat, без бинарника вGit.
+
+Проверки:5region tests,13world tests;309source/242portable иverify-only прошли послеbuff915 изменений. Этапы2/1/2/2/2/1=82.5 baselinepartial; runtime boundary-walk/Windows/другие карты и исходный selectionRNG отдельно. Следующая задача№57 требуетисходнойmap/group привязки.

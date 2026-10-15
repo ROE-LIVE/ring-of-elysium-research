@@ -1,0 +1,450 @@
+[
+  {
+    "run": "20261015T140213-0c0f50",
+    "revision": "20261015-starter-v1",
+    "source_sha256": {
+      "logs/20261015T141733-ceaada/20261015T140213-0c0f50/launch-summary.json": "961af43e83dc4f17bc04772462ef725ef8b0b2618a27ffc1eaa0cb75d8fa8204",
+      "logs/20261015T141733-ceaada/20261015T140213-0c0f50/scene/events.jsonl": "45bb1a7b5be5ccab5be22d0b55d978b607bfa99d95cadb4c7bae5c2d08a2b589",
+      "logs/20261015T141733-ceaada/20261015T140213-0c0f50/world.json": "80feb0ca49f5736d569a1329a1243ab5df7cc72fd4d9f4cd64b8fcd75ad86d8e"
+    },
+    "sessions": [
+      {
+        "start_sequence": 4333,
+        "start_time": "2026-10-15T14:04:12.917345+00:00",
+        "hazard_ticks": 0,
+        "hazard_raw_damage": 0,
+        "closed_zone_raw_damage": 900,
+        "zone_stages": [
+          1,
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "finish": [],
+        "damage_evidence": [
+          {
+            "sequence": 26199,
+            "timestamp": "2026-10-15T14:12:54.270261+00:00",
+            "action": "closed_zone_damage",
+            "hp": 700,
+            "damage": 300,
+            "periods": 2
+          },
+          {
+            "sequence": 26407,
+            "timestamp": "2026-10-15T14:12:56.272499+00:00",
+            "action": "closed_zone_damage",
+            "hp": 400,
+            "damage": 300,
+            "periods": 2
+          },
+          {
+            "sequence": 26548,
+            "timestamp": "2026-10-15T14:12:57.274828+00:00",
+            "action": "closed_zone_damage",
+            "hp": 250,
+            "damage": 150,
+            "periods": 1
+          },
+          {
+            "sequence": 26689,
+            "timestamp": "2026-10-15T14:12:58.283997+00:00",
+            "action": "closed_zone_damage",
+            "hp": 100,
+            "damage": 150,
+            "periods": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "run": "20261015T141733-ceaada",
+    "revision": "20261015-starter-v1",
+    "source_sha256": {
+      "logs/20261015T141733-ceaada/launch-summary.json": "67b7ab0bd6a50b671711f0394170c269048aae6b1871fa8bfbd60af3db20f47c",
+      "logs/20261015T141733-ceaada/scene/events.jsonl": "18683954be3b58627cbd416b130c95aec41c87f1552ebb3a3a0961d00f0aec45",
+      "logs/20261015T141733-ceaada/world.json": "80feb0ca49f5736d569a1329a1243ab5df7cc72fd4d9f4cd64b8fcd75ad86d8e"
+    },
+    "sessions": [
+      {
+        "start_sequence": 4351,
+        "start_time": "2026-10-15T14:19:22.688919+00:00",
+        "hazard_ticks": 14,
+        "hazard_raw_damage": 700,
+        "closed_zone_raw_damage": 0,
+        "zone_stages": [
+          1,
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "finish": [
+          {
+            "sequence": 14071,
+            "timestamp": "2026-10-15T14:21:56.034305+00:00",
+            "statistics": {
+              "survival_seconds": 153,
+              "distance_cm": 38659,
+              "damage_raw": 800,
+              "damage_hp": 80,
+              "kills": 0,
+              "loot_actions": 0,
+              "loot_quantity": 0,
+              "rescued": 1,
+              "original_reward_formula": false,
+              "distance_policy": "accepted_c2s_polyline_3d",
+              "damage_policy": "diagnostic_raw_hp_divided_by_10"
+            }
+          }
+        ],
+        "damage_evidence": [
+          {
+            "sequence": 12446,
+            "timestamp": "2026-10-15T14:21:30.949234+00:00",
+            "action": "hazard_damage",
+            "hp": 950,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 12462,
+            "timestamp": "2026-10-15T14:21:31.948942+00:00",
+            "action": "hazard_damage",
+            "hp": 900,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 12481,
+            "timestamp": "2026-10-15T14:21:32.954769+00:00",
+            "action": "hazard_damage",
+            "hp": 850,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 12501,
+            "timestamp": "2026-10-15T14:21:33.952459+00:00",
+            "action": "hazard_damage",
+            "hp": 800,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 12561,
+            "timestamp": "2026-10-15T14:21:34.952509+00:00",
+            "action": "hazard_damage",
+            "hp": 750,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 12581,
+            "timestamp": "2026-10-15T14:21:35.964168+00:00",
+            "action": "hazard_damage",
+            "hp": 700,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 12601,
+            "timestamp": "2026-10-15T14:21:36.959413+00:00",
+            "action": "hazard_damage",
+            "hp": 650,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 12626,
+            "timestamp": "2026-10-15T14:21:37.970028+00:00",
+            "action": "hazard_damage",
+            "hp": 600,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 12681,
+            "timestamp": "2026-10-15T14:21:38.967133+00:00",
+            "action": "hazard_damage",
+            "hp": 550,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 13207,
+            "timestamp": "2026-10-15T14:21:42.973887+00:00",
+            "action": "hazard_damage",
+            "hp": 500,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 13353,
+            "timestamp": "2026-10-15T14:21:43.983373+00:00",
+            "action": "hazard_damage",
+            "hp": 450,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 13509,
+            "timestamp": "2026-10-15T14:21:44.994308+00:00",
+            "action": "hazard_damage",
+            "hp": 400,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 13655,
+            "timestamp": "2026-10-15T14:21:45.989520+00:00",
+            "action": "hazard_damage",
+            "hp": 350,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 13806,
+            "timestamp": "2026-10-15T14:21:46.992571+00:00",
+            "action": "hazard_damage",
+            "hp": 300,
+            "damage": 50,
+            "periods": 1
+          }
+        ]
+      },
+      {
+        "start_sequence": 18458,
+        "start_time": "2026-10-15T14:23:30.543223+00:00",
+        "hazard_ticks": 24,
+        "hazard_raw_damage": 1200,
+        "closed_zone_raw_damage": 0,
+        "zone_stages": [
+          1,
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "finish": [
+          {
+            "sequence": 29275,
+            "timestamp": "2026-10-15T14:26:52.666158+00:00",
+            "statistics": {
+              "survival_seconds": 202,
+              "distance_cm": 35937,
+              "damage_raw": 1000,
+              "damage_hp": 100,
+              "kills": 1,
+              "loot_actions": 2,
+              "loot_quantity": 61,
+              "rescued": 1,
+              "original_reward_formula": false,
+              "distance_policy": "accepted_c2s_polyline_3d",
+              "damage_policy": "diagnostic_raw_hp_divided_by_10"
+            }
+          }
+        ],
+        "damage_evidence": [
+          {
+            "sequence": 19956,
+            "timestamp": "2026-10-15T14:24:41.696958+00:00",
+            "action": "hazard_damage",
+            "hp": 950,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 24927,
+            "timestamp": "2026-10-15T14:26:12.541210+00:00",
+            "action": "hazard_damage",
+            "hp": 900,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 25068,
+            "timestamp": "2026-10-15T14:26:13.544112+00:00",
+            "action": "hazard_damage",
+            "hp": 850,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 25209,
+            "timestamp": "2026-10-15T14:26:14.548346+00:00",
+            "action": "hazard_damage",
+            "hp": 800,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 25369,
+            "timestamp": "2026-10-15T14:26:15.543861+00:00",
+            "action": "hazard_damage",
+            "hp": 750,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 25545,
+            "timestamp": "2026-10-15T14:26:16.552832+00:00",
+            "action": "hazard_damage",
+            "hp": 700,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 25656,
+            "timestamp": "2026-10-15T14:26:17.548167+00:00",
+            "action": "hazard_damage",
+            "hp": 650,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 25762,
+            "timestamp": "2026-10-15T14:26:18.552769+00:00",
+            "action": "hazard_damage",
+            "hp": 600,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 25908,
+            "timestamp": "2026-10-15T14:26:19.559435+00:00",
+            "action": "hazard_damage",
+            "hp": 550,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 26114,
+            "timestamp": "2026-10-15T14:26:20.566118+00:00",
+            "action": "hazard_damage",
+            "hp": 500,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 26339,
+            "timestamp": "2026-10-15T14:26:21.557956+00:00",
+            "action": "hazard_damage",
+            "hp": 450,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 26780,
+            "timestamp": "2026-10-15T14:26:24.577007+00:00",
+            "action": "hazard_damage",
+            "hp": 400,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 26841,
+            "timestamp": "2026-10-15T14:26:25.572163+00:00",
+            "action": "hazard_damage",
+            "hp": 350,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 26932,
+            "timestamp": "2026-10-15T14:26:26.574833+00:00",
+            "action": "hazard_damage",
+            "hp": 300,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 27695,
+            "timestamp": "2026-10-15T14:26:33.608694+00:00",
+            "action": "hazard_damage",
+            "hp": 450,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 27791,
+            "timestamp": "2026-10-15T14:26:34.605311+00:00",
+            "action": "hazard_damage",
+            "hp": 400,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 27887,
+            "timestamp": "2026-10-15T14:26:35.608747+00:00",
+            "action": "hazard_damage",
+            "hp": 350,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 27992,
+            "timestamp": "2026-10-15T14:26:36.621052+00:00",
+            "action": "hazard_damage",
+            "hp": 400,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 28112,
+            "timestamp": "2026-10-15T14:26:37.618644+00:00",
+            "action": "hazard_damage",
+            "hp": 350,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 28269,
+            "timestamp": "2026-10-15T14:26:38.620525+00:00",
+            "action": "hazard_damage",
+            "hp": 300,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 28410,
+            "timestamp": "2026-10-15T14:26:39.628467+00:00",
+            "action": "hazard_damage",
+            "hp": 250,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 28551,
+            "timestamp": "2026-10-15T14:26:40.632328+00:00",
+            "action": "hazard_damage",
+            "hp": 200,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 28692,
+            "timestamp": "2026-10-15T14:26:41.632076+00:00",
+            "action": "hazard_damage",
+            "hp": 150,
+            "damage": 50,
+            "periods": 1
+          },
+          {
+            "sequence": 28833,
+            "timestamp": "2026-10-15T14:26:42.632474+00:00",
+            "action": "hazard_damage",
+            "hp": 100,
+            "damage": 50,
+            "periods": 1
+          }
+        ]
+      }
+    ]
+  }
+]

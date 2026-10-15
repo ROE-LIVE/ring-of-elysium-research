@@ -1,0 +1,89 @@
+{
+  "build": "2022-x64-0.2.989.0",
+  "map": 16010,
+  "exe_sha256": "2dca9b1e122e21363e14eeeb2372598c773205a907ed8d2b2d54a7229ad6ba18",
+  "windows_inputs": "user-evidence.json",
+  "windows_raw_events_received": false,
+  "native_runs": [
+    {
+      "run": "research/builds/2022/host-console-20261007/recovery-ops02-reload-full-20261015-001",
+      "exit": "124",
+      "selected_hashes_unchanged": true,
+      "stages": [],
+      "max_stage_lateness": null,
+      "damage_events": 0,
+      "accepted_hits": 0,
+      "reload_noops": 0,
+      "rescued": false
+    },
+    {
+      "run": "research/builds/2022/host-console-20261007/recovery-ops02-scale3-20261015-002",
+      "exit": "124",
+      "selected_hashes_unchanged": true,
+      "stages": [
+        1,
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "max_stage_lateness": 0.891212020034402,
+      "damage_events": 0,
+      "accepted_hits": 2,
+      "reload_noops": 0,
+      "rescued": true
+    },
+    {
+      "run": "research/builds/2022/host-console-20261007/recovery-gun07-body-head-20261015-003",
+      "exit": "124",
+      "selected_hashes_unchanged": true,
+      "stages": [],
+      "max_stage_lateness": null,
+      "damage_events": 0,
+      "accepted_hits": 0,
+      "reload_noops": 0,
+      "rescued": false
+    },
+    {
+      "run": "research/builds/2022/host-console-20261007/recovery-gun07-named-fields-20261015-004",
+      "exit": "124",
+      "selected_hashes_unchanged": true,
+      "stages": [],
+      "max_stage_lateness": null,
+      "damage_events": 0,
+      "accepted_hits": 4,
+      "reload_noops": 1,
+      "rescued": false
+    },
+    {
+      "run": "research/builds/2022/host-console-20261007/recovery-gun07-producer-upper-20261015-005",
+      "exit": "124",
+      "selected_hashes_unchanged": true,
+      "stages": [],
+      "max_stage_lateness": null,
+      "damage_events": 0,
+      "accepted_hits": 2,
+      "reload_noops": 0,
+      "rescued": false
+    },
+    {
+      "run": "research/builds/2022/host-console-20261007/recovery-gun07-result-input-20261015-006",
+      "exit": "124",
+      "selected_hashes_unchanged": true,
+      "stages": [],
+      "max_stage_lateness": null,
+      "damage_events": 0,
+      "accepted_hits": 2,
+      "reload_noops": 0,
+      "rescued": false
+    }
+  ],
+  "hit_field_bindings": "hit-field-bindings.json",
+  "hazard_replay": "hazard-counterfactual.json",
+  "limitations": [
+    "Исходная формула head/body/armor не восстановлена",
+    "Новая версия Windows native ещё требует теста; получен предыдущий отчёт пользователя",
+    "Старый Citori374 остаётся отдельным незакрытым отрицательным случаем"
+  ]
+}

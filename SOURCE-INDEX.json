@@ -1,0 +1,1920 @@
+{
+  "scope": "Пути относятся к исходному ROE_SERVER; наличие в индексе не означает включение файла",
+  "references": [
+    {
+      "source_path": "docs/AUTO-DOORS-20261013.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/DEBUG-SNAPSHOTS-20261013.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/DOOR-WORLD-HANDOFF-20261013.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/LAN-SSH-20261013.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/LOOT-DOOR-20261013.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/NET06-HARDCUT-MATRIX-20261013.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/NET06-PREDICTION-20261013.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/OPS03-CYCLE-HARDCUT-20261013.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/WINDOWS-BUGS-20261014.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/WINDOWS-FEEDBACK-20261013.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/WINDOWS-FIXES-20261013.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/WINDOWS-RUN-20261013-3bbf48.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/match-rules-from-user-20261006.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/recovery/AGENT-START.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/recovery/RUNBOOK.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/host-console-20261007/full-source-session-dynamic-evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/host-console-20261007/no-gm-position-timer-followup.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/host-console-20261007/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/host-console-20261007/run_trial.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/host-console-20261007/server-clock-correction-dynamic-evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/iceland-gameplay-20261006/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/005-move02/20261008T0915/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/005-move02/20261008T0915/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/006-zone02/20261008T1215/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/006-zone02/20261008T1215/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/006-zone02/20261009T1547-late-stage/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/006-zone02/20261009T1547-late-stage/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/006-zone02/20261014T1255-warning-resume/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/006-zone02/20261014T1255-warning-resume/selected-evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/006-zone02/20261014T1430-warning-getter/crossstage-report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/006-zone02/20261014T1430-warning-getter/getter-corrected-results.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/006-zone02/20261014T1430-warning-getter/getter-crossstage-results.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/006-zone02/20261014T1430-warning-getter/getter-result-report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/006-zone02/20261014T1430-warning-getter/native-kind1-handler.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/006-zone02/20261014T1430-warning-getter/native-trial-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/006-zone02/20261014T1430-warning-getter/visual-trial-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261008T1345/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261008T1345/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261009T1453-idle/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261009T1453-idle/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261013-hardtcp-matrix/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261013-native-magazine/362/native-magazine.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261013-native-magazine/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261013-native-magazine/native-magazine.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261013-native-magazine/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261014T1500-door-world/net06-006-fault-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261014T1500-door-world/net06-006-public-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261014T1500-door-world/net06-007-fault-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261014T1500-door-world/net06-007-public-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261014T1840-native-prediction/009-native-prediction.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261014T1840-native-prediction/010-native-prediction.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261014T1840-native-prediction/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261015T0040-source-starter/recovery-net06-source-starter-20261015-002-counts.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261015T0040-source-starter/recovery-net06-source-starter-20261015-003-full-public-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261015T0040-source-starter/report-de.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/011-net06/20261015T0040-source-starter/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/012-net04/20261008T1410/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/012-net04/20261008T1410/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/012-net04/20261009-sender/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/012-net04/20261009-sender/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/012-net04/20261009T1434-receiver/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/012-net04/20261009T1434-receiver/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/012-net04/20261009T1604-combined/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/012-net04/20261009T1604-combined/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/013-net05/20261008T1740/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/013-net05/20261008T1740/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/013-net05/20261009T1611-fire-hand/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/013-net05/20261009T1611-fire-hand/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/014-ops06/20261009T1656-plan-guard/checks.txt",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/014-ops06/20261009T1656-plan-guard/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/015-loot01/20261008T1750/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/015-loot01/20261008T1750/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/015-loot01/20261013-auto-doors/369-public-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/015-loot01/20261013-auto-doors/370-public-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/015-loot01/20261013-auto-doors/374-public-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/015-loot01/20261013-auto-doors/374-result.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/015-loot01/20261013-walk-quarter/368-public-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/015-loot01/20261014T0943-ordinary-upper/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/015-loot01/20261014T0943-ordinary-upper/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/016-loot03/20261008T1805/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/016-loot03/20261008T1805/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/017-loot05/20261008T1815/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/017-loot05/20261008T1815/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/017-loot05/20261009T1654-lost-packets/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/017-loot05/20261009T1654-lost-packets/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/018-inv01/20261008T1830/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/018-inv01/20261008T1830/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/019-loot06/20261008T1845/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/019-loot06/20261008T1845/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/020-loot07/20261008T1900/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/020-loot07/20261008T1900/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/020-loot07/20261008T1900/windows-profile-report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/021-loot08/20261008T1910/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/021-loot08/20261008T1910/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/022-inv02/20261008T1920/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/022-inv02/20261008T1920/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/022-inv02/20261008T2036/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/022-inv02/20261008T2036/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/022-inv02/20261008T2310/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/022-inv02/20261008T2310/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/022-inv02/20261009T1721-item-union/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/022-inv02/20261009T1721-item-union/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/023-inv03/20261009T1809-drop-replay/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/023-inv03/20261009T1809-drop-replay/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/024-kit01/20261009T1850-nonempty/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/024-kit01/20261009T1850-nonempty/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/024-kit01/20261010T1140-ui/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/024-kit01/20261010T1140-ui/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/025-kit05/20261009T1914-mixed-capacity/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/025-kit05/20261009T1914-mixed-capacity/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/027-kit02/20261009T1952-snowboard/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/027-kit02/20261009T1952-snowboard/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/028-kit03/20261009T2008-native-jump/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/028-kit03/20261009T2008-native-jump/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/028-kit03/20261009T2355-cliff/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/028-kit03/20261009T2355-cliff/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/029-loot02/20261010T0028-pool/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/029-loot02/20261010T0028-pool/loot-primary-sfc-verification.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/029-loot02/20261010T0028-pool/native-definition-coverage.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/029-loot02/20261010T0028-pool/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/030-loot04/20261010T0350-quota/checks.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/030-loot04/20261010T0350-quota/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/030-loot04/20261010T0350-quota/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/031-loot09/20261010T0345-geometry/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/031-loot09/20261010T0345-geometry/geometry-summary.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/031-loot09/20261010T0345-geometry/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/031-loot09/20261013-direction-consumer/372-public-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/031-loot09/20261013-direction-consumer/ground-selected-before.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/031-loot09/20261013-direction-consumer/ground-selected-direction122.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/031-loot09/20261013-direction-consumer/ground-selected-pi2.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/031-loot09/20261013-direction-consumer/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/032-inv05/20261009T0200/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/032-inv05/20261009T0200/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/032-inv05/20261009T1213/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/032-inv05/20261009T1213/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/033-gun01/20261010T0418-empty/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/033-gun01/20261010T0418-empty/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/034-inv06/20261015T1130-mixed-starter/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/034-inv06/20261015T1130-mixed-starter/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/035-gun02/20261010T0520-delta/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/035-gun02/20261010T0520-delta/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/036-hp01/20261010T0530-zero/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/036-hp01/20261010T0530-zero/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/038-gun07/20261009T1017/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/038-gun07/20261009T1017/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/038-gun07/20261010T0425-producer/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/038-gun07/20261010T0425-producer/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/038-gun07/20261010T0712-consumer/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/038-gun07/20261010T0712-consumer/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/039-hp02/20261010T0615-broken/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/039-hp02/20261010T0615-broken/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/041-hp04/20261010T0750-own/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/041-hp04/20261010T0750-own/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/042-move03/20261010T0838-budget/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/042-move03/20261010T0838-budget/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261009T0952/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261009T0952/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/045-gun03/20261009T0415/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/045-gun03/20261009T0415/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/045-gun03/20261009T0828/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/045-gun03/20261009T0828/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/046-gun04/20261009T0220/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/046-gun04/20261009T0220/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/048-move05/20261010T0900-fall/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/048-move05/20261010T0900-fall/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/049-loot10/20261010T0934-schema/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/049-loot10/20261010T0934-schema/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/049-loot10/20261010T1108-resources/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/049-loot10/20261010T1108-resources/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/049-loot10/20261010T1216-binding/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/049-loot10/20261010T1216-binding/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/050-inv07/20261009T0325/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/050-inv07/20261009T0325/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/050-inv07/20261009T0843/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/050-inv07/20261009T0843/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/051-gun08/20261010T1335-ballistics/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/051-gun08/20261010T1335-ballistics/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/052-gun09/20261010T1414-throw/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/052-gun09/20261010T1414-throw/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/053-gun10/20261010T1615-melee/adjudication.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/053-gun10/20261010T1615-melee/cleanup-hashes.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/053-gun10/20261010T1615-melee/hand-request-public.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/053-gun10/20261010T1615-melee/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/054-zone01/20261010T1640-calendar/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/054-zone01/20261010T1640-calendar/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/056-zone04/20261010T1646-region/live-world-public-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/056-zone04/20261010T1646-region/peer-native-golden-comparison.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/056-zone04/20261010T1646-region/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/057-zone05/20261010T1707-groups/primary-ai1-selects.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/057-zone05/20261010T1707-groups/primary-groups-corrected.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/057-zone05/20261010T1707-groups/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/058-zone06/20261010T1718-buff915/live-world-public-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/058-zone06/20261010T1718-buff915/primary-buff915.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/058-zone06/20261010T1718-buff915/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/059-zone07/20261010T1728-lifecycle/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/060-env01/20261010T2230-clock/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/061-env02/20261010T-weather-control/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/062-env03/20261010T2240-temperature/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/063-env04/20261010T2300-resource-policy/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/064-zone08/20261010T2258-border/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/065-env05/20261010T2301-light-wind/airdrop-weather-force.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/065-env05/20261010T2301-light-wind/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/066-drop01/20261010T2321-start-delay/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/067-drop02/20261010T2324-two-partial/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/067-drop02/20261010T2324-two-partial/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/069-drop04/20261010T2352-pool/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/069-drop04/20261010T2352-pool/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/070-evac01/20261010T2355-final-window/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/070-evac01/20261010T2355-final-window/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/070-evac01/20261011-safe-refuge/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/071-evac02/20261011T0011-arrival-control/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/071-evac02/20261011T0011-arrival-control/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/072-evac05/20261011T0031-profile-name/death-negative-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/072-evac05/20261011T0031-profile-name/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/072-evac05/20261011T0031-profile-name/selected-evac-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/073-evac06/20261011T0058-field-controls/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/073-evac06/20261011T0058-field-controls/fields-report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/073-evac06/20261011T0058-field-controls/native-control-checks.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/073-evac06/20261011T0058-field-controls/own169-ui-comparison.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/073-evac06/20261011T0058-field-controls/own170-ui-comparison.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/073-evac06/20261011T0058-field-controls/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/074-evac07/20261011T0217-repeat-join/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/074-evac07/20261011T0217-repeat-join/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/075-ops05/20261011T0235-full-repeat/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/075-ops05/20261011T0235-full-repeat/selected-events172.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/075-ops05/20261011T0235-full-repeat/selected-events173.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/075-ops05/20261015T0120-source-cycle/recovery-ops05-source-cycle-20261015-001-cycle-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/075-ops05/20261015T0120-source-cycle/report-source-loot.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/075-ops05/20261015T0120-source-cycle/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/075-ops05/20261015T0120-source-cycle/source-loot-summary.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/076-evac08/20261011T0240-terminal-contract/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/076-evac08/20261011T0240-terminal-contract/negative-timeout177.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/076-evac08/20261011T0240-terminal-contract/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/076-evac08/20261011T0240-terminal-contract/selected-events178.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/076-ops02/20261015T1432-windows-feedback/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/076-ops02/20261015T1432-windows-feedback/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/077-drop05/20261011T0455-airborne-control/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/077-drop05/20261011T0455-airborne-control/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/078-drop06/20261011T0520-notification/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/078-drop06/20261011T0520-notification/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/079-evac03/20261011T0600-flight-input/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/079-evac03/20261011T0600-flight-input/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/079-evac03/20261011T0720-flight-replay/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/079-evac03/20261011T0720-flight-replay/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/080-car01/20261011T0740-original-points/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/080-car01/20261011T0740-original-points/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/082-move06/20261011T0810-water/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/082-move06/20261011T0810-water/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/082-move06/20261011T0810-water/swim-resource-selected.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/083-kit04/20261011T0835-surface/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/083-kit04/20261011T0835-surface/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/083-kit04/20261011T0835-surface/surface-primary-selected.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/083-kit04/20261011T1035-availability/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/083-kit04/20261011T1035-availability/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/084-car03/20261011T1120-source-pools/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/084-car03/20261011T1120-source-pools/source-selected.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/085-car04/20261011T1125-snowmotor/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/085-car04/20261011T1125-snowmotor/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/086-car05/20261011T1135-boat/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/086-car05/20261011T1135-boat/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/087-car06/20261011T1150-native-hp/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/087-car06/20261011T1150-native-hp/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/087-car06/20261011T1150-native-hp/selected-hp-parts-tables.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/088-net09/20261011T1330-lobby-concurrency/bidirectional-position-evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/088-net09/20261011T1330-lobby-concurrency/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/088-net09/20261011T1330-lobby-concurrency/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/088-net09/20261011T1748-room-loot/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/088-net09/20261011T1748-room-loot/public-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/088-net09/20261011T1748-room-loot/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/088-net09/20261011T1915-lifecycle/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/088-net09/20261011T1915-lifecycle/hash-checks.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/088-net09/20261011T1915-lifecycle/public-clock-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/088-net09/20261011T1915-lifecycle/public-epoch-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/088-net09/20261011T1915-lifecycle/public-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/088-net09/20261011T1915-lifecycle/public-health-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/088-net09/20261011T1915-lifecycle/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/089-move04/20261011T2053-pose/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/089-move04/20261011T2053-pose/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/089-move04/20261011T2157-trajectory/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/089-move04/20261011T2157-trajectory/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/090-loot11/20261011T2310-partial/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/090-loot11/20261011T2310-partial/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/091-hp06/20261011T2324-primary/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/091-hp06/20261011T2324-primary/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/092-hp07/20261012T0033-primary/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/092-hp07/20261012T0033-primary/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/093-evac04/20261012T0126-room-roster/design.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/093-evac04/20261012T0126-room-roster/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/093-evac04/20261012T0126-room-roster/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/094-car07/20261012T0305-seat-authority/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/094-car07/20261012T0305-seat-authority/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/095-bot01/20261012T0450-active-lifecycle/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/095-bot01/20261012T0450-active-lifecycle/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/096-bot02/20261012T0522-ammo-los/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/096-bot02/20261012T0522-ammo-los/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/097-mp02/20261012T0548-gear/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/097-mp02/20261012T0548-gear/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/098-mp03/20261012T0717-room-combat/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/098-mp03/20261012T0717-room-combat/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/099-bot03/20261012T1024-ground-route/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/099-bot03/20261012T1024-ground-route/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/100-bot04/20261012T1100-native-animation/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/100-bot04/20261012T1100-native-animation/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/101-bot05/20261012T1205-loot-safe/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/101-bot05/20261012T1205-loot-safe/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/102-mp01/20261012T1217-primary-team/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/102-mp01/20261012T1217-primary-team/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/104-ops04/20261012T1252-state-actions/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/104-ops04/20261012T1252-state-actions/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/105-look01/20261012T1422-catalog-audit/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/105-look01/20261012T2058-cold-wardrobe/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/105-look01/20261012T2058-cold-wardrobe/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/106-look02/20261012T2132-citori-login/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/106-look02/20261012T2132-citori-login/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/107-look03/20261012T2325-character-relogin/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/108-look04/20261013T0120-save-equip/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/109-look05/20261013T0250-profile-isolation/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/110-ops03/20261013T0330-loopback-tunnel/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/110-ops03/20261013T0330-loopback-tunnel/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/110-ops03/20261013T0540-cycle-hardcut/357-after-pending-cut-public-getters.tsv",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/110-ops03/20261013T0540-cycle-hardcut/358-after-postcut-reload-public-getters.tsv",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/110-ops03/20261013T0540-cycle-hardcut/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/112-host02/20261013T0424-public-getters/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/112-host02/20261013T0424-public-getters/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/loot-presets-20261013/native-selected-events.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/loot-presets-20261013/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/windows-20261013-3bbf48/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/windows-20261013-9edd98/appearance-evidence-381-386.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/windows-20261014-c6ada6/native-checks.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/windows-20261014-c6ada6/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/windows-20261014-c6ada6/windows-evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/windows-fixes-20261013/359-clothing-actions.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/windows-review-20261009-222533/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/windows-review-20261009-222533/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/winter-inventory-20261007/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/winter-kit-loot-20261007/experiment-summary.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/winter-kit-loot-20261007/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "server/directory/actor_probe_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/attachment_probe_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/ballistics_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/breakable_state_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/cosmetic_selection_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/death_parcel_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/door_state_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/environment_probe_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/game_endpoint_probe_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/live_scene_probe_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/loot_catalog_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/medical_probe_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/parcel_catalog_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/parcel_probe_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/peer_avatar_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/peer_equipment_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/peer_lifecycle_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/peer_spectator_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/region_index_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/reliable_udp_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/room_cosmetics_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/shared_combat_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/shared_loot_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/shared_vehicle_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/throwable_actions_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/throwable_inventory_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/vehicle_probe_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/weapon_probe_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/directory/world_probe_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "server/lobby/LobbyEmulator.Sdk/LocalLobbyModule2022.cs",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "tests/test_breakable_state_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "tests/test_game_endpoint_probe_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "tests/test_reliable_udp_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "tools/audit_cosmetics_catalog_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "tools/audit_winter_loot_pool_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "tools/generate_loot_plan_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "tools/generate_winter_breakables_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "tools/generate_winter_loot_catalog_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "tools/heartbeat_probe_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "tools/local_account_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "tools/local_clothing_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "tools/local_cosmetics_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "tools/original_jeeps_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "tools/roe_clock_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "tools/roe_tgcp_2023.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "tools/run_winter_2022.py",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# №58/ZONE06: ресурсный buff915 и терминальная смерть
+
+2022 x64 SHA2dca9b1e…6ba18, winter16010. Результат: восстановлена явная числовая связка AI1→outside buff915→Life−150/1000мс; nativeHP/смерть проверены. Условия attach и фаза первогоtick реконструированы, исходный сервер не найден.
+
+**Источник:** PlaneTable_default row10 связывает16010 сAI1; `SHRINKMACHINETABLE.XML:82–87` ai1CreateShrink type1/out buff915. `DATA/TABLE/ZONEDIFF/STEAM/EUBUFFLOGICAL.XML:1455–1476`, SFC/TableBin blob2071863, размер133038, SHA5cc7932f9d8493fb8ab751b095c89b2f38fcd1a9098bd3c0b927009225baff70. Row915 dwIntervalTime1000/bDetachOnDeath1, PowerSet Life/−150/3. Default иSteamTest915 совпали по значимым полям; selectedprimary-buff915.json содержиттолько эту запись. Слова о15points согласуются сHPmax1000/HUD100. Cause3 — параметр исходногоPowerSet; не переносился без доказательства в неизвестное поле533.
+
+**Код/политика:** WorldFixture region_grid.damage_profile=buff915_resource требует native_fast/damage150/interval1. Независимыйzone_interval предотвращает изменение cadence при правке ручногоhazard. Вход closed-region определяется точнымindex№56. Peer начинаетпервыйtick enter+1сек и догоняет пропущенные периоды; эти условия не объявлены исходнымBuffProvider. Сохраняютсяканоническая1069HP и однократная533/death parcel, отмена pending actions. Физическая температура/одежда/ветер/огонь — отдельнаяENV04; таблицаColdDamage не подменяетсяflatbuff915.
+
+**Cold148:** ownstand365100/544000/259107, region24. Доclosing30секHP1000. Stage50 at17:23:11.765: entered24. Затем1000→850→700→550→400→250→100→0; timestamp deltas1.002/0.992/1.010/1.013/0.997/1.004сек; последняяфактическая потеря100,HPclamp0. Одинown_death. Native148-buff915-death.png подтверждаетHUD0/смерть. Floor0, ownarmorнепоглощает environmentaldamage вэтой модели. Cold148 остановлен,original/runtime selectedSHAравны.
+
+Проверки:13worldtests включаютнезависимыйhazard3сек/zone1сек, sourceprofilewrongrate rejection, HP0/death once;309source/242portable/verify-only. Windowscycleconfig теперь150/1сек, но по умолчаниюсохраняетучебныйfloor100; -DeathOnZero включаеттерминальныйрежим. NativeWindows/liveboundary/оригинальныйattach/removal/phase/providercause и температурнаякривая отдельно. Этапы1/2/2/2/2/1=85 baselinepartial. Следующий№59 hazard lifecycle.

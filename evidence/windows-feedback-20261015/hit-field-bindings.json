@@ -1,0 +1,119 @@
+[
+  {
+    "name": "SHOOT_TARGET_WITH_DIR_REQ_chPart_id_get",
+    "string_va": "0x142801558",
+    "name_reference_pc": "0x1414653fc",
+    "getter_va": "0x1414652c0",
+    "offset": 62,
+    "read_instruction": "0000000141465438 movsx    r8d, byte ptr [rax + 0x3e]",
+    "source": "research/builds/2022/host-console-20261007/functions/hit-getters-20261015-1414652c0.asm"
+  },
+  {
+    "name": "SHOOT_TARGET_WITH_DIR_REQ_chOn_vehicle_get",
+    "string_va": "0x142801d08",
+    "name_reference_pc": "0x141466cac",
+    "getter_va": "0x141466b70",
+    "offset": 77,
+    "read_instruction": "0000000141466ce8 movsx    r8d, byte ptr [rax + 0x4d]",
+    "source": "research/builds/2022/host-console-20261007/functions/hit-getters-20261015-141466b70.asm"
+  },
+  {
+    "name": "SHOOT_TARGET_WITH_DIR_REQ_iBullet_id_get",
+    "string_va": "0x142801a28",
+    "name_reference_pc": "0x14146813c",
+    "getter_va": "0x141468000",
+    "offset": 88,
+    "read_instruction": "0000000141468172 movd     xmm0, dword ptr [rax + 0x58]",
+    "source": "research/builds/2022/host-console-20261007/functions/hit-getters-20261015-141468000.asm"
+  },
+  {
+    "name": "SHOOT_TARGET_WITH_DIR_REQ_iRatio_get",
+    "string_va": "0x142801a58",
+    "name_reference_pc": "0x14146854c",
+    "getter_va": "0x141468410",
+    "offset": 92,
+    "read_instruction": "0000000141468582 movd     xmm0, dword ptr [rax + 0x5c]",
+    "source": "research/builds/2022/host-console-20261007/functions/hit-getters-20261015-141468410.asm"
+  },
+  {
+    "name": "SHOOT_TARGET_WITH_DIR_REQ_iOffset_ms_get",
+    "string_va": "0x142801658",
+    "name_reference_pc": "0x141465c1c",
+    "getter_va": "0x141465ae0",
+    "offset": 67,
+    "read_instruction": "0000000141465c52 movd     xmm0, dword ptr [rax + 0x43]",
+    "source": "research/builds/2022/host-console-20261007/functions/hit-getters-20261015-141465ae0.asm"
+  },
+  {
+    "name": "SHOOT_TARGET_WITH_DIR_REQ_dwPath_id_get",
+    "string_va": "0x1428015d0",
+    "name_reference_pc": "0x14146604c",
+    "getter_va": "0x141465f10",
+    "offset": 71,
+    "read_instruction": "0000000141466085 mov      ecx, dword ptr [rax + 0x47]",
+    "source": "research/builds/2022/host-console-20261007/functions/hit-getters-20261015-141465f10.asm"
+  },
+  {
+    "name": "SHOOT_TARGET_WITH_DIR_REQ_iLogic_tick_get",
+    "string_va": "0x1428014d0",
+    "name_reference_pc": "0x14146580c",
+    "getter_va": "0x1414656d0",
+    "offset": 63,
+    "read_instruction": "0000000141465842 movd     xmm0, dword ptr [rax + 0x3f]",
+    "source": "research/builds/2022/host-console-20261007/functions/hit-getters-20261015-1414656d0.asm"
+  },
+  {
+    "name": "SHOOT_TARGET_WITH_DIR_REQ_dwShooter_path_id_get",
+    "string_va": "0x142801f78",
+    "name_reference_pc": "0x1414670dc",
+    "getter_va": "0x141466fa0",
+    "offset": 78,
+    "read_instruction": "0000000141467115 mov      ecx, dword ptr [rax + 0x4e]",
+    "source": "research/builds/2022/host-console-20261007/functions/hit-path-20261015-141466fa0.asm"
+  },
+  {
+    "name": "SHOOT_TARGET_WITH_DIR_REQ_chShooter_path_seq_get",
+    "string_va": "0x142801fa8",
+    "name_reference_pc": "0x1414674fc",
+    "getter_va": "0x1414673c0",
+    "offset": 82,
+    "read_instruction": "0000000141467538 movsx    r8d, byte ptr [rax + 0x52]",
+    "source": "research/builds/2022/host-console-20261007/functions/hit-path-20261015-1414673c0.asm"
+  },
+  {
+    "name": "SHOOT_TARGET_WITH_DIR_REQ_chPath_seq_get",
+    "string_va": "0x1428015f8",
+    "name_reference_pc": "0x14146646c",
+    "getter_va": "0x141466330",
+    "offset": 75,
+    "read_instruction": "00000001414664a8 movsx    r8d, byte ptr [rax + 0x4b]",
+    "source": "research/builds/2022/host-console-20261007/functions/hit-path-20261015-141466330.asm"
+  },
+  {
+    "name": "SHOOT_TARGET_WITH_DIR_REQ_chPath_use_c_get",
+    "string_va": "0x142801e48",
+    "name_reference_pc": "0x14146688c",
+    "getter_va": "0x141466750",
+    "offset": 76,
+    "read_instruction": "00000001414668c8 movsx    r8d, byte ptr [rax + 0x4c]",
+    "source": "research/builds/2022/host-console-20261007/functions/hit-path-20261015-141466750.asm"
+  },
+  {
+    "name": "SHOOT_TARGET_WITH_DIR_REQ_chShooter_path_use_c_get",
+    "string_va": "0x142801f10",
+    "name_reference_pc": "0x14146791c",
+    "getter_va": "0x1414677e0",
+    "offset": 83,
+    "read_instruction": "0000000141467958 movsx    r8d, byte ptr [rax + 0x53]",
+    "source": "research/builds/2022/host-console-20261007/functions/hit-path-20261015-1414677e0.asm"
+  },
+  {
+    "name": "SHOOT_TARGET_WITH_DIR_REQ_iPellet_index_get",
+    "string_va": "0x142801b70",
+    "name_reference_pc": "0x141468d6c",
+    "getter_va": "0x141468c30",
+    "offset": 100,
+    "read_instruction": "0000000141468da2 movd     xmm0, dword ptr [rax + 0x64]",
+    "source": "research/builds/2022/host-console-20261007/functions/hit-path-20261015-141468c30.asm"
+  }
+]

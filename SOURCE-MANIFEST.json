@@ -1,0 +1,790 @@
+[
+  {
+    "path": ".gitattributes",
+    "sha256": "d42f79e0388473e359edefc23256102c4c5f19aa640b4519ac334f4659ff0c6e"
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "91dc74b5b1001c4821cf9594eac22edaafb87a4187be613d52154b47cf8c220e"
+  },
+  {
+    "path": "AGENT-START.md",
+    "sha256": "48e53e4aec07c8e226d71369e018fb8b8bc6e5cfcfdeee8c836549a9b2ca2fd0"
+  },
+  {
+    "path": "AGENTS.md",
+    "sha256": "842659797c42a2d199a2ec2add4a928c105f03983d75c3a8d93811a212b1b38a"
+  },
+  {
+    "path": "ARCHITECTURE.md",
+    "sha256": "61c96ac7dc95bff8f156dd0e55435948a649fe4b6326aca3132b75350fb44e98"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "sha256": "0f6aad63dde15cb040f22686664647482bb29d515f87d4bcbdbd1fa6805ba96b"
+  },
+  {
+    "path": "METHOD.md",
+    "sha256": "50ebd3e8efdda6ee0f3dec5ee9087301660318bf29f7b2cf0a14b224735753d0"
+  },
+  {
+    "path": "PROVENANCE.json",
+    "sha256": "1677d72766be0fecf497e95f9b13d81ff271ce126c46e256e3f38fe5cdae4df1"
+  },
+  {
+    "path": "README.md",
+    "sha256": "3224080e0a9e8814f77e910d6e4256ddac6307523c11623f71df18f97606c208"
+  },
+  {
+    "path": "RIGHTS.md",
+    "sha256": "761ed6c9dbf58da93ea7b63ea0cc32fc47ee38c294446e96beae52646ea8fd5b"
+  },
+  {
+    "path": "SHARE-CHECK.md",
+    "sha256": "1c7d72e220d139e8e560f4224db4608f1f73a07d39bf0ca30eb952df324fa719"
+  },
+  {
+    "path": "SOURCE-INDEX.json",
+    "sha256": "13583cb3c4b9fefa7a3b03cd65ddcf3f8e072cc55e7397961af5bcf5726674a4"
+  },
+  {
+    "path": "STATUS.md",
+    "sha256": "998edf0c054726056440a6ba9cf1734f3d6434b655c576dd874d74579061d891"
+  },
+  {
+    "path": "VALIDATION.md",
+    "sha256": "0836741ef767b6e623e8069a3939a5d490faa8b8b4e941953c434d0a56e545fc"
+  },
+  {
+    "path": "docs/2018.md",
+    "sha256": "6275c1d68cd332a349ca71e4124ef2db750428ae78daf2cbbde316fc56caf3fa"
+  },
+  {
+    "path": "docs/2022.md",
+    "sha256": "e8e4bcbfeb777111d819a6adacb17d295d3db87f67ec1b0468a274b115015e8c"
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "sha256": "037146039a28c2ea499f82a1a360df760ba6b77442bbce2ef093bf0c88264294"
+  },
+  {
+    "path": "docs/AUTO-DOORS-20261013.md",
+    "sha256": "f03a15a838bfc879de89ee910507e3f89d6945dd2b7880c60333a27a8393e668"
+  },
+  {
+    "path": "docs/BOT-ANIMATION-20261012.md",
+    "sha256": "623873b6aaa981622cb1c2c132e0403355d3da73cccd91265248b547fb2bc5cd"
+  },
+  {
+    "path": "docs/BOT-BEHAVIOR-20261012.md",
+    "sha256": "6c79a30b7ddbc9f37dd3bf4eacf7ef291418ccfcb44a44d40a459a530dcd9e57"
+  },
+  {
+    "path": "docs/BOT-GROUND-ROUTE-20261012.md",
+    "sha256": "8e99bb66c77f89f572fee7c6c28be0cf609f6c80f8d9e553ce7ade7826a9f45d"
+  },
+  {
+    "path": "docs/BOT-LIFECYCLE-20261012.md",
+    "sha256": "954f7a15123e68b3c4555cd0cf75bb0f05ddd579a30d895411c2f3737c9b34f0"
+  },
+  {
+    "path": "docs/BUILDS.md",
+    "sha256": "0eb1f21dd9bde8e2b8652c8b8968a9560c3714a55c42eac1c106c7c99342043b"
+  },
+  {
+    "path": "docs/CAR07-SHARED-20261012.md",
+    "sha256": "12e1555e324441b9cf2661eb71e568c8c9ba802236ddeebc147429488f5d7c56"
+  },
+  {
+    "path": "docs/CLIMB-VEHICLES-20261011.md",
+    "sha256": "97e99b55031027ead595409a20b7df33dc4fed32443de2516c81b8bc317ec6e3"
+  },
+  {
+    "path": "docs/DEBUG-SNAPSHOTS-20261013.md",
+    "sha256": "37d6c19b7d62be1b75bd2773827196392e1439dc68c3d682004799ae2a817197"
+  },
+  {
+    "path": "docs/DOOR-WORLD-HANDOFF-20261013.md",
+    "sha256": "836593e7a8e12a980a5e081f321822755bbf827d4c3ca79bccc6e5bf8045c376"
+  },
+  {
+    "path": "docs/EVAC04-SHARED-20261012.md",
+    "sha256": "4e678011d123277267fe1142dedc0d5a58b855f796b77630b1aa8fb058c6db3b"
+  },
+  {
+    "path": "docs/EVACUATION-FLIGHT-20261011.md",
+    "sha256": "1e506ed5af69c9e44a76cebf5a3a9cdf86637db5e7fb3bc5819961027cdeb663"
+  },
+  {
+    "path": "docs/EVACUATION-SAFE-20261011.md",
+    "sha256": "521268b4aaa167149d1c5106e249c416886821ad4a88a2d4ea60f9cc1e158b9f"
+  },
+  {
+    "path": "docs/HANDOFF.md",
+    "sha256": "eddb5d61ab42762b51573f92435f4f7c879af4e0ecdcb19b6f177c2a0250b8d2"
+  },
+  {
+    "path": "docs/HIT-FIELDS-20261015.md",
+    "sha256": "d483e34ce6c4ea06a1bc58e165cc3c85c74072f831715be88bceee5d3803b3b2"
+  },
+  {
+    "path": "docs/HOST-CONSOLE-20261008.md",
+    "sha256": "fe690cf6c7d1e829a542109c11f17aafbba904aaa1316d43b26597db09fb1323"
+  },
+  {
+    "path": "docs/HP06-DOWN-BOUNDARY-20261012.md",
+    "sha256": "fc089121daa4c9728c35d69a53d2c696464d5558fa9798877d4df88e8b653ed5"
+  },
+  {
+    "path": "docs/HP07-CAMERA-20261012.md",
+    "sha256": "efb585b52190d7dcc5af609e7105c049e12cb1bcba8c24d81ff02370c48bb02c"
+  },
+  {
+    "path": "docs/HP07-OBSERVATION-20261012.md",
+    "sha256": "6b4bd56ed8a8063daeea5ad5946a714333589a5e473536e8277c454a706aaf2b"
+  },
+  {
+    "path": "docs/JUPYTER-ENVIRONMENT.md",
+    "sha256": "f82d6125eece4f1dffc0ff0b47a0958e1f8dd9674d233083d7e819f841284b11"
+  },
+  {
+    "path": "docs/LAN-SSH-20261013.md",
+    "sha256": "2465f460980c9922aff9c6bb51b034d900b404d2aa3e3061b25c282f1da05639"
+  },
+  {
+    "path": "docs/LOCAL-HANDSHAKE.md",
+    "sha256": "9155ba44c8abe009400056b6d19845de55758d514ff10356198dfecfff3b198f"
+  },
+  {
+    "path": "docs/LOOK01-CATALOG-AUDIT-20261012.md",
+    "sha256": "d9a662f599f0b65b8d9632e763f004e2fe8ff16f264ed4ee2ea556444cd15e76"
+  },
+  {
+    "path": "docs/LOOK01-COLD-WARDROBE-20261012.md",
+    "sha256": "93190439a552c099bce541a36b6dafecb1f1d37d026ae142e4bf1502db4f4ddc"
+  },
+  {
+    "path": "docs/LOOK02-WEAPON-SKINS-20261012.md",
+    "sha256": "f3a29b9f3022500f085ac22803cfe07c34b1d0d6989a56b8006e88260bed2b40"
+  },
+  {
+    "path": "docs/LOOK03-CHARACTER-ACCESSORIES-20261013.md",
+    "sha256": "7c0472ef97a12c88de39885796a1bd369e9c528929a8d3ee00016870f8a3a9f5"
+  },
+  {
+    "path": "docs/LOOK04-CLOTHING-20261013.md",
+    "sha256": "83cafaac964aed226c86b64a1f8c1aa194dd1501b905fba2b274ba87f1f00249"
+  },
+  {
+    "path": "docs/LOOK05-PROFILES-20261013.md",
+    "sha256": "2d0f9426cea89bd1ddbbf7eca83ac56e763c0a274883a3c78c097a6f202a995a"
+  },
+  {
+    "path": "docs/LOOT-DOOR-20261013.md",
+    "sha256": "58d850f27a35b64fca4da3f99d1c69c098ad17ac1bc413de08985574f29b1fa5"
+  },
+  {
+    "path": "docs/LOOT-GROUND-CONSUMER-20261013.md",
+    "sha256": "1aefdc5766cfb34c546fe5433c4d9932b94df58b644c43ea9a6a8997c4c40530"
+  },
+  {
+    "path": "docs/LOOT-PRESETS-20261013.md",
+    "sha256": "73acd3baff6e54c775f1f3851aaa7e485bf2fb9cc8deb9f9a092d8b6e20b210f"
+  },
+  {
+    "path": "docs/LOOT-UPPER-20261014.md",
+    "sha256": "ed307d72b5f48e98f21f4b5a560467bceab22a02453f5f1e43537e02c245bbf2"
+  },
+  {
+    "path": "docs/LOOT11-PARTIAL-20261011.md",
+    "sha256": "660c78e6c897367715c44b976d4e6dc6bd08e24c836481afb922b8a876cd3315"
+  },
+  {
+    "path": "docs/MIXED-SLOTS-20261015.md",
+    "sha256": "9e46e78ba5b497d4ef227c7372a7d349d05bfcb48d8ffe0b2f2a5481dc46e79c"
+  },
+  {
+    "path": "docs/MODULE-SIGNAL-MAP-20261013.md",
+    "sha256": "875fd64c7633e7fb7b0655f2ff974c79ec2278e39ed6dfca1e361133d352ba34"
+  },
+  {
+    "path": "docs/MOVE04-POSES-20261011.md",
+    "sha256": "a69e99e4a7491b316f6a68f8036108a475f18e5096b19263ec01778a773789fa"
+  },
+  {
+    "path": "docs/MOVE04-TRAJECTORIES-20261011.md",
+    "sha256": "263434cba8932a211348cacdf8e47bbf6a42d257d7b0138cd69d4697470a18e0"
+  },
+  {
+    "path": "docs/MOVEZONE-20261008.md",
+    "sha256": "488f06da3c60debbebb5e9310e361e182e5c5613f4f5043da19da081c4c90c9f"
+  },
+  {
+    "path": "docs/MP01-TEAM-LIMITS-20261012.md",
+    "sha256": "4a4bdc4e0b571ab9d6abc9e98f9041e2537200709b6fcdd68e8e042934b54aeb"
+  },
+  {
+    "path": "docs/MP02-SHARED-GEAR-20261012.md",
+    "sha256": "6d0bc9b2d62168e8d879d1b8dc627c18b1a6ca298dea2a141b0c687524223e36"
+  },
+  {
+    "path": "docs/MP03-COMMON-COMBAT-20261012.md",
+    "sha256": "f6994d2ab4b66b48928475ed2e7e6b844b993a3599830c8d9e8eecb71f393ac7"
+  },
+  {
+    "path": "docs/NET06-HARDCUT-MATRIX-20261013.md",
+    "sha256": "fc0228a0e85f908978007f949118b2d284998fb79b5af34bfdcdefa65cbdcee3"
+  },
+  {
+    "path": "docs/NET06-NEXT-EXPERIMENT-20261014.md",
+    "sha256": "37b32e62844db1a3ddc3e882dd0c522006166cb86a9f6ed0c63629b4e3db6c9d"
+  },
+  {
+    "path": "docs/NET06-PREDICTION-20261013.md",
+    "sha256": "bd246c374050a8b806854896fcdb43f77e84f920a2985b9d02f3d8d5288560af"
+  },
+  {
+    "path": "docs/NET09-LIFECYCLE-20261011.md",
+    "sha256": "964484cee90aba1df93f1b102b4a581e28b9ebe907ea390e6aec447a3dd60d71"
+  },
+  {
+    "path": "docs/NETWORK-REVIEW-20261009.md",
+    "sha256": "a3e71dc050eee2a5b343de4e59e7f3e67a6224d825d94a3c2a92b9379f46f048"
+  },
+  {
+    "path": "docs/NEXT.md",
+    "sha256": "ea9840c56379bc6ae21ed3a50d6eb3cb7dcf8e1a6ec615d2c46400ba5c9c25d9"
+  },
+  {
+    "path": "docs/OPS03-CYCLE-HARDCUT-20261013.md",
+    "sha256": "b2847f639d26a96c0f8c2f7cb8201a5213bc6479f7da0a0336fc76bb5cab7995"
+  },
+  {
+    "path": "docs/OPS04-STATE-ACTIONS-20261012.md",
+    "sha256": "b4533aa9f7ec3922c1b31ac0e98d0407260321a151ddf6c8088d2d00d1085e3f"
+  },
+  {
+    "path": "docs/PROTOCOL.md",
+    "sha256": "5a73d2395f2ee5745382c825e719f19539713f40624ca444124c5da8d0f19fa8"
+  },
+  {
+    "path": "docs/RECOVERY-20261008-AFTERNOON.md",
+    "sha256": "411131eb619abcf1b315cc2a5a31301daa6e3f69299d9208ad7f2577ef9f556a"
+  },
+  {
+    "path": "docs/RECOVERY-20261008-EVENING.md",
+    "sha256": "7b5c697f345ba3e644f5f19e4b0cabd7ec9e55457ee3bd6fab8ea1216d78be98"
+  },
+  {
+    "path": "docs/RECOVERY-20261008-NIGHT.md",
+    "sha256": "249534631a1023cc4ad28e7d5e9e8e4812d69ff100dd2c33a271876f4371d42c"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-ACTIONS.md",
+    "sha256": "38f20024ad30c7a696d5e49d7e4a60e4d959c64022f9b96a8d054665b0f42522"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-ATTACHMENTS.md",
+    "sha256": "0672d81e7a23249a630f75c53f1d6e0ee751355d7874ca94c6dc39e056626cd9"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-CANCEL.md",
+    "sha256": "ec4832fd546f9e180607d8c77371d98eaf621415447f84cd0a45eddb68e5d6a7"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-DAMAGE.md",
+    "sha256": "e8795539a72852a5c4dd1d7b814f678fa6c16aadb9ec5a3369fe3dccbe8730aa"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-DROP-RECONNECT.md",
+    "sha256": "d1dc0fe01e3b9ec5e62e3e80fe9954fabc9723e31dee615552cf67ca6b53b5e7"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-FIRE-HAND.md",
+    "sha256": "d08e75b789c066a2d975e58849a4db0956f727bc43c3dc657e9c429ad3da97ef"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-FULL-BAG.md",
+    "sha256": "5030a24c29e9c88714148cd9e6c91ec19ba2badea1e6bb8329b96a569200bd3f"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-GLIDER-CHECK.md",
+    "sha256": "5e172587dc656c10f6c190a2f672fe1faface3d9e16984a053f3ff55804cc496"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-IDLE-HANDOFF.md",
+    "sha256": "dfcf8e72c28a94fa2d0569f015a4fcc694d538b7c2b29c012c1718d60c1499ea"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-INVENTORY.md",
+    "sha256": "ac3b809c185615d0eadb2bfc307e61e4497afcdf70e952721eaf8439e1dc6aa7"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-ITEM-CODEC.md",
+    "sha256": "f2258681c97c6416a62d1dec96c6fab660f9817aa51a6386d9fbabef770b7368"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-KIT-CHOICE.md",
+    "sha256": "744f2ab589ba20104cde8c9cda78c3240656e43492160b10981d4930ac6a142c"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-LOOT-LOSS.md",
+    "sha256": "99d2379605347a18ab89d2a6d5b530c9e256efaa6f702bd841eea7bbe998843b"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-LOS.md",
+    "sha256": "ffad30996e31906078a15fe702f1c0f3b65149c969f511718ce7a7d821c20a87"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-MAGAZINE.md",
+    "sha256": "6b6b1e55da3bd479fe892b28af4c3eec1315b0059e5731f6ac69fc3d9c13ade1"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-MEDICAL.md",
+    "sha256": "6faed0b04bc3561fa58228540e23936aa5711ae8667e872038837cff557f1611"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-MIXED-CAPACITY.md",
+    "sha256": "22a632b7824b327200c5a67745013129d872ab8eaa7a77a149cdd0af85f83da2"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-SEVEN-HOURS.md",
+    "sha256": "024a23154807f5ce4f4d2961a89514222dcfdeb6b083e4bce6c92813dd0dac3c"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-SNOWBOARD.md",
+    "sha256": "7203e7700a1d3ce4e0e9940a7b18e68f612580cf1d95649c53a08d94002072f4"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-UDP-COMBINED.md",
+    "sha256": "32ac05dd6139471c94f6abd2ceb174ac7fb4842131a6debe349682c957ba39aa"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-UDP-RECEIVER.md",
+    "sha256": "e4e9b76d1964ddb42e8f91025a85e71b122e689df0677bfc5e20e5ac75fb5db3"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-UDP-SENDER.md",
+    "sha256": "9788c85f23a06ffc09e6ee24a0ad8327d1927746e091ba37d1275673e5e1b54f"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-WEAPONS.md",
+    "sha256": "f6cb720bfcfc93dd27e1dda769229708ae2bf17cdcd361ba254fbc84e03eca0b"
+  },
+  {
+    "path": "docs/RECOVERY-20261009-ZONE-TIMER.md",
+    "sha256": "4457d4cf7a2d7eb6fb4ecf4586570d918b26c977a176e4e2df8d59bca99d3cd3"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-ARMOR-MOVEMENT-FALL.md",
+    "sha256": "06899163b96338fdee34dea1ffed297cc262f328b29098164a93c4b6c8dea1f3"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-BALLISTICS.md",
+    "sha256": "a0db85bc9c0d2d6ee296727936835ce77c2bd973e2475b69a68f2eb31c814280"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-BORDER.md",
+    "sha256": "b18f0643ad02197180b85864ae1d54aa76af42bf5616591a305799948ff26dcf"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-CALENDAR.md",
+    "sha256": "6935cb16710f6ab46a3d15aa277e5083a804a727e28e56a6b7378e5f64708ff5"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-CLOCK.md",
+    "sha256": "1aa12e5095bf74a38b97e694e87c6969eba6e1f7d3af789a9c1cbe20afff71eb"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-COLD-RESOURCES.md",
+    "sha256": "e2a0185dc9bfd6c8b3e7da556d21c6d8c1e9b5eecb8a09e598acbec28f8381aa"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-DEATH-HIT.md",
+    "sha256": "092db330ec6d8449fb6a017c5c9c8d547e7f29c09eeafd07150ee352d269dc91"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-DEATH-PARCEL.md",
+    "sha256": "0f4679d5b131cc25192c31c90c727b81390f44eeb704ac73d3dca4e9fc4190aa"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-DROP-CONTAINERS.md",
+    "sha256": "c9a00e16c53bded4dc3b7416acc3c4ccbd9f09ffdc0f436041b4e1d7c98ba31a"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-GRENADES.md",
+    "sha256": "214473ac1374f79070425bae0ca999f1c71e309cda8ea52b44d93b355f4c20f8"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-HAZARD-HANDOFF.md",
+    "sha256": "5fb95dfc4f17564145cb6aefe65d9fd066ebe0bfe16e21bdcaa0e3c2c0436ae2"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-LIGHT-WIND.md",
+    "sha256": "275c32dacc57eba426ea9ea9c9e23e21b343c99f54d776beab0f37798c42cd35"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-MELEE.md",
+    "sha256": "973e2429df4c8a09099e551c01311d521ab28badf54828e31e06d2a3f04dfa61"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-NATIVE-FLIGHT.md",
+    "sha256": "bb850fe8faef2471c8d4a776e580b117744901b24191b380b6d8995ed0e81891"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-REGION-GROUPS.md",
+    "sha256": "bc8253087742a5f364f95fc241c94792945fde1a7f8774e195fce86161e613d1"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-REGION-INDEX.md",
+    "sha256": "81a2926362e80fc34196f17013e3fb524be820a4db42aa878ef72bfed4ed6892"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-SELECTION-RESOURCES.md",
+    "sha256": "96321ff8011a7b2fc219433597f889d2b1387ed30ce1c12ab806244340b0ba55"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-TEMPERATURE.md",
+    "sha256": "79c9d8fbc4fc8e430aad384b9de078218794e2822ab1d549e8a99923a5afa89a"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-WEATHER.md",
+    "sha256": "a4806952c0b1ab12dc53fa348734e2871cb12453bde1009e7b99b8932fa4d905"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-WINTER-POOL.md",
+    "sha256": "ed17d084e3c18988022a9cf3f47b0894046e613a203041e83a7887c28409cf23"
+  },
+  {
+    "path": "docs/RECOVERY-20261010-ZONE-DAMAGE.md",
+    "sha256": "cc8ef5f3a7d7948cfcdc5d226bda9709d9dd409ce942358e3401e01eca6f8c28"
+  },
+  {
+    "path": "docs/RECOVERY-20261011-AIRDROP-FLIGHT.md",
+    "sha256": "36666c87aa368af7100c5c3c3217b252141c339e8b97be310433cf99832b0651"
+  },
+  {
+    "path": "docs/RECOVERY-20261011-EVAC-IDENTITY.md",
+    "sha256": "6f889f593deb6d4807192f2441fe972614308af416474adb44089fd6f4e0cef2"
+  },
+  {
+    "path": "docs/RECOVERY-20261011-EVAC-NATURAL.md",
+    "sha256": "14166ccf835d4ca42bf3e724ead3bf46a7adb40d3665696892d684fabf932a5a"
+  },
+  {
+    "path": "docs/RECOVERY-20261011-FAILURE-TIMEOUT.md",
+    "sha256": "5f05d45bf89c0873c3b26f59cd0f838fd388e9c9e4f3a163c931ff11b12e4f36"
+  },
+  {
+    "path": "docs/RECOVERY-20261011-FULL-CYCLE.md",
+    "sha256": "5271c006bdd7b0343cf981cdef4c18254a2506add005a2d14ed116e1f8d79b94"
+  },
+  {
+    "path": "docs/RECOVERY-20261011-MATCH-STATISTICS.md",
+    "sha256": "a2f4444629929918c150c042e083e83c1f044b74967ecf067996ada2bc25fc2d"
+  },
+  {
+    "path": "docs/RECOVERY-20261011-REPEAT-MATCH.md",
+    "sha256": "c42c4cceaa009b05293eef20c708b0a4cb87f5a3aa889b82418e50121b879b66"
+  },
+  {
+    "path": "docs/RESOURCES.md",
+    "sha256": "52142f0d1bf39cdb158d7ff127d88ed9659c9da60d24e2666fef9767ba9f3b51"
+  },
+  {
+    "path": "docs/RUNBOOK.md",
+    "sha256": "25f3db9f50377f10df9c6f78acf165fbc0f890b3b61277e22e83b684f10d7d5a"
+  },
+  {
+    "path": "docs/SESSION-20261013-NINE-HOURS.md",
+    "sha256": "91953d25af658628b8849e6cf98db615a67d96397bebfe20b5efee7325af7422"
+  },
+  {
+    "path": "docs/SHARED-GROUND-20261011.md",
+    "sha256": "2d5281f0829673fd431b6f8ce2c18b9a5b07b08aaf75f9ea102fe40430e8869e"
+  },
+  {
+    "path": "docs/SIGNALS-2022.md",
+    "sha256": "18fc355d85162b6443c8046a2af43afad68628b1a5cde7629540445296465804"
+  },
+  {
+    "path": "docs/SOURCE-CYCLE-20261015.md",
+    "sha256": "20c18e7c23ac1938b063f3ac89a457ffddc46e6d58724602ed72217773a9fcd8"
+  },
+  {
+    "path": "docs/SOURCES.md",
+    "sha256": "aad88cdd980dcbc48ad0835bb9eed5be0c0d86d87040d9853003aa88e6c18f74"
+  },
+  {
+    "path": "docs/STATE-CONTROL-20261012.md",
+    "sha256": "3da9b67b5e23952f3e527051785c1e5a3d355e1a6e72de8fc9d23ee43e0db312"
+  },
+  {
+    "path": "docs/STEAM2018.md",
+    "sha256": "4a0a870d3b7a162429d7b4708ca0b5688255d1572f0d352aa0e9b3571fa94b65"
+  },
+  {
+    "path": "docs/V99.md",
+    "sha256": "04545024f4f7c453ba44ad2e1acefd8575fdeffab76cd68de34a71aad7e01712"
+  },
+  {
+    "path": "docs/VEHICLE-HP-PEERS-20261011.md",
+    "sha256": "37bcde87498ebe354d887277cce6c7f55fb473183a0d8ad6aa182b9e50b65287"
+  },
+  {
+    "path": "docs/VEHICLES-WATER-20261011.md",
+    "sha256": "0d9c69b8dfcbd546e4443b30a4c3bcd3cdb320146c772aedc5d41fd2918ad6f2"
+  },
+  {
+    "path": "docs/WINDOWS-BUGS-20261014.md",
+    "sha256": "d6dfd0d7dee82b1f8f331901f58c726082f80df6081552380d2b739787c5b7a1"
+  },
+  {
+    "path": "docs/WINDOWS-FEEDBACK-20261013.md",
+    "sha256": "0d0b2ccfcb8c49df8dcbba6373836410f4545cfde5219855331f449478a1520c"
+  },
+  {
+    "path": "docs/WINDOWS-FEEDBACK-20261015.md",
+    "sha256": "ef36ee0f7838552816d4a1cbe4bd3f0a8f93a29e5f053540e19ca5e5456dcc6a"
+  },
+  {
+    "path": "docs/WINDOWS-FIXES-20261013.md",
+    "sha256": "b3055dd6f01afaf7dfc4717b67344a9bf8e36c58e02f21e4e99070d919305fd2"
+  },
+  {
+    "path": "docs/WINDOWS-GAMEPLAY-CHECKLIST-20261015.md",
+    "sha256": "459bcab12be9894a78ef8e82bfc8715b7302fcb058511dea03a7ceb6d0600998"
+  },
+  {
+    "path": "docs/WINDOWS-M4-20261008.md",
+    "sha256": "26cba09e57d7df8308ccd551431677212349f05ad1050335dd84a27b0c71fcde"
+  },
+  {
+    "path": "docs/WINDOWS-RAW-REVIEW-20261015.md",
+    "sha256": "0a570bd5845c1e469cfbd4900bdca642841e9bd628e5a57effc5f2ca7bc67c69"
+  },
+  {
+    "path": "docs/WINDOWS-REVIEW-20261009-222533.md",
+    "sha256": "9885fcf2dc7b37bd9f272cb959fbed69be54716a2d74f6c201b02192b8fb1564"
+  },
+  {
+    "path": "docs/WINDOWS-RUN-20261013-3bbf48.md",
+    "sha256": "e8a5aa8084d2721427eb587e7839b6886ba466b00442e266e2f0347ed7c05b21"
+  },
+  {
+    "path": "docs/WINDOWS-STARTER-20261015.md",
+    "sha256": "b786db586a00127cb66ccde1d8267aa281bcb5b4e15c366af926fed18c198c8a"
+  },
+  {
+    "path": "docs/WINDOWS-TESTS-20261015-FEEDBACK.md",
+    "sha256": "8c8276a0ade234799a31e357e441c0381bafacd8ed978fc31353e3580480d25f"
+  },
+  {
+    "path": "docs/WINDOWS-TESTS-20261015.md",
+    "sha256": "9ac96725f6902a41c4e86447425fa9776817d24625377466b61328cc596ae018"
+  },
+  {
+    "path": "docs/WINDOWS-UPDATE-20261009.md",
+    "sha256": "23fb69b96393ec967618b50cd4be26aa496600e051ce07f16653f1ec1e97bc78"
+  },
+  {
+    "path": "docs/WINTER-INVENTORY-2022.md",
+    "sha256": "5b6a10240431e0ce5eedfee49b2a90c26fa3005babc40a84f2550f23b37daaf9"
+  },
+  {
+    "path": "docs/WINTER-KIT-LOOT-2022.md",
+    "sha256": "4bdaf2fc36c1422aa021de06ceb8a134367c60fc19ff9c143e43a64611056032"
+  },
+  {
+    "path": "docs/ZONE-WARNING-20261014.md",
+    "sha256": "d20a414e1f9303347f2c0c98567b085e8e5757ffe4d6742e74febf87b7a8cdb1"
+  },
+  {
+    "path": "docs/evidence.json",
+    "sha256": "dbe242fde8d30e88d06d0bef48c810874f5f0abde45d0352d3a22e0981d60137"
+  },
+  {
+    "path": "docs/recovery/AGENT-START.md",
+    "sha256": "554ee6d6a4fbb73dfdd338a5d6db5f95e3b8b5e81e5d0201bf49459b99b91d04"
+  },
+  {
+    "path": "docs/recovery/EVENING-20261008.md",
+    "sha256": "dd91fdd74ce4638415240da356edefbf9ce81ddaaf7456d38c9f764d3ab9cab9"
+  },
+  {
+    "path": "docs/recovery/METHOD-HISTORY.md",
+    "sha256": "6db02d3d4a31a0adcfbb7d6cbffaf5f666f65c8aba517a2e11e2bfa817f1e6dc"
+  },
+  {
+    "path": "docs/recovery/README.md",
+    "sha256": "c57ba9babb6b732a4602e78b20e7d0c07cec81198e018d61dd5d7637b2adf325"
+  },
+  {
+    "path": "docs/recovery/RUNBOOK.md",
+    "sha256": "f52d7e687d506cae0d8929a3af170700b726d117276b2b565e1dd2da0a8dc902"
+  },
+  {
+    "path": "docs/recovery/execution-history.csv",
+    "sha256": "563853ceaa10106da1ed487fb78e33dd6dbf0dab3cfc3b0de0dd03cbdba9c826"
+  },
+  {
+    "path": "docs/recovery/history.csv",
+    "sha256": "bfd41c034d715ba99f64a98226598bdc7bb06a0a710cf2e22af5dbe1a6494d46"
+  },
+  {
+    "path": "docs/recovery/mechanics-2022.csv",
+    "sha256": "cbed3f8ec96376458db0cd6f66122c22a96f904f1a821e7345a01d581fcc6a22"
+  },
+  {
+    "path": "docs/recovery/status.md",
+    "sha256": "a42f103c8b870d7afb9051bf97c6217c1a9204f8c12d2e1fa0ff6ad41265bdd1"
+  },
+  {
+    "path": "docs/recovery/updates.csv",
+    "sha256": "f06b01db562c1c17a19696d79f2685bc3101f459af192786ab9d2e2c7ea750f2"
+  },
+  {
+    "path": "docs/signals-2022.csv",
+    "sha256": "cd6587b0b1d80865d5f76eae5913cc3943c72b290a8de3aa41cd02ba31827503"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/checks.txt",
+    "sha256": "166ec4e7e3df7b63ad103fff998e0c2f989e932dd7d25c722b725bbd858509b2"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/evidence.json",
+    "sha256": "883d840d46b6fc56957fb8244bc03c640c50ccd6b7bdb214c4d650b5ce905e28"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/hazard-counterfactual.json",
+    "sha256": "b872df90e90ccb1bb7c534d90197d453687600dbec34156c38c1ebc073989d44"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/hit-field-bindings.json",
+    "sha256": "e048da551014524cdfb0b828adb2a7c4667c664b46a6b38bf2c50301f7960662"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/hit-shooter-clock-getters.json",
+    "sha256": "62d72c3deadeb14faab28d19ba002ba7d840655beaf5ab4a89ea6bbee21cafdf"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-collision-caller-20261015-140f16880.asm",
+    "sha256": "829fdf304cb39612fe9eb4f7771f81606a8864e29202ce69ba9a58e8a29396fa"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-getters-20261015-1414652c0.asm",
+    "sha256": "0365da61d874ea094ea9815b7c48649b59b6f6889106d95da63381dae81b68e0"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-getters-20261015-1414656d0.asm",
+    "sha256": "628c97bd3e207e4cf12ae519a9082155ae6b565c300fa40789bae1ba5de4106e"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-getters-20261015-141465ae0.asm",
+    "sha256": "58e9024ee46de7fa98d14726c1e63f87d1fbdc85d9af6346899cce2c4f195747"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-getters-20261015-141465f10.asm",
+    "sha256": "ae545ec9027241fbbe5ba18dbb17e4b9fd18a2a3b792cf3857f6ea4164248850"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-getters-20261015-141466b70.asm",
+    "sha256": "84331012a12eb1ed722ff4b152e894a1848ef5702302cddb0dd078ed328ef429"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-getters-20261015-141468000.asm",
+    "sha256": "524e1911a15c4e2b02faae52b2ce004ee959a07bfe084d12c5f4f64959554567"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-getters-20261015-141468410.asm",
+    "sha256": "5a1d24be70a3cca7b471bd1837a888054016e40ba3513b95dd7cff8a7e2c3439"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-part-builder-20261015-14132a1f0.asm",
+    "sha256": "329fff6e0f1db11364cfc31cd2df74126b3f16fbd7fe08113b2e79b1606a1afc"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-part-producer-20261015-14130e510.asm",
+    "sha256": "e8ace9f127a267b5af4a845d54720f8787e2bd28ea8d8204ebb04c7d5555805c"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-path-20261015-141466330.asm",
+    "sha256": "f7b8b55f6285230d9cd8494b9c0520ed51db05ffa9331fb7238548fdd3f71bf9"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-path-20261015-141466750.asm",
+    "sha256": "4c1fdddd66fc6474f1b2266dfb8f031678c009ac4b7af0f77786466173784150"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-path-20261015-141466fa0.asm",
+    "sha256": "2f1832a463f08b9a111c95d33379db98b2efb3c8b15d98fa7363143628220c01"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-path-20261015-1414673c0.asm",
+    "sha256": "c3e832e18124597c79125690285630424cf321c461fa81433ef71f89a93268bd"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-path-20261015-1414677e0.asm",
+    "sha256": "6320779ad66d08523ea7a0cde9229173c25c44a08ede77f19a49122c5d08fe3b"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-path-20261015-141468c30.asm",
+    "sha256": "9a2d3497e274499ca353f7d9a2de30957ac58738fc687675152a54d110b7d5a1"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-result-producer006-20261015-1412f8f20.asm",
+    "sha256": "e669fb9b79b9c41c46de2f281fa14ebfc70dff873500ca02f606af59fc857205"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-result-producer006-20261015-141467bf0.asm",
+    "sha256": "c17de7c0d183b573a4a638a0fd6910a3422e07c3c7843e6ba4a031e6e06bd694"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-result-producer006-20261015-141468820.asm",
+    "sha256": "0010afb6539ee4f60385a79c39e3d482ebce264674ffb100379d82a3fbd7f7b9"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-result-route-20261015-140f16750.asm",
+    "sha256": "ca4abd904d1afae34ab4ff07e246a9f4f0d9ebabbb869043e1f4970d15a81248"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-result-route-20261015-140f16810.asm",
+    "sha256": "d7fa42d0fc2e5f43730b3bfcad525fbdcf6c6d8ae96c7b626fa788f8472159df"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-result-route-20261015-140f17360.asm",
+    "sha256": "7c75d066a70adaa3d8cb1bea7afd561cf3dfb656f53660a427ca93e53aee0df3"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/native/hit-result-tail006-20261015-140f15ff0.asm",
+    "sha256": "95654ea79db36d6d93ec3d9e4d302aa61d0270b47e0afb0e6491e46a01fd1edc"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/recovery-gun07-named-fields-20261015-004-public.json",
+    "sha256": "c29e7eba323b7d5ba4aaad3098f441934c746c1ef6f095f63ae4b22b8ee0b6f3"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/recovery-gun07-producer-upper-20261015-005-public.json",
+    "sha256": "bf0debee43d472ec582667878f5bc9a5bda275737a2ad3e8514e6d0f544b458b"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/recovery-gun07-result-input-20261015-006-public.json",
+    "sha256": "877f15d6a0783d30795050fd93418529f63801f8640413edc2a5e4197275db81"
+  },
+  {
+    "path": "evidence/windows-feedback-20261015/recovery-ops02-scale3-20261015-002-public.json",
+    "sha256": "31707a32c550570c4a0ef9928dd3b3103650dbeb78cafbf144116f6ccd8d8589"
+  },
+  {
+    "path": "tests/test_tasks.py",
+    "sha256": "ca8e426186523a226bba63b740fe7e3c7e36405da0f58492a9a49e965385463b"
+  },
+  {
+    "path": "tools/share_audit.py",
+    "sha256": "12b0e8da55c4a153827d25e8500ba77612d8b27d4fc69a2d5270647450b3261a"
+  },
+  {
+    "path": "tools/tasks.py",
+    "sha256": "8295c984d619f8adc31a66c719cb7cfd6af584a02680870ea91b224b90b2b231"
+  }
+]
