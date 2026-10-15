@@ -1,6 +1,10 @@
 # Ring of Elysium Research — restoration context
 
-**English** | [Русский](README.ru.md) · [Discord](https://discord.gg/pD2Bj5kAxk)
+[English](#english) | [Русский](#russian) · [Discord](https://discord.gg/pD2Bj5kAxk)
+
+<a id="english"></a>
+
+## English
 
 Research context for contributors and new AI agents, as of **October 15, 2026**. The launcher, emulator, and gameplay regression tests live in [ring-of-elysium-local](https://github.com/ROE-LIVE/ring-of-elysium-local). This repository documents builds, architecture, protocol signals, and the mechanics recovery plan. It contains no game client, keys, large dumps, or private Git history. Most supporting reports and CSV descriptions are currently in Russian.
 
@@ -38,3 +42,42 @@ This work reconstructs an external scene peer. Strings such as `UseListenServer`
 Join the [Discord community](https://discord.gg/pD2Bj5kAxk) to discuss findings and coordinate tests. To run the current game scenario, use [ring-of-elysium-local](https://github.com/ROE-LIVE/ring-of-elysium-local).
 
 See [provenance](PROVENANCE.json), [rights](RIGHTS.md), and the [sharing checklist](SHARE-CHECK.md).
+
+---
+
+<a id="russian"></a>
+
+## Русский
+
+Полный текстовый контекст для исследователя или нового ИИ-агента. Состояние15.10.2026. Запуск, эмулятор и регрессии находятся в соседнем [ring-of-elysium-local](https://github.com/ROE-LIVE/ring-of-elysium-local); здесь — версии, архитектура, протокол и план механик. Клиента, ключей, больших дампов и приватной Git-истории нет.
+
+## Порядок входа
+
+1. [Идентифицировать билд](docs/BUILDS.md): основной2022 x64, корневой Europa_Client.exe, SHA-256 `2dca9b1e122e21363e14eeeb2372598c773205a907ed8d2b2d54a7229ad6ba18`. V99/Steam2018 имеют другие адреса и структуры.
+2. Прочитать [текущее состояние](STATUS.md), [архитектуру](ARCHITECTURE.md) и [метод работы](METHOD.md).
+3. Выбрать конкретный стабильный ID из [mechanics-2022.csv](docs/recovery/mechanics-2022.csv), получить карточку:
+
+   ```bash
+   python -B tools/tasks.py --task GUN07
+   python -B tools/tasks.py --list
+   python -B tools/tasks.py --next
+   ```
+
+   Команды только читают CSV и не запускают игру. Нужен Python3.11+ без сторонних зависимостей. Пустая очередь ready означает отсутствие готовой задачи; заблокированную задачу это автоматически не разрешает.
+
+4. Открыть [CSV сигналов](docs/signals-2022.csv) и [источники](SOURCE-INDEX.json). Исторические пути в исходных CSV относятся к **ROE_SERVER исходного workspace**. Не все доказательства включены в эту компактную публикацию; наличие пути не подтверждает доступность файла. Исходные команды из CSV следует адаптировать к своему стенду.
+5. Для участия использовать [CONTRIBUTING.md](CONTRIBUTING.md), для передачи агенту — [AGENT-START.md](AGENT-START.md).
+
+## Что включено
+
+115 задач восстановления со стабильными ID и оценкой этапов;101 строка сигналов; текстовые отчёты agents-context по луту, host/debug, попаданиям, ботам, транспорту и сетевым механизмам; хеши и выборка доказательств последнего Windows-теста. Старые docs сохраняются как датированные исследования: описание «следующей задачи» в них может устареть. Текущий STATUS имеет приоритет для сводки, первичные данные — для фактов.
+
+Полные исторические snapshots не включены: часть содержит извлечённые игровые материалы, рабочие пути и устаревшие инструменты. Если для опыта нужен отсутствующий файл, запросите **конкретный** источник из индекса либо получите его самостоятельно из своего клиента. Не считайте текстовый отчёт заменой первичному коду или журналу.
+
+Это реконструкция внешнего peer. Наличие строк UseListenServer/Generic/Console не доказывает работающий встроенный host. Исходный сервер целиком не найден. [Происхождение](PROVENANCE.json), [права](RIGHTS.md), [контроль состава](SHARE-CHECK.md).
+
+Выбранные первичные материалы попаданий и replay: [evidence/windows-feedback-20261015](evidence/windows-feedback-20261015). Происхождение локальной пары — [LOCAL-HANDSHAKE](docs/LOCAL-HANDSHAKE.md).
+
+## Сообщество
+
+Присоединяйтесь к [Discord](https://discord.gg/pD2Bj5kAxk), чтобы обсудить исследования, согласовать проверки и поделиться результатами.
