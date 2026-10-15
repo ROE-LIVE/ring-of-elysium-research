@@ -6,6 +6,15 @@
 
 ## English
 
+### Demo use and disclaimer
+
+- **This is an experimental demo intended only for personal home use and research.** It is not an official ROE service or a production-ready game server.
+- You install, configure, run, and experiment with the project **entirely at your own risk**. You are responsible for your actions and for checking whether the project is suitable for your environment.
+- The code, tools, and research materials are provided **as is, without warranties** of functionality, safety, reliability, or suitability for any particular purpose.
+- **To the maximum extent permitted by applicable law, the repository owner, authors, maintainers, and contributors accept no liability** for damage, data loss, malfunctions, changes to system or network settings, or other consequences arising from use of, or inability to use, this project.
+
+This notice does not exclude liability that cannot lawfully be excluded, and it does not change the licenses of third-party components.
+
 Research context for contributors and new AI agents, as of **October 15, 2026**. The launcher, emulator, and gameplay regression tests live in [ring-of-elysium-local](https://github.com/ROE-LIVE/ring-of-elysium-local). This repository documents builds, architecture, protocol signals, and the mechanics recovery plan. It contains no game client, keys, large dumps, or private Git history. Most supporting reports and CSV descriptions are currently in Russian.
 
 ## Getting started
@@ -48,6 +57,15 @@ See [provenance](PROVENANCE.json), [rights](RIGHTS.md), and the [sharing checkli
 <a id="russian"></a>
 
 ## Русский
+
+### Демонстрационное использование и отказ от ответственности
+
+- **Это экспериментальный демонстрационный проект только для личного домашнего использования и исследований.** Он не является официальным сервисом ROE или готовым сервером для эксплуатации.
+- Все действия по установке, настройке, запуску и исследованию вы выполняете **добровольно, на свой страх и риск**. Вы самостоятельно отвечаете за свои действия и проверку пригодности проекта для вашей системы.
+- Код, инструменты и исследовательские материалы предоставляются **«как есть», без гарантий** работоспособности, безопасности, надёжности и пригодности для конкретных целей.
+- **В максимально допустимой применимым законодательством степени владелец репозитория, авторы, сопровождающие и участники проекта не несут ответственности** за ущерб, потерю данных, сбои, изменения системных или сетевых настроек и другие последствия использования либо невозможности использования проекта.
+
+Это уведомление не исключает ответственность, которую нельзя исключить по закону, и не меняет лицензии сторонних компонентов.
 
 Полный текстовый контекст для исследователя или нового ИИ-агента. Состояние15.10.2026. Запуск, эмулятор и регрессии находятся в соседнем [ring-of-elysium-local](https://github.com/ROE-LIVE/ring-of-elysium-local); здесь — версии, архитектура, протокол и план механик. Клиента, ключей, больших дампов и приватной Git-истории нет.
 
