@@ -99,3 +99,9 @@ See [provenance](PROVENANCE.json), [rights](RIGHTS.md), and the [sharing checkli
 ## Сообщество
 
 Присоединяйтесь к [Discord](https://discord.gg/pD2Bj5kAxk), чтобы обсудить исследования, согласовать проверки и поделиться результатами.
+
+## Update — 16 October 2026 / Обновление
+
+Full-magazine reload capacity and eight test loot heights were corrected; validated under Proton, Windows retest pending. See [results](docs/SESSION-RESULT-20261016-AFTERNOON.md).
+
+Исправлены вместимость для полной R и высоты восьми тестовых предметов; проверено под Proton, новый Windows-повтор ожидается. [Результаты](docs/SESSION-RESULT-20261016-AFTERNOON.md).

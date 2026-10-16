@@ -1,0 +1,1 @@
+Выбранные игровые события, расчёты и сводки этапа16.10.2026. Raw/AUTH/ключи, ресурсы, видео и полные дампы не включены. Native021—Protoncapacity;022—smoke/AOI;023—AKthrough;024—M4clientstop. Источники и ограничения в docs/SESSION-RESULT-20261016-AFTERNOON.md.

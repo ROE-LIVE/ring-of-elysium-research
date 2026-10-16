@@ -1,0 +1,6 @@
+618source testsOK;579legacy testsOK;590public testsOK(9PowerShell skips,pwsh отсутствует).
+2signals generator testsOK.
+Оба verify-only:cycle3/glider/targetarmored/smoke8/reliable/idle passed.
+.NET8SDK8.0.425:LobbyEmulator Release build0warnings/0errors.
+Native020/021/022 exit143 controlledstop;023/024 exit124 timeout; selectedEXE/DLLbefore=after.
+Windows новой ревизии не запускался; W18CSV готов для пользователя.

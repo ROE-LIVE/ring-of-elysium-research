@@ -13,7 +13,7 @@
   },
   {
     "path": "AGENTS.md",
-    "sha256": "f4cae0965f924c9c936b9cc948e9a762e922ec4f0b3cdd8dfc8efb1433f4f06a"
+    "sha256": "99a50029aa22e666ae609923d41363e16fa618d7fa62d566127520a2e3cedeb7"
   },
   {
     "path": "ARCHITECTURE.md",
@@ -33,7 +33,7 @@
   },
   {
     "path": "README.md",
-    "sha256": "32df0a2c384d0f52c17a0daa323ec8b0e05e854c85870b2b270aaeda70781e98"
+    "sha256": "dac68dfc48a4c577d5b3015117b7b5acdd6c1577ac4f69aea124b6e18af502a3"
   },
   {
     "path": "RIGHTS.md",
@@ -49,7 +49,7 @@
   },
   {
     "path": "STATUS.md",
-    "sha256": "45762a3f35541d2830d82fd58400e7498ca5a9815ca4326645ca8a1a6a806cb0"
+    "sha256": "9c53cec4c1cc877c1184dde709171b178d634021193926edfabbc8adc6b3f280"
   },
   {
     "path": "VALIDATION.md",
@@ -129,7 +129,6 @@
   },
   {
     "path": "docs/HIT-FEEDBACK-20261016.md",
-    "source": "Исследование INV07/GUN05 16.10.2026; только выбранные числовые факты",
     "sha256": "d1cb75ab32022894dda8af6729234850bd38beeb0f6b6bbf4ca7f0efaf98b681"
   },
   {
@@ -205,12 +204,20 @@
     "sha256": "73acd3baff6e54c775f1f3851aaa7e485bf2fb9cc8deb9f9a092d8b6e20b210f"
   },
   {
+    "path": "docs/LOOT-SURFACE-20261016.md",
+    "sha256": "d9fac2ddc33aee3dad99c96c647bf09662bc0ed3053b415952f212c7a6351015"
+  },
+  {
     "path": "docs/LOOT-UPPER-20261014.md",
     "sha256": "ed307d72b5f48e98f21f4b5a560467bceab22a02453f5f1e43537e02c245bbf2"
   },
   {
     "path": "docs/LOOT11-PARTIAL-20261011.md",
     "sha256": "660c78e6c897367715c44b976d4e6dc6bd08e24c836481afb922b8a876cd3315"
+  },
+  {
+    "path": "docs/MATERIAL-PENETRATION-20261016.md",
+    "sha256": "1effb034b94c0d7964a6436cd878febff00f97f7256e6500d36c11769ec5d5f0"
   },
   {
     "path": "docs/MIXED-SLOTS-20261015.md",
@@ -505,6 +512,10 @@
     "sha256": "c42c4cceaa009b05293eef20c708b0a4cb87f5a3aa889b82418e50121b879b66"
   },
   {
+    "path": "docs/RELOAD-CAPACITY-20261016.md",
+    "sha256": "d18d10c058e15ed62bcf03964e91cbf7f3dbd2d8b3262edb9c58c385df1718bf"
+  },
+  {
     "path": "docs/RESOURCES.md",
     "sha256": "52142f0d1bf39cdb158d7ff127d88ed9659c9da60d24e2666fef9767ba9f3b51"
   },
@@ -515,6 +526,10 @@
   {
     "path": "docs/SESSION-20261013-NINE-HOURS.md",
     "sha256": "91953d25af658628b8849e6cf98db615a67d96397bebfe20b5efee7325af7422"
+  },
+  {
+    "path": "docs/SESSION-RESULT-20261016-AFTERNOON.md",
+    "sha256": "8d4dcd0d02c5ec4d66967b70b0f5d4c0a671d3546cb0cb2244d24251e8cd2fd4"
   },
   {
     "path": "docs/SESSION-RESULT-20261016.md",
@@ -563,6 +578,10 @@
   {
     "path": "docs/VEHICLES-WATER-20261011.md",
     "sha256": "0d9c69b8dfcbd546e4443b30a4c3bcd3cdb320146c772aedc5d41fd2918ad6f2"
+  },
+  {
+    "path": "docs/WINDOWS-150144-REVIEW-20261016.md",
+    "sha256": "dc4cf5e05110647f75419bf8fe7102e4cfae5641a22548cd642329cfd2770e1e"
   },
   {
     "path": "docs/WINDOWS-BUGS-20261014.md",
@@ -638,7 +657,7 @@
   },
   {
     "path": "docs/recovery/AGENT-START.md",
-    "sha256": "554ee6d6a4fbb73dfdd338a5d6db5f95e3b8b5e81e5d0201bf49459b99b91d04"
+    "sha256": "232b974845ebb4e6e81dc57996e1a5e380f362e686ecf6bda61794df39330bdc"
   },
   {
     "path": "docs/recovery/EVENING-20261008.md",
@@ -657,24 +676,28 @@
     "sha256": "f52d7e687d506cae0d8929a3af170700b726d117276b2b565e1dd2da0a8dc902"
   },
   {
+    "path": "docs/recovery/WINDOWS-TESTS-W18.csv",
+    "sha256": "81ca47f14e3c07bc3c2075759b81a98cce85e159792460670719d1cd0234185b"
+  },
+  {
     "path": "docs/recovery/execution-history.csv",
     "sha256": "4482baa0a60910c90418373de7df3e0bbb5905f9d0afc666d9e960cef6116c05"
   },
   {
     "path": "docs/recovery/history.csv",
-    "sha256": "43984e4e2f72d31617fbf1c8ccdd68701247907bff62c41f5842a276b9d05a1c"
+    "sha256": "181073291d3fdded35f1050fac430ad165983f635530996fe793b2e3243f5140"
   },
   {
     "path": "docs/recovery/mechanics-2022.csv",
-    "sha256": "0c32b7c505e715bc259baca72f8e21f86b211a44cdc91e8c9ba26ded680df655"
+    "sha256": "10162f40d210ad534e3f5d092507f4a203ff8cf065b594d37c6207a272a02d74"
   },
   {
     "path": "docs/recovery/status.md",
-    "sha256": "9ef63a83ab1ba9fde5c4eb3d248c79955fe5005178e22d619d539bc76eb17be1"
+    "sha256": "15e4b83acaa46ff053c6df800f2a484f5524c248986576b19f36e37232aea801"
   },
   {
     "path": "docs/recovery/updates.csv",
-    "sha256": "ff64933c68f84db99dad9f4f7e843d71c66ea36f2ff3fcf1fabd5bcad2c56b13"
+    "sha256": "7864561852c6a7715ec24aacec6d5fb81f7072ba9a32e7e540cf715d83d8e673"
   },
   {
     "path": "docs/recovery/windows-tests-w18-20261016.csv",
@@ -682,26 +705,66 @@
   },
   {
     "path": "docs/signals-2022.csv",
-    "sha256": "108155580306f7ed8ea05c0ea481431d44110958e373410840f2465de20b20a4"
+    "sha256": "a327fb71d7321033264a4da3689e7e1b60616d706c3a789026678d799723d5bc"
+  },
+  {
+    "path": "evidence/capacity-loot-20261016/README.md",
+    "sha256": "74de92ebb0be80190432b551c5420dccf9a2ed6ac7ef5ee7cffdcb5292a545fe"
+  },
+  {
+    "path": "evidence/capacity-loot-20261016/checks.txt",
+    "sha256": "89a33c2939b53c98aafcabbca8493b3a69784760d02ce95c38e8223aaeaea247"
+  },
+  {
+    "path": "evidence/capacity-loot-20261016/cleanup.json",
+    "sha256": "3678ab5393df41b2f9ee7c31db56c188a0364f8f1891862f1219f454f6ea42ee"
+  },
+  {
+    "path": "evidence/capacity-loot-20261016/material-evidence.json",
+    "sha256": "f78d2098a8f639d3e92a3b4440ff5001722cc05412df5efd2724833e6d022761"
+  },
+  {
+    "path": "evidence/capacity-loot-20261016/native021-public-events.json",
+    "sha256": "28255059802e7012b52f6211d0b2cb1c82ecb4f87dd172debe705f705eaccf94"
+  },
+  {
+    "path": "evidence/capacity-loot-20261016/native022-public-events.json",
+    "sha256": "48af33e76b00551de9f259d6f7531b44308ba66526913d38d9e1cc32e9ce301c"
+  },
+  {
+    "path": "evidence/capacity-loot-20261016/native023-public-events.json",
+    "sha256": "c84aeb8913d6f65d75cd68bc06f7f74d2265aa2f2491f42ff27fa4d891bb71ac"
+  },
+  {
+    "path": "evidence/capacity-loot-20261016/native024-public-events.json",
+    "sha256": "ad0cf67bd793975776d3990bc3705af990452c0752461a680a0db5458ee629db"
+  },
+  {
+    "path": "evidence/capacity-loot-20261016/smoke-after.csv",
+    "sha256": "826c3195074f71ad9270415622d1a6e8968bd0ac723c8c1db3b43ecef498b4ca"
+  },
+  {
+    "path": "evidence/capacity-loot-20261016/smoke-before.csv",
+    "sha256": "5d3564c41dc9aaf81469b482daa359b4762a4c8c3da052f7bf8281ee2db2317f"
+  },
+  {
+    "path": "evidence/capacity-loot-20261016/windows-review.json",
+    "sha256": "f348f36561625a71c517baa04e384592210d928817924ce288c6103889ab2f31"
   },
   {
     "path": "evidence/hit-feedback-20261016/README.md",
-    "source": "Исследование INV07/GUN05 16.10.2026; только выбранные числовые факты",
     "sha256": "c8d4438e6fa714ec976125c5d109060d5ef68d4f0ddd1e3353556472c080349c"
   },
   {
     "path": "evidence/hit-feedback-20261016/native-11eb-codec.json",
-    "source": "Исследование INV07/GUN05 16.10.2026; только выбранные числовые факты",
     "sha256": "28e9d7d44b1fb2e71a6858fa7bdb8dce35a790d7f654a4c712647a8d21fa33de"
   },
   {
     "path": "evidence/hit-feedback-20261016/selected-native-events.txt",
-    "source": "Исследование INV07/GUN05 16.10.2026; только выбранные числовые факты",
     "sha256": "d45badcc73d63d57d51203044c291ae115b0140b540f9e075095803c5f2ab4a3"
   },
   {
     "path": "evidence/hit-feedback-20261016/type-init-literals.json",
-    "source": "Исследование INV07/GUN05 16.10.2026; только выбранные числовые факты",
     "sha256": "00c2cdddbbb735eb4264c7bbf544d16fed2090920bc28a0d3d69d8dbfaf11fd3"
   },
   {
@@ -939,6 +1002,10 @@
   {
     "path": "tests/test_tasks.py",
     "sha256": "ca8e426186523a226bba63b740fe7e3c7e36405da0f58492a9a49e965385463b"
+  },
+  {
+    "path": "tools/audit_loot_surface_2022.py",
+    "sha256": "73a9622b1ea4e58925b7547a485e5dd55ae4655c723f2b0f6827899a0a3015da"
   },
   {
     "path": "tools/probe_iceland_heightfield_2022.py",

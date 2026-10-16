@@ -1,0 +1,227 @@
+{
+  "build": "2022-x64-0.2.989.0",
+  "map": 16010,
+  "scope": "opt-in oneRock305; diagnosticHP100; no original server or full-map authority",
+  "runs": [
+    {
+      "run": "recovery-gun06-material-policy-20261016-023",
+      "hashes_equal": true,
+      "exit": "124",
+      "hits": [
+        {
+          "sequence": 6372,
+          "timestamp": "2026-10-16T16:29:16.385806+00:00",
+          "kind": "actor_probe",
+          "synthetic": true,
+          "action": "hit_damage",
+          "target": "0x2040000123460",
+          "counter": 1,
+          "tick": 7788,
+          "damage": 100,
+          "hp": 900,
+          "absorbed": 0,
+          "armor_durability": 0,
+          "armor_definition": 0,
+          "experimental": true,
+          "hit_feedback_command": "0x11eb",
+          "gun_definition": 10202,
+          "collision_record_count": 2,
+          "collision_records": [
+            {
+              "kind": 0,
+              "opaque_u8_1": 0,
+              "opaque_u8_2": 0,
+              "material_id": 305,
+              "point": [
+                371255.625,
+                544664.8125,
+                259312.796875
+              ]
+            },
+            {
+              "kind": 0,
+              "opaque_u8_1": 0,
+              "opaque_u8_2": 1,
+              "material_id": 305,
+              "point": [
+                371267.40625,
+                544665.8125,
+                259316.6875
+              ]
+            }
+          ],
+          "hit_tag62": 2,
+          "hit_field71": 30,
+          "hit_field78": 384,
+          "hit_flag83": 1,
+          "hit_field100": 0,
+          "part_id": 2,
+          "target_path_id": 30,
+          "target_path_sequence": 0,
+          "target_path_use_c": 0,
+          "on_vehicle": 0,
+          "shooter_path_id": 384,
+          "shooter_path_sequence": 0,
+          "shooter_path_use_c": 1,
+          "shoot_id": 0,
+          "bullet_id": 1,
+          "ratio": 100,
+          "pellet_index": 0,
+          "gun_origin": [
+            370499.84375,
+            544599.9375,
+            259062.703125
+          ],
+          "target_stand": [
+            371500,
+            544686,
+            259300
+          ],
+          "hit_impact": [
+            371500.625,
+            544685.875,
+            259393.859375
+          ],
+          "validation": "diagnostic_ray_material",
+          "penetration": {
+            "mesh_id": "iceland-demo-rock",
+            "material_id": 305,
+            "source_faces": [
+              2066,
+              2065
+            ],
+            "original_server_policy": false,
+            "energy_initial": 47.0,
+            "energy_after": 27.25587746449504,
+            "penetration_power": 2.5,
+            "thickness_cm": 12.448726955827185,
+            "entry": [
+              371255.6278158545,
+              544664.8369904325,
+              259312.79036140468
+            ],
+            "exit": [
+              371267.40724391514,
+              544665.8484947936,
+              259316.68814748302
+            ]
+          }
+        },
+        {
+          "sequence": 8949,
+          "timestamp": "2026-10-16T16:32:26.379044+00:00",
+          "kind": "actor_probe",
+          "synthetic": true,
+          "action": "hit_damage",
+          "target": "0x2040000123460",
+          "counter": 2,
+          "tick": 12538,
+          "damage": 100,
+          "hp": 800,
+          "absorbed": 0,
+          "armor_durability": 0,
+          "armor_definition": 0,
+          "experimental": true,
+          "hit_feedback_command": "0x11eb",
+          "gun_definition": 10202,
+          "collision_record_count": 0,
+          "collision_records": [],
+          "hit_tag62": 2,
+          "hit_field71": 30,
+          "hit_field78": 384,
+          "hit_flag83": 1,
+          "hit_field100": 0,
+          "part_id": 2,
+          "target_path_id": 30,
+          "target_path_sequence": 0,
+          "target_path_use_c": 0,
+          "on_vehicle": 0,
+          "shooter_path_id": 384,
+          "shooter_path_sequence": 0,
+          "shooter_path_use_c": 1,
+          "shoot_id": 1,
+          "bullet_id": 2,
+          "ratio": 100,
+          "pellet_index": 0,
+          "gun_origin": [
+            370499.03125,
+            544599.875,
+            259063.578125
+          ],
+          "target_stand": [
+            371500,
+            544686,
+            259300
+          ],
+          "hit_impact": [
+            371488.03125,
+            544684.4375,
+            259411.28125
+          ],
+          "validation": "diagnostic_ray_material",
+          "penetration": {}
+        },
+        {
+          "sequence": 16234,
+          "timestamp": "2026-10-16T16:41:15.184274+00:00",
+          "kind": "actor_probe",
+          "synthetic": true,
+          "action": "hit_damage",
+          "target": "0x2040000123460",
+          "counter": 3,
+          "tick": 25758,
+          "damage": 100,
+          "hp": 700,
+          "absorbed": 0,
+          "armor_durability": 0,
+          "armor_definition": 0,
+          "experimental": true,
+          "hit_feedback_command": "0x11eb",
+          "gun_definition": 10201,
+          "collision_record_count": 0,
+          "collision_records": [],
+          "hit_tag62": 2,
+          "hit_field71": 30,
+          "hit_field78": 384,
+          "hit_flag83": 1,
+          "hit_field100": 0,
+          "part_id": 2,
+          "target_path_id": 30,
+          "target_path_sequence": 0,
+          "target_path_use_c": 0,
+          "on_vehicle": 0,
+          "shooter_path_id": 384,
+          "shooter_path_sequence": 0,
+          "shooter_path_use_c": 1,
+          "shoot_id": 2,
+          "bullet_id": 3,
+          "ratio": 100,
+          "pellet_index": 0,
+          "gun_origin": [
+            370496.5,
+            544599.625,
+            259062.609375
+          ],
+          "target_stand": [
+            371500,
+            544686,
+            259300
+          ],
+          "hit_impact": [
+            371496.90625,
+            544680.875,
+            259413.984375
+          ],
+          "validation": "diagnostic_ray_material",
+          "penetration": {}
+        }
+      ]
+    },
+    {
+      "run": "recovery-gun06-material-M4-20261016-024",
+      "hashes_equal": true,
+      "exit": "124",
+      "hits": []
+    }
+  ]
+}

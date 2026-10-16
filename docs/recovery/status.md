@@ -51,18 +51,18 @@
 | 26 | INV04 | Частичные stack и остаток pickup | baseline | 90 | Полныйcatalog/stackpages/Windows; cold99twoammo fullbag/drop/partial/handoff сохраняютколичество |
 | 33 | GUN01 | Стрельба Citori и магазин | baseline | 90 | Проверить пустой магазин и повтор11da |
 | 34 | INV06 | Смена оружия и equipment slots | baseline | 82.5 | Windows W16-03/04: drop/repick иswap трёх экземпляров с ихclip/parts; grounddrag и3slots пользователь уже подтвердил |
-| 35 | GUN02 | Перезарядка и резерв Citori | baseline | 90 | Убрать native анимацию/звук R при полном магазине: Windows3reload_noop17/14 ammo unchanged. Сначала scoped trace клиента/отмены; затем CSVW18-01..03, не просить повтор безисправления. |
+| 35 | GUN02 | Перезарядка и резерв Citori | baseline | 90 | Windows W18-01..03: полная/обычная R после capacity fix; Citori374/handoff отдельно. |
 | 36 | HP01 | Синхронизация HP/максимума | baseline | 90 | Windows HP0/death; revive/downed отдельная исходная семантика, не выводить из1069. |
 | 37 | GUN05 | Уведомление о попадании и HP цели | baseline | 92.5 | WindowsW17 body/head/armor/dead UI и audible sound подтверждены пользователем+13hit/11EB. Далее originalhurt GUN07 и repeated target lifecycle; W17 целиком не повторять. |
-| 38 | GUN07 | Исходный базовый урон и hit-zone | external_blocked | 12.5 | Producer140D09590(return140D095D6) установлен; нужен original authoritative hurt/provider. Хвост11DD surfaces/unit разобран; energy loss не равен wire ratio/HP. |
+| 38 | GUN07 | Исходный базовый урон и hit-zone | external_blocked | 12.5 | Producer140D09590 (return140D095D6) установлен; нужен original authoritative hurt/provider. Client energy/source geometry не определяют HP/head/armor. |
 | 39 | HP02 | Прочность жилета/шлема: передача | baseline | 90 | HP03/HP04: originalhurt consumer или sanitized weapon/zone/armor/range/HP/durable; новыйWindows0/1 drop/repick. |
 | 40 | HP03 | Броня: снижение урона | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
 | 41 | HP04 | Расход/разрушение брони от удара | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
-| 43 | GUN06 | Серверная валидация raycast/LOS | baseline | 67.5 | Opt-in material/thickness policy и count/distance; source heightfield2112² уже читается безSDK. Наземный участок loot/NPC проверить по terrain+staticobjects, сохраняя верхние этажи; origin authority/lagcomp отдельно. |
+| 43 | GUN06 | Серверная валидация raycast/LOS | baseline | 67.5 | Native M4 through отдельно; затем смешанные материалы/count/distance/origin/spread. Material mode только opt-in. |
 | 71 | EVAC02 | Трос: взаимодействие/подъём/посадка | baseline | 90 | Ранний native/tutor/time gate дляhover75s; Windows/interrupt отдельный повтор |
 | 75 | OPS05 | Воспроизводимый полный одиночный цикл | baseline | 90 | Windows повтор полного source-kit цикла с pickup M4/первого аирдропа/эвакуацией; исходный RNG/баланс отдельно |
 | 115 | MAP01 | Разрушение стекла и частей статических объектов | baseline | 57.5 | Windows repeat WinterWindows; source classification/materials and remote snapshot; retain original physics caveat |
 
 Источники, адреса, ограничения, критерии и этапы каждой механики — в [mechanics-2022.csv](mechanics-2022.csv). Порядок работ — в [README](README.md).
 
-SHA-256 CSV: `0c32b7c505e715bc259baca72f8e21f86b211a44cdc91e8c9ba26ded680df655`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.
+SHA-256 CSV: `10162f40d210ad534e3f5d092507f4a203ff8cf065b594d37c6207a272a02d74`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.

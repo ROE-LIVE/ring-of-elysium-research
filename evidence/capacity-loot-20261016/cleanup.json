@@ -1,0 +1,27 @@
+[
+  {
+    "run": "recovery-gun02-fullmag-20261016-020",
+    "exit": "143",
+    "selected_exe_dll_hashes_equal": true
+  },
+  {
+    "run": "recovery-gun02-capacity-20261016-021",
+    "exit": "143",
+    "selected_exe_dll_hashes_equal": true
+  },
+  {
+    "run": "recovery-loot-surface-20261016-022",
+    "exit": "143",
+    "selected_exe_dll_hashes_equal": true
+  },
+  {
+    "run": "recovery-gun06-material-policy-20261016-023",
+    "exit": "124",
+    "selected_exe_dll_hashes_equal": true
+  },
+  {
+    "run": "recovery-gun06-material-M4-20261016-024",
+    "exit": "124",
+    "selected_exe_dll_hashes_equal": true
+  }
+]

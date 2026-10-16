@@ -1,0 +1,312 @@
+[
+  {
+    "sequence": 2,
+    "timestamp": "2026-10-16T16:00:56.006159+00:00",
+    "kind": "loot_catalog_ready",
+    "count": 8,
+    "radius_cm": 2000,
+    "synthetic": true,
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 2939,
+    "timestamp": "2026-10-16T16:02:26.954505+00:00",
+    "kind": "winter_kit_initialized",
+    "synthetic": true,
+    "definition": 200907,
+    "starter_items": [
+      [
+        20002,
+        1
+      ],
+      [
+        30003,
+        15
+      ],
+      [
+        70001,
+        5
+      ],
+      [
+        200907,
+        1
+      ]
+    ],
+    "starter_item_source": "INITITEM.XML/map16010/stage1",
+    "starter_magazine_policy": "full_capacity_local",
+    "weapon_slots": 3
+  },
+  {
+    "sequence": 2958,
+    "timestamp": "2026-10-16T16:02:26.960882+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 8,
+    "removed": 0,
+    "visible": 8,
+    "spawned_indexes": [
+      190500,
+      190501,
+      190502,
+      190503,
+      190504,
+      190505,
+      190506,
+      190507
+    ],
+    "removed_indexes": [],
+    "catalog_total": 8,
+    "position": [
+      365100,
+      544000,
+      259107
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 2984,
+    "timestamp": "2026-10-16T16:02:26.972625+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "hand",
+    "slot": 1,
+    "reload_cancelled": false
+  },
+  {
+    "sequence": 6513,
+    "timestamp": "2026-10-16T16:06:27.327180+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "pickup",
+    "index": 190500,
+    "quantity": 1,
+    "reserve": 0,
+    "ammunition_quantity": null
+  },
+  {
+    "sequence": 6530,
+    "timestamp": "2026-10-16T16:06:28.064239+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 0,
+    "removed": 1,
+    "visible": 7,
+    "spawned_indexes": [],
+    "removed_indexes": [
+      190500
+    ],
+    "catalog_total": 8,
+    "position": [
+      365100,
+      544000,
+      259107
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 6564,
+    "timestamp": "2026-10-16T16:06:29.503254+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "pickup",
+    "index": 190501,
+    "quantity": 1,
+    "reserve": 0,
+    "ammunition_quantity": null
+  },
+  {
+    "sequence": 6582,
+    "timestamp": "2026-10-16T16:06:30.074549+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 0,
+    "removed": 1,
+    "visible": 6,
+    "spawned_indexes": [],
+    "removed_indexes": [
+      190501
+    ],
+    "catalog_total": 8,
+    "position": [
+      365100,
+      544000,
+      259107
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 6604,
+    "timestamp": "2026-10-16T16:06:30.826252+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "pickup",
+    "index": 190502,
+    "quantity": 60,
+    "reserve": 0,
+    "ammunition_quantity": 60
+  },
+  {
+    "sequence": 6622,
+    "timestamp": "2026-10-16T16:06:31.083438+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 0,
+    "removed": 1,
+    "visible": 5,
+    "spawned_indexes": [],
+    "removed_indexes": [
+      190502
+    ],
+    "catalog_total": 8,
+    "position": [
+      365100,
+      544000,
+      259107
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 6656,
+    "timestamp": "2026-10-16T16:06:32.296895+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "pickup",
+    "index": 190503,
+    "quantity": 60,
+    "reserve": 0,
+    "ammunition_quantity": 60
+  },
+  {
+    "sequence": 6674,
+    "timestamp": "2026-10-16T16:06:33.087258+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 0,
+    "removed": 1,
+    "visible": 4,
+    "spawned_indexes": [],
+    "removed_indexes": [
+      190503
+    ],
+    "catalog_total": 8,
+    "position": [
+      365100,
+      544000,
+      259107
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 6696,
+    "timestamp": "2026-10-16T16:06:33.722850+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "pickup",
+    "index": 190507,
+    "quantity": 1,
+    "reserve": 0,
+    "ammunition_quantity": null
+  },
+  {
+    "sequence": 6714,
+    "timestamp": "2026-10-16T16:06:34.099739+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 0,
+    "removed": 1,
+    "visible": 3,
+    "spawned_indexes": [],
+    "removed_indexes": [
+      190507
+    ],
+    "catalog_total": 8,
+    "position": [
+      365100,
+      544000,
+      259107
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 6753,
+    "timestamp": "2026-10-16T16:06:35.145919+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "pickup",
+    "index": 190506,
+    "quantity": 1,
+    "reserve": 0,
+    "ammunition_quantity": null
+  },
+  {
+    "sequence": 6771,
+    "timestamp": "2026-10-16T16:06:36.096038+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 0,
+    "removed": 1,
+    "visible": 2,
+    "spawned_indexes": [],
+    "removed_indexes": [
+      190506
+    ],
+    "catalog_total": 8,
+    "position": [
+      365100,
+      544000,
+      259107
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 8876,
+    "timestamp": "2026-10-16T16:08:42.741387+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 0,
+    "removed": 2,
+    "visible": 0,
+    "spawned_indexes": [],
+    "removed_indexes": [
+      190504,
+      190505
+    ],
+    "catalog_total": 8,
+    "position": [
+      367453,
+      544076,
+      258974
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 9185,
+    "timestamp": "2026-10-16T16:08:47.753629+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 2,
+    "removed": 0,
+    "visible": 2,
+    "spawned_indexes": [
+      190504,
+      190505
+    ],
+    "removed_indexes": [],
+    "catalog_total": 8,
+    "position": [
+      367051,
+      544076,
+      258999
+    ],
+    "original_aoi_verified": false
+  }
+]

@@ -1,3 +1,5 @@
+16.10: Windows150144 принят; fullR current17/capacity2 исправлен через ITEM_DATA+54. Native021 Glock/M4/AK/40mag и022smoke8/AOI подтверждены. Opt-in oneRock:023AKthrough/sourceenergy;024M4thickstop, M4through не подтверждён. Windows нового fix — W18 CSV. 10мишеней пока не реализованы. См.docs/SESSION-RESULT-20261016-AFTERNOON.md.
+
 16.10: WindowsW17 20261016T134206-fafd00 принят: AKмодули/сохранениеоружия, штатныеотметки+audible/head/kill/Rescued1. ПолныйGlockR17/14 запускаетанимацию/звук, ammounchanged; открытGUN02. НовыетестыCSVW18послеисправления; не повторятьW17целиком. docs/WINDOWS-W17-REVIEW-20261016.txt.
 
 # Состояние16.10.2026

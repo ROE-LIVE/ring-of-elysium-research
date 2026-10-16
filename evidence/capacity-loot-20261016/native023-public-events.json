@@ -1,0 +1,703 @@
+[
+  {
+    "sequence": 3010,
+    "timestamp": "2026-10-16T16:25:35.497488+00:00",
+    "kind": "winter_kit_initialized",
+    "synthetic": true,
+    "definition": 200907,
+    "starter_items": [
+      [
+        20002,
+        1
+      ],
+      [
+        30003,
+        15
+      ],
+      [
+        70001,
+        5
+      ],
+      [
+        200907,
+        1
+      ]
+    ],
+    "starter_item_source": "INITITEM.XML/map16010/stage1",
+    "starter_magazine_policy": "full_capacity_local",
+    "weapon_slots": 3
+  },
+  {
+    "sequence": 3025,
+    "timestamp": "2026-10-16T16:25:35.504565+00:00",
+    "kind": "actor_probe",
+    "action": "actor_created",
+    "uid": "0x2040000123460",
+    "synthetic": true
+  },
+  {
+    "sequence": 3030,
+    "timestamp": "2026-10-16T16:25:35.505671+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 9,
+    "removed": 0,
+    "visible": 9,
+    "spawned_indexes": [
+      190500,
+      190501,
+      190502,
+      190503,
+      190504,
+      190505,
+      190506,
+      190507,
+      190508
+    ],
+    "removed_indexes": [],
+    "catalog_total": 9,
+    "position": [
+      370500,
+      544600,
+      259100
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 3052,
+    "timestamp": "2026-10-16T16:25:35.515794+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "hand",
+    "slot": 1,
+    "reload_cancelled": false
+  },
+  {
+    "sequence": 4668,
+    "timestamp": "2026-10-16T16:27:22.858744+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "pickup",
+    "index": 190501,
+    "quantity": 1,
+    "reserve": 0,
+    "ammunition_quantity": null
+  },
+  {
+    "sequence": 4685,
+    "timestamp": "2026-10-16T16:27:23.015431+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 0,
+    "removed": 1,
+    "visible": 8,
+    "spawned_indexes": [],
+    "removed_indexes": [
+      190501
+    ],
+    "catalog_total": 9,
+    "position": [
+      370500,
+      544600,
+      259100
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 4717,
+    "timestamp": "2026-10-16T16:27:24.927337+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "pickup",
+    "index": 190508,
+    "definition": 40305,
+    "quantity": 1,
+    "gun_definition": 10202,
+    "instance_uid": "0x1e00000100000002"
+  },
+  {
+    "sequence": 4739,
+    "timestamp": "2026-10-16T16:27:25.028792+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 0,
+    "removed": 1,
+    "visible": 7,
+    "spawned_indexes": [],
+    "removed_indexes": [
+      190508
+    ],
+    "catalog_total": 9,
+    "position": [
+      370500,
+      544600,
+      259100
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 4771,
+    "timestamp": "2026-10-16T16:27:26.206363+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "pickup",
+    "index": 190503,
+    "quantity": 60,
+    "reserve": 0,
+    "ammunition_quantity": 60
+  },
+  {
+    "sequence": 4788,
+    "timestamp": "2026-10-16T16:27:27.032724+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 0,
+    "removed": 1,
+    "visible": 6,
+    "spawned_indexes": [],
+    "removed_indexes": [
+      190503
+    ],
+    "catalog_total": 9,
+    "position": [
+      370500,
+      544600,
+      259100
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 4835,
+    "timestamp": "2026-10-16T16:27:29.647979+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire_finish",
+    "counter": 1
+  },
+  {
+    "sequence": 4843,
+    "timestamp": "2026-10-16T16:27:29.648962+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "hand",
+    "slot": 0,
+    "reload_cancelled": false
+  },
+  {
+    "sequence": 4851,
+    "timestamp": "2026-10-16T16:27:29.649842+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "hand",
+    "slot": 2,
+    "reload_cancelled": false
+  },
+  {
+    "sequence": 4859,
+    "timestamp": "2026-10-16T16:27:29.976081+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire_finish",
+    "counter": 1
+  },
+  {
+    "sequence": 4867,
+    "timestamp": "2026-10-16T16:27:29.977873+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "reload_started",
+    "slot": 2,
+    "seconds": 3.07,
+    "clip": 0,
+    "gun_definition": 10202,
+    "ammunition_definition": 30002,
+    "ammunition_quantity": 60
+  },
+  {
+    "sequence": 4922,
+    "timestamp": "2026-10-16T16:27:33.063410+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "reload",
+    "slot": 2,
+    "amount": 30,
+    "clip": 30,
+    "reserve": 0,
+    "gun_definition": 10202,
+    "ammunition_definition": 30002,
+    "ammunition_quantity": 30,
+    "update": "timed_delta"
+  },
+  {
+    "sequence": 6352,
+    "timestamp": "2026-10-16T16:29:16.362327+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire",
+    "counter": 1,
+    "clip": 29,
+    "reserve": 0,
+    "slot": 2,
+    "gun_definition": 10202,
+    "ammunition_definition": 30002,
+    "ammunition_quantity": 30,
+    "instance_uid": "0x1e00000100000001"
+  },
+  {
+    "sequence": 6358,
+    "timestamp": "2026-10-16T16:29:16.363086+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire_finish",
+    "counter": 2
+  },
+  {
+    "sequence": 6372,
+    "timestamp": "2026-10-16T16:29:16.385806+00:00",
+    "kind": "actor_probe",
+    "synthetic": true,
+    "action": "hit_damage",
+    "target": "0x2040000123460",
+    "counter": 1,
+    "tick": 7788,
+    "damage": 100,
+    "hp": 900,
+    "absorbed": 0,
+    "armor_durability": 0,
+    "armor_definition": 0,
+    "experimental": true,
+    "hit_feedback_command": "0x11eb",
+    "gun_definition": 10202,
+    "collision_record_count": 2,
+    "collision_records": [
+      {
+        "kind": 0,
+        "opaque_u8_1": 0,
+        "opaque_u8_2": 0,
+        "material_id": 305,
+        "point": [
+          371255.625,
+          544664.8125,
+          259312.796875
+        ]
+      },
+      {
+        "kind": 0,
+        "opaque_u8_1": 0,
+        "opaque_u8_2": 1,
+        "material_id": 305,
+        "point": [
+          371267.40625,
+          544665.8125,
+          259316.6875
+        ]
+      }
+    ],
+    "hit_tag62": 2,
+    "hit_field71": 30,
+    "hit_field78": 384,
+    "hit_flag83": 1,
+    "hit_field100": 0,
+    "part_id": 2,
+    "target_path_id": 30,
+    "target_path_sequence": 0,
+    "target_path_use_c": 0,
+    "on_vehicle": 0,
+    "shooter_path_id": 384,
+    "shooter_path_sequence": 0,
+    "shooter_path_use_c": 1,
+    "shoot_id": 0,
+    "bullet_id": 1,
+    "ratio": 100,
+    "pellet_index": 0,
+    "gun_origin": [
+      370499.84375,
+      544599.9375,
+      259062.703125
+    ],
+    "target_stand": [
+      371500,
+      544686,
+      259300
+    ],
+    "hit_impact": [
+      371500.625,
+      544685.875,
+      259393.859375
+    ],
+    "validation": "diagnostic_ray_material",
+    "penetration": {
+      "mesh_id": "iceland-demo-rock",
+      "material_id": 305,
+      "source_faces": [
+        2066,
+        2065
+      ],
+      "original_server_policy": false,
+      "energy_initial": 47.0,
+      "energy_after": 27.25587746449504,
+      "penetration_power": 2.5,
+      "thickness_cm": 12.448726955827185,
+      "entry": [
+        371255.6278158545,
+        544664.8369904325,
+        259312.79036140468
+      ],
+      "exit": [
+        371267.40724391514,
+        544665.8484947936,
+        259316.68814748302
+      ]
+    }
+  },
+  {
+    "sequence": 8929,
+    "timestamp": "2026-10-16T16:32:26.371378+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire",
+    "counter": 2,
+    "clip": 28,
+    "reserve": 0,
+    "slot": 2,
+    "gun_definition": 10202,
+    "ammunition_definition": 30002,
+    "ammunition_quantity": 30,
+    "instance_uid": "0x1e00000100000001"
+  },
+  {
+    "sequence": 8935,
+    "timestamp": "2026-10-16T16:32:26.372712+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire_finish",
+    "counter": 3
+  },
+  {
+    "sequence": 8949,
+    "timestamp": "2026-10-16T16:32:26.379044+00:00",
+    "kind": "actor_probe",
+    "synthetic": true,
+    "action": "hit_damage",
+    "target": "0x2040000123460",
+    "counter": 2,
+    "tick": 12538,
+    "damage": 100,
+    "hp": 800,
+    "absorbed": 0,
+    "armor_durability": 0,
+    "armor_definition": 0,
+    "experimental": true,
+    "hit_feedback_command": "0x11eb",
+    "gun_definition": 10202,
+    "collision_record_count": 0,
+    "collision_records": [],
+    "hit_tag62": 2,
+    "hit_field71": 30,
+    "hit_field78": 384,
+    "hit_flag83": 1,
+    "hit_field100": 0,
+    "part_id": 2,
+    "target_path_id": 30,
+    "target_path_sequence": 0,
+    "target_path_use_c": 0,
+    "on_vehicle": 0,
+    "shooter_path_id": 384,
+    "shooter_path_sequence": 0,
+    "shooter_path_use_c": 1,
+    "shoot_id": 1,
+    "bullet_id": 2,
+    "ratio": 100,
+    "pellet_index": 0,
+    "gun_origin": [
+      370499.03125,
+      544599.875,
+      259063.578125
+    ],
+    "target_stand": [
+      371500,
+      544686,
+      259300
+    ],
+    "hit_impact": [
+      371488.03125,
+      544684.4375,
+      259411.28125
+    ],
+    "validation": "diagnostic_ray_material",
+    "penetration": {}
+  },
+  {
+    "sequence": 11727,
+    "timestamp": "2026-10-16T16:35:52.520828+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "pickup",
+    "index": 190500,
+    "quantity": 1,
+    "reserve": 0,
+    "ammunition_quantity": null
+  },
+  {
+    "sequence": 11750,
+    "timestamp": "2026-10-16T16:35:53.227546+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 0,
+    "removed": 1,
+    "visible": 5,
+    "spawned_indexes": [],
+    "removed_indexes": [
+      190500
+    ],
+    "catalog_total": 9,
+    "position": [
+      370500,
+      544600,
+      259100
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 11772,
+    "timestamp": "2026-10-16T16:35:53.825872+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "pickup",
+    "index": 190502,
+    "quantity": 60,
+    "reserve": 0,
+    "ammunition_quantity": 60
+  },
+  {
+    "sequence": 11790,
+    "timestamp": "2026-10-16T16:35:54.240298+00:00",
+    "kind": "loot_catalog_probe",
+    "synthetic": true,
+    "action": "catalog_visibility",
+    "spawned": 0,
+    "removed": 1,
+    "visible": 4,
+    "spawned_indexes": [],
+    "removed_indexes": [
+      190502
+    ],
+    "catalog_total": 9,
+    "position": [
+      370500,
+      544600,
+      259100
+    ],
+    "original_aoi_verified": false
+  },
+  {
+    "sequence": 11817,
+    "timestamp": "2026-10-16T16:35:55.184186+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "attachment_removed",
+    "definition": 40305,
+    "gun_definition": 10202,
+    "instance_uid": "0x1e00000100000002"
+  },
+  {
+    "sequence": 11898,
+    "timestamp": "2026-10-16T16:35:58.526191+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire_finish",
+    "counter": 3
+  },
+  {
+    "sequence": 11906,
+    "timestamp": "2026-10-16T16:35:58.528381+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "hand",
+    "slot": 0,
+    "reload_cancelled": false
+  },
+  {
+    "sequence": 11914,
+    "timestamp": "2026-10-16T16:35:58.530243+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "hand",
+    "slot": 3,
+    "reload_cancelled": false
+  },
+  {
+    "sequence": 11922,
+    "timestamp": "2026-10-16T16:35:58.859941+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire_finish",
+    "counter": 3
+  },
+  {
+    "sequence": 11930,
+    "timestamp": "2026-10-16T16:35:58.872194+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "reload_started",
+    "slot": 3,
+    "seconds": 2.567,
+    "clip": 0,
+    "gun_definition": 10201,
+    "ammunition_definition": 30001,
+    "ammunition_quantity": 60
+  },
+  {
+    "sequence": 11990,
+    "timestamp": "2026-10-16T16:36:01.922403+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "reload",
+    "slot": 3,
+    "amount": 30,
+    "clip": 30,
+    "reserve": 0,
+    "gun_definition": 10201,
+    "ammunition_definition": 30001,
+    "ammunition_quantity": 30,
+    "update": "timed_delta"
+  },
+  {
+    "sequence": 12059,
+    "timestamp": "2026-10-16T16:36:05.649229+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "attachment_installed",
+    "definition": 40305,
+    "gun_definition": 10201,
+    "instance_uid": "0x1e00000100000002"
+  },
+  {
+    "sequence": 16215,
+    "timestamp": "2026-10-16T16:41:15.172047+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire",
+    "counter": 3,
+    "clip": 29,
+    "reserve": 0,
+    "slot": 3,
+    "gun_definition": 10201,
+    "ammunition_definition": 30001,
+    "ammunition_quantity": 30,
+    "instance_uid": "0x1e00000100000003"
+  },
+  {
+    "sequence": 16234,
+    "timestamp": "2026-10-16T16:41:15.184274+00:00",
+    "kind": "actor_probe",
+    "synthetic": true,
+    "action": "hit_damage",
+    "target": "0x2040000123460",
+    "counter": 3,
+    "tick": 25758,
+    "damage": 100,
+    "hp": 700,
+    "absorbed": 0,
+    "armor_durability": 0,
+    "armor_definition": 0,
+    "experimental": true,
+    "hit_feedback_command": "0x11eb",
+    "gun_definition": 10201,
+    "collision_record_count": 0,
+    "collision_records": [],
+    "hit_tag62": 2,
+    "hit_field71": 30,
+    "hit_field78": 384,
+    "hit_flag83": 1,
+    "hit_field100": 0,
+    "part_id": 2,
+    "target_path_id": 30,
+    "target_path_sequence": 0,
+    "target_path_use_c": 0,
+    "on_vehicle": 0,
+    "shooter_path_id": 384,
+    "shooter_path_sequence": 0,
+    "shooter_path_use_c": 1,
+    "shoot_id": 2,
+    "bullet_id": 3,
+    "ratio": 100,
+    "pellet_index": 0,
+    "gun_origin": [
+      370496.5,
+      544599.625,
+      259062.609375
+    ],
+    "target_stand": [
+      371500,
+      544686,
+      259300
+    ],
+    "hit_impact": [
+      371496.90625,
+      544680.875,
+      259413.984375
+    ],
+    "validation": "diagnostic_ray_material",
+    "penetration": {}
+  },
+  {
+    "sequence": 16241,
+    "timestamp": "2026-10-16T16:41:15.215900+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire_finish",
+    "counter": 4
+  },
+  {
+    "sequence": 18729,
+    "timestamp": "2026-10-16T16:44:21.574167+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire",
+    "counter": 4,
+    "clip": 28,
+    "reserve": 0,
+    "slot": 3,
+    "gun_definition": 10201,
+    "ammunition_definition": 30001,
+    "ammunition_quantity": 30,
+    "instance_uid": "0x1e00000100000003"
+  },
+  {
+    "sequence": 18741,
+    "timestamp": "2026-10-16T16:44:21.608068+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire_finish",
+    "counter": 5
+  },
+  {
+    "sequence": 20364,
+    "timestamp": "2026-10-16T16:46:22.465932+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire",
+    "counter": 5,
+    "clip": 27,
+    "reserve": 0,
+    "slot": 3,
+    "gun_definition": 10201,
+    "ammunition_definition": 30001,
+    "ammunition_quantity": 30,
+    "instance_uid": "0x1e00000100000003"
+  },
+  {
+    "sequence": 20376,
+    "timestamp": "2026-10-16T16:46:22.508926+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire_finish",
+    "counter": 6
+  }
+]
