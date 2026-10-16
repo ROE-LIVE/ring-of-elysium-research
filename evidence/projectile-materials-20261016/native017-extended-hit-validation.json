@@ -1,0 +1,206 @@
+{
+  "build": "2022-0.2.989.0-x64",
+  "scope": "Native017 genuine AK single fire through thin Rock305; no server geometry profile; fixed diagnostic damage",
+  "run": "recovery-gun06-variable-hit-20261016-017",
+  "events": [
+    {
+      "sequence": 8106,
+      "timestamp": "2026-10-16T06:22:58.717718+00:00",
+      "kind": "weapon_probe",
+      "synthetic": true,
+      "action": "fire",
+      "counter": 1,
+      "clip": 29,
+      "reserve": 0,
+      "slot": 2,
+      "gun_definition": 10202,
+      "ammunition_definition": 30002,
+      "ammunition_quantity": 30,
+      "instance_uid": "0x1e00000100000001"
+    },
+    {
+      "sequence": 8125,
+      "timestamp": "2026-10-16T06:22:58.720296+00:00",
+      "kind": "actor_probe",
+      "synthetic": true,
+      "action": "hit_damage",
+      "target": "0x2040000123460",
+      "counter": 1,
+      "tick": 11103,
+      "pellet": 0,
+      "damage": 100,
+      "hp": 900,
+      "absorbed": 0,
+      "armor_durability": 0,
+      "armor_definition": 0,
+      "experimental": true,
+      "hit_feedback_command": "0x11eb",
+      "gun_definition": 10202,
+      "collision_record_count": 0,
+      "collision_records": [],
+      "hit_tag62": 2,
+      "hit_field71": 30,
+      "hit_field78": 385,
+      "hit_flag83": 1,
+      "hit_field100": 0,
+      "part_id": 2,
+      "target_path_id": 30,
+      "target_path_sequence": 0,
+      "target_path_use_c": 0,
+      "on_vehicle": 0,
+      "shooter_path_id": 385,
+      "shooter_path_sequence": 0,
+      "shooter_path_use_c": 1,
+      "shoot_id": 0,
+      "bullet_id": 1,
+      "ratio": 100,
+      "pellet_index": 0,
+      "gun_origin": [
+        370499.8125,
+        544599.9375,
+        259062.78125
+      ],
+      "target_stand": [
+        371500,
+        544686,
+        259300
+      ],
+      "hit_impact": [
+        371501.1875,
+        544685.3125,
+        259397.8125
+      ]
+    },
+    {
+      "sequence": 8876,
+      "timestamp": "2026-10-16T06:23:51.257570+00:00",
+      "kind": "weapon_probe",
+      "synthetic": true,
+      "action": "fire",
+      "counter": 2,
+      "clip": 28,
+      "reserve": 0,
+      "slot": 2,
+      "gun_definition": 10202,
+      "ammunition_definition": 30002,
+      "ammunition_quantity": 30,
+      "instance_uid": "0x1e00000100000001"
+    },
+    {
+      "sequence": 8893,
+      "timestamp": "2026-10-16T06:23:51.267546+00:00",
+      "kind": "application",
+      "command": "0x11dd",
+      "body_length": 144,
+      "application_sequence": 1099,
+      "stamp": 12417
+    },
+    {
+      "sequence": 8894,
+      "timestamp": "2026-10-16T06:23:51.267748+00:00",
+      "kind": "gameplay_frame_send",
+      "commands": [
+        "0x1069",
+        "0x11ea",
+        "0x11eb"
+      ],
+      "frame_sequence": 955,
+      "udp_sequence_start": 268497940,
+      "source_port": 18001,
+      "destination_port": 49505,
+      "frame_length": 173,
+      "encrypted_body_length": 144
+    },
+    {
+      "sequence": 8896,
+      "timestamp": "2026-10-16T06:23:51.268047+00:00",
+      "kind": "actor_probe",
+      "synthetic": true,
+      "action": "hit_damage",
+      "target": "0x2040000123460",
+      "counter": 2,
+      "tick": 12417,
+      "pellet": 1,
+      "damage": 100,
+      "hp": 800,
+      "absorbed": 0,
+      "armor_durability": 0,
+      "armor_definition": 0,
+      "experimental": true,
+      "hit_feedback_command": "0x11eb",
+      "gun_definition": 10202,
+      "collision_record_count": 2,
+      "collision_records": [
+        {
+          "kind": 0,
+          "opaque_u8_1": 0,
+          "opaque_u8_2": 0,
+          "material_id": 305,
+          "point": [
+            371255.8125,
+            544667.625,
+            259313.375
+          ]
+        },
+        {
+          "kind": 0,
+          "opaque_u8_1": 0,
+          "opaque_u8_2": 1,
+          "material_id": 305,
+          "point": [
+            371267.59375,
+            544668.6875,
+            259317.265625
+          ]
+        }
+      ],
+      "hit_tag62": 2,
+      "hit_field71": 30,
+      "hit_field78": 385,
+      "hit_flag83": 1,
+      "hit_field100": 0,
+      "part_id": 2,
+      "target_path_id": 30,
+      "target_path_sequence": 0,
+      "target_path_use_c": 0,
+      "on_vehicle": 0,
+      "shooter_path_id": 385,
+      "shooter_path_sequence": 0,
+      "shooter_path_use_c": 1,
+      "shoot_id": 1,
+      "bullet_id": 2,
+      "ratio": 100,
+      "pellet_index": 0,
+      "gun_origin": [
+        370499.75,
+        544600.0,
+        259062.765625
+      ],
+      "target_stand": [
+        371500,
+        544686,
+        259300
+      ],
+      "hit_impact": [
+        371493.78125,
+        544688.9375,
+        259392.234375
+      ]
+    }
+  ],
+  "native_trace": [
+    "MATERIAL {\"id\": 305, \"modifier_lost\": [0.44999998807907104, 0.1599999964237213], \"no_average\": 0, \"flag_1d0\": 0, \"power\": 2.5, \"energy\": 47.0}",
+    "FORMULA_LOSS {\"before\": 47.0, \"loss\": 19.74545669555664, \"after_predicted\": 27.25454330444336}",
+    "MATERIAL {\"id\": 305, \"modifier_lost\": [0.44999998807907104, 0.1599999964237213], \"no_average\": 0, \"flag_1d0\": 1, \"power\": 2.5, \"energy\": 27.25454330444336}",
+    "PENETRATION_FEEDBACK {\"part\": 2, \"damage\": 100, \"energy\": 27.25454330444336}",
+    "PENETRATION_UI {\"style\": 0, \"head\": 0}",
+    "PENETRATION_SOUND 0xcdf864c1"
+  ],
+  "audio_limit": "Wwise event call confirmed; audible output not recorded",
+  "wire_payload_length": 144,
+  "hp_before_through_hit": 900,
+  "hp_after_through_hit": 800,
+  "records": 2,
+  "energy_before": 47,
+  "energy_after": 27.25454330444336
+}

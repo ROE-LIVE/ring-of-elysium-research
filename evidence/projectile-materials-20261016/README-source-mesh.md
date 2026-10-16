@@ -1,0 +1,1 @@
+Выбранные числовые доказательства source mesh и расширенного hit2022. compare_through_ray.py — точная копия скрипта исходного workspace, требует ROE_SERVER и ресурс SFC по манифесту rock-mesh-manifest.json; из этой папки напрямую не запускать. Геометрия, клиент и пакеты не включены. Документация: ../../docs/SOURCE-COLLISION-20261016.md и ../../docs/HIT-RECORDS-20261016.md.

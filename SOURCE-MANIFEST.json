@@ -13,7 +13,7 @@
   },
   {
     "path": "AGENTS.md",
-    "sha256": "842659797c42a2d199a2ec2add4a928c105f03983d75c3a8d93811a212b1b38a"
+    "sha256": "07622e38832365b62183b1c2fca5f74310f4b972238f210a205efba222e7b424"
   },
   {
     "path": "ARCHITECTURE.md",
@@ -45,11 +45,11 @@
   },
   {
     "path": "SOURCE-INDEX.json",
-    "sha256": "b29c4f352df5fd2b792e890536407c9f791512f0a26900de544e6dea7d14c4f0"
+    "sha256": "802e9fbe6c06c3207e2e9579390ffe0ddc70dd7a125d2eed28abc3762a959e3c"
   },
   {
     "path": "STATUS.md",
-    "sha256": "016ce078b1af07140539791870134c6e2f0bbd2e13a8e14cb7ae87e3377e0790"
+    "sha256": "5254dcb84ebb4eff634bde4b9fb944ed6090efefc2c12f077a0e7f20c9883b8a"
   },
   {
     "path": "VALIDATION.md",
@@ -135,6 +135,10 @@
   {
     "path": "docs/HIT-FIELDS-20261015.md",
     "sha256": "d483e34ce6c4ea06a1bc58e165cc3c85c74072f831715be88bceee5d3803b3b2"
+  },
+  {
+    "path": "docs/HIT-RECORDS-20261016.md",
+    "sha256": "eaf5a8c04b2764fd5190348325ac2486786eb6781c8872e97a6c825e2934914f"
   },
   {
     "path": "docs/HOST-CONSOLE-20261008.md",
@@ -274,7 +278,7 @@
   },
   {
     "path": "docs/PROJECTILE-MATERIALS-20261016.md",
-    "sha256": "b5fd5845609596d61944cf5f518629859e15acf859128d81ca8cb808753db1c7"
+    "sha256": "02926fc5106ce4a7543a0a46d6b45e4b2fa1702347bc7a80191fbdfe423e8041"
   },
   {
     "path": "docs/PROTOCOL.md",
@@ -513,12 +517,20 @@
     "sha256": "91953d25af658628b8849e6cf98db615a67d96397bebfe20b5efee7325af7422"
   },
   {
+    "path": "docs/SESSION-RESULT-20261016.md",
+    "sha256": "191fa49f97f409f3ab8041563f096808e39a166bf1b665fc46049c914d1f819a"
+  },
+  {
     "path": "docs/SHARED-GROUND-20261011.md",
     "sha256": "2d5281f0829673fd431b6f8ce2c18b9a5b07b08aaf75f9ea102fe40430e8869e"
   },
   {
     "path": "docs/SIGNALS-2022.md",
     "sha256": "18fc355d85162b6443c8046a2af43afad68628b1a5cde7629540445296465804"
+  },
+  {
+    "path": "docs/SOURCE-COLLISION-20261016.md",
+    "sha256": "a4753c209585b674062efb152b758808b975505323cb384f06f5d35fdfac80a1"
   },
   {
     "path": "docs/SOURCE-CYCLE-20261015.md",
@@ -642,23 +654,23 @@
   },
   {
     "path": "docs/recovery/history.csv",
-    "sha256": "36226a05fd77efe2303042cd31b8eca4ae72ad9eaf4d7958828c0b3766a12a3b"
+    "sha256": "682e24801e60657935fd738f3de4b5a4792cda8d0480e7e56786d04a4e135b24"
   },
   {
     "path": "docs/recovery/mechanics-2022.csv",
-    "sha256": "935eff05b793b341064d7d95fe637284a3325e8e6cdc949912476756950e9520"
+    "sha256": "4600097eebbdf348a12145f245e8558e86cdacb66eb91e4804c98424ffc496f6"
   },
   {
     "path": "docs/recovery/status.md",
-    "sha256": "d8fd3876d9ebec55a328fbbcd8df57f36267845aea6bf106632be3bc1453978d"
+    "sha256": "462255cea01a301b52d2dd2cd5886a7a6ff8855927eccc84ccd7e2999304f56e"
   },
   {
     "path": "docs/recovery/updates.csv",
-    "sha256": "f97daabf4bb0ab0eed4b337e41ea76feedd0141b09a52c835bb287c7ee4aa77b"
+    "sha256": "e7e9a38cd36896b51b0c36af8076fd2234614d466d851868de346678dd401a46"
   },
   {
     "path": "docs/signals-2022.csv",
-    "sha256": "98c2316efd442320ae14303dda7154ab91734167651bf48eb2fc0007ddccc993"
+    "sha256": "8d3699b5478a130a66a5ec1162917a63a3350fac2f7c3331ce98aa79061f44d7"
   },
   {
     "path": "evidence/hit-feedback-20261016/README.md",
@@ -681,6 +693,10 @@
     "sha256": "00c2cdddbbb735eb4264c7bbf544d16fed2090920bc28a0d3d69d8dbfaf11fd3"
   },
   {
+    "path": "evidence/projectile-materials-20261016/README-source-mesh.md",
+    "sha256": "63f25ec18330d513872b7d7771b788ff6bd264e9e526f9cbc25c3df60e0ad67b"
+  },
+  {
     "path": "evidence/projectile-materials-20261016/README.md",
     "sha256": "a744828fc4ab9f1f3109641cac023e11cd3840ef0db02e222252950e5726db97"
   },
@@ -689,12 +705,28 @@
     "sha256": "16e107dc6427f6ebc257de77115cf7c427cb027cf0454effa5fee7432db42a5f"
   },
   {
+    "path": "evidence/projectile-materials-20261016/compare_through_ray.py",
+    "sha256": "774428952e862da33e654932672c2f1da3efeeb0e28530c0e6d0b7b63e303670"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/native-hit-union-codec.json",
+    "sha256": "83711560ea9d5efee732f041874be1feda10a4ce735702d1c2135b9f181829b0"
+  },
+  {
     "path": "evidence/projectile-materials-20261016/native012-ak-penetration-validation.json",
     "sha256": "8ff22f48a1ff3044570f25571005776c507c74b35911f884cab7d9a711b5bf20"
   },
   {
     "path": "evidence/projectile-materials-20261016/native012-penetration-validation.json",
     "sha256": "6170a5888d6e9ba01fd7f09104d9c34bf4a448dafeec0c7ebc56ec43a297faaa"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/native017-extended-hit-validation.json",
+    "sha256": "dc2a1a2fb9d7173a75311a8670ad78595451c8d9eb933ba6105ebe373b325eec"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/native017-selected-feedback.log",
+    "sha256": "8a3ae11c21dce865ee73399039e3985e40b57d5df545325e1de54932c4be7e10"
   },
   {
     "path": "evidence/projectile-materials-20261016/obstacle.gdb",
@@ -709,12 +741,24 @@
     "sha256": "f94207adfdb6b2cb5ebf0d564d1c36d6b74d2cc4036579b3654d8168595839ad"
   },
   {
+    "path": "evidence/projectile-materials-20261016/resource-mesh-match.json",
+    "sha256": "5c93f14209bf9b4cdac1a759be9b8107b0dd50f3eb66c729a0b8a35039079e52"
+  },
+  {
     "path": "evidence/projectile-materials-20261016/selected-native-events.txt",
     "sha256": "f618d7f00a79ba9fc48998e0db568e208653ee54a697870c6881ae6a0da13db8"
   },
   {
+    "path": "evidence/projectile-materials-20261016/source-mesh-validation.json",
+    "sha256": "d59f223d273539abfe4112d7b060dfe48243d12cf3cc745b2a1d01ef13f4adf9"
+  },
+  {
     "path": "evidence/projectile-materials-20261016/summary.json",
     "sha256": "2b8dbc6292277e303f343c4e1d058c61c9afb93eea91e267b8f0ab2d675c2daa"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/through-ray-source-comparison.json",
+    "sha256": "1909e2c47eb7ae277dcfeb3a3476ae7873b7a14cbe34b2e8ce400f7e8de23c96"
   },
   {
     "path": "evidence/windows-feedback-20261015/checks.txt",

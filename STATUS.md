@@ -18,3 +18,9 @@
 Дополнение16.10: Native009 AK directmount/UDP20s; GUN06 native Rock triangle/front/hidden/exposed + offline server guard. Новая геометрия opt-in и не включена в обычную Windows-карту. GUN06 этапы67.5; остальные оценки без повышения.
 
 Проверки этапа:586source/558public/547legacy/2research;9public PowerShell skips выполнены отдельно. Оба verify-only passed; новая Windows-проверка остаётся W17.
+
+## Новый этап16.10: source collision и extended hit
+
+16.10 06:24UTC: Native017 genuine AKthroughRock energy47→27.25454,11DD144/count2 принят→HP900→800/11EB/UI/Wwise. Source RepX одного камня1623/3145/BVH и7точек; исходные serverHP/penetration иWindows пока открыты. docs/HIT-RECORDS-20261016.md, SOURCE-COLLISION-20261016.md.
+
+Первый настоящий144байтный hit014 выявил ошибку strict106. Новый Native017 подтвердил исправление живым выстрелом; это отдельно от offline replay. Обычный Windows-пресет не получает solidmesh. См.[разбор пакета](docs/HIT-RECORDS-20261016.md) и[ресурс коллизии](docs/SOURCE-COLLISION-20261016.md).

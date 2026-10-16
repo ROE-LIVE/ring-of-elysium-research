@@ -1,0 +1,6 @@
+MATERIAL {"id": 305, "modifier_lost": [0.44999998807907104, 0.1599999964237213], "no_average": 0, "flag_1d0": 0, "power": 2.5, "energy": 47.0}
+FORMULA_LOSS {"before": 47.0, "loss": 19.74545669555664, "after_predicted": 27.25454330444336}
+MATERIAL {"id": 305, "modifier_lost": [0.44999998807907104, 0.1599999964237213], "no_average": 0, "flag_1d0": 1, "power": 2.5, "energy": 27.25454330444336}
+PENETRATION_FEEDBACK {"part": 2, "damage": 100, "energy": 27.25454330444336}
+PENETRATION_UI {"style": 0, "head": 0}
+PENETRATION_SOUND 0xcdf864c1

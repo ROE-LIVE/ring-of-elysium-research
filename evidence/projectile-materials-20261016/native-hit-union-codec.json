@@ -1,0 +1,102 @@
+{
+  "decoder": "0x140C3FE00",
+  "rows": [
+    {
+      "label": "primary144",
+      "length": 144,
+      "native_rc": 0,
+      "native_used": 144,
+      "python_records": [
+        {
+          "kind": 0,
+          "opaque_u8_1": 0,
+          "opaque_u8_2": 0,
+          "material_id": 305,
+          "point": [
+            371246.46875,
+            544663.5,
+            259308.0
+          ]
+        },
+        {
+          "kind": 0,
+          "opaque_u8_1": 0,
+          "opaque_u8_2": 1,
+          "material_id": 305,
+          "point": [
+            371276.46875,
+            544666.0625,
+            259317.84375
+          ]
+        }
+      ]
+    },
+    {
+      "label": "unit116",
+      "length": 116,
+      "native_rc": 0,
+      "native_used": 116,
+      "python_records": [
+        {
+          "kind": 1,
+          "unit_uid": "0x2040000123460",
+          "part_id": 3
+        }
+      ]
+    },
+    {
+      "label": "mixed135",
+      "length": 135,
+      "native_rc": 0,
+      "native_used": 135,
+      "python_records": [
+        {
+          "kind": 0,
+          "opaque_u8_1": 0,
+          "opaque_u8_2": 0,
+          "material_id": 305,
+          "point": [
+            371246.46875,
+            544663.5,
+            259308.0
+          ]
+        },
+        {
+          "kind": 1,
+          "unit_uid": "0x2040000123460",
+          "part_id": 3
+        }
+      ]
+    },
+    {
+      "label": "unknown107",
+      "length": 107,
+      "native_rc": 0,
+      "native_used": 107,
+      "python_records": "Неизвестный tag записи11DD"
+    }
+  ],
+  "pages": [
+    {
+      "start": "0x140bcd000",
+      "length": 4096,
+      "sha256": "524562b9ed59800337ad4661862be027262d9af8200a1c970f19ccc7fb7b6b7b"
+    },
+    {
+      "start": "0x140bf3000",
+      "length": 4096,
+      "sha256": "42e848a9f9ca8c70527b4ba6ea9fcfe35bc9376047ae3f42698ccfbcdae8c508"
+    },
+    {
+      "start": "0x140c3f000",
+      "length": 4096,
+      "sha256": "8bf18244de32bdd76d6b0679ad8a6dfd8168b6ce1bb065d8577f51883fac700b"
+    },
+    {
+      "start": "0x140c40000",
+      "length": 4096,
+      "sha256": "11cf0f92c5fe2102aefecc6d089d03fdeec719bf122f5c091e00cfd960926fd6"
+    }
+  ],
+  "annotation": "Unit byte named part_id after producer140FC54EF..54FE proof; native return/consumption unchanged"
+}

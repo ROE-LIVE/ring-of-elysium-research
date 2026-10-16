@@ -1,0 +1,59 @@
+{
+  "resource_sha256": "6c56d299625354e8c49f144e20e395325710bb7eaa96e6e621cd18d93b08934f",
+  "vertices": 1623,
+  "triangles": 3145,
+  "selected_points": [
+    {
+      "native_log": "native009-rock2.log",
+      "source_face": 2038,
+      "error_cm": 0.002379579265302363,
+      "material_id": 305,
+      "fraction": 0.5001189789630851
+    },
+    {
+      "native_log": "native009-rock-geometry.log",
+      "source_face": 2102,
+      "error_cm": 0.002253723831908299,
+      "material_id": 305,
+      "fraction": 0.4998873138093011
+    },
+    {
+      "native_log": "native009-rock-bounds3.log",
+      "source_face": 2097,
+      "error_cm": 0.007561756765635392,
+      "material_id": 305,
+      "fraction": 0.4996219121294064
+    },
+    {
+      "native_log": "native009-one-triangle.log",
+      "source_face": 2052,
+      "error_cm": 0.004755356684104008,
+      "material_id": 305,
+      "fraction": 0.5002377678371343
+    },
+    {
+      "native_log": "native011-hidden-rock.log",
+      "source_face": 2052,
+      "error_cm": 0.009169049900507348,
+      "material_id": 305,
+      "fraction": 0.5004584525003554
+    },
+    {
+      "native_log": "native013-mesh-name.log",
+      "source_face": 1902,
+      "error_cm": 0.006303454577329914,
+      "material_id": 305,
+      "fraction": 0.4996848272520183
+    },
+    {
+      "native_log": "native014-hidden-source.log",
+      "source_face": 2052,
+      "error_cm": 0.0044761108581223355,
+      "material_id": 305,
+      "fraction": 0.49977619445644483
+    }
+  ],
+  "query_200_median_ms": 0.298590020975098,
+  "query_200_max_ms": 0.5103459698148072,
+  "notes": "Selected native points/normals validated against source geometry. No full map/BVH performance claim."
+}

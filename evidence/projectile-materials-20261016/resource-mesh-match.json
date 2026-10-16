@@ -1,0 +1,34 @@
+{
+  "resource_path": "DATA/SCENE/GENERAL/STONE/EU_SNOWSTONE_005_SCALE40.REPX",
+  "size": 136787,
+  "sha256": "6c56d299625354e8c49f144e20e395325710bb7eaa96e6e621cd18d93b08934f",
+  "vertices": 1623,
+  "triangles": 3145,
+  "selected_vertex_ids": [
+    652,
+    710,
+    650
+  ],
+  "selected_vertices_max_error_cm": 2.832031248090061e-05,
+  "source_triangle_matches": [
+    {
+      "source_triangle_index": 2052,
+      "indices": [
+        652,
+        710,
+        650
+      ]
+    }
+  ],
+  "native_cooked_face": 2051,
+  "native_actor_pose": [
+    0.020469781011343002,
+    -0.0725526437163353,
+    -0.6781055331230164,
+    0.7310882210731506,
+    371766.71875,
+    545514.5625,
+    258530.28125
+  ],
+  "limit": "One resource/three vertices confirmed; cooked triangle ordering differs. Full map transforms not recovered."
+}

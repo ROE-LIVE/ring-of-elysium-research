@@ -1,0 +1,83 @@
+{
+  "scope": "OFFLINE source ray vs genuine native records; no authoritative damage or implemented penetration",
+  "rows": [
+    {
+      "run": "native014",
+      "source_intersections": [
+        {
+          "point": [
+            371246.4933767518,
+            544663.513825398,
+            259308.00874809004
+          ],
+          "face": 2066,
+          "fraction": 0.7445005159739645
+        },
+        {
+          "point": [
+            371276.4276409788,
+            544666.0681313616,
+            259317.84254617704
+          ],
+          "face": 2065,
+          "fraction": 0.7743536170824102
+        }
+      ],
+      "native_record_thickness_cm": 31.67752863328356,
+      "native_entry": [
+        371246.46875,
+        544663.5,
+        259308.0
+      ],
+      "native_exit": [
+        371276.46875,
+        544666.0625,
+        259317.84375
+      ],
+      "source_ray_thickness_cm": 31.611520662349957,
+      "entry_error_cm": 0.02956598745079394,
+      "exit_error_cm": 0.0415103968311792,
+      "energy_from_native_records": 15.07837786252124,
+      "energy_from_source_ray": 15.138334018728116
+    },
+    {
+      "run": "native017",
+      "source_intersections": [
+        {
+          "point": [
+            371255.76947127277,
+            544667.6422212343,
+            259313.34606719023
+          ],
+          "face": 2066,
+          "fraction": 0.7605590581511017
+        },
+        {
+          "point": [
+            371267.6307093302,
+            544668.7034643891,
+            259317.277439847
+          ],
+          "face": 2065,
+          "fraction": 0.7724915180787638
+        }
+      ],
+      "native_record_thickness_cm": 12.452458420052043,
+      "native_entry": [
+        371255.8125,
+        544667.625,
+        259313.375
+      ],
+      "native_exit": [
+        371267.59375,
+        544668.6875,
+        259317.265625
+      ],
+      "source_ray_thickness_cm": 12.540769364564882,
+      "entry_error_cm": 0.054636524032667645,
+      "exit_error_cm": 0.041957650285447914,
+      "energy_from_native_records": 27.254543918095294,
+      "energy_from_source_ray": 27.222866797012788
+    }
+  ]
+}

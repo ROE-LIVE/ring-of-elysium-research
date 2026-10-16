@@ -1945,6 +1945,51 @@
       "source_path": "research/builds/2022/recovery/038-gun07/20261016T0130-collision-producer/report.md",
       "included_at_original_path": false,
       "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/HIT-RECORDS-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/SOURCE-COLLISION-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/native017-extended-hit-validation.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/native017-extended-hit-validation.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/native-hit-union-codec.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/native-hit-union-codec.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/source-mesh-validation.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/source-mesh-validation.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/resource-mesh-match.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/resource-mesh-match.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/through-ray-source-comparison.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/through-ray-source-comparison.json"
+    },
+    {
+      "source_path": "docs/SESSION-RESULT-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
     }
   ]
 }
