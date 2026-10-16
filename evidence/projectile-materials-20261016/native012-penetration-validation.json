@@ -1,0 +1,53 @@
+{
+  "MATERIAL": {
+    "id": 305,
+    "modifier_lost": [
+      0.44999998807907104,
+      0.1599999964237213
+    ],
+    "no_average": 0,
+    "bullet_enabled": 0,
+    "power": 1.5,
+    "energy": 40.0
+  },
+  "FORMULA_INPUT": {
+    "modifier": 0.44999998807907104,
+    "lost_percent": 0.1599999964237213,
+    "entry": [
+      371217.0,
+      544660.6875,
+      259293.8125
+    ],
+    "exit": [
+      371302.53125,
+      544667.875,
+      259321.421875
+    ],
+    "energy": 40.0,
+    "power": 1.5,
+    "constants": [
+      1.0,
+      9.999999974752427e-07,
+      3.0,
+      1.25,
+      154.83839416503906
+    ]
+  },
+  "FORMULA_LOSS": {
+    "before": 40.0,
+    "loss": 139.74075317382812,
+    "after_predicted": -99.74075317382812
+  },
+  "FORMULA_RETURN": {
+    "energy": -99.74075317382812,
+    "return_al": 1
+  },
+  "derived": {
+    "thickness_cm": 90.16392000519457,
+    "loss_calculated_double": 139.74075344521685,
+    "loss_native_float": 139.74075317382812,
+    "difference": 2.713887283789518e-07,
+    "scope": "Client penetration energy, not authoritative HP formula",
+    "flag_correction": "Original trace label bullet_enabled is misleading: offset1D0=0 while formula executes; semantics not established"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "build": "2022-0.2.989.0-x64",
+  "source": "research/builds/2022/full-extraction-20261010/extracted/DATA/CONFIG/QSPHYSXCONFIG.XML",
+  "source_sha256": "b443aad731fad4990ad41dbe1d78503be94a881e44e9f66786891b4340b51679",
+  "enum_initializer": "0x140A1C0B0",
+  "enum_assignments": [
+    {
+      "id": 1,
+      "name": "MBP_HEAD",
+      "set_pc": "0x140A1C181",
+      "name_pc": "0x140A1C18E"
+    },
+    {
+      "id": 2,
+      "name": "MBP_BODY",
+      "set_pc": "0x140A1C1EF",
+      "name_pc": "0x140A1C1FC"
+    },
+    {
+      "id": 3,
+      "name": "MBP_LIMB",
+      "set_pc": "0x140A1C25D",
+      "name_pc": "0x140A1C26A"
+    }
+  ],
+  "bone_mapping_field_offset": "0x2B0",
+  "mapping_field_ref_pc": "0x140A1FB03",
+  "bone_mappings": [
+    {
+      "line": 57,
+      "bone": "Bip01 Head",
+      "part_name": "MBP_HEAD",
+      "part_id": 1
+    },
+    {
+      "line": 58,
+      "bone": "Bip01 Pelvis",
+      "part_name": "MBP_BODY",
+      "part_id": 2
+    },
+    {
+      "line": 59,
+      "bone": "Bip01 Spine",
+      "part_name": "MBP_BODY",
+      "part_id": 2
+    },
+    {
+      "line": 60,
+      "bone": "Bip01 Spine1",
+      "part_name": "MBP_BODY",
+      "part_id": 2
+    },
+    {
+      "line": 61,
+      "bone": "Bip01 Neck",
+      "part_name": "MBP_BODY",
+      "part_id": 2
+    },
+    {
+      "line": 62,
+      "bone": "Bip01 R UpperArm",
+      "part_name": "MBP_LIMB",
+      "part_id": 3
+    },
+    {
+      "line": 63,
+      "bone": "Bip01 R Forearm",
+      "part_name": "MBP_LIMB",
+      "part_id": 3
+    },
+    {
+      "line": 64,
+      "bone": "Bip01 L UpperArm",
+      "part_name": "MBP_LIMB",
+      "part_id": 3
+    },
+    {
+      "line": 65,
+      "bone": "Bip01 L Forearm",
+      "part_name": "MBP_LIMB",
+      "part_id": 3
+    },
+    {
+      "line": 66,
+      "bone": "Bip01 R Thigh",
+      "part_name": "MBP_LIMB",
+      "part_id": 3
+    },
+    {
+      "line": 67,
+      "bone": "Bip01 R Calf",
+      "part_name": "MBP_LIMB",
+      "part_id": 3
+    },
+    {
+      "line": 68,
+      "bone": "Bip01 R Foot",
+      "part_name": "MBP_LIMB",
+      "part_id": 3
+    },
+    {
+      "line": 69,
+      "bone": "Bip01 L Thigh",
+      "part_name": "MBP_LIMB",
+      "part_id": 3
+    },
+    {
+      "line": 70,
+      "bone": "Bip01 L Calf",
+      "part_name": "MBP_LIMB",
+      "part_id": 3
+    },
+    {
+      "line": 71,
+      "bone": "Bip01 L Foot",
+      "part_name": "MBP_LIMB",
+      "part_id": 3
+    }
+  ],
+  "native": "007 scoped watch produced1 at head and3 at limb; 008 actor userdata part3; source formula not known"
+}

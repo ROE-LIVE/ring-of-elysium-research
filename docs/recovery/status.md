@@ -6,8 +6,8 @@
 
 | Объём | Механик | Вес | Этапы, % | Полностью проверено | Заблокировано |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Минимальная зимняя сессия | 62 | 216 | 77.7 | 0 | 1 |
-| Весь целевой план | 111 | 444 | 70.3 | 0 | 1 |
+| Минимальная зимняя сессия | 62 | 216 | 78.0 | 0 | 1 |
+| Весь целевой план | 111 | 444 | 70.5 | 0 | 1 |
 | Исследовательские ветки отдельно | 4 | 18 | 26.1 | 0 | 1 |
 
 | Направление | Механик | Этапы, % |
@@ -19,7 +19,7 @@
 | Генератор лута | 11 | 70.5 |
 | Инвентарь | 8 | 75.8 |
 | Зимние наборы | 5 | 86.7 |
-| Оружие и попадания | 10 | 66.5 |
+| Оружие и попадания | 10 | 68.1 |
 | Здоровье и броня | 7 | 62.8 |
 | Погода и время | 5 | 66.4 |
 | Аирдропы | 6 | 68.0 |
@@ -54,15 +54,15 @@
 | 35 | GUN02 | Перезарядка и резерв Citori | baseline | 90 | Windows empty/partial/cancel; затем прочие семейства/обвесы; очередь HP01 baseline, далее GUN07. |
 | 36 | HP01 | Синхронизация HP/максимума | baseline | 90 | Windows HP0/death; revive/downed отдельная исходная семантика, не выводить из1069. |
 | 37 | GUN05 | Уведомление о попадании и HP цели | baseline | 92.5 | Windows W17: слышимыйhit/head sound, ordinary/armor/dead marks; native005/006 уже подтверждены. GUN07 исходный баланс отдельно. |
-| 38 | GUN07 | Исходный базовый урон и hit-zone | external_blocked | 12.5 | Producer140D09590(return140D095D6) передаётR8 безизменения в1412F8F20; найти егоnativecaller иoriginR8+24. Part1=headfeedback подтверждён; исходныйhurtformula требуетauthoritative trace/provider. |
+| 38 | GUN07 | Исходный базовый урон и hit-zone | external_blocked | 12.5 | Producer140D09590(return140D095D6) и actor userdata+4 установлены; HEAD1/BODY2/LIMB3. Для authoritative HP нужен original hurt trace/provider; отдельно проверить клиентское penetration до цели. |
 | 39 | HP02 | Прочность жилета/шлема: передача | baseline | 90 | HP03/HP04: originalhurt consumer или sanitized weapon/zone/armor/range/HP/durable; новыйWindows0/1 drop/repick. |
 | 40 | HP03 | Броня: снижение урона | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
 | 41 | HP04 | Расход/разрушение брони от удара | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
-| 43 | GUN06 | Серверная валидация raycast/LOS | baseline | 57.5 | Геометрия одного настоящего препятствия/материал и контроль nativeстена + серверныйлуч; затем authorityorigin/lagcomp |
+| 43 | GUN06 | Серверная валидация raycast/LOS | baseline | 67.5 | Ограниченный участок collision mesh; положительное penetration до цели и count/distance; затем origin authority/lagcomp. Одна native грань уже подтверждена. |
 | 71 | EVAC02 | Трос: взаимодействие/подъём/посадка | baseline | 90 | Ранний native/tutor/time gate дляhover75s; Windows/interrupt отдельный повтор |
 | 75 | OPS05 | Воспроизводимый полный одиночный цикл | baseline | 90 | Windows повтор полного source-kit цикла с pickup M4/первого аирдропа/эвакуацией; исходный RNG/баланс отдельно |
 | 115 | MAP01 | Разрушение стекла и частей статических объектов | baseline | 57.5 | Windows repeat WinterWindows; source classification/materials and remote snapshot; retain original physics caveat |
 
 Источники, адреса, ограничения, критерии и этапы каждой механики — в [mechanics-2022.csv](mechanics-2022.csv). Порядок работ — в [README](README.md).
 
-SHA-256 CSV: `df71a38cc62f9f7b892b379957b5e7b4033021ff27745c54a1a1ff0604b06f92`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.
+SHA-256 CSV: `935eff05b793b341064d7d95fe637284a3325e8e6cdc949912476756950e9520`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.

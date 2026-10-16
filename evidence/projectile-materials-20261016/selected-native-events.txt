@@ -1,0 +1,30 @@
+009-before 11EB shooter=OWN target=TARGET part=3 damage=100 dead=0 armor=0 weapon=10202
+009-before EventPlayerHitTarget style=0 head=0
+009-before OnHitTarget style=0 head=0
+009-before Wwise-hitmarker-event=0xcdf864c1
+009-after 11EB shooter=OWN target=TARGET part=3 damage=100 dead=0 armor=0 weapon=10202
+009-after EventPlayerHitTarget style=0 head=0
+009-after OnHitTarget style=0 head=0
+009-after Wwise-hitmarker-event=0xcdf864c1
+010-front 11EB shooter=OWN target=TARGET part=3 damage=100 dead=0 armor=0 weapon=20002
+010-front EventPlayerHitTarget style=0 head=0
+010-front OnHitTarget style=0 head=0
+010-front Wwise-hitmarker-event=0xcdf864c1
+011-exposed 11EB shooter=OWN target=TARGET part=2 damage=100 dead=0 armor=0 weapon=20002
+011-exposed EventPlayerHitTarget style=0 head=0
+011-exposed OnHitTarget style=0 head=0
+011-exposed Wwise-hitmarker-event=0xcdf864c1
+native011-hidden-rock.log OBSTACLE_RESULT {"point": [371212.09375, 544660.3125, 259289.203125], "normal": [-0.881589412689209, -0.140616774559021, 0.45058518648147583], "distance": 740.6265258789062, "flags_part": [32, 0], "material": 305, "shape_flags": [1, 2139072767]}
+native012-penetration.log MATERIAL {"id": 305, "modifier_lost": [0.44999998807907104, 0.1599999964237213], "no_average": 0, "bullet_enabled": 0, "power": 1.5, "energy": 40.0}
+native012-penetration.log FORMULA_INPUT {"modifier": 0.44999998807907104, "lost_percent": 0.1599999964237213, "entry": [371217.0, 544660.6875, 259293.8125], "exit": [371302.53125, 544667.875, 259321.421875], "energy": 40.0, "power": 1.5, "constants": [1.0, 9.999999974752427e-07, 3.0, 1.25, 154.83839416503906]}
+native012-penetration.log FORMULA_LOSS {"before": 40.0, "loss": 139.74075317382812, "after_predicted": -99.74075317382812}
+native012-penetration.log FORMULA_RETURN {"energy": -99.74075317382812, "return_al": 1}
+native012-ak-penetration.log MATERIAL {"id": 305, "modifier_lost": [0.44999998807907104, 0.1599999964237213], "no_average": 0, "flag_1d0": 0, "power": 2.5, "energy": 47.0}
+native012-ak-penetration.log FORMULA_INPUT {"modifier": 0.44999998807907104, "lost_percent": 0.1599999964237213, "entry": [371222.8125, 544657.8125, 259297.421875], "exit": [371289.5, 544663.1875, 259318.875], "energy": 47.0, "power": 2.5, "constants": [1.0, 9.999999974752427e-07, 3.0, 1.25, 154.83839416503906]}
+native012-ak-penetration.log FORMULA_LOSS {"before": 47.0, "loss": 88.36590576171875, "after_predicted": -41.36590576171875}
+native012-ak-penetration.log FORMULA_RETURN {"energy": -41.36590576171875, "return_al": 1}
+native012-ak-edge.log MATERIAL {"id": 305, "modifier_lost": [0.44999998807907104, 0.1599999964237213], "no_average": 0, "flag_1d0": 0, "power": 2.5, "energy": 47.0}
+native012-ak-edge.log FORMULA_INPUT {"modifier": 0.44999998807907104, "lost_percent": 0.1599999964237213, "entry": [371260.21875, 544659.75, 259314.1875], "exit": [371262.375, 544659.875, 259314.890625], "energy": 47.0, "power": 2.5, "constants": [1.0, 9.999999974752427e-07, 3.0, 1.25, 154.83839416503906]}
+native012-ak-edge.log FORMULA_LOSS {"before": 47.0, "loss": 17.59404754638672, "after_predicted": 29.40595245361328}
+native012-ak-edge.log MATERIAL {"id": 305, "modifier_lost": [0.44999998807907104, 0.1599999964237213], "no_average": 0, "flag_1d0": 1, "power": 2.5, "energy": 29.40595245361328}
+native012-ak-edge.log FORMULA_RETURN {"energy": 29.40595245361328, "return_al": 0}

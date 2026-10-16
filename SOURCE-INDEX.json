@@ -1925,6 +1925,26 @@
       "source_path": "tools/run_winter_2022.py",
       "included_at_original_path": false,
       "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/HIT-COLLISION-PRODUCER-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/PROJECTILE-MATERIALS-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/038-gun07/20261016T0130-collision-producer/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
     }
   ]
 }

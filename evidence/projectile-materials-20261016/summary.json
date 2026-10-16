@@ -1,0 +1,21 @@
+{
+  "build": "2022-0.2.989.0-x64",
+  "exe_sha256": "2dca9b1e122e21363e14eeeb2372598c773205a907ed8d2b2d54a7229ad6ba18",
+  "date_utc": "2026-10-16",
+  "point_plane_error_cm": 0.004767442901767893,
+  "normal_alignment": 0.9999999900648159,
+  "physx_version": "3.3.4.0",
+  "native_010": "front genuine Glock1 part3 HP1000→900 feedback confirmed",
+  "native_011": "hidden genuine Glock1 face2051/Rock305 no11DD; exposed Glock2 part2 HP1000→900 feedback confirmed",
+  "server_control": "offline forged hit blocked, HP1000/no responses; same hit without triangle HP900/11EB",
+  "geometry_scope": "one selected triangle, no full mesh/map dump; own diagnostic positions",
+  "regression_tests": 7,
+  "full_source_suite_before_seventh_test": 585,
+  "limitations": "No full collision mesh/penetration/authority/lagcomp/Windows; grenade LOS AABB separate",
+  "source_tests": 586,
+  "public_tests": 558,
+  "public_powershell_skips_rechecked": 9,
+  "legacy_tests": 547,
+  "research_tests": 2,
+  "public_and_legacy_verify_only": "passed"
+}

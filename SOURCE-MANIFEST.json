@@ -45,11 +45,11 @@
   },
   {
     "path": "SOURCE-INDEX.json",
-    "sha256": "c3fb5671bb9f0483662180d67bb114451820e62e13ece141d40eaa1b15aa77fe"
+    "sha256": "b29c4f352df5fd2b792e890536407c9f791512f0a26900de544e6dea7d14c4f0"
   },
   {
     "path": "STATUS.md",
-    "sha256": "67f6dd43ba275da255c945622afc1a0cb5e1665c4a56c153dec016cd1b409f90"
+    "sha256": "016ce078b1af07140539791870134c6e2f0bbd2e13a8e14cb7ae87e3377e0790"
   },
   {
     "path": "VALIDATION.md",
@@ -124,9 +124,13 @@
     "sha256": "eddb5d61ab42762b51573f92435f4f7c879af4e0ecdcb19b6f177c2a0250b8d2"
   },
   {
+    "path": "docs/HIT-COLLISION-PRODUCER-20261016.md",
+    "sha256": "fd962af361cc547f64d474ad1166432f9941466394107a99f88a288f5a20b6f7"
+  },
+  {
     "path": "docs/HIT-FEEDBACK-20261016.md",
     "source": "Исследование INV07/GUN05 16.10.2026; только выбранные числовые факты",
-    "sha256": "d32ff97019664b98f9219ed66b7d966f9d49cad4b0acc847cde5e165af94f7f6"
+    "sha256": "723a1a2601a4bf0ccb7c63d643f35abf0284fe493e6ae0eb352878398b0407a6"
   },
   {
     "path": "docs/HIT-FIELDS-20261015.md",
@@ -267,6 +271,10 @@
   {
     "path": "docs/OPS04-STATE-ACTIONS-20261012.md",
     "sha256": "b4533aa9f7ec3922c1b31ac0e98d0407260321a151ddf6c8088d2d00d1085e3f"
+  },
+  {
+    "path": "docs/PROJECTILE-MATERIALS-20261016.md",
+    "sha256": "b5fd5845609596d61944cf5f518629859e15acf859128d81ca8cb808753db1c7"
   },
   {
     "path": "docs/PROTOCOL.md",
@@ -634,19 +642,19 @@
   },
   {
     "path": "docs/recovery/history.csv",
-    "sha256": "959e243aeb356ae7fad6340f610f9571800452acfdc80bd918bd7138207ecfcb"
+    "sha256": "36226a05fd77efe2303042cd31b8eca4ae72ad9eaf4d7958828c0b3766a12a3b"
   },
   {
     "path": "docs/recovery/mechanics-2022.csv",
-    "sha256": "df71a38cc62f9f7b892b379957b5e7b4033021ff27745c54a1a1ff0604b06f92"
+    "sha256": "935eff05b793b341064d7d95fe637284a3325e8e6cdc949912476756950e9520"
   },
   {
     "path": "docs/recovery/status.md",
-    "sha256": "d93580f638965afda4438344a8a93d7cf2b8b4d309e629399f0bab9578e1aa1c"
+    "sha256": "d8fd3876d9ebec55a328fbbcd8df57f36267845aea6bf106632be3bc1453978d"
   },
   {
     "path": "docs/recovery/updates.csv",
-    "sha256": "97e53144b8bb77dc11945f562c6fce584bfbc966f08fd7b170e08b626a7efbec"
+    "sha256": "f97daabf4bb0ab0eed4b337e41ea76feedd0141b09a52c835bb287c7ee4aa77b"
   },
   {
     "path": "docs/signals-2022.csv",
@@ -671,6 +679,42 @@
     "path": "evidence/hit-feedback-20261016/type-init-literals.json",
     "source": "Исследование INV07/GUN05 16.10.2026; только выбранные числовые факты",
     "sha256": "00c2cdddbbb735eb4264c7bbf544d16fed2090920bc28a0d3d69d8dbfaf11fd3"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/README.md",
+    "sha256": "a744828fc4ab9f1f3109641cac023e11cd3840ef0db02e222252950e5726db97"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/body-part-contract.json",
+    "sha256": "16e107dc6427f6ebc257de77115cf7c427cb027cf0454effa5fee7432db42a5f"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/native012-ak-penetration-validation.json",
+    "sha256": "8ff22f48a1ff3044570f25571005776c507c74b35911f884cab7d9a711b5bf20"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/native012-penetration-validation.json",
+    "sha256": "6170a5888d6e9ba01fd7f09104d9c34bf4a448dafeec0c7ebc56ec43a297faaa"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/obstacle.gdb",
+    "sha256": "ce1c07fbd080c01ff5b33f10d575a550540d2866b1beedd6fe722cd510aa2f4e"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/one-triangle.gdb",
+    "sha256": "0a93b9e37ee2e870dfe3a6caf040eca0f81f7c28689bee1343d37ced0d582f5b"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/penetration.gdb",
+    "sha256": "f94207adfdb6b2cb5ebf0d564d1c36d6b74d2cc4036579b3654d8168595839ad"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/selected-native-events.txt",
+    "sha256": "f618d7f00a79ba9fc48998e0db568e208653ee54a697870c6881ae6a0da13db8"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/summary.json",
+    "sha256": "2b8dbc6292277e303f343c4e1d058c61c9afb93eea91e267b8f0ab2d675c2daa"
   },
   {
     "path": "evidence/windows-feedback-20261015/checks.txt",
