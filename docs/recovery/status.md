@@ -1,12 +1,12 @@
 # Состояние плана восстановления2022
 
-Версия плана: **3**; данные обновлены до **2026-10-15**.
+Версия плана: **3**; данные обновлены до **2026-10-16**.
 
 Проценты показывают взвешенное достижение этапов этого плана. Это не доля исходного серверного кода, не оценка оставшихся часов и не готовность всей игры.
 
 | Объём | Механик | Вес | Этапы, % | Полностью проверено | Заблокировано |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Минимальная зимняя сессия | 62 | 216 | 77.5 | 0 | 1 |
+| Минимальная зимняя сессия | 62 | 216 | 77.7 | 0 | 1 |
 | Весь целевой план | 111 | 444 | 70.3 | 0 | 1 |
 | Исследовательские ветки отдельно | 4 | 18 | 26.1 | 0 | 1 |
 
@@ -19,7 +19,7 @@
 | Генератор лута | 11 | 70.5 |
 | Инвентарь | 8 | 75.8 |
 | Зимние наборы | 5 | 86.7 |
-| Оружие и попадания | 10 | 66.0 |
+| Оружие и попадания | 10 | 66.5 |
 | Здоровье и броня | 7 | 62.8 |
 | Погода и время | 5 | 66.4 |
 | Аирдропы | 6 | 68.0 |
@@ -53,8 +53,8 @@
 | 34 | INV06 | Смена оружия и equipment slots | baseline | 82.5 | Windows W16-03/04: drop/repick иswap трёх экземпляров с ихclip/parts; grounddrag и3slots пользователь уже подтвердил |
 | 35 | GUN02 | Перезарядка и резерв Citori | baseline | 90 | Windows empty/partial/cancel; затем прочие семейства/обвесы; очередь HP01 baseline, далее GUN07. |
 | 36 | HP01 | Синхронизация HP/максимума | baseline | 90 | Windows HP0/death; revive/downed отдельная исходная семантика, не выводить из1069. |
-| 37 | GUN05 | Уведомление о попадании и HP цели | baseline | 82.5 | GUN07: связать исходные damage table с authoritative consumer; native стена/lag compensation отдельно. |
-| 38 | GUN07 | Исходный базовый урон и hit-zone | external_blocked | 12.5 | Разобрать функцию сreturnPC140D095D6 иproducerR8+24 перед1412F8F20; part_id→кость. Originalhurtformula всё ещё требует authoritative trace/provider. |
+| 37 | GUN05 | Уведомление о попадании и HP цели | baseline | 92.5 | Windows W17: слышимыйhit/head sound, ordinary/armor/dead marks; native005/006 уже подтверждены. GUN07 исходный баланс отдельно. |
+| 38 | GUN07 | Исходный базовый урон и hit-zone | external_blocked | 12.5 | Producer140D09590(return140D095D6) передаётR8 безизменения в1412F8F20; найти егоnativecaller иoriginR8+24. Part1=headfeedback подтверждён; исходныйhurtformula требуетauthoritative trace/provider. |
 | 39 | HP02 | Прочность жилета/шлема: передача | baseline | 90 | HP03/HP04: originalhurt consumer или sanitized weapon/zone/armor/range/HP/durable; новыйWindows0/1 drop/repick. |
 | 40 | HP03 | Броня: снижение урона | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
 | 41 | HP04 | Расход/разрушение брони от удара | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
@@ -65,4 +65,4 @@
 
 Источники, адреса, ограничения, критерии и этапы каждой механики — в [mechanics-2022.csv](mechanics-2022.csv). Порядок работ — в [README](README.md).
 
-SHA-256 CSV: `cbed3f8ec96376458db0cd6f66122c22a96f904f1a821e7345a01d581fcc6a22`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.
+SHA-256 CSV: `df71a38cc62f9f7b892b379957b5e7b4033021ff27745c54a1a1ff0604b06f92`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.

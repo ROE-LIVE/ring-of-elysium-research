@@ -17,6 +17,11 @@
       "play_counterpart_exists": false
     },
     {
+      "source_path": "docs/HIT-FEEDBACK-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
       "source_path": "docs/LAN-SSH-20261013.md",
       "included_at_original_path": true,
       "play_counterpart_exists": false
@@ -873,6 +878,11 @@
     },
     {
       "source_path": "research/builds/2022/recovery/050-inv07/20261009T0843/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/050-inv07/20261015T2337-ground-attachment/evidence.json",
       "included_at_original_path": false,
       "play_counterpart_exists": false
     },

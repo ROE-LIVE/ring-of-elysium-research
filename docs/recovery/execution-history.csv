@@ -422,3 +422,8 @@
 2026-10-14T01:58:55.269584+00:00;3;HOST04;114;external_blocked;manual;"План3 добавляет MAP01 разрушение стекла; native379/380 vault/shot/resume; Windows отдельно"
 2026-10-14T01:58:55.269584+00:00;3;MAP01;115;baseline;manual;"План3 добавляет MAP01 разрушение стекла; native379/380 vault/shot/resume; Windows отдельно"
 2026-10-15T16:53:29.922068+00:00;3;OPS02;103;baseline;windows;"Частичный независимый Windows W15+video; новая feedback-v2 ждёт W16/экспорт. Raw новой пары не получен."
+2026-10-15T23:39:04.959589+00:00;3;GUN05;37;queued;combat;"INV07 ready/GUN05 queued: новое Windows-наблюдение о ground→gun attachment и hit feedback; проценты без изменения"
+2026-10-15T23:39:04.959589+00:00;3;INV07;50;ready;resources;"INV07 ready/GUN05 queued: новое Windows-наблюдение о ground→gun attachment и hit feedback; проценты без изменения"
+2026-10-16T01:23:08.431327+00:00;3;INV07;50;baseline;combat;"Native004/005/006 исправленияgroundattachment/hitfeedback; WindowsW17 pending. ДалееGUN07primary producer."
+2026-10-16T01:23:08.431414+00:00;3;GUN05;37;baseline;combat;"Native004/005/006 исправленияgroundattachment/hitfeedback; WindowsW17 pending. ДалееGUN07primary producer."
+2026-10-16T01:23:08.608391+00:00;3;INV07;50;baseline;resources;"INV07 directground native004; GUN05 обычный/head/armor/dead hitmarker005/006 scenario2, Windows pending; GUN07 part1headfeedback безформулы"

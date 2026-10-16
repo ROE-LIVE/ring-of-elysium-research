@@ -1,0 +1,1 @@
+Выбранные числовые точки собственного Proton-опыта2022. OWN/TARGET обезличены, не AUTH. Аппаратные точки фиксируют11EB, штатныйEventPlayerHitTarget, OnHitTarget и Wwise. Полные прогоны/ресурсы/кадры остаются в исходном workspace. См. ../../docs/HIT-FEEDBACK-20261016.md.

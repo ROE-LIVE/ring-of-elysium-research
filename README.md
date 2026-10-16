@@ -15,7 +15,7 @@
 
 This notice does not exclude liability that cannot lawfully be excluded, and it does not change the licenses of third-party components.
 
-Research context for contributors and new AI agents, as of **October 15, 2026**. The launcher, emulator, and gameplay regression tests live in [ring-of-elysium-local](https://github.com/ROE-LIVE/ring-of-elysium-local). This repository documents builds, architecture, protocol signals, and the mechanics recovery plan. It contains no game client, keys, large dumps, or private Git history. Most supporting reports and CSV descriptions are currently in Russian.
+Research context for contributors and new AI agents, as of **October 16, 2026**. The launcher, emulator, and gameplay regression tests live in [ring-of-elysium-local](https://github.com/ROE-LIVE/ring-of-elysium-local). This repository documents builds, architecture, protocol signals, and the mechanics recovery plan. It contains no game client, keys, large dumps, or private Git history. Most supporting reports and CSV descriptions are currently in Russian.
 
 ## Getting started
 
@@ -36,7 +36,7 @@ Research context for contributors and new AI agents, as of **October 15, 2026**.
 
 ## Contents and evidence
 
-The repository includes **115 recovery tasks** with stable IDs and evidence-based stage estimates, **101 signal entries**, the textual agents-context reports on loot, host/debug paths, hits, bots, vehicles, and networking, plus hashes and selected evidence from the latest Windows test.
+The repository includes **115 recovery tasks** with stable IDs and evidence-based stage estimates, **102 signal entries**, the textual agents-context reports on loot, host/debug paths, hits, bots, vehicles, and networking, plus hashes and selected evidence from the latest Windows test.
 
 Historical reports retain their dates, so their proposed next steps may be outdated. Use `STATUS.md` for the current summary and primary data to establish facts. Progress percentages measure stages of the recovery plan, not the percentage of the original game restored.
 
@@ -67,7 +67,7 @@ See [provenance](PROVENANCE.json), [rights](RIGHTS.md), and the [sharing checkli
 
 Это уведомление не исключает ответственность, которую нельзя исключить по закону, и не меняет лицензии сторонних компонентов.
 
-Полный текстовый контекст для исследователя или нового ИИ-агента. Состояние15.10.2026. Запуск, эмулятор и регрессии находятся в соседнем [ring-of-elysium-local](https://github.com/ROE-LIVE/ring-of-elysium-local); здесь — версии, архитектура, протокол и план механик. Клиента, ключей, больших дампов и приватной Git-истории нет.
+Полный текстовый контекст для исследователя или нового ИИ-агента. Состояние16.10.2026. Запуск, эмулятор и регрессии находятся в соседнем [ring-of-elysium-local](https://github.com/ROE-LIVE/ring-of-elysium-local); здесь — версии, архитектура, протокол и план механик. Клиента, ключей, больших дампов и приватной Git-истории нет.
 
 ## Порядок входа
 
@@ -88,7 +88,7 @@ See [provenance](PROVENANCE.json), [rights](RIGHTS.md), and the [sharing checkli
 
 ## Что включено
 
-115 задач восстановления со стабильными ID и оценкой этапов;101 строка сигналов; текстовые отчёты agents-context по луту, host/debug, попаданиям, ботам, транспорту и сетевым механизмам; хеши и выборка доказательств последнего Windows-теста. Старые docs сохраняются как датированные исследования: описание «следующей задачи» в них может устареть. Текущий STATUS имеет приоритет для сводки, первичные данные — для фактов.
+115 задач восстановления со стабильными ID и оценкой этапов;102 строки сигналов; текстовые отчёты agents-context по луту, host/debug, попаданиям, ботам, транспорту и сетевым механизмам; хеши и выборка доказательств последнего Windows-теста. Старые docs сохраняются как датированные исследования: описание «следующей задачи» в них может устареть. Текущий STATUS имеет приоритет для сводки, первичные данные — для фактов.
 
 Полные исторические snapshots не включены: часть содержит извлечённые игровые материалы, рабочие пути и устаревшие инструменты. Если для опыта нужен отсутствующий файл, запросите **конкретный** источник из индекса либо получите его самостоятельно из своего клиента. Не считайте текстовый отчёт заменой первичному коду или журналу.
 

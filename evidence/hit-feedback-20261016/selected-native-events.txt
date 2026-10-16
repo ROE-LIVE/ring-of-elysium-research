@@ -1,0 +1,16 @@
+native005-body: 11EB shooter=OWN target=TARGET part=3 damage=100 dead=0 armor=0 weapon=10201
+native005-body: EventPlayerHitTarget style=0 head=0
+native005-body: OnHitTarget style=0 head=0
+native005-body: Wwise-hitmarker-event=0xcdf864c1
+native005-head: 11EB shooter=OWN target=TARGET part=1 damage=100 dead=0 armor=0 weapon=10201
+native005-head: EventPlayerHitTarget style=0 head=1
+native005-head: OnHitTarget style=0 head=1
+native005-head: Wwise-hitmarker-event=0x18856512
+native006-armor: 11EB shooter=OWN target=TARGET part=3 damage=50 dead=0 armor=1 weapon=10201
+native006-armor: EventPlayerHitTarget style=1 head=0
+native006-armor: OnHitTarget style=1 head=0
+native006-armor: Wwise-hitmarker-event=0xcdf864c1
+native006-lethal: 11EB shooter=OWN target=TARGET part=3 damage=50 dead=1 armor=1 weapon=10201
+native006-lethal: EventPlayerHitTarget style=2 head=0
+native006-lethal: OnHitTarget style=2 head=0
+native006-lethal: Wwise-hitmarker-event=0xcdf864c1

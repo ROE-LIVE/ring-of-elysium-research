@@ -1,0 +1,45 @@
+{
+  "decoder": "0x140c413f0",
+  "rows": [
+    {
+      "label": "body",
+      "result": 0,
+      "used": 48,
+      "short_result": 4294967294,
+      "wire_length": 48
+    },
+    {
+      "label": "armor",
+      "result": 0,
+      "used": 48,
+      "short_result": 4294967294,
+      "wire_length": 48
+    },
+    {
+      "label": "dead",
+      "result": 0,
+      "used": 48,
+      "short_result": 4294967294,
+      "wire_length": 48
+    },
+    {
+      "label": "head",
+      "result": 0,
+      "used": 48,
+      "short_result": 4294967294,
+      "wire_length": 48
+    }
+  ],
+  "pages": [
+    {
+      "start": "0x140bcd000",
+      "length": 4096,
+      "sha256": "524562b9ed59800337ad4661862be027262d9af8200a1c970f19ccc7fb7b6b7b"
+    },
+    {
+      "start": "0x140c41000",
+      "length": 4096,
+      "sha256": "3893d27d8226fc91a3be526fccac1154d848b069ab337d3a63125e5e8a201074"
+    }
+  ]
+}

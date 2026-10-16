@@ -1,0 +1,26 @@
+[
+  {
+    "init": "14015d5a0",
+    "pc": "000000014015d5b4",
+    "name_va": "0x142796d00",
+    "name": "QSRifle"
+  },
+  {
+    "init": "14015d5a0",
+    "pc": "000000014015d5cb",
+    "name_va": "0x14275e8c8",
+    "name": "QSWeapon"
+  },
+  {
+    "init": "140179ec0",
+    "pc": "0000000140179ed4",
+    "name_va": "0x1427dc1c8",
+    "name": "EuRPG"
+  },
+  {
+    "init": "140179ec0",
+    "pc": "0000000140179eeb",
+    "name_va": "0x14275e8c8",
+    "name": "QSWeapon"
+  }
+]

@@ -33,7 +33,7 @@
   },
   {
     "path": "README.md",
-    "sha256": "2d161ea0ca9023a2809a5737e89ff2697985cc5012d8521bbe1a6bab114ebb3d"
+    "sha256": "32df0a2c384d0f52c17a0daa323ec8b0e05e854c85870b2b270aaeda70781e98"
   },
   {
     "path": "RIGHTS.md",
@@ -45,11 +45,11 @@
   },
   {
     "path": "SOURCE-INDEX.json",
-    "sha256": "13583cb3c4b9fefa7a3b03cd65ddcf3f8e072cc55e7397961af5bcf5726674a4"
+    "sha256": "c3fb5671bb9f0483662180d67bb114451820e62e13ece141d40eaa1b15aa77fe"
   },
   {
     "path": "STATUS.md",
-    "sha256": "998edf0c054726056440a6ba9cf1734f3d6434b655c576dd874d74579061d891"
+    "sha256": "67f6dd43ba275da255c945622afc1a0cb5e1665c4a56c153dec016cd1b409f90"
   },
   {
     "path": "VALIDATION.md",
@@ -122,6 +122,11 @@
   {
     "path": "docs/HANDOFF.md",
     "sha256": "eddb5d61ab42762b51573f92435f4f7c879af4e0ecdcb19b6f177c2a0250b8d2"
+  },
+  {
+    "path": "docs/HIT-FEEDBACK-20261016.md",
+    "source": "Исследование INV07/GUN05 16.10.2026; только выбранные числовые факты",
+    "sha256": "d32ff97019664b98f9219ed66b7d966f9d49cad4b0acc847cde5e165af94f7f6"
   },
   {
     "path": "docs/HIT-FIELDS-20261015.md",
@@ -625,27 +630,47 @@
   },
   {
     "path": "docs/recovery/execution-history.csv",
-    "sha256": "563853ceaa10106da1ed487fb78e33dd6dbf0dab3cfc3b0de0dd03cbdba9c826"
+    "sha256": "4482baa0a60910c90418373de7df3e0bbb5905f9d0afc666d9e960cef6116c05"
   },
   {
     "path": "docs/recovery/history.csv",
-    "sha256": "bfd41c034d715ba99f64a98226598bdc7bb06a0a710cf2e22af5dbe1a6494d46"
+    "sha256": "959e243aeb356ae7fad6340f610f9571800452acfdc80bd918bd7138207ecfcb"
   },
   {
     "path": "docs/recovery/mechanics-2022.csv",
-    "sha256": "cbed3f8ec96376458db0cd6f66122c22a96f904f1a821e7345a01d581fcc6a22"
+    "sha256": "df71a38cc62f9f7b892b379957b5e7b4033021ff27745c54a1a1ff0604b06f92"
   },
   {
     "path": "docs/recovery/status.md",
-    "sha256": "a42f103c8b870d7afb9051bf97c6217c1a9204f8c12d2e1fa0ff6ad41265bdd1"
+    "sha256": "d93580f638965afda4438344a8a93d7cf2b8b4d309e629399f0bab9578e1aa1c"
   },
   {
     "path": "docs/recovery/updates.csv",
-    "sha256": "f06b01db562c1c17a19696d79f2685bc3101f459af192786ab9d2e2c7ea750f2"
+    "sha256": "97e53144b8bb77dc11945f562c6fce584bfbc966f08fd7b170e08b626a7efbec"
   },
   {
     "path": "docs/signals-2022.csv",
-    "sha256": "cd6587b0b1d80865d5f76eae5913cc3943c72b290a8de3aa41cd02ba31827503"
+    "sha256": "98c2316efd442320ae14303dda7154ab91734167651bf48eb2fc0007ddccc993"
+  },
+  {
+    "path": "evidence/hit-feedback-20261016/README.md",
+    "source": "Исследование INV07/GUN05 16.10.2026; только выбранные числовые факты",
+    "sha256": "c8d4438e6fa714ec976125c5d109060d5ef68d4f0ddd1e3353556472c080349c"
+  },
+  {
+    "path": "evidence/hit-feedback-20261016/native-11eb-codec.json",
+    "source": "Исследование INV07/GUN05 16.10.2026; только выбранные числовые факты",
+    "sha256": "28e9d7d44b1fb2e71a6858fa7bdb8dce35a790d7f654a4c712647a8d21fa33de"
+  },
+  {
+    "path": "evidence/hit-feedback-20261016/selected-native-events.txt",
+    "source": "Исследование INV07/GUN05 16.10.2026; только выбранные числовые факты",
+    "sha256": "d45badcc73d63d57d51203044c291ae115b0140b540f9e075095803c5f2ab4a3"
+  },
+  {
+    "path": "evidence/hit-feedback-20261016/type-init-literals.json",
+    "source": "Исследование INV07/GUN05 16.10.2026; только выбранные числовые факты",
+    "sha256": "00c2cdddbbb735eb4264c7bbf544d16fed2090920bc28a0d3d69d8dbfaf11fd3"
   },
   {
     "path": "evidence/windows-feedback-20261015/checks.txt",
