@@ -13,7 +13,7 @@
   },
   {
     "path": "AGENTS.md",
-    "sha256": "07622e38832365b62183b1c2fca5f74310f4b972238f210a205efba222e7b424"
+    "sha256": "bcbecf510ae7417ef8b069d6d6bd73e942b60f874076b52708c12f2773ead4c3"
   },
   {
     "path": "ARCHITECTURE.md",
@@ -45,11 +45,11 @@
   },
   {
     "path": "SOURCE-INDEX.json",
-    "sha256": "802e9fbe6c06c3207e2e9579390ffe0ddc70dd7a125d2eed28abc3762a959e3c"
+    "sha256": "d8097633da33e28320f1a3cd7633d3105ad9dbc8ef2ea8495608a2fcf475f62f"
   },
   {
     "path": "STATUS.md",
-    "sha256": "5254dcb84ebb4eff634bde4b9fb944ed6090efefc2c12f077a0e7f20c9883b8a"
+    "sha256": "59bb852e1b772f30d40069a0af05ba670e48a91bf74ddfc8ca02c5a6bcab731f"
   },
   {
     "path": "VALIDATION.md",
@@ -518,7 +518,7 @@
   },
   {
     "path": "docs/SESSION-RESULT-20261016.md",
-    "sha256": "191fa49f97f409f3ab8041563f096808e39a166bf1b665fc46049c914d1f819a"
+    "sha256": "b8a59f28d7128e27258169489026729500187356aaf7fe65a55d61093ac9521e"
   },
   {
     "path": "docs/SHARED-GROUND-20261011.md",
@@ -530,7 +530,7 @@
   },
   {
     "path": "docs/SOURCE-COLLISION-20261016.md",
-    "sha256": "a4753c209585b674062efb152b758808b975505323cb384f06f5d35fdfac80a1"
+    "sha256": "069f99c1f4b13f4c9d319fab966be5893c5316b466710198f05852ab27e5597b"
   },
   {
     "path": "docs/SOURCE-CYCLE-20261015.md",
@@ -547,6 +547,10 @@
   {
     "path": "docs/STEAM2018.md",
     "sha256": "4a0a870d3b7a162429d7b4708ca0b5688255d1572f0d352aa0e9b3571fa94b65"
+  },
+  {
+    "path": "docs/TERRAIN-HEIGHTFIELD-20261016.md",
+    "sha256": "046bbffc4d3ab38af041a9c03353f8eb08b158ccfc3272337505e7404a609b48"
   },
   {
     "path": "docs/V99.md",
@@ -654,19 +658,19 @@
   },
   {
     "path": "docs/recovery/history.csv",
-    "sha256": "682e24801e60657935fd738f3de4b5a4792cda8d0480e7e56786d04a4e135b24"
+    "sha256": "348ff12d3143670ab346fd16bd2cac1a5ed47eefd8c00f1c3846ee1a58efee9a"
   },
   {
     "path": "docs/recovery/mechanics-2022.csv",
-    "sha256": "4600097eebbdf348a12145f245e8558e86cdacb66eb91e4804c98424ffc496f6"
+    "sha256": "cc4f1c7492ff40707a7851191cc72d2ac00ddec4a431282472d7fcf38685ad1e"
   },
   {
     "path": "docs/recovery/status.md",
-    "sha256": "462255cea01a301b52d2dd2cd5886a7a6ff8855927eccc84ccd7e2999304f56e"
+    "sha256": "764e0b4d964b628c530ae03708a8ce69d0ca52d4de216a453e449cd1e6784469"
   },
   {
     "path": "docs/recovery/updates.csv",
-    "sha256": "e7e9a38cd36896b51b0c36af8076fd2234614d466d851868de346678dd401a46"
+    "sha256": "b7e6e189ff963e75ef79cefea7a6955cc4dd5dfada3f6aa4e0bfc7a2e9ad4189"
   },
   {
     "path": "docs/signals-2022.csv",
@@ -709,6 +713,10 @@
     "sha256": "774428952e862da33e654932672c2f1da3efeeb0e28530c0e6d0b7b63e303670"
   },
   {
+    "path": "evidence/projectile-materials-20261016/heightfield-native-validation.json",
+    "sha256": "2ae64cf2be86c07e2985e675a3651cf6fdcd72d9c0fb0a57cfad12760e1b0241"
+  },
+  {
     "path": "evidence/projectile-materials-20261016/native-hit-union-codec.json",
     "sha256": "83711560ea9d5efee732f041874be1feda10a4ce735702d1c2135b9f181829b0"
   },
@@ -727,6 +735,10 @@
   {
     "path": "evidence/projectile-materials-20261016/native017-selected-feedback.log",
     "sha256": "8a3ae11c21dce865ee73399039e3985e40b57d5df545325e1de54932c4be7e10"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/native019-terrain-parameters.json",
+    "sha256": "7a6041396e4c89a4fca400cb657982555e83d558b798f4578279f3dc7d9436c0"
   },
   {
     "path": "evidence/projectile-materials-20261016/obstacle.gdb",
@@ -755,6 +767,18 @@
   {
     "path": "evidence/projectile-materials-20261016/summary.json",
     "sha256": "2b8dbc6292277e303f343c4e1d058c61c9afb93eea91e267b8f0ab2d675c2daa"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/terrain-sample-aggregate.json",
+    "sha256": "a3fdab369319ab2307565008c2ed1622f415cd7d09a6ca2041918b0dadcdb944"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/terrain-source-poses.json",
+    "sha256": "ce38df065f61c737a1b80111e8a0e3079ccc3a48b8a5e39c771d3aa6c60b0062"
+  },
+  {
+    "path": "evidence/projectile-materials-20261016/terrain-source-sample-match.json",
+    "sha256": "519800e552dd0f4ce6fb9bf507f2d9b66a930966d2a2deba144fd802377438fc"
   },
   {
     "path": "evidence/projectile-materials-20261016/through-ray-source-comparison.json",
@@ -889,8 +913,16 @@
     "sha256": "31707a32c550570c4a0ef9928dd3b3103650dbeb78cafbf144116f6ccd8d8589"
   },
   {
+    "path": "tests/test_iceland_heightfield_2022.py",
+    "sha256": "8cdc9414090ba03f9741550af15b5f47078afdc2621c274715ad159db53961f0"
+  },
+  {
     "path": "tests/test_tasks.py",
     "sha256": "ca8e426186523a226bba63b740fe7e3c7e36405da0f58492a9a49e965385463b"
+  },
+  {
+    "path": "tools/probe_iceland_heightfield_2022.py",
+    "sha256": "7d35c6971c1e82888dbd921d8d713c5ecd954a10f0e8a6eded4a8a28c35f0eb8"
   },
   {
     "path": "tools/share_audit.py",

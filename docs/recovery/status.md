@@ -58,11 +58,11 @@
 | 39 | HP02 | Прочность жилета/шлема: передача | baseline | 90 | HP03/HP04: originalhurt consumer или sanitized weapon/zone/armor/range/HP/durable; новыйWindows0/1 drop/repick. |
 | 40 | HP03 | Броня: снижение урона | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
 | 41 | HP04 | Расход/разрушение брони от удара | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
-| 43 | GUN06 | Серверная валидация raycast/LOS | baseline | 67.5 | Server material/thickness policy и count/distance на source mesh, затем transforms квартала/terrain PhysX3.3.4. Native017 extended hit принят; origin authority/lagcomp ещё открыты. |
+| 43 | GUN06 | Серверная валидация raycast/LOS | baseline | 67.5 | Opt-in material/thickness policy и count/distance; source heightfield2112² уже читается безSDK. Наземный участок loot/NPC проверить по terrain+staticobjects, сохраняя верхние этажи; origin authority/lagcomp отдельно. |
 | 71 | EVAC02 | Трос: взаимодействие/подъём/посадка | baseline | 90 | Ранний native/tutor/time gate дляhover75s; Windows/interrupt отдельный повтор |
 | 75 | OPS05 | Воспроизводимый полный одиночный цикл | baseline | 90 | Windows повтор полного source-kit цикла с pickup M4/первого аирдропа/эвакуацией; исходный RNG/баланс отдельно |
 | 115 | MAP01 | Разрушение стекла и частей статических объектов | baseline | 57.5 | Windows repeat WinterWindows; source classification/materials and remote snapshot; retain original physics caveat |
 
 Источники, адреса, ограничения, критерии и этапы каждой механики — в [mechanics-2022.csv](mechanics-2022.csv). Порядок работ — в [README](README.md).
 
-SHA-256 CSV: `4600097eebbdf348a12145f245e8558e86cdacb66eb91e4804c98424ffc496f6`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.
+SHA-256 CSV: `cc4f1c7492ff40707a7851191cc72d2ac00ddec4a431282472d7fcf38685ad1e`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.

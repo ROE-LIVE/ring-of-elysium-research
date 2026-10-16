@@ -1,0 +1,82 @@
+[
+  {
+    "resource": "RIGIDTERRAIN_WIN64.PXBIN",
+    "file_sha256": "4e28f2c6654fb8643821a612ce102719f3e70150f0f730d9a42bcb43d882097c",
+    "rows_columns": [
+      2112,
+      2112
+    ],
+    "limits_columns_float": [
+      2110.0,
+      2110.0,
+      2112.0
+    ],
+    "samples_sha256": "e290b7fdde5a43215c4999142829db13858c2102c0ad20198bcdb8373c1e2ed1",
+    "probe_row": 1763.0,
+    "probe_col": 892.5,
+    "probe_samples": [
+      [
+        15707,
+        42,
+        42
+      ],
+      [
+        15705,
+        42,
+        42
+      ],
+      [
+        15713,
+        42,
+        42
+      ],
+      [
+        15713,
+        42,
+        42
+      ]
+    ],
+    "probe_raw_height": 15706.0,
+    "probe_world_z": 258883.0418844223
+  },
+  {
+    "resource": "SERVERDATA/RIGIDTERRAINLINUX.PXBIN",
+    "file_sha256": "8332fe282b7949acbe717b256638543c6aa32398744b84cfdfe25d7735467d6f",
+    "rows_columns": [
+      2112,
+      2112
+    ],
+    "limits_columns_float": [
+      2110.0,
+      2110.0,
+      2112.0
+    ],
+    "samples_sha256": "e290b7fdde5a43215c4999142829db13858c2102c0ad20198bcdb8373c1e2ed1",
+    "probe_row": 1763.0,
+    "probe_col": 892.5,
+    "probe_samples": [
+      [
+        15707,
+        42,
+        42
+      ],
+      [
+        15705,
+        42,
+        42
+      ],
+      [
+        15713,
+        42,
+        42
+      ],
+      [
+        15713,
+        42,
+        42
+      ]
+    ],
+    "probe_raw_height": 15706.0,
+    "probe_world_z": 258883.0418844223
+  }
+]

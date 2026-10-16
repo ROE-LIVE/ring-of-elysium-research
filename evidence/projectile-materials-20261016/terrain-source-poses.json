@@ -1,0 +1,44 @@
+[
+  {
+    "resource": "SERVERDATA/RIGIDTERRAINLINUX.PXBIN",
+    "object_base": 1952,
+    "shape_offset": 4064,
+    "actor_offset": 4336,
+    "geometry_type": 6,
+    "height_row_column_scale": [
+      5.340657711029053,
+      200.0,
+      200.0
+    ],
+    "actor_pose": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      192000.0,
+      192000.0,
+      175002.671875
+    ]
+  },
+  {
+    "resource": "RIGIDTERRAIN_WIN64.PXBIN",
+    "object_base": 1952,
+    "shape_offset": 4064,
+    "actor_offset": 4336,
+    "geometry_type": 6,
+    "height_row_column_scale": [
+      5.340657711029053,
+      200.0,
+      200.0
+    ],
+    "actor_pose": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      192000.0,
+      192000.0,
+      175002.671875
+    ]
+  }
+]

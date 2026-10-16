@@ -1,3 +1,5 @@
+16.10 07:16UTC: Native019 source heightfield2112²,49материалов; Linux/Win samplesSHA совпали. Reader безSDK:2genuineSnowfloorheight/normal/face совпали<=0.00718cm;12DLLoracle/6unit. tools/probe_iceland_heightfield_2022.py; defaultspawn не менялся. docs/TERRAIN-HEIGHTFIELD-20261016.md.
+
 16.10 06:24UTC: Native017 genuine AKthroughRock energy47→27.25454,11DD144/count2 принят→HP900→800/11EB/UI/Wwise. Source RepX одного камня1623/3145/BVH и7точек; исходные serverHP/penetration иWindows пока открыты. docs/HIT-RECORDS-20261016.md, SOURCE-COLLISION-20261016.md.
 
 # Правила передаваемого комплекта

@@ -1990,6 +1990,41 @@
       "source_path": "docs/SESSION-RESULT-20261016.md",
       "included_at_original_path": true,
       "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/TERRAIN-HEIGHTFIELD-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/native019-terrain-parameters.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/native019-terrain-parameters.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/heightfield-native-validation.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/heightfield-native-validation.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/terrain-source-sample-match.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/terrain-source-sample-match.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/terrain-source-poses.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/terrain-source-poses.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/terrain-sample-aggregate.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/terrain-sample-aggregate.json"
     }
   ]
 }

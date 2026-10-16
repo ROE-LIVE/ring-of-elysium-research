@@ -28,7 +28,7 @@ python tools/prepare_iceland_rock_collision_2022.py --client "G:\REsearch\Ring o
 
 LOS считает выбранный mesh сплошной преградой. Исходное пробитие клиентом тонкого камня уже наблюдалось, но server mesh пока отклонит такой луч: не включать его по умолчанию до material/thickness policy. Гранатный LOS остаётся AABB. Нет полной карты, origin authority, lag compensation, общего ground solver/навигации. Исходные геометрические файлы не публикуются.
 
-В ресурсах найден конкретный следующий вход: `DATA/WORLD/EU_ICELAND_4096/SERVERDATA/RIGIDTERRAINLINUX.PXBIN`,17848756байт, headerSEBD/platformL_64; рядом Win64/W_64. Прочитан только заголовок64байта. Формат ещё не декодирован и сервером не загружен. Следующий опыт — совместимое чтение PhysX3.3.4 binary collection и извлечение transforms ограниченного квартала. Наличие файла не доказывает наличие исполняемого автономного host.
+В ресурсах найден конкретный следующий вход: `DATA/WORLD/EU_ICELAND_4096/SERVERDATA/RIGIDTERRAINLINUX.PXBIN`,17848756байт, headerSEBD/platformL_64; рядом Win64/W_64. Первоначально был прочитан только заголовок64байта. Затем Native018/019 подтвердили десериализацию Win64-коллекции и чтение высот Linux-файла безSDK: [TERRAIN-HEIGHTFIELD-20261016.md](TERRAIN-HEIGHTFIELD-20261016.md). Полный parser/terrainLOS и transforms остальных объектов квартала остаются следующим этапом. Наличие файла не доказывает наличие исполняемого автономного host.
 
 Доказательства исходного workspace: `research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/resource-mesh-match.json`, `source-mesh-validation.json`, `target-behind-mesh.json`, native014 selected trace. В публичном research лежат только небольшие выбранные результаты без mesh/XML/SFC.
 
@@ -37,3 +37,5 @@ LOS считает выбранный mesh сплошной преградой. 
 `compare_through_ray.py` пересёк source mesh лучами из gun_origin к impact двух настоящих hit. У обоих ровно два пересечения, sourcefaces2066/2065. Native014: толщина записей31,67753см / геометрии31,61152см; Native017:12,45246 /12,54077см. Максимальное расхождение выбранных точек0,05464см. Клиентская формула на wire entry/exit даёт E15,0783779 /27,2545439, совпадая с native float до0,000002; на исходной геометрии15,13833 /27,22287.
 
 Это **офлайн** сопоставление двух настоящих выстрелов, а не включённый server penetration. Оно показывает, что не нужно доверять присланной толщине: её можно независимо приближённо восстановить из геометрии. Точная muzzle/spread/raycast точность, несколько материалов/объектов, пределы count/distance и политика расхождений ещё требуют проверки. Результат: `through-ray-source-comparison.json` в том же исходном каталоге.
+
+Загрузчик RepX использует существующий bounded LZ4 decoder peer из tools/roe_tgcp_2023.py; новой обязательной Python-зависимости нет. Синтетические SFC-тесты используют literal-only LZ4, независимы от внешнего пакета lz4. Реальный выбранный блок и7nativeточек повторно проверены.

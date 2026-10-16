@@ -16,7 +16,7 @@
 
 ## Проверка и передача
 
-Основной проект:601тест; публичный launcher573; прежний launcher562; research2. Все прошли, в публичном комплекте выполнены и PowerShell-проверки. Оба verify-only успешны. После последнего сохранения public client_mode отдельно повторены3exporter-теста. Проверки состава/хешей публичных репозиториев пройдены; полные ресурсы/пакеты/AUTH не включаются.
+Основной проект:607тест; публичный launcher579; прежний launcher568; research8. Все прошли, в публичном комплекте выполнены и PowerShell-проверки. Оба verify-only успешны. Экспорт сохраняет выбранную диагностику и проверяет исключение вложенныхraw/AUTH. Проверки состава/хешей публичных репозиториев пройдены; полные ресурсы/пакеты/AUTH не включаются.
 
 CSV актуализирован по GUN05/GUN06/GUN07/INV07/NET06; следующие действия привязаны к первичным результатам. GUN06=67,5, GUN07=12,5 external_blocked; после source mesh/extended hit оценки не повышались. Этапы всего целевого плана70,5% не означают70,5% восстановленной игры. Новая ревизия Windows пока не подтверждена.
 
@@ -29,3 +29,7 @@ CSV актуализирован по GUN05/GUN06/GUN07/INV07/NET06; следу�
 Проверить W17-01..07: direct ground→M4/AK, несовместимый модуль, drop/repick, body/miss/head/kill feedback и звук. W17-08 through-hit необязателен при подходящем расположении цели. Подробный чек-лист находится в корне launcher: `WINDOWS-TESTS-W17.md`. После выхода `.\export-report.cmd`; передать `reports/<ID>`, commit и ответы «прошёл/ошибка/не проверял». Экспорт сохраняет разобранные collision records и отбрасывает raw/AUTH.
 
 Исходные доказательства: `research/builds/2022/recovery/050-inv07/20261015T2337-ground-attachment/`, `038-gun07/20261016T0130-collision-producer/`, `043-gun06/20261016T0300-native-obstacle/`. В последнем `release.json` содержит конечные commit/push/checks; выбранная Native017 цепочка — `native017-extended-hit-validation.json`.
+
+## Дополнительный результат: исходные высоты
+
+Native018/019 установили heightfield2112²,49материалов,shape иstaticactor. Поза/масштабы совпали с Win64/LinuxPXBIN; массивы samples идентичны. Новый read-only tools/probe_iceland_heightfield_2022.py безSDK выдаёт исходную высоту/нормаль/face дляXY, читая4samples. ДваgenuineSnow802hit совпали до0,00718см и поface7440249/7444472;12nativeDLLoraclecontrols/6unit. В launcher спавн/навигация автоматически не меняются: здания/камни/верхние этажи требуют общей коллизии. [Полный разбор](TERRAIN-HEIGHTFIELD-20261016.md).

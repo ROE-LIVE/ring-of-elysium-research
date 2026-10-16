@@ -24,3 +24,7 @@
 16.10 06:24UTC: Native017 genuine AKthroughRock energy47→27.25454,11DD144/count2 принят→HP900→800/11EB/UI/Wwise. Source RepX одного камня1623/3145/BVH и7точек; исходные serverHP/penetration иWindows пока открыты. docs/HIT-RECORDS-20261016.md, SOURCE-COLLISION-20261016.md.
 
 Первый настоящий144байтный hit014 выявил ошибку strict106. Новый Native017 подтвердил исправление живым выстрелом; это отдельно от offline replay. Обычный Windows-пресет не получает solidmesh. См.[разбор пакета](docs/HIT-RECORDS-20261016.md) и[ресурс коллизии](docs/SOURCE-COLLISION-20261016.md).
+
+16.10 07:16UTC: Native019 source heightfield2112²,49материалов; Linux/Win samplesSHA совпали. Reader безSDK:2genuineSnowfloorheight/normal/face совпали<=0.00718cm;12DLLoracle/6unit. tools/probe_iceland_heightfield_2022.py; defaultspawn не менялся. docs/TERRAIN-HEIGHTFIELD-20261016.md.
+
+Текущие проверки:607source/579public/568legacy/8research. Высоты не заменяют верхние этажи/камни/charactercapsule. WindowsW17 остаётся отдельным контролем.

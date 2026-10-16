@@ -1,0 +1,146 @@
+{
+  "scope": "Original DLL pure interpolation emulated; genuine native floorpoints vs sourceLinux heightfield; no launcher spawn change",
+  "native_interpolation_rva": "PhysX3Common0x18b80/0x18c41",
+  "synthetic_controls": [
+    {
+      "tessellation": false,
+      "row_fraction": 0.2,
+      "column_fraction": 0.3,
+      "native": 7.0,
+      "python": 7.0
+    },
+    {
+      "tessellation": false,
+      "row_fraction": 0.8,
+      "column_fraction": 0.7,
+      "native": 38.0,
+      "python": 38.0
+    },
+    {
+      "tessellation": false,
+      "row_fraction": 0.5,
+      "column_fraction": 0.5,
+      "native": 15.0,
+      "python": 15.0
+    },
+    {
+      "tessellation": false,
+      "row_fraction": 0,
+      "column_fraction": 0,
+      "native": 0.0,
+      "python": 0
+    },
+    {
+      "tessellation": false,
+      "row_fraction": 0.25,
+      "column_fraction": 0.75,
+      "native": 12.5,
+      "python": 12.5
+    },
+    {
+      "tessellation": false,
+      "row_fraction": 0.75,
+      "column_fraction": 0.25,
+      "native": 17.5,
+      "python": 17.5
+    },
+    {
+      "tessellation": true,
+      "row_fraction": 0.2,
+      "column_fraction": 0.3,
+      "native": 13.0,
+      "python": 13.0
+    },
+    {
+      "tessellation": true,
+      "row_fraction": 0.8,
+      "column_fraction": 0.7,
+      "native": 44.0,
+      "python": 44.0
+    },
+    {
+      "tessellation": true,
+      "row_fraction": 0.5,
+      "column_fraction": 0.5,
+      "native": 30.0,
+      "python": 30.0
+    },
+    {
+      "tessellation": true,
+      "row_fraction": 0,
+      "column_fraction": 0,
+      "native": 0.0,
+      "python": 0
+    },
+    {
+      "tessellation": true,
+      "row_fraction": 0.25,
+      "column_fraction": 0.75,
+      "native": 20.0,
+      "python": 20.0
+    },
+    {
+      "tessellation": true,
+      "row_fraction": 0.75,
+      "column_fraction": 0.25,
+      "native": 25.0,
+      "python": 25.0
+    }
+  ],
+  "floor_points": [
+    {
+      "log": "native019-terrain-floor2.log",
+      "native_point": [
+        370481.0625,
+        544375.5,
+        258861.375
+      ],
+      "native_normal": [
+        0.053254928439855576,
+        -0.05325488746166229,
+        0.9971599578857422
+      ],
+      "resource_height": 258861.38217949303,
+      "height_error_cm": 0.007179493026342243,
+      "normal_dot": 1.0000000760261885,
+      "material": 802,
+      "material_pair": [
+        42,
+        42
+      ],
+      "cell": [
+        1761,
+        892
+      ],
+      "native_face": 7440249,
+      "source_face": 7440249
+    },
+    {
+      "log": "native019-terrain-floor3.log",
+      "native_point": [
+        370401.15625,
+        544473.375,
+        258874.796875
+      ],
+      "native_normal": [
+        0.05302980914711952,
+        -0.10605953633785248,
+        0.9929447174072266
+      ],
+      "resource_height": 258874.79557512538,
+      "height_error_cm": 0.0012998746242374182,
+      "normal_dot": 0.9999999988666479,
+      "material": 802,
+      "material_pair": [
+        42,
+        42
+      ],
+      "cell": [
+        1762,
+        892
+      ],
+      "native_face": 7444472,
+      "source_face": 7444472
+    }
+  ]
+}

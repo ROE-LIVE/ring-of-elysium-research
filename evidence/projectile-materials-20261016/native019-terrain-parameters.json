@@ -1,0 +1,349 @@
+{
+  "scope": "Selected stop-time metadata, no code bytes or samples array",
+  "count": 52,
+  "objects": [
+    {
+      "type": 1,
+      "constant_type_names": [
+        "PxHeightField"
+      ],
+      "rows": 2112,
+      "columns": 2112,
+      "samples_file_offset": 6464,
+      "object_file_offset": 1952,
+      "thickness": -500.0,
+      "convex_edge_threshold": 0.0
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 8,
+      "constant_type_names": [
+        "PxMaterial"
+      ]
+    },
+    {
+      "type": 7,
+      "constant_type_names": [
+        "PxShape"
+      ],
+      "geometry_type": 6,
+      "height_row_column_scale": [
+        5.340657711029053,
+        200.0,
+        200.0
+      ],
+      "geometry_pointer": "0xd60c0820",
+      "shape_pose": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "type": 6,
+      "constant_type_names": [
+        "PxRigidStatic"
+      ],
+      "actor_pose": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        192000.0,
+        192000.0,
+        175002.671875
+      ]
+    }
+  ]
+}
