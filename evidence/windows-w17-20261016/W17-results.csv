@@ -1,0 +1,11 @@
+﻿test_id;mechanic_id;result;user_observation;event_evidence;limits;run_id
+W17-01;INV07;passed_AK;Прямой перенос коллиматора подтвердил пользователь;seq4903:40305→AK10202;M4 отдельно не подтверждён журналом;20261016T134206-fafd00
+W17-02;INV07;passed_AK;"Модули оделись; на земле не дублируются";"seq4788/4846:40103/40403→AK;5363 reload40/20";Остальной каталог модулей отдельно;20261016T134206-fafd00
+W17-03;INV07;passed_with_cosmetic_note;"SR-глушитель не ставится; анимация подбора остаётся";"6rejected incompatible_attachment; позже pickup в сумку/discard разрешены";Не считать допустимый pickup в сумку установкой на оружие;20261016T134206-fafd00
+W17-04;INV03|INV07;passed_AK;Пользователь проверил AK: модули и патроны сохранены;"seq7903 discard/8056 pickup;fire1slot2clip39→fire2slot3clip38,sameUID";"Следующий выстрел потребляет1; M4 не подменять AK-проверкой";20261016T134206-fafd00
+W17-05;GUN05;passed_user_and_events;Пользователь видит отметки и слышит хрустящий звук;"13hit_damage/11EB;6armor hits50/50";"Промах отдельно не описан; аудио подтверждено пользователем";20261016T134206-fafd00
+W17-06;GUN05|GUN07;passed_feedback;Звук головы есть и ярче;seq11232 part1/11EB,HP700→600;Не подтверждает исходный head damage multiplier;20261016T134206-fafd00
+W17-07;GUN05;passed_user_and_events;Красная отметка и гибель мишени;"seq12387 HP0;evac kills1/rescued1";Урон учебный;20261016T134206-fafd00
+W17-08;GUN06;not_tested;Прострелы не тестировались;Все13collision_record_count=0;Не запускать случайный поиск прострела ради закрытия строки;20261016T134206-fafd00
+W17-EXTRA-R;GUN02;open_client_issue;Перезарядка с полным магазином ещё актуальна;seq15181/15429/15583 reload_noop,17/14 unchanged;"Уточнение пользователя: анимация/звук при полном магазине, патроны прежние; причина native поведения не установлена";20261016T134206-fafd00
+W17-EXTRA-CYCLE;OPS02|ZONE02|EVAC02;passed_scoped;"Оружие есть; таймеры работают; вертолёт прилетает";"stages1/10/20/30/40/50;seq19640 rescued1,kills1,591s";"Doors/windows flags false; skin persistence только сообщение пользователя";20261016T134206-fafd00

@@ -13,7 +13,7 @@
   },
   {
     "path": "AGENTS.md",
-    "sha256": "bcbecf510ae7417ef8b069d6d6bd73e942b60f874076b52708c12f2773ead4c3"
+    "sha256": "f4cae0965f924c9c936b9cc948e9a762e922ec4f0b3cdd8dfc8efb1433f4f06a"
   },
   {
     "path": "ARCHITECTURE.md",
@@ -45,11 +45,11 @@
   },
   {
     "path": "SOURCE-INDEX.json",
-    "sha256": "d8097633da33e28320f1a3cd7633d3105ad9dbc8ef2ea8495608a2fcf475f62f"
+    "sha256": "01798b5135110bac04e073aba635c957aae2eae7ea1d5ba54083edc1f4a30af4"
   },
   {
     "path": "STATUS.md",
-    "sha256": "59bb852e1b772f30d40069a0af05ba670e48a91bf74ddfc8ca02c5a6bcab731f"
+    "sha256": "45762a3f35541d2830d82fd58400e7498ca5a9815ca4326645ca8a1a6a806cb0"
   },
   {
     "path": "VALIDATION.md",
@@ -130,7 +130,7 @@
   {
     "path": "docs/HIT-FEEDBACK-20261016.md",
     "source": "Исследование INV07/GUN05 16.10.2026; только выбранные числовые факты",
-    "sha256": "723a1a2601a4bf0ccb7c63d643f35abf0284fe493e6ae0eb352878398b0407a6"
+    "sha256": "d1cb75ab32022894dda8af6729234850bd38beeb0f6b6bbf4ca7f0efaf98b681"
   },
   {
     "path": "docs/HIT-FIELDS-20261015.md",
@@ -138,7 +138,7 @@
   },
   {
     "path": "docs/HIT-RECORDS-20261016.md",
-    "sha256": "eaf5a8c04b2764fd5190348325ac2486786eb6781c8872e97a6c825e2934914f"
+    "sha256": "394c97d7e0e26c67e02493a9a7198cf30784e3fa29741546dda13cb47e5ef53a"
   },
   {
     "path": "docs/HOST-CONSOLE-20261008.md",
@@ -617,6 +617,10 @@
     "sha256": "23fb69b96393ec967618b50cd4be26aa496600e051ce07f16653f1ec1e97bc78"
   },
   {
+    "path": "docs/WINDOWS-W17-REVIEW-20261016.txt",
+    "sha256": "d3f898f3177eeff1e27237a934b9c88ee09d55aa01a3ee0505857bb7469f94bc"
+  },
+  {
     "path": "docs/WINTER-INVENTORY-2022.md",
     "sha256": "5b6a10240431e0ce5eedfee49b2a90c26fa3005babc40a84f2550f23b37daaf9"
   },
@@ -658,23 +662,27 @@
   },
   {
     "path": "docs/recovery/history.csv",
-    "sha256": "348ff12d3143670ab346fd16bd2cac1a5ed47eefd8c00f1c3846ee1a58efee9a"
+    "sha256": "43984e4e2f72d31617fbf1c8ccdd68701247907bff62c41f5842a276b9d05a1c"
   },
   {
     "path": "docs/recovery/mechanics-2022.csv",
-    "sha256": "cc4f1c7492ff40707a7851191cc72d2ac00ddec4a431282472d7fcf38685ad1e"
+    "sha256": "0c32b7c505e715bc259baca72f8e21f86b211a44cdc91e8c9ba26ded680df655"
   },
   {
     "path": "docs/recovery/status.md",
-    "sha256": "764e0b4d964b628c530ae03708a8ce69d0ca52d4de216a453e449cd1e6784469"
+    "sha256": "9ef63a83ab1ba9fde5c4eb3d248c79955fe5005178e22d619d539bc76eb17be1"
   },
   {
     "path": "docs/recovery/updates.csv",
-    "sha256": "b7e6e189ff963e75ef79cefea7a6955cc4dd5dfada3f6aa4e0bfc7a2e9ad4189"
+    "sha256": "ff64933c68f84db99dad9f4f7e843d71c66ea36f2ff3fcf1fabd5bcad2c56b13"
+  },
+  {
+    "path": "docs/recovery/windows-tests-w18-20261016.csv",
+    "sha256": "73330cdab72346f27cbec28b161b0100051eb937672fbebcb8b4dc65a497b6b3"
   },
   {
     "path": "docs/signals-2022.csv",
-    "sha256": "8d3699b5478a130a66a5ec1162917a63a3350fac2f7c3331ce98aa79061f44d7"
+    "sha256": "108155580306f7ed8ea05c0ea481431d44110958e373410840f2465de20b20a4"
   },
   {
     "path": "evidence/hit-feedback-20261016/README.md",
@@ -911,6 +919,18 @@
   {
     "path": "evidence/windows-feedback-20261015/recovery-ops02-scale3-20261015-002-public.json",
     "sha256": "31707a32c550570c4a0ef9928dd3b3103650dbeb78cafbf144116f6ccd8d8589"
+  },
+  {
+    "path": "evidence/windows-w17-20261016/W17-results.csv",
+    "sha256": "b88a061960d3513e5c8bc16505ce1d47b4033b8dcabe8b5b7708cc95c9fa2847"
+  },
+  {
+    "path": "evidence/windows-w17-20261016/evidence.json",
+    "sha256": "9d2022296b10a8b0d2ec39c3da5be795780775338d09a8a00bc68d2a3631f6b4"
+  },
+  {
+    "path": "evidence/windows-w17-20261016/user-clarification.txt",
+    "sha256": "57ed398e0f3c25dcbe80043c69740dbe429c43b3a18318b0cdaf515e0798c334"
   },
   {
     "path": "tests/test_iceland_heightfield_2022.py",

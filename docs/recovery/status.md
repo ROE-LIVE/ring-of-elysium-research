@@ -51,9 +51,9 @@
 | 26 | INV04 | Частичные stack и остаток pickup | baseline | 90 | Полныйcatalog/stackpages/Windows; cold99twoammo fullbag/drop/partial/handoff сохраняютколичество |
 | 33 | GUN01 | Стрельба Citori и магазин | baseline | 90 | Проверить пустой магазин и повтор11da |
 | 34 | INV06 | Смена оружия и equipment slots | baseline | 82.5 | Windows W16-03/04: drop/repick иswap трёх экземпляров с ихclip/parts; grounddrag и3slots пользователь уже подтвердил |
-| 35 | GUN02 | Перезарядка и резерв Citori | baseline | 90 | Windows empty/partial/cancel; затем прочие семейства/обвесы; очередь HP01 baseline, далее GUN07. |
+| 35 | GUN02 | Перезарядка и резерв Citori | baseline | 90 | Убрать native анимацию/звук R при полном магазине: Windows3reload_noop17/14 ammo unchanged. Сначала scoped trace клиента/отмены; затем CSVW18-01..03, не просить повтор безисправления. |
 | 36 | HP01 | Синхронизация HP/максимума | baseline | 90 | Windows HP0/death; revive/downed отдельная исходная семантика, не выводить из1069. |
-| 37 | GUN05 | Уведомление о попадании и HP цели | baseline | 92.5 | Windows W17: слышимыйhit/head sound, ordinary/armor/dead marks; native005/006 уже подтверждены. GUN07 исходный баланс отдельно. |
+| 37 | GUN05 | Уведомление о попадании и HP цели | baseline | 92.5 | WindowsW17 body/head/armor/dead UI и audible sound подтверждены пользователем+13hit/11EB. Далее originalhurt GUN07 и repeated target lifecycle; W17 целиком не повторять. |
 | 38 | GUN07 | Исходный базовый урон и hit-zone | external_blocked | 12.5 | Producer140D09590(return140D095D6) установлен; нужен original authoritative hurt/provider. Хвост11DD surfaces/unit разобран; energy loss не равен wire ratio/HP. |
 | 39 | HP02 | Прочность жилета/шлема: передача | baseline | 90 | HP03/HP04: originalhurt consumer или sanitized weapon/zone/armor/range/HP/durable; новыйWindows0/1 drop/repick. |
 | 40 | HP03 | Броня: снижение урона | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
@@ -65,4 +65,4 @@
 
 Источники, адреса, ограничения, критерии и этапы каждой механики — в [mechanics-2022.csv](mechanics-2022.csv). Порядок работ — в [README](README.md).
 
-SHA-256 CSV: `cc4f1c7492ff40707a7851191cc72d2ac00ddec4a431282472d7fcf38685ad1e`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.
+SHA-256 CSV: `0c32b7c505e715bc259baca72f8e21f86b211a44cdc91e8c9ba26ded680df655`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.

@@ -2025,6 +2025,22 @@
       "included_at_original_path": false,
       "play_counterpart_exists": false,
       "selected_copy": "evidence/projectile-materials-20261016/terrain-sample-aggregate.json"
+    },
+    {
+      "source_path": "docs/WINDOWS-W17-REVIEW-20261016.txt",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/recovery/windows-tests-w18-20261016.csv",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/076-ops02/20261016T134206-w17-review/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/windows-w17-20261016/evidence.json"
     }
   ]
 }
