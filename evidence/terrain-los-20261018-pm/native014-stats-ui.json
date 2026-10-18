@@ -1,0 +1,11 @@
+{
+  "method": "visual reading of selected native screenshot",
+  "image": "research/builds/2022/host-console-20261007/recovery-gun06-terrain-20261018-014/014-stats-open.png",
+  "kill": 2,
+  "damage_dealt": 20,
+  "distance_m": 179,
+  "rescued": 1,
+  "survival": "13:55",
+  "profile": "ten plain targets, HP100 each; diagnostic damage100raw per hit",
+  "original_reward_formula": false
+}

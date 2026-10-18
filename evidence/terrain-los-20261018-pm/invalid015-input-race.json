@@ -1,0 +1,6 @@
+{
+  "scope": "instrument setup failure, not a gameplay rejection",
+  "cause": "pickup helper snapshot and driver overlap after reload event; normal UI drag discarded M4, no11DD received",
+  "recovery": "repeat with sequential subprocess completion, native016",
+  "run": "/home/jovyan/imported/REsearch/ROE_SERVER/research/builds/2022/host-console-20261007/recovery-gun06-terrain-20261018-015"
+}

@@ -1,0 +1,12 @@
+{
+  "runs": [
+    "012",
+    "013",
+    "014",
+    "015",
+    "016"
+  ],
+  "selected_hashes_unchanged": true,
+  "no_original_files_changed": true,
+  "scope": "three selected EXE/DLL hashes; not a scan of all original resource files"
+}

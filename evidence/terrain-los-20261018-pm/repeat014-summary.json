@@ -1,0 +1,168 @@
+{
+  "scope": "selected native fields, full primary remains in workspace",
+  "first_result": {
+    "sequence": 16992,
+    "timestamp": "2026-10-18T16:14:55.601217+00:00",
+    "kind": "vehicle_probe",
+    "synthetic": true,
+    "action": "singleplayer_evacuation_finish",
+    "uid": "0x5040000123458",
+    "seat": 1,
+    "match_statistics": {
+      "survival_seconds": 835,
+      "distance_cm": 17931,
+      "damage_raw": 200,
+      "damage_hp": 20,
+      "kills": 2,
+      "loot_actions": 7,
+      "loot_quantity": 130,
+      "rescued": 1,
+      "original_reward_formula": false,
+      "distance_policy": "accepted_c2s_polyline_3d",
+      "damage_policy": "diagnostic_raw_hp_divided_by_10"
+    },
+    "experimental": true
+  },
+  "native_fresh_targets": [
+    {
+      "uid": "0x2040000800000",
+      "actor_present": true,
+      "position": [
+        366300.0,
+        543650.0,
+        259006.0
+      ],
+      "hp": [
+        100,
+        100,
+        1000
+      ]
+    },
+    {
+      "uid": "0x2040000800001",
+      "actor_present": true,
+      "position": [
+        366300.0,
+        543900.0,
+        259028.0
+      ],
+      "hp": [
+        100,
+        100,
+        1000
+      ]
+    },
+    {
+      "uid": "0x2040000800002",
+      "actor_present": true,
+      "position": [
+        366300.0,
+        544150.0,
+        259057.0
+      ],
+      "hp": [
+        100,
+        100,
+        1000
+      ]
+    },
+    {
+      "uid": "0x2040000800003",
+      "actor_present": true,
+      "position": [
+        366300.0,
+        544400.0,
+        259076.0
+      ],
+      "hp": [
+        100,
+        100,
+        1000
+      ]
+    },
+    {
+      "uid": "0x2040000800004",
+      "actor_present": true,
+      "position": [
+        366300.0,
+        544650.0,
+        259100.0
+      ],
+      "hp": [
+        100,
+        100,
+        1000
+      ]
+    },
+    {
+      "uid": "0x2040000800005",
+      "actor_present": true,
+      "position": [
+        366700.0,
+        543650.0,
+        258977.0
+      ],
+      "hp": [
+        100,
+        100,
+        1000
+      ]
+    },
+    {
+      "uid": "0x2040000800006",
+      "actor_present": true,
+      "position": [
+        366700.0,
+        543900.0,
+        259006.0
+      ],
+      "hp": [
+        100,
+        100,
+        1000
+      ]
+    },
+    {
+      "uid": "0x2040000800007",
+      "actor_present": true,
+      "position": [
+        366700.0,
+        544150.0,
+        259028.0
+      ],
+      "hp": [
+        100,
+        100,
+        1000
+      ]
+    },
+    {
+      "uid": "0x2040000800008",
+      "actor_present": true,
+      "position": [
+        366700.0,
+        544400.0,
+        259049.0
+      ],
+      "hp": [
+        100,
+        100,
+        1000
+      ]
+    },
+    {
+      "uid": "0x2040000800009",
+      "actor_present": true,
+      "position": [
+        366700.0,
+        544650.0,
+        259078.0
+      ],
+      "hp": [
+        100,
+        100,
+        1000
+      ]
+    }
+  ]
+}

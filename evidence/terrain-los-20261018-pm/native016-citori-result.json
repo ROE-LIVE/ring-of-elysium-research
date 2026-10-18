@@ -1,0 +1,412 @@
+{
+  "before": {
+    "qs_current_map_id_unclassified": 10020.0,
+    "magazine_slot1": 2.0,
+    "magazine_slot2": 29.0,
+    "magazine_slot3": 0.0,
+    "reserve_citori": 6.0,
+    "reserve_m4": 30.0,
+    "reserve_ak47": 60.0,
+    "reserve_glock": 15.0,
+    "reserve_de": 0.0,
+    "bandages": 5.0,
+    "first_aid": 0.0,
+    "medkit": 0.0,
+    "glider_kit": 1.0,
+    "snowboard_kit": 0.0,
+    "climb_kit": 0.0,
+    "weather_id": 1.0,
+    "game_day_fraction": 0.341821,
+    "body_temperature_raw": 0.0,
+    "init_equip_type1": 1.0,
+    "init_equip_type2": 0.0,
+    "init_equip_type3": 0.0
+  },
+  "fired": {
+    "sequence": 14888,
+    "timestamp": "2026-10-18T16:43:24.267664+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "fire",
+    "counter": 2,
+    "clip": 1,
+    "reserve": 6,
+    "slot": 1,
+    "gun_definition": 10402,
+    "ammunition_definition": 30004,
+    "ammunition_quantity": 6,
+    "instance_uid": "0x1e00000100000004"
+  },
+  "pending": {
+    "sequence": 14958,
+    "timestamp": "2026-10-18T16:43:25.684054+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "reload_started",
+    "slot": 1,
+    "seconds": 1.48,
+    "clip": 1,
+    "gun_definition": 10402,
+    "ammunition_definition": 30004,
+    "ammunition_quantity": 6
+  },
+  "handoff": {
+    "sequence": 14993,
+    "timestamp": "2026-10-18T16:43:47.088750+00:00",
+    "kind": "gameplay_handoff_complete",
+    "synthetic": true,
+    "handoff_mode": "authenticated_idle_relay",
+    "previous_idle_seconds": 21.404971006002597,
+    "experimental": true,
+    "target_count": 10,
+    "target_states": [
+      {
+        "uid": "0x2040000800000",
+        "hp": 100,
+        "armor_durability": 0
+      },
+      {
+        "uid": "0x2040000800001",
+        "hp": 0,
+        "armor_durability": 0
+      },
+      {
+        "uid": "0x2040000800002",
+        "hp": 100,
+        "armor_durability": 0
+      },
+      {
+        "uid": "0x2040000800003",
+        "hp": 100,
+        "armor_durability": 0
+      },
+      {
+        "uid": "0x2040000800004",
+        "hp": 100,
+        "armor_durability": 0
+      },
+      {
+        "uid": "0x2040000800005",
+        "hp": 100,
+        "armor_durability": 0
+      },
+      {
+        "uid": "0x2040000800006",
+        "hp": 100,
+        "armor_durability": 0
+      },
+      {
+        "uid": "0x2040000800007",
+        "hp": 100,
+        "armor_durability": 0
+      },
+      {
+        "uid": "0x2040000800008",
+        "hp": 100,
+        "armor_durability": 0
+      },
+      {
+        "uid": "0x2040000800009",
+        "hp": 100,
+        "armor_durability": 0
+      }
+    ],
+    "world_position": [
+      366087,
+      544127,
+      259066
+    ],
+    "world_hp": 1000,
+    "world_stage_index": 6,
+    "clip": 1,
+    "reserve": 6,
+    "ammunition_definition": 30004,
+    "ammunition_quantity": 6
+  },
+  "complete": {
+    "sequence": 15058,
+    "timestamp": "2026-10-18T16:43:47.097325+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "reload",
+    "slot": 1,
+    "amount": 1,
+    "clip": 2,
+    "reserve": 5,
+    "gun_definition": 10402,
+    "ammunition_definition": 30004,
+    "ammunition_quantity": 5,
+    "update": "timed_delta"
+  },
+  "after": {
+    "qs_current_map_id_unclassified": 10020.0,
+    "magazine_slot1": 2.0,
+    "magazine_slot2": 29.0,
+    "magazine_slot3": 0.0,
+    "reserve_citori": 5.0,
+    "reserve_m4": 30.0,
+    "reserve_ak47": 60.0,
+    "reserve_glock": 15.0,
+    "reserve_de": 0.0,
+    "bandages": 5.0,
+    "first_aid": 0.0,
+    "medkit": 0.0,
+    "glider_kit": 1.0,
+    "snowboard_kit": 0.0,
+    "climb_kit": 0.0,
+    "weather_id": 1.0,
+    "game_day_fraction": 0.342131,
+    "body_temperature_raw": 0.0,
+    "init_equip_type1": 1.0,
+    "init_equip_type2": 0.0,
+    "init_equip_type3": 0.0
+  },
+  "final": {
+    "qs_current_map_id_unclassified": 10020.0,
+    "magazine_slot1": 2.0,
+    "magazine_slot2": 29.0,
+    "magazine_slot3": 0.0,
+    "reserve_citori": 4.0,
+    "reserve_m4": 30.0,
+    "reserve_ak47": 60.0,
+    "reserve_glock": 15.0,
+    "reserve_de": 0.0,
+    "bandages": 5.0,
+    "first_aid": 0.0,
+    "medkit": 0.0,
+    "glider_kit": 1.0,
+    "snowboard_kit": 0.0,
+    "climb_kit": 0.0,
+    "weather_id": 1.0,
+    "game_day_fraction": 0.342213,
+    "body_temperature_raw": 0.0,
+    "init_equip_type1": 1.0,
+    "init_equip_type2": 0.0,
+    "init_equip_type3": 0.0
+  },
+  "events": [
+    {
+      "sequence": 14888,
+      "timestamp": "2026-10-18T16:43:24.267664+00:00",
+      "kind": "weapon_probe",
+      "synthetic": true,
+      "action": "fire",
+      "counter": 2,
+      "clip": 1,
+      "reserve": 6,
+      "slot": 1,
+      "gun_definition": 10402,
+      "ammunition_definition": 30004,
+      "ammunition_quantity": 6,
+      "instance_uid": "0x1e00000100000004"
+    },
+    {
+      "sequence": 14894,
+      "timestamp": "2026-10-18T16:43:24.268687+00:00",
+      "kind": "weapon_probe",
+      "synthetic": true,
+      "action": "fire_finish",
+      "counter": 3
+    },
+    {
+      "sequence": 14950,
+      "timestamp": "2026-10-18T16:43:25.682921+00:00",
+      "kind": "weapon_probe",
+      "synthetic": true,
+      "action": "fire_finish",
+      "counter": 3
+    },
+    {
+      "sequence": 14958,
+      "timestamp": "2026-10-18T16:43:25.684054+00:00",
+      "kind": "weapon_probe",
+      "synthetic": true,
+      "action": "reload_started",
+      "slot": 1,
+      "seconds": 1.48,
+      "clip": 1,
+      "gun_definition": 10402,
+      "ammunition_definition": 30004,
+      "ammunition_quantity": 6
+    },
+    {
+      "sequence": 14993,
+      "timestamp": "2026-10-18T16:43:47.088750+00:00",
+      "kind": "gameplay_handoff_complete",
+      "synthetic": true,
+      "handoff_mode": "authenticated_idle_relay",
+      "previous_idle_seconds": 21.404971006002597,
+      "experimental": true,
+      "target_count": 10,
+      "target_states": [
+        {
+          "uid": "0x2040000800000",
+          "hp": 100,
+          "armor_durability": 0
+        },
+        {
+          "uid": "0x2040000800001",
+          "hp": 0,
+          "armor_durability": 0
+        },
+        {
+          "uid": "0x2040000800002",
+          "hp": 100,
+          "armor_durability": 0
+        },
+        {
+          "uid": "0x2040000800003",
+          "hp": 100,
+          "armor_durability": 0
+        },
+        {
+          "uid": "0x2040000800004",
+          "hp": 100,
+          "armor_durability": 0
+        },
+        {
+          "uid": "0x2040000800005",
+          "hp": 100,
+          "armor_durability": 0
+        },
+        {
+          "uid": "0x2040000800006",
+          "hp": 100,
+          "armor_durability": 0
+        },
+        {
+          "uid": "0x2040000800007",
+          "hp": 100,
+          "armor_durability": 0
+        },
+        {
+          "uid": "0x2040000800008",
+          "hp": 100,
+          "armor_durability": 0
+        },
+        {
+          "uid": "0x2040000800009",
+          "hp": 100,
+          "armor_durability": 0
+        }
+      ],
+      "world_position": [
+        366087,
+        544127,
+        259066
+      ],
+      "world_hp": 1000,
+      "world_stage_index": 6,
+      "clip": 1,
+      "reserve": 6,
+      "ammunition_definition": 30004,
+      "ammunition_quantity": 6
+    },
+    {
+      "sequence": 15054,
+      "timestamp": "2026-10-18T16:43:47.096853+00:00",
+      "kind": "world_probe",
+      "action": "zone_stage_resume",
+      "synthetic": true,
+      "stage": 50,
+      "elapsed": 817.7573208329995,
+      "scheduled_at": 405.90000000000003,
+      "lateness_seconds": 411.8573208329995,
+      "stage_elapsed_sent": 411.8573303222656,
+      "remaining_seconds": 0.0
+    },
+    {
+      "sequence": 15055,
+      "timestamp": "2026-10-18T16:43:47.097015+00:00",
+      "kind": "gameplay_resume_reload_reconcile",
+      "synthetic": true,
+      "slot": 1,
+      "clip": 2,
+      "counter": 0,
+      "experimental": true
+    },
+    {
+      "sequence": 15058,
+      "timestamp": "2026-10-18T16:43:47.097325+00:00",
+      "kind": "weapon_probe",
+      "synthetic": true,
+      "action": "reload",
+      "slot": 1,
+      "amount": 1,
+      "clip": 2,
+      "reserve": 5,
+      "gun_definition": 10402,
+      "ammunition_definition": 30004,
+      "ammunition_quantity": 5,
+      "update": "timed_delta"
+    },
+    {
+      "sequence": 15096,
+      "timestamp": "2026-10-18T16:43:47.112177+00:00",
+      "kind": "weapon_probe",
+      "synthetic": true,
+      "action": "hand",
+      "slot": 1,
+      "reload_cancelled": false
+    },
+    {
+      "sequence": 15197,
+      "timestamp": "2026-10-18T16:43:53.188745+00:00",
+      "kind": "weapon_probe",
+      "synthetic": true,
+      "action": "fire",
+      "counter": 3,
+      "clip": 1,
+      "reserve": 5,
+      "slot": 1,
+      "gun_definition": 10402,
+      "ammunition_definition": 30004,
+      "ammunition_quantity": 5,
+      "instance_uid": "0x1e00000100000004"
+    },
+    {
+      "sequence": 15203,
+      "timestamp": "2026-10-18T16:43:53.189536+00:00",
+      "kind": "weapon_probe",
+      "synthetic": true,
+      "action": "fire_finish",
+      "counter": 4
+    },
+    {
+      "sequence": 15252,
+      "timestamp": "2026-10-18T16:43:54.593086+00:00",
+      "kind": "weapon_probe",
+      "synthetic": true,
+      "action": "fire_finish",
+      "counter": 4
+    },
+    {
+      "sequence": 15260,
+      "timestamp": "2026-10-18T16:43:54.594184+00:00",
+      "kind": "weapon_probe",
+      "synthetic": true,
+      "action": "reload_started",
+      "slot": 1,
+      "seconds": 1.48,
+      "clip": 1,
+      "gun_definition": 10402,
+      "ammunition_definition": 30004,
+      "ammunition_quantity": 5
+    },
+    {
+      "sequence": 15298,
+      "timestamp": "2026-10-18T16:43:56.805096+00:00",
+      "kind": "weapon_probe",
+      "synthetic": true,
+      "action": "reload",
+      "slot": 1,
+      "amount": 1,
+      "clip": 2,
+      "reserve": 4,
+      "gun_definition": 10402,
+      "ammunition_definition": 30004,
+      "ammunition_quantity": 4,
+      "update": "timed_delta"
+    }
+  ]
+}

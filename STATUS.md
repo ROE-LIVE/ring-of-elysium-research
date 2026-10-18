@@ -1,3 +1,5 @@
+18.10.2026, PM: terrain surface LOS opt-in на исходном PXBIN; native014 два genuinekills/UDP20s/StatsKill2Rescued1→новыйTraining10fresh nativeHP100.016 Citori2/6→2/5→2/4. INV02 measured pickup не воспроизвёл задержку картинок; исправления UI не заявлять. WindowsW19 остаётся действующим. План3/115строк/гейты без повышения; native host и originalhurt не восстановлены. [Итоги](docs/SESSION-RESULT-20261018-PM.md).
+
 18.10.2026: [итог сеанса](docs/SESSION-RESULT-20261018.md) —10пассивныхмишеней/раздельныйлут/повторныйTraining; BotController сохраняетсяпослеhandoff; M4through одногоRock305 подтверждён; 3B64/3E82bodydecoder→handler вrootEXE определены. Windowsновойгруппы/ёмкости ожидает W19CSV; исходныеAI/RNG/host/HPбаланс не восстановлены. Старые очереди/ограниченияниже читать сдатой, действующийCSVверсия3 имеет115строк и неимеетready.
 
 16.10: Windows150144 принят; fullR current17/capacity2 исправлен через ITEM_DATA+54. Native021 Glock/M4/AK/40mag и022smoke8/AOI подтверждены. Opt-in oneRock:023AKthrough/sourceenergy;024M4thickstop, M4through не подтверждён. Windows нового fix — W18 CSV. 10мишеней пока не реализованы. См.docs/SESSION-RESULT-20261016-AFTERNOON.md.

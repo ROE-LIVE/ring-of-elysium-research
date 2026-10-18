@@ -45,7 +45,7 @@
 | 19 | LOOT06 | Подбор боеприпасов | baseline | 90 | LOOT07: другое оружие использует 5.56; затем общие пачки и страницы INV02 |
 | 20 | LOOT07 | Подбор оружия с земли | baseline | 90 | INV02: consumable item union; native dual-gun reconnect и Windows повтор |
 | 21 | LOOT08 | Подбор/замена брони и шлема | baseline | 90 | HIT03/ITEM02: исходный hit-zone и уменьшение прочности; сейчас INV02 общийinventory |
-| 22 | INV02 | Общий инвентарь: страницы/слоты/item union | baseline | 50 | Read-only UI-model consumer после cache; measured latency on successful/delayed pickup; WindowsW19-06. Flag1 preserve. |
+| 22 | INV02 | Общий инвентарь: страницы/слоты/item union | baseline | 50 | Сравнить native013 успешную цепь с реально задержанным изображением; UI-model/paint consumer не доказан. WindowsW19-06; flag1 сохранить. |
 | 23 | INV03 | Выброс/повторный подбор с сохранением состояния | baseline | 90 | Проверить полныйкаталог/Windows; ограниченные M4/parts/armor drop+reconnect подтверждены |
 | 25 | KIT05 | Вместимость и вес | baseline | 90 | Полныйcatalog/stackpages/Windows; cold99twoammo fullbag/drop/partial/handoff сохраняютколичество |
 | 26 | INV04 | Частичные stack и остаток pickup | baseline | 90 | Полныйcatalog/stackpages/Windows; cold99twoammo fullbag/drop/partial/handoff сохраняютколичество |
@@ -58,11 +58,11 @@
 | 39 | HP02 | Прочность жилета/шлема: передача | baseline | 90 | HP03/HP04: originalhurt consumer или sanitized weapon/zone/armor/range/HP/durable; новыйWindows0/1 drop/repick. |
 | 40 | HP03 | Броня: снижение урона | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
 | 41 | HP04 | Расход/разрушение брони от удара | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
-| 43 | GUN06 | Серверная валидация raycast/LOS | baseline | 67.5 | Смешанные материалы/несколько объектов и threshold-distance; M4 through native009 подтверждён; Windows этого opt-in стенда отдельно. |
+| 43 | GUN06 | Серверная валидация raycast/LOS | baseline | 67.5 | Совместный source terrain+Rock/static objects native контроль; низкие/дальние попадания и Windows. Точныйfloat query и исходная authority/баллистика остаются открыты. |
 | 71 | EVAC02 | Трос: взаимодействие/подъём/посадка | baseline | 90 | Ранний native/tutor/time gate дляhover75s; Windows/interrupt отдельный повтор |
 | 75 | OPS05 | Воспроизводимый полный одиночный цикл | baseline | 90 | WindowsW19 repeatmatch reset then nextmechanics; no originalhost/RNG claim |
 | 115 | MAP01 | Разрушение стекла и частей статических объектов | baseline | 57.5 | Windows repeat WinterWindows; source classification/materials and remote snapshot; retain original physics caveat |
 
 Источники, адреса, ограничения, критерии и этапы каждой механики — в [mechanics-2022.csv](mechanics-2022.csv). Порядок работ — в [README](README.md).
 
-SHA-256 CSV: `51a6273857d1f067fc30dfaa8abb97afa7a2644cc0a6e6fc10e524d70983ca20`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.
+SHA-256 CSV: `27c00689a7edaf855fd0f95afb8995f7fbd72c2a3e37646090999c29d714fd6a`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.

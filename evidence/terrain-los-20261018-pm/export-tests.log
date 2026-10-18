@@ -1,0 +1,12 @@
+test_death_owners_and_typed_action_are_exported_without_nested_secrets (test_export_test_report_2022.ExportReportTests.test_death_owners_and_typed_action_are_exported_without_nested_secrets) ... ok
+test_export_includes_gameplay_and_numeric_state_without_network_or_identity (test_export_test_report_2022.ExportReportTests.test_export_includes_gameplay_and_numeric_state_without_network_or_identity) ... ok
+test_extended_hit_records_remain_diagnostic_without_nested_raw_data (test_export_test_report_2022.ExportReportTests.test_extended_hit_records_remain_diagnostic_without_nested_raw_data) ... ok
+test_loot_visibility_export_preserves_spawn_remove_without_raw_or_paths (test_export_test_report_2022.ExportReportTests.test_loot_visibility_export_preserves_spawn_remove_without_raw_or_paths) ... ok
+test_missing_or_non2022_summary_rejected_without_output (test_export_test_report_2022.ExportReportTests.test_missing_or_non2022_summary_rejected_without_output) ... ok
+test_passive_targets_and_handoff_health_survive_filtered_export (test_export_test_report_2022.ExportReportTests.test_passive_targets_and_handoff_health_survive_filtered_export) ... ok
+test_terrain_los_export_keeps_numeric_evidence_without_resource_or_auth (test_export_test_report_2022.ExportReportTests.test_terrain_los_export_keeps_numeric_evidence_without_resource_or_auth) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.010s
+
+OK

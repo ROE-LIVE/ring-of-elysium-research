@@ -394,6 +394,24 @@ def build(workspace, as_of=None):
             row['evidence_refs'] += '|research/builds/2022/recovery/043-gun06/20261018T1155-m4-edge/native009-through-hit.json'
             row['verification'] += '; Native009 genuineM4through24.04757cm/count2/nativeHP700; sourcepoints<=0.04128cm'
             row['limitations'] += '; energy8.63385 calculated from known branch, not new hardware energy; oneRock opt-in'
+    notification = 'docs/INVENTORY-NOTIFY-CONTROL-20261018.md'
+    terrain = 'docs/TERRAIN-LOS-20261018.md'
+    for row in rows:
+        reference = (notification if row['opcode_hex']=='0x3E82'
+                     else terrain if row['opcode_hex']=='0x11DD' else None)
+        if reference is None or not (workspace/reference).exists():
+            continue
+        row['source_refs'] += '|'+reference
+        row['source_sha256'] += '|'+reference+'='+hashlib.sha256((workspace/reference).read_bytes()).hexdigest()
+        row['evidence_refs'] += '|'+reference
+        if reference == notification:
+            row['chain_refs'] += '|'+reference
+            row['verification'] += '; Native013 BAG_BUS140D2E411→ITEM_UPDATE140E16414→ACTOR_REFRESH140E16638; genuine corpse pickup6, gun images present0.124..20s'
+            row['limitations'] += '; этот контроль не воспроизвёл native003 delay; связь actor refresh с3Dpaint не доказана'
+            row['next_step'] = 'Снять тот же consumer trace при фактически задержанном изображении; flag1 сохранить, WindowsW19-06'
+        else:
+            row['verification'] += '; Native013 Snow802 segment/source faces7431761/60/63; Native014 two genuine hits with opt-in terrain LOS and UDP20s handoff'
+            row['limitations'] += '; terrain guard требует собственный извлечённый PXBIN; straight segment/surface only, не buildings/origin authority/originaldamage'
     return rows
 
 

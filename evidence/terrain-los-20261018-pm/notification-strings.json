@@ -1,0 +1,14 @@
+[
+  {
+    "va": "0x14278be80",
+    "value": "EuActorBagData_Updated"
+  },
+  {
+    "va": "0x14275e938",
+    "value": "FireEvent"
+  },
+  {
+    "va": "0x142776ff8",
+    "value": "EVENT_DRESSUP_CONFIG_CHANGED"
+  }
+]

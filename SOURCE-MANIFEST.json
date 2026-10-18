@@ -29,11 +29,11 @@
   },
   {
     "path": "PROVENANCE.json",
-    "sha256": "aaa5ce94be5ed7ab4868b384c68b47351fc89b2b4bb176444f4db5f12cd8c6d6"
+    "sha256": "393d767ad1905eb819cb01cd122e98c193ccc876256c583e9834a0e81d7a9335"
   },
   {
     "path": "README.md",
-    "sha256": "d446c804bef548cdc0f427f6f3a40d188e401f38ed7ee9916ca1c7a1692a1a48"
+    "sha256": "0c51f687305766772c9e1e0a05841172cd02afa4bd5d5550c5d26e2914bef2d3"
   },
   {
     "path": "RIGHTS.md",
@@ -45,11 +45,11 @@
   },
   {
     "path": "SOURCE-INDEX.json",
-    "sha256": "2b6ad15141a85d546a8d8541461ade61fc378dc0c3ce87bb7dc2d813c442777a"
+    "sha256": "bd689a83f22111b7ac81898be83bb9fb7ec5c0fb7bbff8873fe73d9d76326a22"
   },
   {
     "path": "STATUS.md",
-    "sha256": "1d080a12b3c08bc2abd0c0440064424f9153252bc751dd464075c7f66640b80a"
+    "sha256": "62f8093fa8955acd827a407796472935d13e3e9fea9cf8491beb080aeb98ab28"
   },
   {
     "path": "VALIDATION.md",
@@ -98,6 +98,10 @@
   {
     "path": "docs/CAR07-SHARED-20261012.md",
     "sha256": "12e1555e324441b9cf2661eb71e568c8c9ba802236ddeebc147429488f5d7c56"
+  },
+  {
+    "path": "docs/CITORI-CAPACITY-HANDOFF-20261018.md",
+    "sha256": "ef2e5c98eba55e2ae61d35d6e83ac020ed2eb0d3ae90fd683a9b8769eced1b82"
   },
   {
     "path": "docs/CLIMB-VEHICLES-20261011.md",
@@ -162,6 +166,10 @@
   {
     "path": "docs/INVENTORY-BRANCH-CONTROL-20261018.md",
     "sha256": "3920321a144fb72de44dcebfd7dab2a356bceabed8fd07f9c673c58b8a9d1e03"
+  },
+  {
+    "path": "docs/INVENTORY-NOTIFY-CONTROL-20261018.md",
+    "sha256": "c90707e065087ad4a4744e9b28ae3fde3d7765f09b0aa023e93ebaae05bf9b89"
   },
   {
     "path": "docs/JUPYTER-ENVIRONMENT.md",
@@ -564,6 +572,10 @@
     "sha256": "b8a59f28d7128e27258169489026729500187356aaf7fe65a55d61093ac9521e"
   },
   {
+    "path": "docs/SESSION-RESULT-20261018-PM.md",
+    "sha256": "0af2b7f55a80c9e406ebcdc6e8794dc02794dfb990d8c1430c57bd6faf718e8b"
+  },
+  {
     "path": "docs/SESSION-RESULT-20261018.md",
     "sha256": "2844142e64952b256736595b5a9e264036c5c3da626524945b65016d9aa13b76"
   },
@@ -598,6 +610,10 @@
   {
     "path": "docs/TERRAIN-HEIGHTFIELD-20261016.md",
     "sha256": "046bbffc4d3ab38af041a9c03353f8eb08b158ccfc3272337505e7404a609b48"
+  },
+  {
+    "path": "docs/TERRAIN-LOS-20261018.md",
+    "sha256": "fd40d5ff3baed6a4bb951cf140ba633e2243377782b35ff1d32e7472dcd31d52"
   },
   {
     "path": "docs/V99.md",
@@ -689,7 +705,7 @@
   },
   {
     "path": "docs/recovery/AGENT-START.md",
-    "sha256": "232b974845ebb4e6e81dc57996e1a5e380f362e686ecf6bda61794df39330bdc"
+    "sha256": "10aaacc73a8b2a32a754baa6400f6f3b4c272a94def9a0db4afe9251417c3c76"
   },
   {
     "path": "docs/recovery/EVENING-20261008.md",
@@ -705,7 +721,7 @@
   },
   {
     "path": "docs/recovery/RUNBOOK.md",
-    "sha256": "f52d7e687d506cae0d8929a3af170700b726d117276b2b565e1dd2da0a8dc902"
+    "sha256": "7f7d9f6977f95e239f27ad2fdfbc21d93ae9590bd7d5fa4bc834652411007fac"
   },
   {
     "path": "docs/recovery/WINDOWS-TESTS-W18.csv",
@@ -721,19 +737,19 @@
   },
   {
     "path": "docs/recovery/history.csv",
-    "sha256": "9755e91d0162dd9bce04b4a87a76eb5becb14f12c4a148e79367cfbde81ff6da"
+    "sha256": "afc6c7d76100c92aed86d0c64dcb90d0d67c885c4ce6edc1cac7dda344bd5da5"
   },
   {
     "path": "docs/recovery/mechanics-2022.csv",
-    "sha256": "51a6273857d1f067fc30dfaa8abb97afa7a2644cc0a6e6fc10e524d70983ca20"
+    "sha256": "27c00689a7edaf855fd0f95afb8995f7fbd72c2a3e37646090999c29d714fd6a"
   },
   {
     "path": "docs/recovery/status.md",
-    "sha256": "eeddea795e664deaf0ec10329bef97d3f9765628fa1c2052179b3e448a42f22f"
+    "sha256": "ab1df2f681d3219ac5ebeb0628627b997681c1c03d439593d8cd609848fd10d9"
   },
   {
     "path": "docs/recovery/updates.csv",
-    "sha256": "844ee536187fc7aae3c5276354e470f38b051ef3cd646fafd3029461bd4cb533"
+    "sha256": "58e4e1ba4665130e4842b3c3c58ec1f487b95276c24c53963543ace40ba9a4b7"
   },
   {
     "path": "docs/recovery/windows-tests-20261018-w19.csv",
@@ -745,7 +761,7 @@
   },
   {
     "path": "docs/signals-2022.csv",
-    "sha256": "851f21177fe9c1df2934069792b6a01a75eb607fb5e54f29a057edb0452a8da9"
+    "sha256": "d990cacc52a50514c54db7a28ef435554b8fafd84ca11b7287182406ad14b9db"
   },
   {
     "path": "evidence/capacity-loot-20261016/README.md",
@@ -1084,6 +1100,86 @@
     "sha256": "47e8b8a1268755c888327bc12b674581fc9b7dea637e486bb20eb6871b2ba91d"
   },
   {
+    "path": "evidence/terrain-los-20261018-pm/actor-tests.log",
+    "sha256": "de7b2b0c4a5b77c99e601e942d8728134617d00fb56c8196d53a09f2e2c6d05d"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/additional-notification-strings.json",
+    "sha256": "c0584cd8cc400376ae2e8646d4e39ec8ad5e1c93041795a8266b16323add3e2d"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/cleanup-all.json",
+    "sha256": "0ccd301e1a36bcbbb60e76e431d076c38b117dc9b30293956a6dbd244c0f5c6a"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/export-tests.log",
+    "sha256": "a25993c069c94ec5031916bd9dcf544fe3b4f6717eaedf854fa86b015bfee9c6"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/invalid015-input-race.json",
+    "sha256": "04b38d89bfe77b55b9b637f8b332b606fe8fd010f4a70bd4217770a6ac35fd3e"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/native-ray-validation.json",
+    "sha256": "9cf7e3685e8c101513b0bff9d6c4beaa9ceb11d194d9da44de8e1dcbea418332"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/native012-notify.log.selected.txt",
+    "sha256": "c762c3913061eb73d9bfe39af08ed9a8530e5199b6e56bdb5394286127397de8"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/native013-actor-notify.log.selected.txt",
+    "sha256": "71b0f4b90861eaa9d900cc8a0f718a966e58c38a2679e33af00f498ccb77e71d"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/native013-corpse-timing.json",
+    "sha256": "99b68ec6e76499fde1908393b236794d50f360c7c96a4ef82b1e1a6feb6dfff1"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/native013-selected-events.json",
+    "sha256": "905d318ed02c0270a97bab5904b6c918e7521eb2bf0efa55ab3bb3e1348de8fa"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/native014-first-hit.json",
+    "sha256": "c5d42a87c6c9ecd66ff9dc0c47c64e5ada3c3b16bba281f77061854a1198777b"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/native014-gameplay-selected.json",
+    "sha256": "6b993aedb6e975d5bfc17240ca0cdd996fb9886dd50f9ab9a9c7402f16a4c321"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/native014-offline-replay.json",
+    "sha256": "69f858c0370c0130a1f0b8cedbf2a62c0d02766b78a1f1b75cd6636d76823a93"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/native014-stats-ui.json",
+    "sha256": "a37f0a384a90b7ea03894681d1d8b1640c0fb234632b39cfb68b532dcddd43b3"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/native016-citori-result.json",
+    "sha256": "711a1dc069ca61bf2898f15623bddcd35ae5b495934ac627b8d40a9ed551678c"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/native016-first-hit.json",
+    "sha256": "0a81b03fd5f690939e52a4fd6b8420394e7c9f5805c5526165f0c8679dc9320a"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/notification-strings.json",
+    "sha256": "5c1559e3c364488b379a412391ac18acaaf6ccd8d3ab7d68fe83b7e6bca4a607"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/repeat014-summary.json",
+    "sha256": "2d929c137359b8464fc2a089f297fc3413aa663a989a430cdae3cde399764c45"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/source-hashes.json",
+    "sha256": "e4c2f91c79c02dae7696314689a548a2074a1ad6238b1796e012ed1be38d02e7"
+  },
+  {
+    "path": "evidence/terrain-los-20261018-pm/terrain-ray.gdb",
+    "sha256": "349f7d3f18053035bfec8aa08da74dd72e64356800abde797ed1931838140a89"
+  },
+  {
     "path": "evidence/windows-feedback-20261015/checks.txt",
     "sha256": "166ec4e7e3df7b63ad103fff998e0c2f989e932dd7d25c722b725bbd858509b2"
   },
@@ -1225,7 +1321,7 @@
   },
   {
     "path": "tests/test_iceland_heightfield_2022.py",
-    "sha256": "8cdc9414090ba03f9741550af15b5f47078afdc2621c274715ad159db53961f0"
+    "sha256": "6b1cfb4b845dfa10950848a8f7fe7217919bb6ea264871630be0a751ba436e31"
   },
   {
     "path": "tests/test_tasks.py",
@@ -1237,11 +1333,11 @@
   },
   {
     "path": "tools/build_signals_registry_2022.py",
-    "sha256": "b5d107b630b76bc85d21c453863e609f8ecab2c45964ce44c0aaa61ac59c9dba"
+    "sha256": "ba7c6cd64d2d6491e0b88b495b87a940bfef442ccd2a540bb0f618d0b9e9d7e2"
   },
   {
     "path": "tools/probe_iceland_heightfield_2022.py",
-    "sha256": "7d35c6971c1e82888dbd921d8d713c5ecd954a10f0e8a6eded4a8a28c35f0eb8"
+    "sha256": "a5b3ea4b25b9330179031f7361b3a8d557dbbc881aa8868a0ae43a1fd9a8d390"
   },
   {
     "path": "tools/recovery_status.py",

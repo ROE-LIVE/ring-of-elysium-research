@@ -1,0 +1,221 @@
+{
+  "scope": "offline replay only; altered impact never sent to native client",
+  "native": {
+    "event": {
+      "action": "hit_damage",
+      "target": "0x2040000800001",
+      "counter": 1,
+      "tick": 5779,
+      "pellet": 0,
+      "damage": 100,
+      "hp": 0,
+      "absorbed": 0,
+      "armor_durability": 0,
+      "armor_definition": 0,
+      "experimental": true,
+      "hit_feedback_command": null,
+      "gun_definition": 10201,
+      "collision_record_count": 0,
+      "collision_records": [],
+      "hit_tag62": 2,
+      "hit_field71": 30,
+      "hit_field78": 164,
+      "hit_flag83": 0,
+      "hit_field100": 0,
+      "part_id": 2,
+      "target_path_id": 30,
+      "target_path_sequence": 0,
+      "target_path_use_c": 0,
+      "on_vehicle": 0,
+      "shooter_path_id": 164,
+      "shooter_path_sequence": 0,
+      "shooter_path_use_c": 0,
+      "shoot_id": 0,
+      "bullet_id": 1,
+      "ratio": 100,
+      "pellet_index": 0,
+      "gun_origin": [
+        365114.09375,
+        543999.125,
+        259269.640625
+      ],
+      "target_stand": [
+        366300,
+        543900,
+        259028
+      ],
+      "hit_impact": [
+        366284.0,
+        543925.625,
+        259128.0625
+      ],
+      "validation": "diagnostic_ray_terrain",
+      "origin": [
+        365114.09375,
+        543999.125,
+        259269.640625
+      ],
+      "aim": [
+        366104.875,
+        543936.875,
+        259149.21875
+      ],
+      "impact": [
+        366284.0,
+        543925.625,
+        259128.0625
+      ],
+      "terrain_checked": true
+    },
+    "hp": 0,
+    "accepted_identities": 1,
+    "packets": [
+      "0x1069",
+      "0x11ea",
+      "0x533"
+    ]
+  },
+  "forged_without_terrain": {
+    "event": {
+      "action": "hit_damage",
+      "target": "0x2040000800001",
+      "counter": 1,
+      "tick": 5779,
+      "pellet": 0,
+      "damage": 100,
+      "hp": 0,
+      "absorbed": 0,
+      "armor_durability": 0,
+      "armor_definition": 0,
+      "experimental": true,
+      "hit_feedback_command": null,
+      "gun_definition": 10201,
+      "collision_record_count": 0,
+      "collision_records": [],
+      "hit_tag62": 2,
+      "hit_field71": 30,
+      "hit_field78": 164,
+      "hit_flag83": 0,
+      "hit_field100": 0,
+      "part_id": 2,
+      "target_path_id": 30,
+      "target_path_sequence": 0,
+      "target_path_use_c": 0,
+      "on_vehicle": 0,
+      "shooter_path_id": 164,
+      "shooter_path_sequence": 0,
+      "shooter_path_use_c": 0,
+      "shoot_id": 0,
+      "bullet_id": 1,
+      "ratio": 100,
+      "pellet_index": 0,
+      "gun_origin": [
+        365114.09375,
+        543999.125,
+        259269.640625
+      ],
+      "target_stand": [
+        366300,
+        543900,
+        259028
+      ],
+      "hit_impact": [
+        366284.0,
+        543925.625,
+        258978.0625
+      ]
+    },
+    "hp": 0,
+    "accepted_identities": 1,
+    "packets": [
+      "0x1069",
+      "0x11ea",
+      "0x533"
+    ]
+  },
+  "forged_with_terrain": {
+    "event": {
+      "action": "hit_rejected",
+      "reason": "line_of_sight",
+      "target": "0x2040000800001",
+      "counter": 1,
+      "tick": 5779,
+      "pellet": 0,
+      "gun_definition": 10201,
+      "collision_record_count": 0,
+      "collision_records": [],
+      "hit_tag62": 2,
+      "hit_field71": 30,
+      "hit_field78": 164,
+      "hit_flag83": 0,
+      "hit_field100": 0,
+      "part_id": 2,
+      "target_path_id": 30,
+      "target_path_sequence": 0,
+      "target_path_use_c": 0,
+      "on_vehicle": 0,
+      "shooter_path_id": 164,
+      "shooter_path_sequence": 0,
+      "shooter_path_use_c": 0,
+      "shoot_id": 0,
+      "bullet_id": 1,
+      "ratio": 100,
+      "pellet_index": 0,
+      "gun_origin": [
+        365114.09375,
+        543999.125,
+        259269.640625
+      ],
+      "target_stand": [
+        366300,
+        543900,
+        259028
+      ],
+      "hit_impact": [
+        366284.0,
+        543925.625,
+        258978.0625
+      ],
+      "validation": "diagnostic_ray_terrain",
+      "origin": [
+        365114.09375,
+        543999.125,
+        259269.640625
+      ],
+      "aim": [
+        366104.875,
+        543936.875,
+        259149.21875
+      ],
+      "impact": [
+        366284.0,
+        543925.625,
+        258978.0625
+      ],
+      "terrain_checked": true,
+      "blocking_terrain": {
+        "fraction": 0.7373547240685825,
+        "position": [
+          365976.7296501549,
+          543944.9294277809,
+          259054.64411709618
+        ],
+        "normal": [
+          0.05302977864490261,
+          -0.10605955728980522,
+          0.9929447179397064
+        ],
+        "row": 1759,
+        "column": 869,
+        "face_index": 7431755,
+        "material_index": 42,
+        "visited_cells": 5,
+        "terrain_only": true
+      }
+    },
+    "hp": 100,
+    "accepted_identities": 0,
+    "packets": []
+  },
+  "impact_z_change_cm": -150
+}

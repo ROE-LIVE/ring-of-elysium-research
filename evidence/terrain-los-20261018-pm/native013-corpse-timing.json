@@ -1,0 +1,133 @@
+[
+  {
+    "kind": "mouse_release",
+    "utc_ns": 1792337619110121055,
+    "elapsed": 0.10407987500002491
+  },
+  {
+    "kind": "capture_begin",
+    "utc_ns": 1792337619210233622,
+    "elapsed": 0.20419305299947155,
+    "requested_delay": 0.1
+  },
+  {
+    "kind": "capture_grab",
+    "utc_ns": 1792337619233686529,
+    "elapsed": 0.22764494799776003,
+    "requested_delay": 0.1
+  },
+  {
+    "kind": "capture_end",
+    "utc_ns": 1792337619898387521,
+    "elapsed": 0.8923458299977938,
+    "requested_delay": 0.1
+  },
+  {
+    "kind": "capture_begin",
+    "utc_ns": 1792337619898484264,
+    "elapsed": 0.8924407889971917,
+    "requested_delay": 0.5
+  },
+  {
+    "kind": "capture_grab",
+    "utc_ns": 1792337619915665668,
+    "elapsed": 0.9096236359982868,
+    "requested_delay": 0.5
+  },
+  {
+    "kind": "capture_end",
+    "utc_ns": 1792337620566706612,
+    "elapsed": 1.5606639289981104,
+    "requested_delay": 0.5
+  },
+  {
+    "kind": "capture_begin",
+    "utc_ns": 1792337620566775262,
+    "elapsed": 1.5607317670001066,
+    "requested_delay": 1
+  },
+  {
+    "kind": "capture_grab",
+    "utc_ns": 1792337620582968147,
+    "elapsed": 1.5769259339976998,
+    "requested_delay": 1
+  },
+  {
+    "kind": "capture_end",
+    "utc_ns": 1792337621263522863,
+    "elapsed": 2.257482633998734,
+    "requested_delay": 1
+  },
+  {
+    "kind": "capture_begin",
+    "utc_ns": 1792337621263613033,
+    "elapsed": 2.2575695289997384,
+    "requested_delay": 2
+  },
+  {
+    "kind": "capture_grab",
+    "utc_ns": 1792337621278473821,
+    "elapsed": 2.2724314179977227,
+    "requested_delay": 2
+  },
+  {
+    "kind": "capture_end",
+    "utc_ns": 1792337621943549271,
+    "elapsed": 2.9375067979999585,
+    "requested_delay": 2
+  },
+  {
+    "kind": "capture_begin",
+    "utc_ns": 1792337624110236408,
+    "elapsed": 5.104196930999024,
+    "requested_delay": 5
+  },
+  {
+    "kind": "capture_grab",
+    "utc_ns": 1792337624122720654,
+    "elapsed": 5.116681145998882,
+    "requested_delay": 5
+  },
+  {
+    "kind": "capture_end",
+    "utc_ns": 1792337624782583241,
+    "elapsed": 5.776540136997937,
+    "requested_delay": 5
+  },
+  {
+    "kind": "capture_begin",
+    "utc_ns": 1792337629110224688,
+    "elapsed": 10.104184458999953,
+    "requested_delay": 10
+  },
+  {
+    "kind": "capture_grab",
+    "utc_ns": 1792337629123627891,
+    "elapsed": 10.117585266998503,
+    "requested_delay": 10
+  },
+  {
+    "kind": "capture_end",
+    "utc_ns": 1792337629776655479,
+    "elapsed": 10.770613746997697,
+    "requested_delay": 10
+  },
+  {
+    "kind": "capture_begin",
+    "utc_ns": 1792337639110219825,
+    "elapsed": 20.10417890499957,
+    "requested_delay": 20
+  },
+  {
+    "kind": "capture_grab",
+    "utc_ns": 1792337639126544609,
+    "elapsed": 20.120507365998492,
+    "requested_delay": 20
+  },
+  {
+    "kind": "capture_end",
+    "utc_ns": 1792337639786439787,
+    "elapsed": 20.780398636998143,
+    "requested_delay": 20
+  }
+]

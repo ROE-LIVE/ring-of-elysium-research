@@ -6,6 +6,10 @@
 
 ## English
 
+### Research follow-up — 18 October 2026
+
+Optional terrain LOS now uses an extracted Iceland heightfield. Proton verified open hits, reconnects, two kills, evacuation and a fresh Training session. This option requires your own extracted PXBIN and is disabled in the standard launcher; it does not provide complete map collision or original damage rules. The intermittent inventory image delay was not reproduced or fixed. Existing Windows W19 tests remain current. [Technical follow-up](docs/SESSION-RESULT-20261018-PM.md).
+
 ### Update — 18 October 2026
 
 Ten passive targets now have independent health, armor and death loot. Native tests cover two genuine gun kills, administrative control, reconnects, a second Training session, and the single loot/safe bot controller. M4 penetration through one source rock is confirmed. Body decoders for3B64/3E82 are now linked to native handlers in the root2022 executable. [Results](docs/SESSION-RESULT-20261018.md), [decoder chain](docs/PICK-DECODE-CHAIN-20261018.md), [Windows W19 CSV](docs/recovery/WINDOWS-TESTS-W19.csv). Original AI, balance, complete collision and host remain unfinished; this revision needs Windows validation.
@@ -19,7 +23,7 @@ Ten passive targets now have independent health, armor and death loot. Native te
 
 This notice does not exclude liability that cannot lawfully be excluded, and it does not change the licenses of third-party components.
 
-Research context for contributors and new AI agents, as of **October 16, 2026**. The launcher, emulator, and gameplay regression tests live in [ring-of-elysium-local](https://github.com/ROE-LIVE/ring-of-elysium-local). This repository documents builds, architecture, protocol signals, and the mechanics recovery plan. It contains no game client, keys, large dumps, or private Git history. Most supporting reports and CSV descriptions are currently in Russian.
+Research context for contributors and new AI agents, as of **October 18, 2026**. The launcher, emulator, and gameplay regression tests live in [ring-of-elysium-local](https://github.com/ROE-LIVE/ring-of-elysium-local). This repository documents builds, architecture, protocol signals, and the mechanics recovery plan. It contains no game client, keys, large dumps, or private Git history. Most supporting reports and CSV descriptions are currently in Russian.
 
 ## Getting started
 
@@ -61,6 +65,10 @@ See [provenance](PROVENANCE.json), [rights](RIGHTS.md), and the [sharing checkli
 <a id="russian"></a>
 
 ## Русский
+
+### Продолжение исследований — 18 октября 2026
+
+Добавлен opt-in terrain LOS по исходному рельефу Iceland. Proton подтвердил попадания, переподключение, два убийства, эвакуацию и новый Training. Нужен собственный извлечённый PXBIN; стандартный launcher не включает эту опцию. Полная коллизия и исходный урон не восстановлены. Задержка изображений инвентаря не воспроизведена/не исправлена. Действуют прежние Windows W19 тесты. [Подробности](docs/SESSION-RESULT-20261018-PM.md).
 
 ### Обновление — 18 октября 2026
 

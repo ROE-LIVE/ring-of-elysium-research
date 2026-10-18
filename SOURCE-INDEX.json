@@ -12,6 +12,11 @@
       "play_counterpart_exists": true
     },
     {
+      "source_path": "docs/CITORI-CAPACITY-HANDOFF-20261018.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
       "source_path": "docs/DEBUG-SNAPSHOTS-20261013.md",
       "included_at_original_path": true,
       "play_counterpart_exists": false
@@ -38,6 +43,11 @@
     },
     {
       "source_path": "docs/INVENTORY-BRANCH-CONTROL-20261018.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/INVENTORY-NOTIFY-CONTROL-20261018.md",
       "included_at_original_path": true,
       "play_counterpart_exists": true
     },
@@ -107,6 +117,11 @@
       "play_counterpart_exists": true
     },
     {
+      "source_path": "docs/SESSION-RESULT-20261018-PM.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
       "source_path": "docs/SESSION-RESULT-20261018.md",
       "included_at_original_path": true,
       "play_counterpart_exists": true
@@ -118,6 +133,11 @@
     },
     {
       "source_path": "docs/TERRAIN-HEIGHTFIELD-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/TERRAIN-LOS-20261018.md",
       "included_at_original_path": true,
       "play_counterpart_exists": true
     },
