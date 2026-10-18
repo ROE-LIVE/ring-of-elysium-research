@@ -1,0 +1,263 @@
+{
+  "scope": "actual native requests; projection is not measured impact",
+  "shots": [
+    {
+      "counter": 1,
+      "timestamp": "2026-10-18T17:34:04.965889+00:00",
+      "origin": [
+        370499.28125,
+        544599.9375,
+        259059.453125
+      ],
+      "aim": [
+        371460.28125,
+        544701.3125,
+        259316.734375
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544705.5023941533,
+        259327.3679750504
+      ]
+    },
+    {
+      "counter": 2,
+      "timestamp": "2026-10-18T17:38:48.126496+00:00",
+      "origin": [
+        370497.46875,
+        544599.75,
+        259061.6875
+      ],
+      "aim": [
+        371445.59375,
+        544682.4375,
+        259368.625
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544687.1823562129,
+        259386.23799233686
+      ]
+    },
+    {
+      "counter": 3,
+      "timestamp": "2026-10-18T17:40:20.734628+00:00",
+      "origin": [
+        370497.03125,
+        544599.6875,
+        259062.109375
+      ],
+      "aim": [
+        371442.90625,
+        544681.5,
+        259376.15625
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544686.4382660731,
+        259395.11236340774
+      ]
+    },
+    {
+      "counter": 4,
+      "timestamp": "2026-10-18T17:42:25.723794+00:00",
+      "origin": [
+        370496.8125,
+        544599.6875,
+        259062.390625
+      ],
+      "aim": [
+        371440.8125,
+        544678.125,
+        259382.828125
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544683.0429232323,
+        259402.91911496955
+      ]
+    },
+    {
+      "counter": 5,
+      "timestamp": "2026-10-18T17:44:25.131477+00:00",
+      "origin": [
+        370497.0,
+        544599.75,
+        259062.171875
+      ],
+      "aim": [
+        371442.625,
+        544678.1875,
+        259377.859375
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544682.9466292135,
+        259397.01344803371
+      ]
+    },
+    {
+      "counter": 6,
+      "timestamp": "2026-10-18T17:46:22.901959+00:00",
+      "origin": [
+        370497.125,
+        544599.75,
+        259062.09375
+      ],
+      "aim": [
+        371442.53125,
+        544677.9375,
+        259378.5
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544682.6903117046,
+        259397.73350060324
+      ]
+    }
+  ],
+  "hits": [
+    {
+      "sequence": 9474,
+      "timestamp": "2026-10-18T17:40:20.747106+00:00",
+      "kind": "actor_probe",
+      "synthetic": true,
+      "action": "hit_damage",
+      "target": "0x2040000123460",
+      "counter": 3,
+      "tick": 13244,
+      "pellet": 0,
+      "damage": 100,
+      "hp": 900,
+      "absorbed": 0,
+      "armor_durability": 0,
+      "armor_definition": 0,
+      "experimental": true,
+      "hit_feedback_command": "0x11eb",
+      "gun_definition": 10201,
+      "collision_record_count": 0,
+      "collision_records": [],
+      "hit_tag62": 2,
+      "hit_field71": 30,
+      "hit_field78": 383,
+      "hit_flag83": 1,
+      "hit_field100": 0,
+      "part_id": 2,
+      "target_path_id": 30,
+      "target_path_sequence": 0,
+      "target_path_use_c": 0,
+      "on_vehicle": 0,
+      "shooter_path_id": 383,
+      "shooter_path_sequence": 0,
+      "shooter_path_use_c": 1,
+      "shoot_id": 0,
+      "bullet_id": 3,
+      "ratio": 100,
+      "pellet_index": 0,
+      "gun_origin": [
+        370497.03125,
+        544599.6875,
+        259062.109375
+      ],
+      "target_stand": [
+        371500,
+        544686,
+        259300
+      ],
+      "hit_impact": [
+        371500.5,
+        544686.5,
+        259395.8125
+      ],
+      "validation": "diagnostic_ray_material",
+      "origin": [
+        370497.03125,
+        544599.6875,
+        259062.109375
+      ],
+      "aim": [
+        371442.90625,
+        544681.5,
+        259376.15625
+      ],
+      "impact": [
+        371500.5,
+        544686.5,
+        259395.8125
+      ],
+      "terrain_checked": true,
+      "penetration": {}
+    },
+    {
+      "sequence": 11218,
+      "timestamp": "2026-10-18T17:42:25.736244+00:00",
+      "kind": "actor_probe",
+      "synthetic": true,
+      "action": "hit_damage",
+      "target": "0x2040000123460",
+      "counter": 4,
+      "tick": 16369,
+      "pellet": 1,
+      "damage": 100,
+      "hp": 800,
+      "absorbed": 0,
+      "armor_durability": 0,
+      "armor_definition": 0,
+      "experimental": true,
+      "hit_feedback_command": "0x11eb",
+      "gun_definition": 10201,
+      "collision_record_count": 0,
+      "collision_records": [],
+      "hit_tag62": 2,
+      "hit_field71": 30,
+      "hit_field78": 383,
+      "hit_flag83": 1,
+      "hit_field100": 0,
+      "part_id": 2,
+      "target_path_id": 30,
+      "target_path_sequence": 0,
+      "target_path_use_c": 0,
+      "on_vehicle": 0,
+      "shooter_path_id": 383,
+      "shooter_path_sequence": 0,
+      "shooter_path_use_c": 1,
+      "shoot_id": 1,
+      "bullet_id": 4,
+      "ratio": 100,
+      "pellet_index": 0,
+      "gun_origin": [
+        370496.8125,
+        544599.6875,
+        259062.390625
+      ],
+      "target_stand": [
+        371500,
+        544686,
+        259300
+      ],
+      "hit_impact": [
+        371499.0625,
+        544683.0,
+        259403.140625
+      ],
+      "validation": "diagnostic_ray_material",
+      "origin": [
+        370496.8125,
+        544599.6875,
+        259062.390625
+      ],
+      "aim": [
+        371440.8125,
+        544678.125,
+        259382.828125
+      ],
+      "impact": [
+        371499.0625,
+        544683.0,
+        259403.140625
+      ],
+      "terrain_checked": true,
+      "penetration": {}
+    }
+  ]
+}

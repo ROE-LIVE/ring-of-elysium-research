@@ -29,7 +29,7 @@
   },
   {
     "path": "PROVENANCE.json",
-    "sha256": "393d767ad1905eb819cb01cd122e98c193ccc876256c583e9834a0e81d7a9335"
+    "sha256": "fb20348c91b1ed160f92c96efb18cbfbfd8c67756f12d6fa0393c369aad292b0"
   },
   {
     "path": "README.md",
@@ -45,7 +45,7 @@
   },
   {
     "path": "SOURCE-INDEX.json",
-    "sha256": "bd689a83f22111b7ac81898be83bb9fb7ec5c0fb7bbff8873fe73d9d76326a22"
+    "sha256": "4fae5a6c12d44e0394d1333d3eeeaa69110c083709acfb6b945933deb301dc2c"
   },
   {
     "path": "STATUS.md",
@@ -573,7 +573,7 @@
   },
   {
     "path": "docs/SESSION-RESULT-20261018-PM.md",
-    "sha256": "0af2b7f55a80c9e406ebcdc6e8794dc02794dfb990d8c1430c57bd6faf718e8b"
+    "sha256": "f7465c9f0ddfb868cea187d886fa8e0717dc55c85ae554615d18594d27994c30"
   },
   {
     "path": "docs/SESSION-RESULT-20261018.md",
@@ -614,6 +614,10 @@
   {
     "path": "docs/TERRAIN-LOS-20261018.md",
     "sha256": "fd40d5ff3baed6a4bb951cf140ba633e2243377782b35ff1d32e7472dcd31d52"
+  },
+  {
+    "path": "docs/TERRAIN-ROCK-CONTROL-20261018.md",
+    "sha256": "03742a19be34f75d77833fbc86d6bacdbac12aa75936236c03059186cc64221b"
   },
   {
     "path": "docs/V99.md",
@@ -737,19 +741,19 @@
   },
   {
     "path": "docs/recovery/history.csv",
-    "sha256": "afc6c7d76100c92aed86d0c64dcb90d0d67c885c4ce6edc1cac7dda344bd5da5"
+    "sha256": "b676d7bc632f34adc29c0959d0515b2aae3f25ba7e3eb43590828c42d48346e2"
   },
   {
     "path": "docs/recovery/mechanics-2022.csv",
-    "sha256": "27c00689a7edaf855fd0f95afb8995f7fbd72c2a3e37646090999c29d714fd6a"
+    "sha256": "418e744c57a679c24eb28b97c29146c76f85b044658a64e26e7b875c48c9e8d1"
   },
   {
     "path": "docs/recovery/status.md",
-    "sha256": "ab1df2f681d3219ac5ebeb0628627b997681c1c03d439593d8cd609848fd10d9"
+    "sha256": "180fd42c5a6936e8b80fec0a9aa339fc90e083bca4ee80cfa0f4adbf831ed976"
   },
   {
     "path": "docs/recovery/updates.csv",
-    "sha256": "58e4e1ba4665130e4842b3c3c58ec1f487b95276c24c53963543ace40ba9a4b7"
+    "sha256": "4e0aca1b162d5ef96d956542ed226d7c30945b29e32e8d801e231b83895b47b7"
   },
   {
     "path": "docs/recovery/windows-tests-20261018-w19.csv",
@@ -1178,6 +1182,18 @@
   {
     "path": "evidence/terrain-los-20261018-pm/terrain-ray.gdb",
     "sha256": "349f7d3f18053035bfec8aa08da74dd72e64356800abde797ed1931838140a89"
+  },
+  {
+    "path": "evidence/terrain-rock-joint-20261018/cleanup.json",
+    "sha256": "70ae04c4636e76138ddba5a2b46f0603a7a7d8209ad94bd51b8f5242c88b745e"
+  },
+  {
+    "path": "evidence/terrain-rock-joint-20261018/native017-open-hits.json",
+    "sha256": "1bf8be100992b5f6aa5ff51f3e46a66e934eec85c88b51b4f04ade996c9cf001"
+  },
+  {
+    "path": "evidence/terrain-rock-joint-20261018/native017-shots.json",
+    "sha256": "2eb27e403465fc5c8e82424171847440f0aaf0db3beb3a6c0de3a1fdef383eab"
   },
   {
     "path": "evidence/windows-feedback-20261015/checks.txt",

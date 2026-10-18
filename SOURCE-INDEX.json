@@ -142,6 +142,11 @@
       "play_counterpart_exists": true
     },
     {
+      "source_path": "docs/TERRAIN-ROCK-CONTROL-20261018.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
       "source_path": "docs/WINDOWS-BUGS-20261014.md",
       "included_at_original_path": true,
       "play_counterpart_exists": false

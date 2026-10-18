@@ -58,11 +58,11 @@
 | 39 | HP02 | Прочность жилета/шлема: передача | baseline | 90 | HP03/HP04: originalhurt consumer или sanitized weapon/zone/armor/range/HP/durable; новыйWindows0/1 drop/repick. |
 | 40 | HP03 | Броня: снижение урона | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
 | 41 | HP04 | Расход/разрушение брони от удара | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
-| 43 | GUN06 | Серверная валидация raycast/LOS | baseline | 67.5 | Совместный source terrain+Rock/static objects native контроль; низкие/дальние попадания и Windows. Точныйfloat query и исходная authority/баллистика остаются открыты. |
+| 43 | GUN06 | Серверная валидация raycast/LOS | baseline | 67.5 | Совместный terrain+Rock: native017 open path принят; повторить genuine count2 через тонкий край с адресной projectile query. Далее низкие/дальние/Windows и другие static objects. |
 | 71 | EVAC02 | Трос: взаимодействие/подъём/посадка | baseline | 90 | Ранний native/tutor/time gate дляhover75s; Windows/interrupt отдельный повтор |
 | 75 | OPS05 | Воспроизводимый полный одиночный цикл | baseline | 90 | WindowsW19 repeatmatch reset then nextmechanics; no originalhost/RNG claim |
 | 115 | MAP01 | Разрушение стекла и частей статических объектов | baseline | 57.5 | Windows repeat WinterWindows; source classification/materials and remote snapshot; retain original physics caveat |
 
 Источники, адреса, ограничения, критерии и этапы каждой механики — в [mechanics-2022.csv](mechanics-2022.csv). Порядок работ — в [README](README.md).
 
-SHA-256 CSV: `27c00689a7edaf855fd0f95afb8995f7fbd72c2a3e37646090999c29d714fd6a`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.
+SHA-256 CSV: `418e744c57a679c24eb28b97c29146c76f85b044658a64e26e7b875c48c9e8d1`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.
