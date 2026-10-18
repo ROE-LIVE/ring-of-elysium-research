@@ -29,7 +29,7 @@
   },
   {
     "path": "PROVENANCE.json",
-    "sha256": "e21a0fce593a9b7139d3e867f745896df2c2906cc5c8e1d5c4a245c2ff82d55d"
+    "sha256": "01984dc16f2c5ff538285bf48f3d580272156499e5f628add1476d6ec1d1a149"
   },
   {
     "path": "README.md",
@@ -745,7 +745,7 @@
   },
   {
     "path": "docs/signals-2022.csv",
-    "sha256": "9a8bfd735695abbb97d490ec46f16dfe54f5da1ee69d8d7446d9f1934bb95cd8"
+    "sha256": "f781d74a26761244ff1bf0c35068bc73abedb8862328f40cb1f57c5254342420"
   },
   {
     "path": "evidence/capacity-loot-20261016/README.md",
@@ -1225,7 +1225,7 @@
   },
   {
     "path": "tools/build_signals_registry_2022.py",
-    "sha256": "b0a725bd4c6039f70b30de378e0aa9e2eb71d696f98a8f1f797d92f6a86a3c46"
+    "sha256": "b5d107b630b76bc85d21c453863e609f8ecab2c45964ce44c0aaa61ac59c9dba"
   },
   {
     "path": "tools/probe_iceland_heightfield_2022.py",

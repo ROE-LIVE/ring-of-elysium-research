@@ -66,7 +66,7 @@ REVIEWED = {
     0x11dd: ('Сообщение попадания с направлением', 'C2S', '104фиксированных байта + countBE16@104 + 19*Nsurface + 10*Nunit (count<=30): targetUID@4, gunXYZ@25, targetXYZ@37, impactXYZ@50; chPart_id@62; target pathID@71/seq75/use_c76/on_vehicle77; shooter pathID@78/seq82/use_c83; iBullet_id@88/iRatio@92/iPellet_index@100. Поле83 не headshot; part_id HEAD1/BODY2/LIMB3; tag0 >BBBI3f, tag1 >BQB', '0x140c3fe00'),
     0x3b61: ('Содержимое контейнера лута', 'S2C', 'ParcelState.contents; не эквивалент821', ''),
     0x3b63: ('Запрос подбора предмета', 'C2S', 'Проверяемая ветка33байта; index/slot/distance и registry', ''),
-    0x3b64: ('DROP_MSGID_RSP_PICK: ответ подбора', 'S2C', 'WeaponState.pickup_ack; callback читает decoded dropID+4/qty+0xC/definition+0x11; это не wire offsets', ''),
+    0x3b64: ('DROP_MSGID_RSP_PICK: ответ подбора', 'S2C', 'Контроль45байт из WeaponState.handle(0x3b63): >IIIBI +28zero: index,u32_4,quantity,union_tag1,definition; tail28 неизвестен. Callback decoded prefix4: dropID+4/qty+0xC/definition+0x11; не wire offsets', ''),
     0x3e80: ('Перенос предмета / сохранение экипировки', 'C2S', 'WeaponState.move_item и local_clothing; сценарии различаются', ''),
     0x3e81: ('Подтверждение переноса', 'S2C', 'Контрольная ветка: >BIIB; флаги зависят от операции', ''),
     0x3e82: ('Изменение слота инвентаря', 'S2C', 'encode_delta; container,slot,itemdata; снимок != команда выдачи', ''),
