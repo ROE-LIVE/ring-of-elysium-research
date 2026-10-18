@@ -65,4 +65,4 @@
 
 Источники, адреса, ограничения, критерии и этапы каждой механики — в [mechanics-2022.csv](mechanics-2022.csv). Порядок работ — в [README](README.md).
 
-SHA-256 CSV: `719abfceadb5b5b446189768749753904173d2a2eebcf737c4c34478cc0090c6`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.
+SHA-256 CSV: `51a6273857d1f067fc30dfaa8abb97afa7a2644cc0a6e6fc10e524d70983ca20`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.

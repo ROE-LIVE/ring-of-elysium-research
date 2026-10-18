@@ -1,3 +1,5 @@
+18.10 дополнительная проверка: portable pwsh7.6.6 найден внеPATH;611public tests безпропусков. AST7scripts/PracticeTargets10 иreject0/11 проверены. Linux/tempfixtures/mockfirewall, не Windows gameplay. Подробности docs/SESSION-RESULT-20261018.md.
+
 18.10.2026: currentvalidation — docs/SESSION-RESULT-20261018.md. NativeProton: group/reconnect/repeat/bot/M4through/decoder-chain; Windowsnewrevisionpending. Unit source637/private600/public611(skip9pwsh)/research8; verify-onlybothOK/.NETbuildOK.
 
 # Проверки15.10.2026

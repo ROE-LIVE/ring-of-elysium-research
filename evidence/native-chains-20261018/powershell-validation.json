@@ -1,0 +1,16 @@
+{
+  "powershell_version": "7.6.6",
+  "public_tests": 611,
+  "skipped": 0,
+  "ast_scripts": 7,
+  "practice_targets_accepts": [
+    10
+  ],
+  "practice_targets_rejects": [
+    0,
+    11
+  ],
+  "scope": "portable PowerShell on Linux; temporary reset fixtures; firewall mocked; no native Windows gameplay",
+  "test_log_sha256": "d7dff4d97bbba2c4bc5629e1dca98987d807a4610313ab34e9c654900efcf3bb",
+  "parse_log_sha256": "23379387e5813466e58d511f6090386a27e95c8fe189d3497da8d44a822cc945"
+}
