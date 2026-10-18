@@ -1,3 +1,5 @@
+18.10.2026: currentvalidation — docs/SESSION-RESULT-20261018.md. NativeProton: group/reconnect/repeat/bot/M4through/decoder-chain; Windowsnewrevisionpending. Unit source637/private600/public611(skip9pwsh)/research8; verify-onlybothOK/.NETbuildOK.
+
 # Проверки15.10.2026
 
 ring-of-elysium-local:528 unittest, сборка .NET8 без ошибок/предупреждений. ring-of-elysium-research:2 unittest, validate115CSVстрок, выдача GUN07/пустой ready-очереди. PowerShell parser bootstrap/import OK. Импорт проверен на искусственных key16/CK32: совпадение, отказ перезаписи, отказ повреждённого CK без файлов. При подготовке именованного публичного комплекта в ring-of-elysium-local включена существующая фиксированная пара16/32байта; значения не выводились.

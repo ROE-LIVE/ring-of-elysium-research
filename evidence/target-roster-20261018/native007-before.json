@@ -1,0 +1,107 @@
+{
+  "utc": "2026-10-18T11:49:25.597170+00:00",
+  "uid": "0x2040000123460",
+  "actor_present": true,
+  "actor": "0x64cdeab8",
+  "vtable": "0x14276d6e8",
+  "getoff_420": "0x140d93220",
+  "movement_type": 1,
+  "position": [
+    370668.0,
+    543184.0,
+    258712.0
+  ],
+  "equipment_slots": [
+    {
+      "slot": 1,
+      "present": true,
+      "item": "0xda515d88",
+      "vtable": "0x1427980c0",
+      "definition": 10402,
+      "instance_uid": "0x1e00000100100001",
+      "durability_raw": 0
+    },
+    {
+      "slot": 2,
+      "present": false,
+      "item": "0x0",
+      "vtable": null,
+      "definition": null,
+      "instance_uid": null,
+      "durability_raw": null
+    },
+    {
+      "slot": 10,
+      "present": false,
+      "item": "0x0",
+      "vtable": null,
+      "definition": null,
+      "instance_uid": null,
+      "durability_raw": null
+    },
+    {
+      "slot": 12,
+      "present": false,
+      "item": "0x0",
+      "vtable": null,
+      "definition": null,
+      "instance_uid": null,
+      "durability_raw": null
+    }
+  ],
+  "fsm": 0,
+  "status_values": {
+    "0": 4294967295,
+    "1": 4294967295,
+    "2": 0,
+    "3": 12,
+    "4": 4294967295,
+    "5": 4294967295,
+    "6": 4294967295,
+    "7": 20,
+    "8": 40,
+    "9": 4294967295,
+    "10": 4294967295,
+    "11": 4294967295,
+    "12": 4294967295,
+    "13": 4294967295,
+    "14": 4294967295,
+    "15": 27,
+    "16": 85,
+    "17": 4294967295,
+    "18": 4294967295,
+    "19": 54,
+    "20": 56,
+    "21": 69,
+    "22": 4294967295,
+    "23": 72,
+    "24": 80,
+    "25": 88
+  },
+  "aim_yaw_target_radians": 0.0,
+  "alive_fsm": 0,
+  "attribute_cache_present": true,
+  "hp": [
+    1000,
+    1000,
+    1000
+  ],
+  "listing_table": "0x1537a390",
+  "listing_enabled_ad8": 1,
+  "listing_count": 2,
+  "listing_buckets": [
+    {
+      "pointer": "0x0",
+      "target_match": false
+    },
+    {
+      "pointer": "0x0",
+      "target_match": false
+    },
+    {
+      "pointer": "0xffffffffffffffff",
+      "target_match": false
+    }
+  ],
+  "listed": false
+}

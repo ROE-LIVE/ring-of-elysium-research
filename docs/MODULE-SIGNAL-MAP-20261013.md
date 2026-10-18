@@ -105,3 +105,5 @@ python -B tools/build_signals_registry_2022.py --output docs/signals-2022.csv
 
 Первый инструмент — stdlib; второй использует установленный Capstone.
 Экспорты/импорты и boundedASM не являются восстановленным исходным проектом.
+
+Актуализация18.10: [Native010/011 decoder→handler цепочки](PICK-DECODE-CHAIN-20261018.md). Для3B64 bodydecoder140C69B00/handler140D629A0 и3E82 decoder140C4BA10/handler140E162D0 полученоhardwareподтверждение. Старое«decoderнеизвестен»выше относитсяк этапудоэтогоконтроля; UI-model задержка остаётсяоткрытой.

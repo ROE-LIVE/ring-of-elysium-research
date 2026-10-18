@@ -1,0 +1,184 @@
+0x140c69b00 mov r10d, r8d
+0x140c69b03 mov r9, rcx
+0x140c69b06 mov r8, rdx
+0x140c69b09 lea eax, [r10 - 1]
+0x140c69b0d cmp eax, 0x65
+0x140c69b10 jbe 0x140c69c22
+0x140c69b16 mov r10d, 0x66
+0x140c69b1c mov rcx, qword ptr [rdx + 8]
+0x140c69b20 mov rax, qword ptr [rdx + 0x10]
+0x140c69b24 sub rax, rcx
+0x140c69b27 cmp rax, 4
+0x140c69b2b jb 0x140c69c6b
+0x140c69b31 mov rax, qword ptr [rdx]
+0x140c69b34 movzx ecx, byte ptr [rax + rcx + 3]
+0x140c69b39 mov byte ptr [r9], cl
+0x140c69b3c mov rax, qword ptr [rdx + 8]
+0x140c69b40 mov rcx, qword ptr [rdx]
+0x140c69b43 movzx ecx, byte ptr [rcx + rax + 2]
+0x140c69b48 mov byte ptr [r9 + 1], cl
+0x140c69b4c mov rax, qword ptr [rdx + 8]
+0x140c69b50 mov rcx, qword ptr [rdx]
+0x140c69b53 movzx ecx, byte ptr [rcx + rax + 1]
+0x140c69b58 mov byte ptr [r9 + 2], cl
+0x140c69b5c mov rax, qword ptr [rdx + 8]
+0x140c69b60 mov rcx, qword ptr [rdx]
+0x140c69b63 movzx ecx, byte ptr [rcx + rax]
+0x140c69b67 mov byte ptr [r9 + 3], cl
+0x140c69b6b add qword ptr [rdx + 8], 4
+0x140c69b70 mov rcx, qword ptr [rdx + 8]
+0x140c69b74 mov rax, qword ptr [rdx + 0x10]
+0x140c69b78 sub rax, rcx
+0x140c69b7b cmp rax, 4
+0x140c69b7f jb 0x140c69c6b
+0x140c69b85 mov rax, qword ptr [rdx]
+0x140c69b88 movzx ecx, byte ptr [rax + rcx + 3]
+0x140c69b8d mov byte ptr [r9 + 4], cl
+0x140c69b91 mov rax, qword ptr [rdx + 8]
+0x140c69b95 mov rcx, qword ptr [rdx]
+0x140c69b98 movzx ecx, byte ptr [rcx + rax + 2]
+0x140c69b9d mov byte ptr [r9 + 5], cl
+0x140c69ba1 mov rax, qword ptr [rdx + 8]
+0x140c69ba5 mov rcx, qword ptr [rdx]
+0x140c69ba8 movzx ecx, byte ptr [rcx + rax + 1]
+0x140c69bad mov byte ptr [r9 + 6], cl
+0x140c69bb1 mov rcx, qword ptr [rdx]
+0x140c69bb4 mov rax, qword ptr [rdx + 8]
+0x140c69bb8 movzx ecx, byte ptr [rcx + rax]
+0x140c69bbc mov byte ptr [r9 + 7], cl
+0x140c69bc0 add qword ptr [rdx + 8], 4
+0x140c69bc5 mov rcx, qword ptr [rdx + 8]
+0x140c69bc9 cmp r10d, 0xd
+0x140c69bcd jb 0x140c69c32
+0x140c69bcf mov rax, qword ptr [rdx + 0x10]
+0x140c69bd3 sub rax, rcx
+0x140c69bd6 cmp rax, 4
+0x140c69bda jb 0x140c69c6b
+0x140c69be0 mov rax, qword ptr [rdx]
+0x140c69be3 movzx ecx, byte ptr [rax + rcx + 3]
+0x140c69be8 mov byte ptr [r9 + 8], cl
+0x140c69bec mov rax, qword ptr [rdx + 8]
+0x140c69bf0 mov rcx, qword ptr [rdx]
+0x140c69bf3 movzx ecx, byte ptr [rcx + rax + 2]
+0x140c69bf8 mov byte ptr [r9 + 9], cl
+0x140c69bfc mov rax, qword ptr [rdx + 8]
+0x140c69c00 mov rcx, qword ptr [rdx]
+0x140c69c03 movzx ecx, byte ptr [rcx + rax + 1]
+0x140c69c08 mov byte ptr [r9 + 0xa], cl
+0x140c69c0c mov rax, qword ptr [rdx + 8]
+0x140c69c10 mov rcx, qword ptr [rdx]
+0x140c69c13 movzx ecx, byte ptr [rcx + rax]
+0x140c69c17 mov byte ptr [r9 + 0xb], cl
+0x140c69c1b add qword ptr [rdx + 8], 4
+0x140c69c20 jmp 0x140c69c3a
+0x140c69c22 cmp r10d, 1
+0x140c69c26 jae 0x140c69b1c
+0x140c69c2c mov eax, 0xfffffff7
+0x140c69c31 ret
+0x140c69c32 mov dword ptr [r9 + 8], 0
+0x140c69c3a mov rcx, qword ptr [rdx + 8]
+0x140c69c3e mov rax, qword ptr [rdx + 0x10]
+0x140c69c42 sub rax, rcx
+0x140c69c45 cmp rax, 1
+0x140c69c49 jb 0x140c69c6b
+0x140c69c4b mov rax, qword ptr [rdx]
+0x140c69c4e movzx ecx, byte ptr [rcx + rax]
+0x140c69c52 mov byte ptr [r9 + 0xc], cl
+0x140c69c56 lea rcx, [r9 + 0xd]
+0x140c69c5a inc qword ptr [rdx + 8]
+0x140c69c5e movzx edx, byte ptr [r9 + 0xc]
+0x140c69c63 mov r9d, r10d
+0x140c69c66 jmp 0x140c692f0
+0x140c69c6b mov eax, 0xfffffffe
+0x140c69c70 ret
+0x140c69c71 int3
+0x140c69c72 int3
+0x140c69c73 int3
+0x140c69c74 int3
+0x140c69c75 int3
+0x140c69c76 int3
+0x140c69c77 int3
+0x140c69c78 int3
+0x140c69c79 int3
+0x140c69c7a int3
+0x140c69c7b int3
+0x140c69c7c int3
+0x140c69c7d int3
+0x140c69c7e int3
+0x140c69c7f int3
+0x140c69c80 sub rsp, 0x28
+0x140c69c84 mov r10, rdx
+0x140c69c87 mov r11, rcx
+0x140c69c8a mov edx, dword ptr [rcx]
+0x140c69c8c mov rcx, r10
+0x140c69c8f call 0x140bcd030
+0x140c69c94 test eax, eax
+0x140c69c96 jne 0x140c69cb8
+0x140c69c98 mov edx, dword ptr [r11 + 4]
+0x140c69c9c mov rcx, r10
+0x140c69c9f call 0x140bcd030
+0x140c69ca4 test eax, eax
+0x140c69ca6 jne 0x140c69cb8
+0x140c69ca8 lea rcx, [r11 + 8]
+0x140c69cac mov rdx, r10
+0x140c69caf add rsp, 0x28
+0x140c69cb3 jmp 0x140bcd430
+0x140c69cb8 add rsp, 0x28
+0x140c69cbc ret
+0x140c69cbd int3
+0x140c69cbe int3
+0x140c69cbf int3
+0x140c69cc0 mov rax, qword ptr [rdx + 0x10]
+0x140c69cc4 mov r9, rcx
+0x140c69cc7 mov rcx, qword ptr [rdx + 8]
+0x140c69ccb sub rax, rcx
+0x140c69cce cmp rax, 4
+0x140c69cd2 jb 0x140c69d73
+0x140c69cd8 mov rax, qword ptr [rdx]
+0x140c69cdb movzx r8d, byte ptr [rax + rcx + 3]
+0x140c69ce1 mov byte ptr [r9], r8b
+0x140c69ce4 mov rax, qword ptr [rdx + 8]
+0x140c69ce8 mov r8, qword ptr [rdx]
+0x140c69ceb movzx ecx, byte ptr [r8 + rax + 2]
+0x140c69cf1 mov byte ptr [r9 + 1], cl
+0x140c69cf5 mov rax, qword ptr [rdx + 8]
+0x140c69cf9 mov rcx, qword ptr [rdx]
+0x140c69cfc movzx ecx, byte ptr [rcx + rax + 1]
+0x140c69d01 mov byte ptr [r9 + 2], cl
+0x140c69d05 mov rax, qword ptr [rdx + 8]
+0x140c69d09 mov rcx, qword ptr [rdx]
+0x140c69d0c movzx ecx, byte ptr [rcx + rax]
+0x140c69d10 mov byte ptr [r9 + 3], cl
+0x140c69d14 add qword ptr [rdx + 8], 4
+0x140c69d19 mov rcx, qword ptr [rdx + 8]
+0x140c69d1d mov rax, qword ptr [rdx + 0x10]
+0x140c69d21 sub rax, rcx
+0x140c69d24 cmp rax, 4
+0x140c69d28 jb 0x140c69d73
+0x140c69d2a mov rax, qword ptr [rdx]
+0x140c69d2d movzx ecx, byte ptr [rax + rcx + 3]
+0x140c69d32 mov byte ptr [r9 + 4], cl
+0x140c69d36 mov rax, qword ptr [rdx + 8]
+0x140c69d3a mov rcx, qword ptr [rdx]
+0x140c69d3d movzx ecx, byte ptr [rcx + rax + 2]
+0x140c69d42 mov byte ptr [r9 + 5], cl
+0x140c69d46 mov rax, qword ptr [rdx + 8]
+0x140c69d4a mov rcx, qword ptr [rdx]
+0x140c69d4d movzx ecx, byte ptr [rcx + rax + 1]
+0x140c69d52 mov byte ptr [r9 + 6], cl
+0x140c69d56 mov rcx, qword ptr [rdx]
+0x140c69d59 mov rax, qword ptr [rdx + 8]
+0x140c69d5d movzx ecx, byte ptr [rcx + rax]
+0x140c69d61 mov byte ptr [r9 + 7], cl
+0x140c69d65 lea rcx, [r9 + 8]
+0x140c69d69 add qword ptr [rdx + 8], 4
+0x140c69d6e jmp 0x140bcd4a0
+0x140c69d73 mov eax, 0xfffffffe
+0x140c69d78 ret
+0x140c69d79 int3
+0x140c69d7a int3
+0x140c69d7b int3
+0x140c69d7c int3
+0x140c69d7d int3
+0x140c69d7e int3
+0x140c69d7f int3

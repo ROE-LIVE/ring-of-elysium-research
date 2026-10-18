@@ -1,0 +1,26 @@
+{
+  "sequence": 16800,
+  "timestamp": "2026-10-18T09:41:45.105299+00:00",
+  "kind": "gameplay_handoff_complete",
+  "synthetic": true,
+  "handoff_mode": "authenticated_idle_relay",
+  "previous_idle_seconds": 21.944952839000052,
+  "experimental": true,
+  "world_position": [
+    365100,
+    544000,
+    259107
+  ],
+  "world_hp": 1000,
+  "world_started": 2546.903681789,
+  "world_stage_index": 6,
+  "world_warning_index": 35,
+  "clip": 14,
+  "reserve": 0,
+  "ammunition_definition": 30001,
+  "ammunition_quantity": 3,
+  "door_state_changes": null,
+  "picked_loot_count": 5,
+  "available_loot_count": 23,
+  "frame_sequence": 4
+}

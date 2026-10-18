@@ -1,0 +1,28 @@
+[
+  {
+    "sequence": 3082,
+    "timestamp": "2026-10-18T12:53:02.511236+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "hand",
+    "slot": 1,
+    "reload_cancelled": false
+  },
+  {
+    "sequence": 8259,
+    "timestamp": "2026-10-18T12:58:54.443279+00:00",
+    "kind": "weapon_probe",
+    "synthetic": true,
+    "action": "pickup",
+    "index": 190500,
+    "quantity": 1,
+    "reserve": 0,
+    "pickup_mode": "manual_gun",
+    "requested_destination": 2,
+    "destination_slot": 2,
+    "reload_cancelled_on_replace": false,
+    "remaining": 0,
+    "discarded_index": null,
+    "ammunition_quantity": null
+  }
+]

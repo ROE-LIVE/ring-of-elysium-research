@@ -6,6 +6,10 @@
 
 ## English
 
+### Update — 18 October 2026
+
+Ten passive targets now have independent health, armor and death loot. Native tests cover two genuine gun kills, administrative control, reconnects, a second Training session, and the single loot/safe bot controller. M4 penetration through one source rock is confirmed. Body decoders for3B64/3E82 are now linked to native handlers in the root2022 executable. [Results](docs/SESSION-RESULT-20261018.md), [decoder chain](docs/PICK-DECODE-CHAIN-20261018.md), [Windows W19 CSV](docs/recovery/WINDOWS-TESTS-W19.csv). Original AI, balance, complete collision and host remain unfinished; this revision needs Windows validation.
+
 ### Demo use and disclaimer
 
 - **This is an experimental demo intended only for personal home use and research.** It is not an official ROE service or a production-ready game server.
@@ -57,6 +61,10 @@ See [provenance](PROVENANCE.json), [rights](RIGHTS.md), and the [sharing checkli
 <a id="russian"></a>
 
 ## Русский
+
+### Обновление — 18 октября 2026
+
+Десять пассивных мишеней имеют отдельные HP, броню и трофеи. Native-контроли: два настоящих убийства, административные действия, обрывы, второй Training и сохранение одиночного loot/safe контроллера бота. Подтверждён прострел M4 одного исходного камня; найдены bodydecoder3B64/3E82 и их native обработчики в корневом EXE2022. [Итог](docs/SESSION-RESULT-20261018.md), [цепочка декодирования](docs/PICK-DECODE-CHAIN-20261018.md), [Windows W19 CSV](docs/recovery/WINDOWS-TESTS-W19.csv). Исходные AI, баланс, полная коллизия и host не восстановлены; Windows новой ревизии ожидается.
 
 ### Демонстрационное использование и отказ от ответственности
 

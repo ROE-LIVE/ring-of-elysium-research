@@ -1,0 +1,51 @@
+{
+  "run": "recovery-bot05-handoff-20261018-007",
+  "before": {
+    "utc": "2026-10-18T11:46:14.160352+00:00",
+    "files": [
+      {
+        "file": "Europa_Client.exe",
+        "original": "2dca9b1e122e21363e14eeeb2372598c773205a907ed8d2b2d54a7229ad6ba18",
+        "runtime": "2dca9b1e122e21363e14eeeb2372598c773205a907ed8d2b2d54a7229ad6ba18",
+        "independent": true
+      },
+      {
+        "file": "ProtocalHandler_x64.dll",
+        "original": "8a895763ef9123184bd0d9118dca9e9e432af295701979d900b5c2b446fc4de1",
+        "runtime": "8a895763ef9123184bd0d9118dca9e9e432af295701979d900b5c2b446fc4de1",
+        "independent": true
+      },
+      {
+        "file": "Tenproxy64.dll",
+        "original": "53f54dd35f81136c13900ba4927e1b95548a6e8029400f42901cd0adfa82249c",
+        "runtime": "53f54dd35f81136c13900ba4927e1b95548a6e8029400f42901cd0adfa82249c",
+        "independent": true
+      }
+    ]
+  },
+  "after": {
+    "utc": "2026-10-18T11:50:52.086752+00:00",
+    "files": [
+      {
+        "file": "Europa_Client.exe",
+        "original": "2dca9b1e122e21363e14eeeb2372598c773205a907ed8d2b2d54a7229ad6ba18",
+        "runtime": "2dca9b1e122e21363e14eeeb2372598c773205a907ed8d2b2d54a7229ad6ba18",
+        "independent": true
+      },
+      {
+        "file": "ProtocalHandler_x64.dll",
+        "original": "8a895763ef9123184bd0d9118dca9e9e432af295701979d900b5c2b446fc4de1",
+        "runtime": "8a895763ef9123184bd0d9118dca9e9e432af295701979d900b5c2b446fc4de1",
+        "independent": true
+      },
+      {
+        "file": "Tenproxy64.dll",
+        "original": "53f54dd35f81136c13900ba4927e1b95548a6e8029400f42901cd0adfa82249c",
+        "runtime": "53f54dd35f81136c13900ba4927e1b95548a6e8029400f42901cd0adfa82249c",
+        "independent": true
+      }
+    ]
+  },
+  "exit": "143",
+  "selected_files_unchanged": true
+}

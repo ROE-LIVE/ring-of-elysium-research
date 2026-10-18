@@ -1,0 +1,79 @@
+{
+  "sequence": 16214,
+  "timestamp": "2026-10-18T11:02:09.093994+00:00",
+  "kind": "gameplay_handoff_complete",
+  "synthetic": true,
+  "handoff_mode": "authenticated_idle_relay",
+  "previous_idle_seconds": 23.946086946999458,
+  "experimental": true,
+  "target_count": 10,
+  "target_states": [
+    {
+      "uid": "0x2040000800000",
+      "hp": 0,
+      "armor_durability": 0
+    },
+    {
+      "uid": "0x2040000800001",
+      "hp": 0,
+      "armor_durability": 0
+    },
+    {
+      "uid": "0x2040000800002",
+      "hp": 0,
+      "armor_durability": 0
+    },
+    {
+      "uid": "0x2040000800003",
+      "hp": 0,
+      "armor_durability": 0
+    },
+    {
+      "uid": "0x2040000800004",
+      "hp": 0,
+      "armor_durability": 0
+    },
+    {
+      "uid": "0x2040000800005",
+      "hp": 0,
+      "armor_durability": 0
+    },
+    {
+      "uid": "0x2040000800006",
+      "hp": 0,
+      "armor_durability": 0
+    },
+    {
+      "uid": "0x2040000800007",
+      "hp": 0,
+      "armor_durability": 0
+    },
+    {
+      "uid": "0x2040000800008",
+      "hp": 0,
+      "armor_durability": 0
+    },
+    {
+      "uid": "0x2040000800009",
+      "hp": 0,
+      "armor_durability": 0
+    }
+  ],
+  "world_position": [
+    365100,
+    544000,
+    259107
+  ],
+  "world_hp": 1000,
+  "world_started": 7226.906904574,
+  "world_stage_index": 6,
+  "world_warning_index": 35,
+  "clip": 30,
+  "reserve": 0,
+  "ammunition_definition": 30001,
+  "ammunition_quantity": 30,
+  "door_state_changes": null,
+  "picked_loot_count": 4,
+  "available_loot_count": 23,
+  "frame_sequence": 4
+}

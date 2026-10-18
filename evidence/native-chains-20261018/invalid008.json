@@ -1,0 +1,5 @@
+{
+  "scope": "fixture setup failure, not penetration control",
+  "reason": "Removed delayed5FB startup hook, so WeaponState/winter kit/NPC never initialized; restored original known scene in009",
+  "code_changed": false
+}

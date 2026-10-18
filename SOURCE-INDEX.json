@@ -7,6 +7,11 @@
       "play_counterpart_exists": false
     },
     {
+      "source_path": "docs/BOT-CONTROLLER-HANDOFF-20261018.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
       "source_path": "docs/DEBUG-SNAPSHOTS-20261013.md",
       "included_at_original_path": true,
       "play_counterpart_exists": false
@@ -17,7 +22,22 @@
       "play_counterpart_exists": false
     },
     {
+      "source_path": "docs/HIT-COLLISION-PRODUCER-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
       "source_path": "docs/HIT-FEEDBACK-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/HIT-RECORDS-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/INVENTORY-BRANCH-CONTROL-20261018.md",
       "included_at_original_path": true,
       "play_counterpart_exists": true
     },
@@ -27,9 +47,29 @@
       "play_counterpart_exists": false
     },
     {
+      "source_path": "docs/LIVE-COMMAND-LIFETIME-20261018.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
       "source_path": "docs/LOOT-DOOR-20261013.md",
       "included_at_original_path": true,
       "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/M4-THROUGH-ROCK-20261018.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/MODULE-SIGNAL-MAP-20261013.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/NET06-CAPACITY-HANDOFF-20261018.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
     },
     {
       "source_path": "docs/NET06-HARDCUT-MATRIX-20261013.md",
@@ -45,6 +85,41 @@
       "source_path": "docs/OPS03-CYCLE-HARDCUT-20261013.md",
       "included_at_original_path": true,
       "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/PASSIVE-TARGETS-20261018.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/PICK-DECODE-CHAIN-20261018.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/PROJECTILE-MATERIALS-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/SESSION-RESULT-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/SESSION-RESULT-20261018.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/SOURCE-COLLISION-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
+      "source_path": "docs/TERRAIN-HEIGHTFIELD-20261016.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
     },
     {
       "source_path": "docs/WINDOWS-BUGS-20261014.md",
@@ -67,6 +142,11 @@
       "play_counterpart_exists": false
     },
     {
+      "source_path": "docs/WINDOWS-W17-REVIEW-20261016.txt",
+      "included_at_original_path": true,
+      "play_counterpart_exists": true
+    },
+    {
       "source_path": "docs/match-rules-from-user-20261006.md",
       "included_at_original_path": false,
       "play_counterpart_exists": false
@@ -78,6 +158,11 @@
     },
     {
       "source_path": "docs/recovery/RUNBOOK.md",
+      "included_at_original_path": true,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "docs/recovery/windows-tests-w18-20261016.csv",
       "included_at_original_path": true,
       "play_counterpart_exists": false
     },
@@ -752,6 +837,11 @@
       "play_counterpart_exists": false
     },
     {
+      "source_path": "research/builds/2022/recovery/038-gun07/20261016T0130-collision-producer/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
       "source_path": "research/builds/2022/recovery/039-hp02/20261010T0615-broken/evidence.json",
       "included_at_original_path": false,
       "play_counterpart_exists": false
@@ -790,6 +880,71 @@
       "source_path": "research/builds/2022/recovery/043-gun06/20261009T0952/report.md",
       "included_at_original_path": false,
       "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/heightfield-native-validation.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/heightfield-native-validation.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/native-hit-union-codec.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/native-hit-union-codec.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/native017-extended-hit-validation.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/native017-extended-hit-validation.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/native019-terrain-parameters.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/native019-terrain-parameters.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/report.md",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/resource-mesh-match.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/resource-mesh-match.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/source-mesh-validation.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/source-mesh-validation.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/terrain-sample-aggregate.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/terrain-sample-aggregate.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/terrain-source-poses.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/terrain-source-poses.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/terrain-source-sample-match.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/terrain-source-sample-match.json"
+    },
+    {
+      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/through-ray-source-comparison.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/projectile-materials-20261016/through-ray-source-comparison.json"
     },
     {
       "source_path": "research/builds/2022/recovery/045-gun03/20261009T0415/evidence.json",
@@ -1190,6 +1345,12 @@
       "source_path": "research/builds/2022/recovery/076-ops02/20261015T1432-windows-feedback/report.md",
       "included_at_original_path": false,
       "play_counterpart_exists": false
+    },
+    {
+      "source_path": "research/builds/2022/recovery/076-ops02/20261016T134206-w17-review/evidence.json",
+      "included_at_original_path": false,
+      "play_counterpart_exists": false,
+      "selected_copy": "evidence/windows-w17-20261016/evidence.json"
     },
     {
       "source_path": "research/builds/2022/recovery/077-drop05/20261011T0455-airborne-control/evidence.json",
@@ -1925,122 +2086,6 @@
       "source_path": "tools/run_winter_2022.py",
       "included_at_original_path": false,
       "play_counterpart_exists": false
-    },
-    {
-      "source_path": "docs/HIT-COLLISION-PRODUCER-20261016.md",
-      "included_at_original_path": true,
-      "play_counterpart_exists": true
-    },
-    {
-      "source_path": "docs/PROJECTILE-MATERIALS-20261016.md",
-      "included_at_original_path": true,
-      "play_counterpart_exists": true
-    },
-    {
-      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/report.md",
-      "included_at_original_path": false,
-      "play_counterpart_exists": false
-    },
-    {
-      "source_path": "research/builds/2022/recovery/038-gun07/20261016T0130-collision-producer/report.md",
-      "included_at_original_path": false,
-      "play_counterpart_exists": false
-    },
-    {
-      "source_path": "docs/HIT-RECORDS-20261016.md",
-      "included_at_original_path": true,
-      "play_counterpart_exists": true
-    },
-    {
-      "source_path": "docs/SOURCE-COLLISION-20261016.md",
-      "included_at_original_path": true,
-      "play_counterpart_exists": true
-    },
-    {
-      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/native017-extended-hit-validation.json",
-      "included_at_original_path": false,
-      "play_counterpart_exists": false,
-      "selected_copy": "evidence/projectile-materials-20261016/native017-extended-hit-validation.json"
-    },
-    {
-      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/native-hit-union-codec.json",
-      "included_at_original_path": false,
-      "play_counterpart_exists": false,
-      "selected_copy": "evidence/projectile-materials-20261016/native-hit-union-codec.json"
-    },
-    {
-      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/source-mesh-validation.json",
-      "included_at_original_path": false,
-      "play_counterpart_exists": false,
-      "selected_copy": "evidence/projectile-materials-20261016/source-mesh-validation.json"
-    },
-    {
-      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/resource-mesh-match.json",
-      "included_at_original_path": false,
-      "play_counterpart_exists": false,
-      "selected_copy": "evidence/projectile-materials-20261016/resource-mesh-match.json"
-    },
-    {
-      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/through-ray-source-comparison.json",
-      "included_at_original_path": false,
-      "play_counterpart_exists": false,
-      "selected_copy": "evidence/projectile-materials-20261016/through-ray-source-comparison.json"
-    },
-    {
-      "source_path": "docs/SESSION-RESULT-20261016.md",
-      "included_at_original_path": true,
-      "play_counterpart_exists": true
-    },
-    {
-      "source_path": "docs/TERRAIN-HEIGHTFIELD-20261016.md",
-      "included_at_original_path": true,
-      "play_counterpart_exists": true
-    },
-    {
-      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/native019-terrain-parameters.json",
-      "included_at_original_path": false,
-      "play_counterpart_exists": false,
-      "selected_copy": "evidence/projectile-materials-20261016/native019-terrain-parameters.json"
-    },
-    {
-      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/heightfield-native-validation.json",
-      "included_at_original_path": false,
-      "play_counterpart_exists": false,
-      "selected_copy": "evidence/projectile-materials-20261016/heightfield-native-validation.json"
-    },
-    {
-      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/terrain-source-sample-match.json",
-      "included_at_original_path": false,
-      "play_counterpart_exists": false,
-      "selected_copy": "evidence/projectile-materials-20261016/terrain-source-sample-match.json"
-    },
-    {
-      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/terrain-source-poses.json",
-      "included_at_original_path": false,
-      "play_counterpart_exists": false,
-      "selected_copy": "evidence/projectile-materials-20261016/terrain-source-poses.json"
-    },
-    {
-      "source_path": "research/builds/2022/recovery/043-gun06/20261016T0300-native-obstacle/terrain-sample-aggregate.json",
-      "included_at_original_path": false,
-      "play_counterpart_exists": false,
-      "selected_copy": "evidence/projectile-materials-20261016/terrain-sample-aggregate.json"
-    },
-    {
-      "source_path": "docs/WINDOWS-W17-REVIEW-20261016.txt",
-      "included_at_original_path": true,
-      "play_counterpart_exists": true
-    },
-    {
-      "source_path": "docs/recovery/windows-tests-w18-20261016.csv",
-      "included_at_original_path": true,
-      "play_counterpart_exists": false
-    },
-    {
-      "source_path": "research/builds/2022/recovery/076-ops02/20261016T134206-w17-review/evidence.json",
-      "included_at_original_path": false,
-      "play_counterpart_exists": false,
-      "selected_copy": "evidence/windows-w17-20261016/evidence.json"
     }
   ]
 }

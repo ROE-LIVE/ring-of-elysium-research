@@ -1,6 +1,6 @@
 # Состояние плана восстановления2022
 
-Версия плана: **3**; данные обновлены до **2026-10-16**.
+Версия плана: **3**; данные обновлены до **2026-10-18**.
 
 Проценты показывают взвешенное достижение этапов этого плана. Это не доля исходного серверного кода, не оценка оставшихся часов и не готовность всей игры.
 
@@ -35,7 +35,7 @@
 | ---: | --- | --- | --- | ---: | --- |
 | 3 | NET07 | Серверное время и первичный epoch | baseline | 90 | Повторить холодный старт вместе с позиционным контролем |
 | 6 | ZONE02 | UI отсчёта и предупреждений | baseline | 80 | Проверить видимый warning-баннер после смены стадии на корректной точке спавна; затем START/BEGIN и исходный host→client 481 при late join. |
-| 11 | NET06 | Переподключение с сохранением мира | baseline | 70 | Получить повторяемый отрицательный HUD1/5 контроль374 с read-only prediction и сопоставить publish2/очередь; лишь затем пробовать добавочную 4A0; Windows/M4 отдельно |
+| 11 | NET06 | Переподключение с сохранением мира | baseline | 70 | WindowsW19; воспроизводимый отрицательный Citori374+prediction before further4A0 changes |
 | 12 | NET04 | Потери и переупорядочивание UDP | baseline | 60 | LOOT05 lost821/82b; затем ACKwindow/FIN/expiry иWindows. Combined90+90с passed cold87 |
 | 13 | NET05 | Повторы действий и идемпотентность | baseline | 82.5 | Vehicle/medical/rope иWindows; stale application-id native injection отдельно; own5actions/newAUTH подтверждены cold88 |
 | 15 | LOOT01 | Спавн предметов по исходным координатам | baseline | 90 | Windows repeat door→оба марша→Origin12/12Gauge/scope199989; затем независимая верхняя точка и reconnect после pickup |
@@ -45,24 +45,24 @@
 | 19 | LOOT06 | Подбор боеприпасов | baseline | 90 | LOOT07: другое оружие использует 5.56; затем общие пачки и страницы INV02 |
 | 20 | LOOT07 | Подбор оружия с земли | baseline | 90 | INV02: consumable item union; native dual-gun reconnect и Windows повтор |
 | 21 | LOOT08 | Подбор/замена брони и шлема | baseline | 90 | HIT03/ITEM02: исходный hit-zone и уменьшение прочности; сейчас INV02 общийinventory |
-| 22 | INV02 | Общий инвентарь: страницы/слоты/item union | baseline | 50 | Категория5/type>2,handler>255/pages иWindows отдельно; nextINV03 |
+| 22 | INV02 | Общий инвентарь: страницы/слоты/item union | baseline | 50 | Read-only UI-model consumer после cache; measured latency on successful/delayed pickup; WindowsW19-06. Flag1 preserve. |
 | 23 | INV03 | Выброс/повторный подбор с сохранением состояния | baseline | 90 | Проверить полныйкаталог/Windows; ограниченные M4/parts/armor drop+reconnect подтверждены |
 | 25 | KIT05 | Вместимость и вес | baseline | 90 | Полныйcatalog/stackpages/Windows; cold99twoammo fullbag/drop/partial/handoff сохраняютколичество |
 | 26 | INV04 | Частичные stack и остаток pickup | baseline | 90 | Полныйcatalog/stackpages/Windows; cold99twoammo fullbag/drop/partial/handoff сохраняютколичество |
 | 33 | GUN01 | Стрельба Citori и магазин | baseline | 90 | Проверить пустой магазин и повтор11da |
 | 34 | INV06 | Смена оружия и equipment slots | baseline | 82.5 | Windows W16-03/04: drop/repick иswap трёх экземпляров с ихclip/parts; grounddrag и3slots пользователь уже подтвердил |
-| 35 | GUN02 | Перезарядка и резерв Citori | baseline | 90 | Windows W18-01..03: полная/обычная R после capacity fix; Citori374/handoff отдельно. |
+| 35 | GUN02 | Перезарядка и резерв Citori | baseline | 90 | WindowsW19-01/02: полнаяR безанимации и обычнаяR; прочие семейства отдельно |
 | 36 | HP01 | Синхронизация HP/максимума | baseline | 90 | Windows HP0/death; revive/downed отдельная исходная семантика, не выводить из1069. |
-| 37 | GUN05 | Уведомление о попадании и HP цели | baseline | 92.5 | WindowsW17 body/head/armor/dead UI и audible sound подтверждены пользователем+13hit/11EB. Далее originalhurt GUN07 и repeated target lifecycle; W17 целиком не повторять. |
+| 37 | GUN05 | Уведомление о попадании и HP цели | baseline | 92.5 | WindowsW19:10targets/two genuinekills/independentloot/Stats/secondTraining; originalhurtGUN07 отдельно |
 | 38 | GUN07 | Исходный базовый урон и hit-zone | external_blocked | 12.5 | Producer140D09590 (return140D095D6) установлен; нужен original authoritative hurt/provider. Client energy/source geometry не определяют HP/head/armor. |
 | 39 | HP02 | Прочность жилета/шлема: передача | baseline | 90 | HP03/HP04: originalhurt consumer или sanitized weapon/zone/armor/range/HP/durable; новыйWindows0/1 drop/repick. |
 | 40 | HP03 | Броня: снижение урона | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
 | 41 | HP04 | Расход/разрушение брони от удара | baseline | 77.5 | Windows OwnArmorAbsorbPercent50+Bots+cycle; original hurt/equipment trace для исходной формулы. |
-| 43 | GUN06 | Серверная валидация raycast/LOS | baseline | 67.5 | Native M4 through отдельно; затем смешанные материалы/count/distance/origin/spread. Material mode только opt-in. |
+| 43 | GUN06 | Серверная валидация raycast/LOS | baseline | 67.5 | Смешанные материалы/несколько объектов и threshold-distance; M4 through native009 подтверждён; Windows этого opt-in стенда отдельно. |
 | 71 | EVAC02 | Трос: взаимодействие/подъём/посадка | baseline | 90 | Ранний native/tutor/time gate дляhover75s; Windows/interrupt отдельный повтор |
-| 75 | OPS05 | Воспроизводимый полный одиночный цикл | baseline | 90 | Windows повтор полного source-kit цикла с pickup M4/первого аирдропа/эвакуацией; исходный RNG/баланс отдельно |
+| 75 | OPS05 | Воспроизводимый полный одиночный цикл | baseline | 90 | WindowsW19 repeatmatch reset then nextmechanics; no originalhost/RNG claim |
 | 115 | MAP01 | Разрушение стекла и частей статических объектов | baseline | 57.5 | Windows repeat WinterWindows; source classification/materials and remote snapshot; retain original physics caveat |
 
 Источники, адреса, ограничения, критерии и этапы каждой механики — в [mechanics-2022.csv](mechanics-2022.csv). Порядок работ — в [README](README.md).
 
-SHA-256 CSV: `10162f40d210ad534e3f5d092507f4a203ff8cf065b594d37c6207a272a02d74`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.
+SHA-256 CSV: `719abfceadb5b5b446189768749753904173d2a2eebcf737c4c34478cc0090c6`. Сводка создаётся `tools/recovery_status.py`; редактировать нужно CSV.

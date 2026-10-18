@@ -1,0 +1,470 @@
+{
+  "events": [
+    {
+      "sequence": 2978,
+      "timestamp": "2026-10-18T11:27:44.261995+00:00",
+      "kind": "winter_kit_initialized",
+      "synthetic": true,
+      "definition": 200907,
+      "starter_items": [
+        [
+          20002,
+          1
+        ],
+        [
+          30003,
+          15
+        ],
+        [
+          70001,
+          5
+        ],
+        [
+          200907,
+          1
+        ]
+      ],
+      "starter_item_source": "INITITEM.XML/map16010/stage1",
+      "starter_magazine_policy": "full_capacity_local",
+      "weapon_slots": 3
+    },
+    {
+      "sequence": 2993,
+      "timestamp": "2026-10-18T11:27:44.264318+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800000",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 2999,
+      "timestamp": "2026-10-18T11:27:44.265453+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800001",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 3005,
+      "timestamp": "2026-10-18T11:27:44.266588+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800002",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 3011,
+      "timestamp": "2026-10-18T11:27:44.267993+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800003",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 3017,
+      "timestamp": "2026-10-18T11:27:44.270010+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800004",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 3023,
+      "timestamp": "2026-10-18T11:27:44.271603+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800005",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 3029,
+      "timestamp": "2026-10-18T11:27:44.272926+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800006",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 3035,
+      "timestamp": "2026-10-18T11:27:44.274169+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800007",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 3041,
+      "timestamp": "2026-10-18T11:27:44.275215+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800008",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 3047,
+      "timestamp": "2026-10-18T11:27:44.276263+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800009",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 4155,
+      "timestamp": "2026-10-18T11:28:35.499484+00:00",
+      "kind": "live_state_action",
+      "id": "repeat006-first",
+      "recipient_actor_uid": "0x515bb1e1dd242c",
+      "synthetic": true,
+      "action": "damage_npc",
+      "accepted": true,
+      "administrative": true,
+      "experimental": true,
+      "target": "0x2040000800007",
+      "hp": 300,
+      "damage": 700,
+      "corpse": null
+    },
+    {
+      "sequence": 22845,
+      "timestamp": "2026-10-18T11:41:11.137904+00:00",
+      "kind": "winter_kit_initialized",
+      "synthetic": true,
+      "definition": 200907,
+      "starter_items": [
+        [
+          20002,
+          1
+        ],
+        [
+          30003,
+          15
+        ],
+        [
+          70001,
+          5
+        ],
+        [
+          200907,
+          1
+        ]
+      ],
+      "starter_item_source": "INITITEM.XML/map16010/stage1",
+      "starter_magazine_policy": "full_capacity_local",
+      "weapon_slots": 3
+    },
+    {
+      "sequence": 22860,
+      "timestamp": "2026-10-18T11:41:11.140659+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800000",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 22866,
+      "timestamp": "2026-10-18T11:41:11.142012+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800001",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 22872,
+      "timestamp": "2026-10-18T11:41:11.143422+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800002",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 22878,
+      "timestamp": "2026-10-18T11:41:11.144797+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800003",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 22884,
+      "timestamp": "2026-10-18T11:41:11.146027+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800004",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 22890,
+      "timestamp": "2026-10-18T11:41:11.147207+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800005",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 22896,
+      "timestamp": "2026-10-18T11:41:11.148443+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800006",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 22902,
+      "timestamp": "2026-10-18T11:41:11.149603+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800007",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 22908,
+      "timestamp": "2026-10-18T11:41:11.150782+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800008",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 22914,
+      "timestamp": "2026-10-18T11:41:11.152047+00:00",
+      "kind": "actor_probe",
+      "action": "actor_created",
+      "uid": "0x2040000800009",
+      "synthetic": true,
+      "target_count": 10
+    },
+    {
+      "sequence": 23717,
+      "timestamp": "2026-10-18T11:42:09.088632+00:00",
+      "kind": "gameplay_handoff_complete",
+      "synthetic": true,
+      "handoff_mode": "authenticated_idle_relay",
+      "previous_idle_seconds": 21.765445777999048,
+      "experimental": true,
+      "target_count": 10,
+      "target_states": [
+        {
+          "uid": "0x2040000800000",
+          "hp": 1000,
+          "armor_durability": 300
+        },
+        {
+          "uid": "0x2040000800001",
+          "hp": 1000,
+          "armor_durability": 300
+        },
+        {
+          "uid": "0x2040000800002",
+          "hp": 1000,
+          "armor_durability": 300
+        },
+        {
+          "uid": "0x2040000800003",
+          "hp": 1000,
+          "armor_durability": 300
+        },
+        {
+          "uid": "0x2040000800004",
+          "hp": 1000,
+          "armor_durability": 300
+        },
+        {
+          "uid": "0x2040000800005",
+          "hp": 1000,
+          "armor_durability": 300
+        },
+        {
+          "uid": "0x2040000800006",
+          "hp": 1000,
+          "armor_durability": 300
+        },
+        {
+          "uid": "0x2040000800007",
+          "hp": 1000,
+          "armor_durability": 300
+        },
+        {
+          "uid": "0x2040000800008",
+          "hp": 1000,
+          "armor_durability": 300
+        },
+        {
+          "uid": "0x2040000800009",
+          "hp": 1000,
+          "armor_durability": 300
+        }
+      ],
+      "world_position": [
+        365100,
+        544000,
+        259107
+      ],
+      "world_hp": 1000,
+      "world_started": 10529.966695635,
+      "world_stage_index": 2,
+      "world_warning_index": 8,
+      "clip": 17,
+      "reserve": 0,
+      "ammunition_definition": 30003,
+      "ammunition_quantity": 15,
+      "door_state_changes": null,
+      "picked_loot_count": 0,
+      "available_loot_count": 27,
+      "frame_sequence": 4
+    },
+    {
+      "sequence": 23854,
+      "timestamp": "2026-10-18T11:42:10.427272+00:00",
+      "kind": "live_state_action",
+      "id": "repeat006-new-id",
+      "recipient_actor_uid": "0x515bb1e1dd242c",
+      "synthetic": true,
+      "action": "damage_npc",
+      "accepted": true,
+      "administrative": true,
+      "experimental": true,
+      "target": "0x2040000800007",
+      "hp": 300,
+      "damage": 700,
+      "corpse": null
+    }
+  ],
+  "first_action": {
+    "sequence": 4155,
+    "timestamp": "2026-10-18T11:28:35.499484+00:00",
+    "kind": "live_state_action",
+    "id": "repeat006-first",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800007",
+    "hp": 300,
+    "damage": 700,
+    "corpse": null
+  },
+  "second_handoff": {
+    "sequence": 23717,
+    "timestamp": "2026-10-18T11:42:09.088632+00:00",
+    "kind": "gameplay_handoff_complete",
+    "synthetic": true,
+    "handoff_mode": "authenticated_idle_relay",
+    "previous_idle_seconds": 21.765445777999048,
+    "previous_remote": [
+      "127.0.0.1",
+      33922
+    ],
+    "remote": [
+      "127.0.0.1",
+      36750
+    ],
+    "experimental": true,
+    "target_count": 10,
+    "target_states": [
+      {
+        "uid": "0x2040000800000",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800001",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800002",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800003",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800004",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800005",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800006",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800007",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800008",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800009",
+        "hp": 1000,
+        "armor_durability": 300
+      }
+    ],
+    "world_position": [
+      365100,
+      544000,
+      259107
+    ],
+    "world_hp": 1000,
+    "world_started": 10529.966695635,
+    "world_stage_index": 2,
+    "world_warning_index": 8,
+    "clip": 17,
+    "reserve": 0,
+    "ammunition_definition": 30003,
+    "ammunition_quantity": 15,
+    "door_state_changes": null,
+    "picked_loot_count": 0,
+    "available_loot_count": 27,
+    "frame_sequence": 4
+  },
+  "fresh_action": {
+    "sequence": 23854,
+    "timestamp": "2026-10-18T11:42:10.427272+00:00",
+    "kind": "live_state_action",
+    "id": "repeat006-new-id",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800007",
+    "hp": 300,
+    "damage": 700,
+    "corpse": null
+  }
+}

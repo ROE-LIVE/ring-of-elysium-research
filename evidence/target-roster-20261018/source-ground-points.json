@@ -1,0 +1,106 @@
+{
+  "terrain_file": "research/builds/2022/full-extraction-20261010/extracted/DATA/WORLD/EU_ICELAND_4096/SERVERDATA/RIGIDTERRAINLINUX.PXBIN",
+  "root_points": [
+    {
+      "uid": "0x2040000800000",
+      "position": [
+        366300,
+        543650,
+        259006
+      ],
+      "terrain_face": 7427534,
+      "terrain_z": 259005.87701177597
+    },
+    {
+      "uid": "0x2040000800001",
+      "position": [
+        366300,
+        543900,
+        259028
+      ],
+      "terrain_face": 7431759,
+      "terrain_z": 259027.2396426201
+    },
+    {
+      "uid": "0x2040000800002",
+      "position": [
+        366300,
+        544150,
+        259057
+      ],
+      "terrain_face": 7435983,
+      "terrain_z": 259056.61326003075
+    },
+    {
+      "uid": "0x2040000800003",
+      "position": [
+        366300,
+        544400,
+        259076
+      ],
+      "terrain_face": 7444430,
+      "terrain_z": 259075.30556201935
+    },
+    {
+      "uid": "0x2040000800004",
+      "position": [
+        366300,
+        544650,
+        259100
+      ],
+      "terrain_face": 7448654,
+      "terrain_z": 259099.33852171898
+    },
+    {
+      "uid": "0x2040000800005",
+      "position": [
+        366700,
+        543650,
+        258977
+      ],
+      "terrain_face": 7427538,
+      "terrain_z": 258976.5033943653
+    },
+    {
+      "uid": "0x2040000800006",
+      "position": [
+        366700,
+        543900,
+        259006
+      ],
+      "terrain_face": 7431763,
+      "terrain_z": 259005.87701177597
+    },
+    {
+      "uid": "0x2040000800007",
+      "position": [
+        366700,
+        544150,
+        259028
+      ],
+      "terrain_face": 7435987,
+      "terrain_z": 259027.2396426201
+    },
+    {
+      "uid": "0x2040000800008",
+      "position": [
+        366700,
+        544400,
+        259049
+      ],
+      "terrain_face": 7444434,
+      "terrain_z": 259048.6022734642
+    },
+    {
+      "uid": "0x2040000800009",
+      "position": [
+        366700,
+        544650,
+        259078
+      ],
+      "terrain_face": 7448658,
+      "terrain_z": 259077.97589087486
+    }
+  ],
+  "terrain_only": true
+}

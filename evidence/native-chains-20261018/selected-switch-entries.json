@@ -1,0 +1,12 @@
+[
+  {
+    "opcode": "0x3b64",
+    "table_entry": "0x140c6caa4",
+    "case": "0x140c6c7bc"
+  },
+  {
+    "opcode": "0x3e82",
+    "table_entry": "0x140c4bd6c",
+    "case": "0x140c4bcd5"
+  }
+]

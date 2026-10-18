@@ -1,0 +1,414 @@
+{
+  "scope": "actual native requests; projection is not measured impact",
+  "shots": [
+    {
+      "counter": 1,
+      "timestamp": "2026-10-18T12:08:09.587611+00:00",
+      "origin": [
+        370497.28125,
+        544599.8125,
+        259061.796875
+      ],
+      "aim": [
+        371445.15625,
+        544668.1875,
+        259372.96875
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544672.1436560398,
+        259390.9730570231
+      ]
+    },
+    {
+      "counter": 2,
+      "timestamp": "2026-10-18T12:11:21.159004+00:00",
+      "origin": [
+        370498.0,
+        544599.8125,
+        259060.90625
+      ],
+      "aim": [
+        371451.5,
+        544683.4375,
+        259350.4375
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544687.691105139,
+        259365.1645745936
+      ]
+    },
+    {
+      "counter": 3,
+      "timestamp": "2026-10-18T12:13:26.637764+00:00",
+      "origin": [
+        370496.65625,
+        544599.6875,
+        259062.46875
+      ],
+      "aim": [
+        371438.71875,
+        544680.875,
+        259387.890625
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544686.1562541465,
+        259409.05934711487
+      ]
+    },
+    {
+      "counter": 4,
+      "timestamp": "2026-10-18T12:15:27.465325+00:00",
+      "origin": [
+        370496.65625,
+        544599.6875,
+        259062.453125
+      ],
+      "aim": [
+        371439.875,
+        544677.625,
+        259385.34375
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544682.59308634,
+        259405.9262488404
+      ]
+    },
+    {
+      "counter": 5,
+      "timestamp": "2026-10-18T12:17:18.897546+00:00",
+      "origin": [
+        370496.6875,
+        544599.75,
+        259062.40625
+      ],
+      "aim": [
+        371440.34375,
+        544675.9375,
+        259384.46875
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544680.7539366493,
+        259404.82896169322
+      ]
+    },
+    {
+      "counter": 6,
+      "timestamp": "2026-10-18T12:19:15.968609+00:00",
+      "origin": [
+        370497.0,
+        544599.6875,
+        259062.171875
+      ],
+      "aim": [
+        371441.46875,
+        544676.1875,
+        259381.78125
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544680.9284092413,
+        259401.58829626857
+      ]
+    },
+    {
+      "counter": 7,
+      "timestamp": "2026-10-18T12:20:56.098611+00:00",
+      "origin": [
+        370497.4375,
+        544599.75,
+        259061.578125
+      ],
+      "aim": [
+        371446.6875,
+        544681.1875,
+        259365.40625
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544685.7612547735,
+        259382.47007608804
+      ]
+    },
+    {
+      "counter": 8,
+      "timestamp": "2026-10-18T12:23:37.246457+00:00",
+      "origin": [
+        370497.125,
+        544599.6875,
+        259061.9375
+      ],
+      "aim": [
+        371443.84375,
+        544681.6875,
+        259373.390625
+      ],
+      "projection_at_x371500": [
+        371500.0,
+        544686.5514709523,
+        259391.86500247565
+      ]
+    }
+  ],
+  "hits": [
+    {
+      "sequence": 14818,
+      "timestamp": "2026-10-18T12:13:26.642623+00:00",
+      "kind": "actor_probe",
+      "synthetic": true,
+      "action": "hit_damage",
+      "target": "0x2040000123460",
+      "counter": 3,
+      "tick": 23364,
+      "pellet": 0,
+      "damage": 100,
+      "hp": 900,
+      "absorbed": 0,
+      "armor_durability": 0,
+      "armor_definition": 0,
+      "experimental": true,
+      "hit_feedback_command": "0x11eb",
+      "gun_definition": 10201,
+      "collision_record_count": 0,
+      "collision_records": [],
+      "hit_tag62": 2,
+      "hit_field71": 30,
+      "hit_field78": 384,
+      "hit_flag83": 1,
+      "hit_field100": 0,
+      "part_id": 2,
+      "target_path_id": 30,
+      "target_path_sequence": 0,
+      "target_path_use_c": 0,
+      "on_vehicle": 0,
+      "shooter_path_id": 384,
+      "shooter_path_sequence": 0,
+      "shooter_path_use_c": 1,
+      "shoot_id": 0,
+      "bullet_id": 3,
+      "ratio": 100,
+      "pellet_index": 0,
+      "gun_origin": [
+        370496.65625,
+        544599.6875,
+        259062.46875
+      ],
+      "target_stand": [
+        371500,
+        544686,
+        259300
+      ],
+      "hit_impact": [
+        371488.53125,
+        544685.1875,
+        259405.640625
+      ],
+      "validation": "diagnostic_ray_material",
+      "origin": [
+        370496.65625,
+        544599.6875,
+        259062.46875
+      ],
+      "aim": [
+        371438.71875,
+        544680.875,
+        259387.890625
+      ],
+      "impact": [
+        371488.53125,
+        544685.1875,
+        259405.640625
+      ],
+      "penetration": {}
+    },
+    {
+      "sequence": 16463,
+      "timestamp": "2026-10-18T12:15:27.478208+00:00",
+      "kind": "actor_probe",
+      "synthetic": true,
+      "action": "hit_damage",
+      "target": "0x2040000123460",
+      "counter": 4,
+      "tick": 26385,
+      "pellet": 1,
+      "damage": 100,
+      "hp": 800,
+      "absorbed": 0,
+      "armor_durability": 0,
+      "armor_definition": 0,
+      "experimental": true,
+      "hit_feedback_command": "0x11eb",
+      "gun_definition": 10201,
+      "collision_record_count": 0,
+      "collision_records": [],
+      "hit_tag62": 2,
+      "hit_field71": 30,
+      "hit_field78": 384,
+      "hit_flag83": 1,
+      "hit_field100": 0,
+      "part_id": 2,
+      "target_path_id": 30,
+      "target_path_sequence": 0,
+      "target_path_use_c": 0,
+      "on_vehicle": 0,
+      "shooter_path_id": 384,
+      "shooter_path_sequence": 0,
+      "shooter_path_use_c": 1,
+      "shoot_id": 1,
+      "bullet_id": 4,
+      "ratio": 100,
+      "pellet_index": 0,
+      "gun_origin": [
+        370496.65625,
+        544599.6875,
+        259062.453125
+      ],
+      "target_stand": [
+        371500,
+        544686,
+        259300
+      ],
+      "hit_impact": [
+        371496.3125,
+        544682.3125,
+        259405.21875
+      ],
+      "validation": "diagnostic_ray_material",
+      "origin": [
+        370496.65625,
+        544599.6875,
+        259062.453125
+      ],
+      "aim": [
+        371439.875,
+        544677.625,
+        259385.34375
+      ],
+      "impact": [
+        371496.3125,
+        544682.3125,
+        259405.21875
+      ],
+      "penetration": {}
+    },
+    {
+      "sequence": 23143,
+      "timestamp": "2026-10-18T12:23:37.259201+00:00",
+      "kind": "actor_probe",
+      "synthetic": true,
+      "action": "hit_damage",
+      "target": "0x2040000123460",
+      "counter": 8,
+      "tick": 38629,
+      "pellet": 2,
+      "damage": 100,
+      "hp": 700,
+      "absorbed": 0,
+      "armor_durability": 0,
+      "armor_definition": 0,
+      "experimental": true,
+      "hit_feedback_command": "0x11eb",
+      "gun_definition": 10201,
+      "collision_record_count": 2,
+      "collision_records": [
+        {
+          "kind": 0,
+          "opaque_u8_1": 0,
+          "opaque_u8_2": 0,
+          "material_id": 305,
+          "point": [
+            371250.15625,
+            544664.9375,
+            259310.078125
+          ]
+        },
+        {
+          "kind": 0,
+          "opaque_u8_1": 0,
+          "opaque_u8_2": 1,
+          "material_id": 305,
+          "point": [
+            371272.875,
+            544666.875,
+            259317.5625
+          ]
+        }
+      ],
+      "hit_tag62": 2,
+      "hit_field71": 30,
+      "hit_field78": 384,
+      "hit_flag83": 1,
+      "hit_field100": 0,
+      "part_id": 2,
+      "target_path_id": 30,
+      "target_path_sequence": 0,
+      "target_path_use_c": 0,
+      "on_vehicle": 0,
+      "shooter_path_id": 384,
+      "shooter_path_sequence": 0,
+      "shooter_path_use_c": 1,
+      "shoot_id": 2,
+      "bullet_id": 8,
+      "ratio": 100,
+      "pellet_index": 0,
+      "gun_origin": [
+        370497.125,
+        544599.6875,
+        259061.9375
+      ],
+      "target_stand": [
+        371500,
+        544686,
+        259300
+      ],
+      "hit_impact": [
+        371499.8125,
+        544686.5625,
+        259392.34375
+      ],
+      "validation": "diagnostic_ray_material",
+      "origin": [
+        370497.125,
+        544599.6875,
+        259061.9375
+      ],
+      "aim": [
+        371443.84375,
+        544681.6875,
+        259373.390625
+      ],
+      "impact": [
+        371499.8125,
+        544686.5625,
+        259392.34375
+      ],
+      "penetration": {
+        "mesh_id": "iceland-demo-rock",
+        "material_id": 305,
+        "source_faces": [
+          2066,
+          2065
+        ],
+        "original_server_policy": false,
+        "energy_initial": 40.0,
+        "energy_after": 8.633846922350209,
+        "penetration_power": 1.5,
+        "thickness_cm": 24.047569871445123,
+        "entry": [
+          371250.14132873464,
+          544664.9304531224,
+          259310.07194005832
+        ],
+        "exit": [
+          371272.9039066234,
+          544666.9026517925,
+          259317.5726798208
+        ]
+      }
+    }
+  ]
+}

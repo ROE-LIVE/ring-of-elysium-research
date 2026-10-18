@@ -1,0 +1,801 @@
+[
+  {
+    "sequence": 2988,
+    "timestamp": "2026-10-18T10:46:08.078679+00:00",
+    "kind": "actor_probe",
+    "action": "actor_created",
+    "uid": "0x2040000800000",
+    "synthetic": true,
+    "target_count": 10
+  },
+  {
+    "sequence": 2994,
+    "timestamp": "2026-10-18T10:46:08.080603+00:00",
+    "kind": "actor_probe",
+    "action": "actor_created",
+    "uid": "0x2040000800001",
+    "synthetic": true,
+    "target_count": 10
+  },
+  {
+    "sequence": 3000,
+    "timestamp": "2026-10-18T10:46:08.081954+00:00",
+    "kind": "actor_probe",
+    "action": "actor_created",
+    "uid": "0x2040000800002",
+    "synthetic": true,
+    "target_count": 10
+  },
+  {
+    "sequence": 3006,
+    "timestamp": "2026-10-18T10:46:08.083406+00:00",
+    "kind": "actor_probe",
+    "action": "actor_created",
+    "uid": "0x2040000800003",
+    "synthetic": true,
+    "target_count": 10
+  },
+  {
+    "sequence": 3012,
+    "timestamp": "2026-10-18T10:46:08.084761+00:00",
+    "kind": "actor_probe",
+    "action": "actor_created",
+    "uid": "0x2040000800004",
+    "synthetic": true,
+    "target_count": 10
+  },
+  {
+    "sequence": 3018,
+    "timestamp": "2026-10-18T10:46:08.086107+00:00",
+    "kind": "actor_probe",
+    "action": "actor_created",
+    "uid": "0x2040000800005",
+    "synthetic": true,
+    "target_count": 10
+  },
+  {
+    "sequence": 3024,
+    "timestamp": "2026-10-18T10:46:08.087651+00:00",
+    "kind": "actor_probe",
+    "action": "actor_created",
+    "uid": "0x2040000800006",
+    "synthetic": true,
+    "target_count": 10
+  },
+  {
+    "sequence": 3030,
+    "timestamp": "2026-10-18T10:46:08.089273+00:00",
+    "kind": "actor_probe",
+    "action": "actor_created",
+    "uid": "0x2040000800007",
+    "synthetic": true,
+    "target_count": 10
+  },
+  {
+    "sequence": 3036,
+    "timestamp": "2026-10-18T10:46:08.090837+00:00",
+    "kind": "actor_probe",
+    "action": "actor_created",
+    "uid": "0x2040000800008",
+    "synthetic": true,
+    "target_count": 10
+  },
+  {
+    "sequence": 3042,
+    "timestamp": "2026-10-18T10:46:08.092256+00:00",
+    "kind": "actor_probe",
+    "action": "actor_created",
+    "uid": "0x2040000800009",
+    "synthetic": true,
+    "target_count": 10
+  },
+  {
+    "sequence": 11682,
+    "timestamp": "2026-10-18T10:55:59.162132+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-7-partial",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800007",
+    "hp": 300,
+    "damage": 700,
+    "corpse": null
+  },
+  {
+    "sequence": 11719,
+    "timestamp": "2026-10-18T10:56:21.094712+00:00",
+    "kind": "gameplay_handoff_complete",
+    "synthetic": true,
+    "handoff_mode": "authenticated_idle_relay",
+    "previous_idle_seconds": 21.935029952999685,
+    "experimental": true,
+    "target_count": 10,
+    "target_states": [
+      {
+        "uid": "0x2040000800000",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800001",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800002",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800003",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800004",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800005",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800006",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800007",
+        "hp": 300,
+        "armor_durability": 0
+      },
+      {
+        "uid": "0x2040000800008",
+        "hp": 1000,
+        "armor_durability": 300
+      },
+      {
+        "uid": "0x2040000800009",
+        "hp": 1000,
+        "armor_durability": 300
+      }
+    ],
+    "world_position": [
+      365100,
+      544000,
+      259107
+    ],
+    "world_hp": 1000,
+    "world_started": 7226.906904574,
+    "world_stage_index": 6,
+    "world_warning_index": 35,
+    "clip": 30,
+    "reserve": 0,
+    "ammunition_definition": 30001,
+    "ammunition_quantity": 30,
+    "door_state_changes": null,
+    "picked_loot_count": 4,
+    "available_loot_count": 23,
+    "frame_sequence": 4
+  },
+  {
+    "sequence": 11845,
+    "timestamp": "2026-10-18T10:56:22.303185+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-7-finish",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800007",
+    "hp": 0,
+    "damage": 300,
+    "corpse": {
+      "action": "death_inventory_transferred",
+      "owner": "0x2040000800007",
+      "uid": "0x31d040000f0001",
+      "parcel_id": 450100,
+      "items": [
+        {
+          "index": 450101,
+          "definition": 30004,
+          "quantity": 6,
+          "clip": null,
+          "durability": null,
+          "instance_uid": null,
+          "parts": []
+        },
+        {
+          "index": 450102,
+          "definition": 201001,
+          "quantity": 1,
+          "clip": null,
+          "durability": 0,
+          "instance_uid": null,
+          "parts": []
+        }
+      ],
+      "position": [
+        366700,
+        544150,
+        259028
+      ],
+      "experimental": true
+    }
+  },
+  {
+    "sequence": 11861,
+    "timestamp": "2026-10-18T10:56:23.308482+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-0-first",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800000",
+    "hp": 300,
+    "damage": 700,
+    "corpse": null
+  },
+  {
+    "sequence": 11877,
+    "timestamp": "2026-10-18T10:56:24.326795+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-0-second",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800000",
+    "hp": 0,
+    "damage": 300,
+    "corpse": {
+      "action": "death_inventory_transferred",
+      "owner": "0x2040000800000",
+      "uid": "0x31d040000f0002",
+      "parcel_id": 450200,
+      "items": [
+        {
+          "index": 450201,
+          "definition": 30004,
+          "quantity": 6,
+          "clip": null,
+          "durability": null,
+          "instance_uid": null,
+          "parts": []
+        },
+        {
+          "index": 450202,
+          "definition": 201001,
+          "quantity": 1,
+          "clip": null,
+          "durability": 0,
+          "instance_uid": null,
+          "parts": []
+        }
+      ],
+      "position": [
+        366300,
+        543650,
+        259006
+      ],
+      "experimental": true
+    }
+  },
+  {
+    "sequence": 11898,
+    "timestamp": "2026-10-18T10:56:25.331413+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-1-first",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800001",
+    "hp": 300,
+    "damage": 700,
+    "corpse": null
+  },
+  {
+    "sequence": 11914,
+    "timestamp": "2026-10-18T10:56:26.337648+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-1-second",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800001",
+    "hp": 0,
+    "damage": 300,
+    "corpse": {
+      "action": "death_inventory_transferred",
+      "owner": "0x2040000800001",
+      "uid": "0x31d040000f0003",
+      "parcel_id": 450300,
+      "items": [
+        {
+          "index": 450301,
+          "definition": 30004,
+          "quantity": 6,
+          "clip": null,
+          "durability": null,
+          "instance_uid": null,
+          "parts": []
+        },
+        {
+          "index": 450302,
+          "definition": 201001,
+          "quantity": 1,
+          "clip": null,
+          "durability": 0,
+          "instance_uid": null,
+          "parts": []
+        }
+      ],
+      "position": [
+        366300,
+        543900,
+        259028
+      ],
+      "experimental": true
+    }
+  },
+  {
+    "sequence": 11930,
+    "timestamp": "2026-10-18T10:56:27.344166+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-2-first",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800002",
+    "hp": 300,
+    "damage": 700,
+    "corpse": null
+  },
+  {
+    "sequence": 11951,
+    "timestamp": "2026-10-18T10:56:28.352727+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-2-second",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800002",
+    "hp": 0,
+    "damage": 300,
+    "corpse": {
+      "action": "death_inventory_transferred",
+      "owner": "0x2040000800002",
+      "uid": "0x31d040000f0004",
+      "parcel_id": 450400,
+      "items": [
+        {
+          "index": 450401,
+          "definition": 30004,
+          "quantity": 6,
+          "clip": null,
+          "durability": null,
+          "instance_uid": null,
+          "parts": []
+        },
+        {
+          "index": 450402,
+          "definition": 201001,
+          "quantity": 1,
+          "clip": null,
+          "durability": 0,
+          "instance_uid": null,
+          "parts": []
+        }
+      ],
+      "position": [
+        366300,
+        544150,
+        259057
+      ],
+      "experimental": true
+    }
+  },
+  {
+    "sequence": 11967,
+    "timestamp": "2026-10-18T10:56:29.358944+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-3-first",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800003",
+    "hp": 300,
+    "damage": 700,
+    "corpse": null
+  },
+  {
+    "sequence": 11983,
+    "timestamp": "2026-10-18T10:56:30.362596+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-3-second",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800003",
+    "hp": 0,
+    "damage": 300,
+    "corpse": {
+      "action": "death_inventory_transferred",
+      "owner": "0x2040000800003",
+      "uid": "0x31d040000f0005",
+      "parcel_id": 450500,
+      "items": [
+        {
+          "index": 450501,
+          "definition": 30004,
+          "quantity": 6,
+          "clip": null,
+          "durability": null,
+          "instance_uid": null,
+          "parts": []
+        },
+        {
+          "index": 450502,
+          "definition": 201001,
+          "quantity": 1,
+          "clip": null,
+          "durability": 0,
+          "instance_uid": null,
+          "parts": []
+        }
+      ],
+      "position": [
+        366300,
+        544400,
+        259076
+      ],
+      "experimental": true
+    }
+  },
+  {
+    "sequence": 11999,
+    "timestamp": "2026-10-18T10:56:31.367401+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-4-first",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800004",
+    "hp": 300,
+    "damage": 700,
+    "corpse": null
+  },
+  {
+    "sequence": 12015,
+    "timestamp": "2026-10-18T10:56:32.375827+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-4-second",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800004",
+    "hp": 0,
+    "damage": 300,
+    "corpse": {
+      "action": "death_inventory_transferred",
+      "owner": "0x2040000800004",
+      "uid": "0x31d040000f0006",
+      "parcel_id": 450600,
+      "items": [
+        {
+          "index": 450601,
+          "definition": 30004,
+          "quantity": 6,
+          "clip": null,
+          "durability": null,
+          "instance_uid": null,
+          "parts": []
+        },
+        {
+          "index": 450602,
+          "definition": 201001,
+          "quantity": 1,
+          "clip": null,
+          "durability": 0,
+          "instance_uid": null,
+          "parts": []
+        }
+      ],
+      "position": [
+        366300,
+        544650,
+        259100
+      ],
+      "experimental": true
+    }
+  },
+  {
+    "sequence": 12031,
+    "timestamp": "2026-10-18T10:56:33.378161+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-5-first",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800005",
+    "hp": 300,
+    "damage": 700,
+    "corpse": null
+  },
+  {
+    "sequence": 12052,
+    "timestamp": "2026-10-18T10:56:34.388093+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-5-second",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800005",
+    "hp": 0,
+    "damage": 300,
+    "corpse": {
+      "action": "death_inventory_transferred",
+      "owner": "0x2040000800005",
+      "uid": "0x31d040000f0007",
+      "parcel_id": 450700,
+      "items": [
+        {
+          "index": 450701,
+          "definition": 30004,
+          "quantity": 6,
+          "clip": null,
+          "durability": null,
+          "instance_uid": null,
+          "parts": []
+        },
+        {
+          "index": 450702,
+          "definition": 201001,
+          "quantity": 1,
+          "clip": null,
+          "durability": 0,
+          "instance_uid": null,
+          "parts": []
+        }
+      ],
+      "position": [
+        366700,
+        543650,
+        258977
+      ],
+      "experimental": true
+    }
+  },
+  {
+    "sequence": 12068,
+    "timestamp": "2026-10-18T10:56:35.390297+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-6-first",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800006",
+    "hp": 300,
+    "damage": 700,
+    "corpse": null
+  },
+  {
+    "sequence": 12084,
+    "timestamp": "2026-10-18T10:56:36.394503+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-6-second",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800006",
+    "hp": 0,
+    "damage": 300,
+    "corpse": {
+      "action": "death_inventory_transferred",
+      "owner": "0x2040000800006",
+      "uid": "0x31d040000f0008",
+      "parcel_id": 450800,
+      "items": [
+        {
+          "index": 450801,
+          "definition": 30004,
+          "quantity": 6,
+          "clip": null,
+          "durability": null,
+          "instance_uid": null,
+          "parts": []
+        },
+        {
+          "index": 450802,
+          "definition": 201001,
+          "quantity": 1,
+          "clip": null,
+          "durability": 0,
+          "instance_uid": null,
+          "parts": []
+        }
+      ],
+      "position": [
+        366700,
+        543900,
+        259006
+      ],
+      "experimental": true
+    }
+  },
+  {
+    "sequence": 12100,
+    "timestamp": "2026-10-18T10:56:37.396859+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-8-first",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800008",
+    "hp": 300,
+    "damage": 700,
+    "corpse": null
+  },
+  {
+    "sequence": 12116,
+    "timestamp": "2026-10-18T10:56:38.404581+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-8-second",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800008",
+    "hp": 0,
+    "damage": 300,
+    "corpse": {
+      "action": "death_inventory_transferred",
+      "owner": "0x2040000800008",
+      "uid": "0x31d040000f0009",
+      "parcel_id": 450900,
+      "items": [
+        {
+          "index": 450901,
+          "definition": 30004,
+          "quantity": 6,
+          "clip": null,
+          "durability": null,
+          "instance_uid": null,
+          "parts": []
+        },
+        {
+          "index": 450902,
+          "definition": 201001,
+          "quantity": 1,
+          "clip": null,
+          "durability": 0,
+          "instance_uid": null,
+          "parts": []
+        }
+      ],
+      "position": [
+        366700,
+        544400,
+        259049
+      ],
+      "experimental": true
+    }
+  },
+  {
+    "sequence": 12132,
+    "timestamp": "2026-10-18T10:56:39.420685+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-9-first",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800009",
+    "hp": 300,
+    "damage": 700,
+    "corpse": null
+  },
+  {
+    "sequence": 12148,
+    "timestamp": "2026-10-18T10:56:40.424421+00:00",
+    "kind": "live_state_action",
+    "id": "roster005-9-second",
+    "recipient_actor_uid": "0x515bb1e1dd242c",
+    "synthetic": true,
+    "action": "damage_npc",
+    "accepted": true,
+    "administrative": true,
+    "experimental": true,
+    "target": "0x2040000800009",
+    "hp": 0,
+    "damage": 300,
+    "corpse": {
+      "action": "death_inventory_transferred",
+      "owner": "0x2040000800009",
+      "uid": "0x31d040000f000a",
+      "parcel_id": 451000,
+      "items": [
+        {
+          "index": 451001,
+          "definition": 30004,
+          "quantity": 6,
+          "clip": null,
+          "durability": null,
+          "instance_uid": null,
+          "parts": []
+        },
+        {
+          "index": 451002,
+          "definition": 201001,
+          "quantity": 1,
+          "clip": null,
+          "durability": 0,
+          "instance_uid": null,
+          "parts": []
+        }
+      ],
+      "position": [
+        366700,
+        544650,
+        259078
+      ],
+      "experimental": true
+    }
+  }
+]
