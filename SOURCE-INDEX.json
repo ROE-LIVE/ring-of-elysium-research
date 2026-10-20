@@ -2112,5 +2112,12 @@
       "included_at_original_path": false,
       "play_counterpart_exists": false
     }
-  ]
+  ],
+  "loot_spawn_bundle": {
+    "path": "loot-spawn/2022",
+    "entrypoint": "loot-spawn/2022/README.md",
+    "manifest": "loot-spawn/2022/MANIFEST.json",
+    "build": "2022-0.2.989.0-x64",
+    "original_rng_verified": false
+  }
 }

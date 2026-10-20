@@ -1,0 +1,4 @@
+﻿selection;ability_definition;gun_definition;ammunition_definition;ammunition_quantity;bandage_definition;bandage_quantity;source_file;source_lines;magazine_policy;original_full_magazine_verified
+1;200907;20002;30003;15;70001;5;DATA/TABLE/INITITEM.XML;217-268/map16010/stage1;full_capacity_local;False
+2;200906;20003;30006;10;70001;5;DATA/TABLE/INITITEM.XML;217-268/map16010/stage1;full_capacity_local;False
+3;200904;10402;30004;10;70001;5;DATA/TABLE/INITITEM.XML;217-268/map16010/stage1;full_capacity_local;False

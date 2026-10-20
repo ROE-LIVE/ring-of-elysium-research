@@ -1,0 +1,159 @@
+{
+  "catalog_items": 8008,
+  "source_points": 7155,
+  "position": [
+    416070.32,
+    557322.32,
+    259021.49
+  ],
+  "events": [
+    {
+      "sequence": 36,
+      "timestamp": "2026-10-19T02:56:46.897377+00:00",
+      "kind": "match_plan_created",
+      "seed": 20261019,
+      "match_ordinal": 1
+    },
+    {
+      "sequence": 12114,
+      "timestamp": "2026-10-19T03:06:40.638278+00:00",
+      "kind": "weapon_probe",
+      "action": "pickup",
+      "index": 2002437,
+      "definition": 10305,
+      "quantity": 1,
+      "reserve": 0,
+      "destination_slot": 2,
+      "ammunition_quantity": null
+    },
+    {
+      "sequence": 12165,
+      "timestamp": "2026-10-19T03:06:42.035313+00:00",
+      "kind": "weapon_probe",
+      "action": "pickup",
+      "index": 2002441,
+      "definition": 10401,
+      "quantity": 1,
+      "reserve": 0,
+      "destination_slot": 3,
+      "ammunition_quantity": null
+    },
+    {
+      "sequence": 12210,
+      "timestamp": "2026-10-19T03:06:43.494815+00:00",
+      "kind": "weapon_probe",
+      "action": "pickup",
+      "index": 2002438,
+      "definition": 30003,
+      "quantity": 30,
+      "reserve": 0,
+      "destination_slot": null,
+      "ammunition_quantity": 45
+    },
+    {
+      "sequence": 12250,
+      "timestamp": "2026-10-19T03:06:44.875032+00:00",
+      "kind": "weapon_probe",
+      "action": "pickup",
+      "index": 2002439,
+      "definition": 30003,
+      "quantity": 30,
+      "reserve": 0,
+      "destination_slot": null,
+      "ammunition_quantity": 75
+    },
+    {
+      "sequence": 12306,
+      "timestamp": "2026-10-19T03:06:46.276322+00:00",
+      "kind": "weapon_probe",
+      "action": "pickup",
+      "index": 2002440,
+      "definition": 30003,
+      "quantity": 30,
+      "reserve": 0,
+      "destination_slot": null,
+      "ammunition_quantity": 105
+    },
+    {
+      "sequence": 12346,
+      "timestamp": "2026-10-19T03:06:47.690696+00:00",
+      "kind": "weapon_probe",
+      "action": "pickup",
+      "index": 2002442,
+      "definition": 30004,
+      "quantity": 10,
+      "reserve": 10,
+      "destination_slot": null,
+      "ammunition_quantity": 10
+    },
+    {
+      "sequence": 12408,
+      "timestamp": "2026-10-19T03:06:49.097392+00:00",
+      "kind": "weapon_probe",
+      "action": "pickup",
+      "index": 2002443,
+      "definition": 30004,
+      "quantity": 10,
+      "reserve": 20,
+      "destination_slot": null,
+      "ammunition_quantity": 20
+    },
+    {
+      "sequence": 15537,
+      "timestamp": "2026-10-19T03:10:40.979142+00:00",
+      "kind": "weapon_probe",
+      "action": "reload",
+      "slot": 2,
+      "clip": 20,
+      "reserve": 20,
+      "gun_definition": 10305,
+      "ammunition_quantity": 85
+    },
+    {
+      "sequence": 15594,
+      "timestamp": "2026-10-19T03:10:44.532082+00:00",
+      "kind": "weapon_probe",
+      "action": "fire",
+      "clip": 19,
+      "reserve": 20,
+      "slot": 2,
+      "gun_definition": 10305,
+      "ammunition_quantity": 85
+    },
+    {
+      "sequence": 15724,
+      "timestamp": "2026-10-19T03:10:48.010316+00:00",
+      "kind": "weapon_probe",
+      "action": "reload",
+      "slot": 3,
+      "clip": 5,
+      "reserve": 15,
+      "gun_definition": 10401,
+      "ammunition_quantity": 15
+    },
+    {
+      "sequence": 15810,
+      "timestamp": "2026-10-19T03:10:53.364399+00:00",
+      "kind": "weapon_probe",
+      "action": "fire",
+      "clip": 4,
+      "reserve": 15,
+      "slot": 3,
+      "gun_definition": 10401,
+      "ammunition_quantity": 15
+    },
+    {
+      "sequence": 17506,
+      "timestamp": "2026-10-19T03:13:14.087557+00:00",
+      "kind": "gameplay_handoff_complete",
+      "seed": 20261019,
+      "match_ordinal": 1,
+      "handoff_mode": "authenticated_idle_relay",
+      "world_hp": 1000,
+      "clip": 4,
+      "reserve": 15,
+      "ammunition_quantity": 15,
+      "picked_loot_count": 7
+    }
+  ]
+}

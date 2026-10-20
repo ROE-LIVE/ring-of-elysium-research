@@ -6,6 +6,10 @@
 
 ## English
 
+### Loot spawn dataset — 20 October 2026
+
+[Data, generator and reproduction guide](loot-spawn/2022/README.md): all 7,155 verified prefab nodes, a separate 8,313-point legacy dataset, four loot/vehicle tables, starter presets and selected gameplay evidence. Includes offline generation and a bounded reader for your own client; no client resources or keys. Original RNG/controller binding remain unverified.
+
 ### Research follow-up — 18 October 2026
 
 Optional terrain LOS now uses an extracted Iceland heightfield. Proton verified open hits, reconnects, two kills, evacuation and a fresh Training session. This option requires your own extracted PXBIN and is disabled in the standard launcher; it does not provide complete map collision or original damage rules. The intermittent inventory image delay was not reproduced or fixed. Existing Windows W19 tests remain current. [Technical follow-up](docs/SESSION-RESULT-20261018-PM.md).
@@ -65,6 +69,10 @@ See [provenance](PROVENANCE.json), [rights](RIGHTS.md), and the [sharing checkli
 <a id="russian"></a>
 
 ## Русский
+
+### Данные спавна лута — 20 октября 2026
+
+[Полный пакет и инструкция](loot-spawn/2022/README.md):7155 prefab-точек, отдельно 8313 legacy-записей, четыре таблицы, стартовые наборы, генератор и проверки. Есть offline-команда и адресное чтение своего клиента; XML/архивы/ключи не включены. Исходные RNG/binding не восстановлены.
 
 ### Продолжение исследований — 18 октября 2026
 

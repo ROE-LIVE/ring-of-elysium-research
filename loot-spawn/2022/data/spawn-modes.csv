@@ -1,0 +1,8 @@
+﻿mode;source;implementation;scope;original_algorithm_verified
+prefab_ground;LayoutManager +76prefab +LootControl/Item;tools/generate_prefab_loot_catalog_2022.py;"7155sourceXYZ;H1/controllerbinding local";False
+legacy_ground;ICELAND_001/ENTITYPOINTCONFIG;tools/generate_winter_loot_catalog_2022.py;"8313sourcepoints;TypeId→control unknown;do not merge";False
+starter_inventory;INITITEM.XML/map16010/stage1;data/starter-presets.csv;"3kits;fullmagazine local;not ground loot";False
+airdrop;source models +local scenario;reference-source/tools/seeded_airdrop_2022.py;"native motion/pickup tested;location/content policy local";False
+death_loot;current authoritative local inventory;reference-source/server/directory/death_parcel_2022.py;"current clip/armor/parts;not randomized world loot";False
+range_and_static_supply;authored diagnostic fixtures;examples/diagnostic/shooting-range-loot.json;"69items/20targets layout;not original match spawn";False
+shared_ground;shared room registry;reference-source/server/directory/shared_loot_2022.py;"single item ownership/latejoin/partialpickup;separate room demo";False

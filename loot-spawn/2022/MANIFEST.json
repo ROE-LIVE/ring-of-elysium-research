@@ -1,0 +1,351 @@
+{
+  "schema": "roe-public-loot-bundle-v1",
+  "date": "2026-10-20",
+  "build": "2022-0.2.989.0-x64",
+  "map_id": 16010,
+  "exe_sha256": "2dca9b1e122e21363e14eeeb2372598c773205a907ed8d2b2d54a7229ad6ba18",
+  "source_code_commit": "687456b",
+  "policy": {
+    "original_game_files_included": false,
+    "credentials_included": false,
+    "raw_network_or_full_logs_included": false,
+    "original_server_algorithm_verified": false
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 128,
+      "sha256": "fe346338b7088d9928a7ea59c566e91cb1e1ef95ac0e860537a4e5436ec6f10d"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 56,
+      "sha256": "c218fd8995f6dbf5810088019bc052dff4d7c3451d33c5632c7c4492423a1363"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 11958,
+      "sha256": "7e1fa833e54989e91004d253b27b57953ec8656b6ad13a37f06b868568d36fa9"
+    },
+    {
+      "path": "config/legacy-resource-source.json",
+      "size_bytes": 253,
+      "sha256": "a93ddd9bbca15eda6c2429f33b349586da54aa459e385741bc59607c9afca08a"
+    },
+    {
+      "path": "config/prefab-loot-sources.json",
+      "size_bytes": 26331,
+      "sha256": "78e63b3fee23961d97a35d3391c64ebb079f22cb0d2ab8bd4892877195480cbb"
+    },
+    {
+      "path": "data/legacy-control-summary.csv",
+      "size_bytes": 1342,
+      "sha256": "0d303fd3456fd9801e319ff4a0181e9f2451c67e2a230ca8ea978922721fb86c"
+    },
+    {
+      "path": "data/legacy-entitypoints-map.html",
+      "size_bytes": 359694,
+      "sha256": "d7f0ca11f8233db4a13446241a544743ffe73817d262b540cbbfdd788313ea1f"
+    },
+    {
+      "path": "data/legacy-entitypoints.csv",
+      "size_bytes": 479085,
+      "sha256": "3766f27d0a2e5025b631f23c1aaf30f266657864793e59890d5bf553419fa5fd"
+    },
+    {
+      "path": "data/legacy-entitypoints.json",
+      "size_bytes": 1119667,
+      "sha256": "e6ee44da498bef4ee016b10222a75d094bf3d096ff80c1a6c6431dde4b4b5cf2"
+    },
+    {
+      "path": "data/legacy-source-audit.json",
+      "size_bytes": 10978,
+      "sha256": "6663e0ce5ffe69a99535d7d7d9f1de2bd5c40accc9807885a0731e37972411e9"
+    },
+    {
+      "path": "data/loot-tables.json",
+      "size_bytes": 109351,
+      "sha256": "09f850774911eaee0b0fd7dc74863c4bda973f8d944207ec76f2d5b9c1a1d6f4"
+    },
+    {
+      "path": "data/peer-supported-definitions.json",
+      "size_bytes": 1330,
+      "sha256": "a57d5ad5f8df58da77bd551febb490b34854b6eadaf8c52c309c8b602003981f"
+    },
+    {
+      "path": "data/prefab-nodes.csv",
+      "size_bytes": 625244,
+      "sha256": "c30853d1d21a83269b5f09a3a0cc82335ea70760306e2ff3148ad1a118a8010a"
+    },
+    {
+      "path": "data/spawn-modes.csv",
+      "size_bytes": 1121,
+      "sha256": "1715f93a283355f0604ce1167cc9f417d2c8de8ed24ab066e42202c0b52570f3"
+    },
+    {
+      "path": "data/starter-presets.csv",
+      "size_bytes": 520,
+      "sha256": "7d14dc00d7ce589c87124671087a6e30fbbcbff4c42daa045a2d1ede2893ec92"
+    },
+    {
+      "path": "data/table-control.csv",
+      "size_bytes": 1119,
+      "sha256": "019950bb6596757cd2f8a350660056aa3d56cd1125dc1708b964e6515362db77"
+    },
+    {
+      "path": "data/table-items.csv",
+      "size_bytes": 23042,
+      "sha256": "56a41673bbe1ab7c94aec81748405957f424bc2f94dbc27b5e5a2de738f4822d"
+    },
+    {
+      "path": "data/table-vehicle_control.csv",
+      "size_bytes": 306,
+      "sha256": "4f953612e3b0aac25cd517cb353b8c49130ba1563e6ae8cdf000ed9197254d3a"
+    },
+    {
+      "path": "data/table-vehicles.csv",
+      "size_bytes": 1108,
+      "sha256": "32d0cc55dee952ff84f6d59f95bb9c8f47f7d6209f4bc458888367672d962cc5"
+    },
+    {
+      "path": "evidence/current-generation-checks.json",
+      "size_bytes": 993,
+      "sha256": "324113ab2b56b6ede9d1dc934b073a4fd86ded1a266e82f4388bda8531658442"
+    },
+    {
+      "path": "evidence/material-index.csv",
+      "size_bytes": 1994,
+      "sha256": "b7c6a5e5218c53ee777296bf35d2d875cab4e77ae435d54bf01ab7075936f76c"
+    },
+    {
+      "path": "evidence/native012-source-loot-summary.json",
+      "size_bytes": 3878,
+      "sha256": "642fdfb41ae1c7506f2c0090cca79542cbe8a980345d79b0fc3fe56180ee7170"
+    },
+    {
+      "path": "evidence/source-provenance.json",
+      "size_bytes": 3179,
+      "sha256": "f2699f67fbc91454512e8d30ad86be169aedf3b6cc13a0a0c031f31a4146ca79"
+    },
+    {
+      "path": "evidence/source-reproduction-checks.json",
+      "size_bytes": 914,
+      "sha256": "fd649f206b6d26682ca7d257a3faf3ecbf86376bb9e49b7c45884b31a424e526"
+    },
+    {
+      "path": "evidence/starter-source-check.json",
+      "size_bytes": 249,
+      "sha256": "2aecfc7a468bb0322feb933297060c239d49fad278d246f860a14a231bf664fe"
+    },
+    {
+      "path": "evidence/verification.json",
+      "size_bytes": 1039,
+      "sha256": "37b67fb1e8d9d8a7a4165836b332773979b4c4eeac7d8a3a8b1e1ede03c85e76"
+    },
+    {
+      "path": "examples/diagnostic/loot-broken-armor.json",
+      "size_bytes": 594,
+      "sha256": "74de91f67fdcb26ec977b36f780c74881bd0c11604f9a85dc08fa39903f60d44"
+    },
+    {
+      "path": "examples/diagnostic/loot-pool61.json",
+      "size_bytes": 12321,
+      "sha256": "89efac66388b4d9351c8376f5ece66e12bcc3b5e3f49d4e1f4ea88b107270491"
+    },
+    {
+      "path": "examples/diagnostic/loot-prefab-quarter-seed20261020.json",
+      "size_bytes": 4951,
+      "sha256": "dae5857a3c202ee521389856dc9c20fac9331bd70b7ae68fd25c1ab89710fde3"
+    },
+    {
+      "path": "examples/diagnostic/loot-test-quarter.json",
+      "size_bytes": 11313,
+      "sha256": "112b49d9384d5a9661f135505d60f14cd11a330d848c9e4c0e8f1e3971736491"
+    },
+    {
+      "path": "examples/diagnostic/shooting-range-loot.json",
+      "size_bytes": 13570,
+      "sha256": "760e9575e1cc505769ad5a02d7c847947c8d621bb39eaab44fd4bd34acc49db9"
+    },
+    {
+      "path": "examples/diagnostic/shooting-range.json",
+      "size_bytes": 5300,
+      "sha256": "1c5916e99cafbeb17f2daca15baf5b1fb1f95e28b94c2fd69f39e0e9e8224f46"
+    },
+    {
+      "path": "examples/prefab-quarter-seed20261019.json",
+      "size_bytes": 3433,
+      "sha256": "167ad5347f685ac5e4db3f8a7ae2b744592bb1d29bb4a83711e9dde6f2781713"
+    },
+    {
+      "path": "examples/prefab-quarter-seed20261020.json",
+      "size_bytes": 6929,
+      "sha256": "e7aa6115ab6b7e779b0ca6248414236cebde48c549b5dd6b9f8a8f117ef56ee5"
+    },
+    {
+      "path": "reference-source/server/directory/death_parcel_2022.py",
+      "size_bytes": 11651,
+      "sha256": "aba4d828e02f248c1e0e1255c38f9b2d8bb8d3f9027cbffeb22850043f480945"
+    },
+    {
+      "path": "reference-source/server/directory/ground_container_2022.py",
+      "size_bytes": 5116,
+      "sha256": "945780c8701627a08d044038d2f595fdc1a02843fb2befae160b26cb40ac547b"
+    },
+    {
+      "path": "reference-source/server/directory/loot_catalog_2022.py",
+      "size_bytes": 8363,
+      "sha256": "cf8f22ceb2499a0a670c7c63971d5271b8a604a2359f196b745cc39f4607f90b"
+    },
+    {
+      "path": "reference-source/server/directory/parcel_catalog_2022.py",
+      "size_bytes": 13179,
+      "sha256": "838a126e29488c493249ed03aaae7695474a13a8dbe9b8ca2a077f6e1fba8878"
+    },
+    {
+      "path": "reference-source/server/directory/parcel_probe_2022.py",
+      "size_bytes": 5355,
+      "sha256": "cdba2d092c8a334c7f97fd727163d305af39e2bdd2024d6558efedd67736fb9b"
+    },
+    {
+      "path": "reference-source/server/directory/seeded_scenario_2022.py",
+      "size_bytes": 7329,
+      "sha256": "a6d2a8591646f9a7122ad34a923b82847d3c00179811da3443d2bd852383d891"
+    },
+    {
+      "path": "reference-source/server/directory/shared_loot_2022.py",
+      "size_bytes": 9187,
+      "sha256": "e89845736067caff2eb704f0486896a1e90d9d0f6b24aba78adc4cd5910c14c4"
+    },
+    {
+      "path": "reference-source/tools/audit_winter_loot_pool_2022.py",
+      "size_bytes": 6349,
+      "sha256": "b1af4cdda2d47437eb6d8ba77d1c893e26d2b7e6a2e18c0624021b6581d7e172"
+    },
+    {
+      "path": "reference-source/tools/generate_shooting_range_layout_2022.py",
+      "size_bytes": 2057,
+      "sha256": "b9067fd5b2483f52ffcce9762441904307e94227d40efaff2a6b7e58879dd69a"
+    },
+    {
+      "path": "reference-source/tools/generate_winter_loot_catalog_2022.py",
+      "size_bytes": 10178,
+      "sha256": "bbe8c01867dcb6126e34d6274bfdc78b3ba9cbf1c4676b5def348cc341815a54"
+    },
+    {
+      "path": "reference-source/tools/seeded_airdrop_2022.py",
+      "size_bytes": 2369,
+      "sha256": "0250ee142888432cc7b07eaab911be71e87470534f138d502b465a085f97358a"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 124,
+      "sha256": "86908d13161069a5b125667d8319a7606424d10a417cbe2d87357004194e2c32"
+    },
+    {
+      "path": "tests/test_audit_winter_loot_pool_2022.py",
+      "size_bytes": 1687,
+      "sha256": "da2ac064effef4cdfd4b670acab500d6d7bc3b5928e7024729a06d3b4eb7a19a"
+    },
+    {
+      "path": "tests/test_export_loot_tables_2022.py",
+      "size_bytes": 2530,
+      "sha256": "3f4ebca1f6e659ef9382c4c6f2b527c2e86de3163d566d51538473fe00a89480"
+    },
+    {
+      "path": "tests/test_extract_prefab_loot_2022.py",
+      "size_bytes": 2656,
+      "sha256": "23877eb4a3f53acfdd5e9d52bdbb53258b2565a95809d3649fc1a93a5ec95b0c"
+    },
+    {
+      "path": "tests/test_generate_loot_plan_2022.py",
+      "size_bytes": 3461,
+      "sha256": "231778505582dc23233ea1374ad64625e658d93452810ccda8518fcfd482ae91"
+    },
+    {
+      "path": "tests/test_iceland_heightfield_2022.py",
+      "size_bytes": 5786,
+      "sha256": "6b1cfb4b845dfa10950848a8f7fe7217919bb6ea264871630be0a751ba436e31"
+    },
+    {
+      "path": "tests/test_prefab_loot_2022.py",
+      "size_bytes": 2473,
+      "sha256": "26a98e824da661e459c68ca84f6588fe1db6c64afdc33848474c4606a57f7e84"
+    },
+    {
+      "path": "tests/test_public_loot_bundle.py",
+      "size_bytes": 2239,
+      "sha256": "e4e87b243f937b80b58c6472e31466c023935a1495af323d653030a541272783"
+    },
+    {
+      "path": "tests/test_recover_winter_loot_presets_2022.py",
+      "size_bytes": 3283,
+      "sha256": "d66e1ac5ab8542ddb4bcbad6a4001bc174e41e91fce704c7b1ae4230b06cf6d3"
+    },
+    {
+      "path": "tools/audit_loot_surface_2022.py",
+      "size_bytes": 3480,
+      "sha256": "73a9622b1ea4e58925b7547a485e5dd55ae4655c723f2b0f6827899a0a3015da"
+    },
+    {
+      "path": "tools/audit_prefab_loot_nodes_2022.py",
+      "size_bytes": 5040,
+      "sha256": "86d5ca31a107ab2211bfda7bbc403383d36c7186ab2286aa7f46050667a3a884"
+    },
+    {
+      "path": "tools/audit_winter_loot_pool_2022.py",
+      "size_bytes": 5928,
+      "sha256": "0d2e57aba4bf17e71f43fb5dd2e4392401ed807d13c3d19c71b655b6a9499641"
+    },
+    {
+      "path": "tools/export_loot_tables_2022.py",
+      "size_bytes": 7929,
+      "sha256": "c78499ec8747f9a64f73297b5855868e27d4df2e6b30c078101f9b8a217aded8"
+    },
+    {
+      "path": "tools/export_source_from_client.py",
+      "size_bytes": 3705,
+      "sha256": "32c3d9cc2788fed0a2d049b905d58a10a00cc82d17ff0e8916da6b4d86e9c796"
+    },
+    {
+      "path": "tools/extract_prefab_loot_2022.py",
+      "size_bytes": 6931,
+      "sha256": "4c2602b32e5de5e8519040396b7bff3a6351e66eec02413a71d08e3c0d527002"
+    },
+    {
+      "path": "tools/generate_catalog.py",
+      "size_bytes": 1682,
+      "sha256": "0b24de512790b44e129411815151e67b8c623b5a085d1b8834a1cac49aaa0528"
+    },
+    {
+      "path": "tools/generate_loot_plan_2022.py",
+      "size_bytes": 5721,
+      "sha256": "50af82570b90d3916a68864b1873769b19212365175b718a03ec9ad338b84155"
+    },
+    {
+      "path": "tools/generate_prefab_loot_catalog_2022.py",
+      "size_bytes": 4875,
+      "sha256": "0278cb8f9c45787a12b049a1d5538ec6aa80b4cf8f88d9d8a2defcea0999322d"
+    },
+    {
+      "path": "tools/generate_winter_loot_catalog_2022.py",
+      "size_bytes": 9719,
+      "sha256": "bc5a06771fce7be243747386bdf4b5720ee73d2a803931a241737289c4d52470"
+    },
+    {
+      "path": "tools/loot_supported_definitions_2022.py",
+      "size_bytes": 859,
+      "sha256": "987096f3f22801ce908a0ddcdc4421c092bcf60e9c14b902ce5c841bc0999c41"
+    },
+    {
+      "path": "tools/probe_iceland_heightfield_2022.py",
+      "size_bytes": 11531,
+      "sha256": "a5b3ea4b25b9330179031f7361b3a8d557dbbc881aa8868a0ae43a1fd9a8d390"
+    },
+    {
+      "path": "tools/recover_winter_loot_presets_2022.py",
+      "size_bytes": 7825,
+      "sha256": "24c3d7cc03f677e7e3400e18f615ad1aa9b3cc070184d78045fae7b7c423dda1"
+    }
+  ]
+}

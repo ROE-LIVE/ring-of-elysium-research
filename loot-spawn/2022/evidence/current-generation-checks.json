@@ -1,0 +1,35 @@
+{
+  "build": "2022-0.2.989.0-x64",
+  "source_code_commit": "687456b",
+  "current_supported_ids": 78,
+  "historical_supported_ids": 61,
+  "source_match_count": 7155,
+  "controller_counts": {
+    "3": 5757,
+    "5": 1230,
+    "1": 168
+  },
+  "native_full_catalog_all_points_verified": false,
+  "results": [
+    {
+      "seed": 20261019,
+      "source_points": 7155,
+      "full_entities": 8008,
+      "full_catalog_canonical_sha256": "4dc576a5ee2fbef608147538a4940be9fc7a98b13164c01a9318f4fbd6071fe4",
+      "quarter_points": 15,
+      "quarter_entities": 8,
+      "input_order_independent": true,
+      "original_algorithm_verified": false
+    },
+    {
+      "seed": 20261020,
+      "source_points": 7155,
+      "full_entities": 8083,
+      "full_catalog_canonical_sha256": "98d014209e2e7b02251c6f841b61b8a429a61a41e0cec015e6e17c0ee50b0239",
+      "quarter_points": 15,
+      "quarter_entities": 17,
+      "input_order_independent": true,
+      "original_algorithm_verified": false
+    }
+  ]
+}

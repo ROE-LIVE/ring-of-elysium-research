@@ -1,0 +1,278 @@
+{
+  "map_id": 16010,
+  "start_position": [
+    365100,
+    544000,
+    259100
+  ],
+  "layout": "five-rows-four-levels-v1",
+  "first_row_cm": 1000,
+  "row_spacing_cm": 1000,
+  "column_spacing_cm": 500,
+  "row_right_shift_cm": 100,
+  "heading_degrees": 330,
+  "terrain_only": true,
+  "terrain_sha256": "8332fe282b7949acbe717b256638543c6aa32398744b84cfdfe25d7735467d6f",
+  "targets": [
+    {
+      "uid": "0x2040000900001",
+      "position": [
+        366341,
+        544150,
+        259054
+      ],
+      "armor_level": 0,
+      "row": 1,
+      "column": 1,
+      "row_distance_m": 10,
+      "horizontal_distance_m": 12.5
+    },
+    {
+      "uid": "0x2040000900002",
+      "position": [
+        366091,
+        543717,
+        259024
+      ],
+      "armor_level": 1,
+      "row": 1,
+      "column": 2,
+      "row_distance_m": 10,
+      "horizontal_distance_m": 10.306
+    },
+    {
+      "uid": "0x2040000900003",
+      "position": [
+        365841,
+        543283,
+        259000
+      ],
+      "armor_level": 2,
+      "row": 1,
+      "column": 3,
+      "row_distance_m": 10,
+      "horizontal_distance_m": 10.311
+    },
+    {
+      "uid": "0x2040000900004",
+      "position": [
+        365591,
+        542850,
+        258972
+      ],
+      "armor_level": 3,
+      "row": 1,
+      "column": 4,
+      "row_distance_m": 10,
+      "horizontal_distance_m": 12.504
+    },
+    {
+      "uid": "0x2040000900005",
+      "position": [
+        367157,
+        543563,
+        258942
+      ],
+      "armor_level": 0,
+      "row": 2,
+      "column": 1,
+      "row_distance_m": 20,
+      "horizontal_distance_m": 21.029
+    },
+    {
+      "uid": "0x2040000900006",
+      "position": [
+        366907,
+        543130,
+        258918
+      ],
+      "armor_level": 1,
+      "row": 2,
+      "column": 2,
+      "row_distance_m": 20,
+      "horizontal_distance_m": 20.055
+    },
+    {
+      "uid": "0x2040000900007",
+      "position": [
+        366657,
+        542697,
+        258891
+      ],
+      "armor_level": 2,
+      "row": 2,
+      "column": 3,
+      "row_distance_m": 20,
+      "horizontal_distance_m": 20.303
+    },
+    {
+      "uid": "0x2040000900008",
+      "position": [
+        366407,
+        542264,
+        258870
+      ],
+      "armor_level": 3,
+      "row": 2,
+      "column": 4,
+      "row_distance_m": 20,
+      "horizontal_distance_m": 21.73
+    },
+    {
+      "uid": "0x2040000900009",
+      "position": [
+        367973,
+        542976,
+        258843
+      ],
+      "armor_level": 0,
+      "row": 3,
+      "column": 1,
+      "row_distance_m": 30,
+      "horizontal_distance_m": 30.5
+    },
+    {
+      "uid": "0x204000090000a",
+      "position": [
+        367723,
+        542543,
+        258812
+      ],
+      "armor_level": 1,
+      "row": 3,
+      "column": 2,
+      "row_distance_m": 30,
+      "horizontal_distance_m": 30.005
+    },
+    {
+      "uid": "0x204000090000b",
+      "position": [
+        367473,
+        542110,
+        258794
+      ],
+      "armor_level": 2,
+      "row": 3,
+      "column": 3,
+      "row_distance_m": 30,
+      "horizontal_distance_m": 30.337
+    },
+    {
+      "uid": "0x204000090000c",
+      "position": [
+        367223,
+        541677,
+        258773
+      ],
+      "armor_level": 3,
+      "row": 3,
+      "column": 4,
+      "row_distance_m": 30,
+      "horizontal_distance_m": 31.47
+    },
+    {
+      "uid": "0x204000090000d",
+      "position": [
+        368789,
+        542390,
+        258728
+      ],
+      "armor_level": 0,
+      "row": 4,
+      "column": 1,
+      "row_distance_m": 40,
+      "horizontal_distance_m": 40.25
+    },
+    {
+      "uid": "0x204000090000e",
+      "position": [
+        368539,
+        541957,
+        258708
+      ],
+      "armor_level": 1,
+      "row": 4,
+      "column": 2,
+      "row_distance_m": 40,
+      "horizontal_distance_m": 40.001
+    },
+    {
+      "uid": "0x204000090000f",
+      "position": [
+        368289,
+        541524,
+        258690
+      ],
+      "armor_level": 2,
+      "row": 4,
+      "column": 3,
+      "row_distance_m": 40,
+      "horizontal_distance_m": 40.374
+    },
+    {
+      "uid": "0x2040000900010",
+      "position": [
+        368039,
+        541091,
+        258667
+      ],
+      "armor_level": 3,
+      "row": 4,
+      "column": 4,
+      "row_distance_m": 40,
+      "horizontal_distance_m": 41.352
+    },
+    {
+      "uid": "0x2040000900011",
+      "position": [
+        369605,
+        541803,
+        258632
+      ],
+      "armor_level": 0,
+      "row": 5,
+      "column": 1,
+      "row_distance_m": 50,
+      "horizontal_distance_m": 50.122
+    },
+    {
+      "uid": "0x2040000900012",
+      "position": [
+        369355,
+        541370,
+        258603
+      ],
+      "armor_level": 1,
+      "row": 5,
+      "column": 2,
+      "row_distance_m": 50,
+      "horizontal_distance_m": 50.022
+    },
+    {
+      "uid": "0x2040000900013",
+      "position": [
+        369105,
+        540937,
+        258580
+      ],
+      "armor_level": 2,
+      "row": 5,
+      "column": 3,
+      "row_distance_m": 50,
+      "horizontal_distance_m": 50.42
+    },
+    {
+      "uid": "0x2040000900014",
+      "position": [
+        368855,
+        540504,
+        258571
+      ],
+      "armor_level": 3,
+      "row": 5,
+      "column": 4,
+      "row_distance_m": 50,
+      "horizontal_distance_m": 51.305
+    }
+  ]
+}

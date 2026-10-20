@@ -1,0 +1,143 @@
+{
+  "map_id": 16010,
+  "radius_cm": 2000,
+  "visible_limit": 128,
+  "batch_limit": 16,
+  "seed": 20261019,
+  "policy": "prefab-H1-v1",
+  "original_algorithm_verified": false,
+  "source_points_verified": true,
+  "controller_binding_verified": false,
+  "renormalized_weights": true,
+  "source_point_count": 15,
+  "entities": [
+    {
+      "index": 2000000,
+      "entity_uid": 876349422043136,
+      "item_id": 20003,
+      "quantity": 1,
+      "position": [
+        416722,
+        557410,
+        259021
+      ],
+      "source_point_id": 2624,
+      "source_instance": 298,
+      "source_node": "node_94",
+      "source_prefab": "Data.layout.prefab.imj_2floor_003_layout",
+      "source_item_row": "1220"
+    },
+    {
+      "index": 2000001,
+      "entity_uid": 876349422043137,
+      "item_id": 30006,
+      "quantity": 10,
+      "position": [
+        416722,
+        557410,
+        259021
+      ],
+      "source_point_id": 2624,
+      "source_instance": 298,
+      "source_node": "node_94",
+      "source_prefab": "Data.layout.prefab.imj_2floor_003_layout",
+      "source_item_row": "1220"
+    },
+    {
+      "index": 2000002,
+      "entity_uid": 876349422043138,
+      "item_id": 50001,
+      "quantity": 1,
+      "position": [
+        416722,
+        557410,
+        259021
+      ],
+      "source_point_id": 2624,
+      "source_instance": 298,
+      "source_node": "node_94",
+      "source_prefab": "Data.layout.prefab.imj_2floor_003_layout",
+      "source_item_row": "1254"
+    },
+    {
+      "index": 2000003,
+      "entity_uid": 876349422043139,
+      "item_id": 70002,
+      "quantity": 1,
+      "position": [
+        416884,
+        557501,
+        259419
+      ],
+      "source_point_id": 2628,
+      "source_instance": 298,
+      "source_node": "node_98",
+      "source_prefab": "Data.layout.prefab.imj_2floor_003_layout",
+      "source_item_row": "1258"
+    },
+    {
+      "index": 2000004,
+      "entity_uid": 876349422043140,
+      "item_id": 10403,
+      "quantity": 1,
+      "position": [
+        416123,
+        557326,
+        259419
+      ],
+      "source_point_id": 2631,
+      "source_instance": 298,
+      "source_node": "node_101",
+      "source_prefab": "Data.layout.prefab.imj_2floor_003_layout",
+      "source_item_row": "1218"
+    },
+    {
+      "index": 2000005,
+      "entity_uid": 876349422043141,
+      "item_id": 30004,
+      "quantity": 10,
+      "position": [
+        416123,
+        557326,
+        259419
+      ],
+      "source_point_id": 2631,
+      "source_instance": 298,
+      "source_node": "node_101",
+      "source_prefab": "Data.layout.prefab.imj_2floor_003_layout",
+      "source_item_row": "1218"
+    },
+    {
+      "index": 2000006,
+      "entity_uid": 876349422043142,
+      "item_id": 30004,
+      "quantity": 10,
+      "position": [
+        416123,
+        557326,
+        259419
+      ],
+      "source_point_id": 2631,
+      "source_instance": 298,
+      "source_node": "node_101",
+      "source_prefab": "Data.layout.prefab.imj_2floor_003_layout",
+      "source_item_row": "1218"
+    },
+    {
+      "index": 2000007,
+      "entity_uid": 876349422043143,
+      "item_id": 50003,
+      "quantity": 1,
+      "position": [
+        415503,
+        557489,
+        259419
+      ],
+      "source_point_id": 2635,
+      "source_instance": 298,
+      "source_node": "node_105",
+      "source_prefab": "Data.layout.prefab.imj_2floor_003_layout",
+      "source_item_row": "1256"
+    }
+  ]
+}

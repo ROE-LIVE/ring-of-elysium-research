@@ -1,0 +1,79 @@
+{
+  "build": "2022-0.2.989.0-x64",
+  "exe_sha256": "2dca9b1e122e21363e14eeeb2372598c773205a907ed8d2b2d54a7229ad6ba18",
+  "map_id": 16010,
+  "resource_manifest_sha256": "78e63b3fee23961d97a35d3391c64ebb079f22cb0d2ab8bd4892877195480cbb",
+  "resources": 81,
+  "prefabs": 76,
+  "source_nodes": 7155,
+  "legacy_points": 8313,
+  "legacy_type_counts": {
+    "1": 217,
+    "3": 6023,
+    "5": 1675
+  },
+  "coordinate_units": "cm",
+  "do_not_merge_legacy_and_prefab": true,
+  "source_tools": [
+    {
+      "source": "ROE_SERVER/tools/audit_prefab_loot_nodes_2022.py",
+      "source_sha256": "86d5ca31a107ab2211bfda7bbc403383d36c7186ab2286aa7f46050667a3a884",
+      "published": "tools/audit_prefab_loot_nodes_2022.py",
+      "adaptation": "none"
+    },
+    {
+      "source": "ROE_SERVER/tools/extract_prefab_loot_2022.py",
+      "source_sha256": "4c2602b32e5de5e8519040396b7bff3a6351e66eec02413a71d08e3c0d527002",
+      "published": "tools/extract_prefab_loot_2022.py",
+      "adaptation": "none"
+    },
+    {
+      "source": "ROE_SERVER/tools/export_loot_tables_2022.py",
+      "source_sha256": "c78499ec8747f9a64f73297b5855868e27d4df2e6b30c078101f9b8a217aded8",
+      "published": "tools/export_loot_tables_2022.py",
+      "adaptation": "none"
+    },
+    {
+      "source": "ROE_SERVER/tools/generate_loot_plan_2022.py",
+      "source_sha256": "50af82570b90d3916a68864b1873769b19212365175b718a03ec9ad338b84155",
+      "published": "tools/generate_loot_plan_2022.py",
+      "adaptation": "none"
+    },
+    {
+      "source": "ROE_SERVER/tools/generate_prefab_loot_catalog_2022.py",
+      "source_sha256": "0278cb8f9c45787a12b049a1d5538ec6aa80b4cf8f88d9d8a2defcea0999322d",
+      "published": "tools/generate_prefab_loot_catalog_2022.py",
+      "adaptation": "none"
+    },
+    {
+      "source": "ROE_SERVER/tools/generate_winter_loot_catalog_2022.py",
+      "source_sha256": "bbe8c01867dcb6126e34d6274bfdc78b3ba9cbf1c4676b5def348cc341815a54",
+      "published": "tools/generate_winter_loot_catalog_2022.py",
+      "adaptation": "freeze peer membership; no server imports; update obsolete grenade comment"
+    },
+    {
+      "source": "ROE_SERVER/tools/recover_winter_loot_presets_2022.py",
+      "source_sha256": "24c3d7cc03f677e7e3400e18f615ad1aa9b3cc070184d78045fae7b7c423dda1",
+      "published": "tools/recover_winter_loot_presets_2022.py",
+      "adaptation": "none"
+    },
+    {
+      "source": "ROE_SERVER/tools/audit_winter_loot_pool_2022.py",
+      "source_sha256": "b1af4cdda2d47437eb6d8ba77d1c893e26d2b7e6a2e18c0624021b6581d7e172",
+      "published": "tools/audit_winter_loot_pool_2022.py",
+      "adaptation": "freeze peer membership; no server imports"
+    },
+    {
+      "source": "ROE_SERVER/tools/audit_loot_surface_2022.py",
+      "source_sha256": "73a9622b1ea4e58925b7547a485e5dd55ae4655c723f2b0f6827899a0a3015da",
+      "published": "tools/audit_loot_surface_2022.py",
+      "adaptation": "none"
+    },
+    {
+      "source": "ROE_SERVER/tools/probe_iceland_heightfield_2022.py",
+      "source_sha256": "a5b3ea4b25b9330179031f7361b3a8d557dbbc881aa8868a0ae43a1fd9a8d390",
+      "published": "tools/probe_iceland_heightfield_2022.py",
+      "adaptation": "none"
+    }
+  ]
+}

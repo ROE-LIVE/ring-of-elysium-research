@@ -1,0 +1,514 @@
+{
+  "map_id": 16010,
+  "original_algorithm_verified": false,
+  "type_to_control_verified": false,
+  "presets": [
+    {
+      "control_id": 51,
+      "name": "优先级高出生",
+      "radius": 200,
+      "extra_max": 7,
+      "scalar": [
+        17,
+        25
+      ],
+      "array": [
+        17,
+        29
+      ],
+      "representations_agree": false,
+      "same_number_point_count": 0,
+      "pool_rows": 0,
+      "sum_iCount": 0,
+      "source_line": 28
+    },
+    {
+      "control_id": 52,
+      "name": "优先级低出生",
+      "radius": 200,
+      "extra_max": 7,
+      "scalar": [
+        17,
+        25
+      ],
+      "array": [
+        17,
+        29
+      ],
+      "representations_agree": false,
+      "same_number_point_count": 0,
+      "pool_rows": 0,
+      "sum_iCount": 0,
+      "source_line": 34
+    },
+    {
+      "control_id": 1,
+      "name": "8雪山贫穷",
+      "radius": 200,
+      "extra_max": 7,
+      "scalar": [
+        40,
+        50
+      ],
+      "array": [
+        40,
+        50
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 217,
+      "pool_rows": 60,
+      "sum_iCount": 163,
+      "source_line": 40
+    },
+    {
+      "control_id": 3,
+      "name": "8雪山标准",
+      "radius": 200,
+      "extra_max": 7,
+      "scalar": [
+        20,
+        23
+      ],
+      "array": [
+        20,
+        23
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 6023,
+      "pool_rows": 60,
+      "sum_iCount": 3938,
+      "source_line": 46
+    },
+    {
+      "control_id": 5,
+      "name": "8雪山富裕",
+      "radius": 200,
+      "extra_max": 7,
+      "scalar": [
+        40,
+        40
+      ],
+      "array": [
+        40,
+        40
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 1675,
+      "pool_rows": 60,
+      "sum_iCount": 2006,
+      "source_line": 52
+    },
+    {
+      "control_id": 21,
+      "name": "8书籍随机",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        50
+      ],
+      "array": [
+        50
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 0,
+      "pool_rows": 0,
+      "sum_iCount": 0,
+      "source_line": 58
+    },
+    {
+      "control_id": 22,
+      "name": "8书籍必刷",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        100
+      ],
+      "array": [
+        100
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 0,
+      "pool_rows": 0,
+      "sum_iCount": 0,
+      "source_line": 63
+    },
+    {
+      "control_id": 310,
+      "name": "可LOOT报纸30",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        50
+      ],
+      "array": [
+        50
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 60,
+      "pool_rows": 20,
+      "sum_iCount": 20,
+      "source_line": 68
+    },
+    {
+      "control_id": 321,
+      "name": "可LOOT狄奥尼山2",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        50
+      ],
+      "array": [
+        50
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 20,
+      "pool_rows": 2,
+      "sum_iCount": 10,
+      "source_line": 73
+    },
+    {
+      "control_id": 322,
+      "name": "可LOOT滑雪场1",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        50
+      ],
+      "array": [
+        50
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 22,
+      "pool_rows": 1,
+      "sum_iCount": 10,
+      "source_line": 78
+    },
+    {
+      "control_id": 323,
+      "name": "可LOOT湖1",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        50
+      ],
+      "array": [
+        50
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 20,
+      "pool_rows": 1,
+      "sum_iCount": 10,
+      "source_line": 83
+    },
+    {
+      "control_id": 324,
+      "name": "可LOOT麋鹿林1",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        50
+      ],
+      "array": [
+        50
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 20,
+      "pool_rows": 1,
+      "sum_iCount": 10,
+      "source_line": 88
+    },
+    {
+      "control_id": 330,
+      "name": "可LOOT居民日记25",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        50
+      ],
+      "array": [
+        50
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 50,
+      "pool_rows": 25,
+      "sum_iCount": 25,
+      "source_line": 93
+    },
+    {
+      "control_id": 340,
+      "name": "可LOOT警长笔记15",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        50
+      ],
+      "array": [
+        50
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 37,
+      "pool_rows": 14,
+      "sum_iCount": 14,
+      "source_line": 98
+    },
+    {
+      "control_id": 391,
+      "name": "解谜活动密码阶段1",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        100
+      ],
+      "array": [
+        100
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 3,
+      "pool_rows": 2,
+      "sum_iCount": 3,
+      "source_line": 103
+    },
+    {
+      "control_id": 392,
+      "name": "解谜活动密码阶段2",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        100
+      ],
+      "array": [
+        100
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 3,
+      "pool_rows": 2,
+      "sum_iCount": 3,
+      "source_line": 108
+    },
+    {
+      "control_id": 393,
+      "name": "解谜活动密码阶段3",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        100
+      ],
+      "array": [
+        100
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 3,
+      "pool_rows": 2,
+      "sum_iCount": 3,
+      "source_line": 113
+    },
+    {
+      "control_id": 394,
+      "name": "解谜活动密码阶段4",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        100
+      ],
+      "array": [
+        100
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 3,
+      "pool_rows": 2,
+      "sum_iCount": 3,
+      "source_line": 118
+    },
+    {
+      "control_id": 395,
+      "name": "解谜活动密码阶段5",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        100
+      ],
+      "array": [
+        100
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 3,
+      "pool_rows": 2,
+      "sum_iCount": 3,
+      "source_line": 123
+    },
+    {
+      "control_id": 396,
+      "name": "解谜活动密码阶段6",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        100
+      ],
+      "array": [
+        100
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 3,
+      "pool_rows": 2,
+      "sum_iCount": 3,
+      "source_line": 128
+    },
+    {
+      "control_id": 397,
+      "name": "解谜活动密码阶段7",
+      "radius": 0,
+      "extra_max": 7,
+      "scalar": [
+        100
+      ],
+      "array": [
+        100
+      ],
+      "representations_agree": true,
+      "same_number_point_count": 3,
+      "pool_rows": 2,
+      "sum_iCount": 3,
+      "source_line": 133
+    }
+  ],
+  "layouts": [
+    {
+      "path": "research/builds/2022/full-extraction-20261010/extracted/DATA/SERVER/EU_ICELAND_4096/ENTITYPOINTCONFIG.XML",
+      "sha256": "d8d2f3b5a6e197ec1425a16c81e969145916dd64f1f7c68b5f86d0002d0ace70",
+      "point_count": 741,
+      "type_counts": {
+        "1005": 30,
+        "1001": 113,
+        "1015": 5,
+        "3": 93,
+        "5": 271,
+        "310": 60,
+        "330": 50,
+        "340": 37,
+        "322": 22,
+        "323": 20,
+        "324": 20,
+        "321": 20
+      }
+    },
+    {
+      "path": "research/builds/2022/full-extraction-20261010/extracted/DATA/SERVER/EU_ICELAND_4096/ICELAND_001/ENTITYPOINTCONFIG.XML",
+      "sha256": "2187235d2dfa8adaee356428725bcb8087c6dd03a38a2e5af4de8298a0107f3c",
+      "point_count": 8313,
+      "type_counts": {
+        "1005": 31,
+        "1001": 112,
+        "1015": 5,
+        "3": 6023,
+        "5": 1675,
+        "310": 60,
+        "330": 50,
+        "340": 37,
+        "322": 22,
+        "323": 20,
+        "324": 20,
+        "321": 20,
+        "1": 217,
+        "391": 3,
+        "392": 3,
+        "393": 3,
+        "394": 3,
+        "395": 3,
+        "396": 3,
+        "397": 3
+      }
+    },
+    {
+      "path": "research/builds/2022/full-extraction-20261010/extracted/DATA/SERVER/EU_ICELAND_4096/ICELAND_002/ENTITYPOINTCONFIG.XML",
+      "sha256": "2187235d2dfa8adaee356428725bcb8087c6dd03a38a2e5af4de8298a0107f3c",
+      "point_count": 8313,
+      "type_counts": {
+        "1005": 31,
+        "1001": 112,
+        "1015": 5,
+        "3": 6023,
+        "5": 1675,
+        "310": 60,
+        "330": 50,
+        "340": 37,
+        "322": 22,
+        "323": 20,
+        "324": 20,
+        "321": 20,
+        "1": 217,
+        "391": 3,
+        "392": 3,
+        "393": 3,
+        "394": 3,
+        "395": 3,
+        "396": 3,
+        "397": 3
+      }
+    },
+    {
+      "path": "research/builds/2022/full-extraction-20261010/extracted/DATA/SERVER/EU_ICELAND_4096/ICELAND_003/ENTITYPOINTCONFIG.XML",
+      "sha256": "2187235d2dfa8adaee356428725bcb8087c6dd03a38a2e5af4de8298a0107f3c",
+      "point_count": 8313,
+      "type_counts": {
+        "1005": 31,
+        "1001": 112,
+        "1015": 5,
+        "3": 6023,
+        "5": 1675,
+        "310": 60,
+        "330": 50,
+        "340": 37,
+        "322": 22,
+        "323": 20,
+        "324": 20,
+        "321": 20,
+        "1": 217,
+        "391": 3,
+        "392": 3,
+        "393": 3,
+        "394": 3,
+        "395": 3,
+        "396": 3,
+        "397": 3
+      }
+    },
+    {
+      "path": "research/builds/2022/full-extraction-20261010/extracted/DATA/SERVER/EU_ICELAND_4096/ICELAND_004/ENTITYPOINTCONFIG.XML",
+      "sha256": "2187235d2dfa8adaee356428725bcb8087c6dd03a38a2e5af4de8298a0107f3c",
+      "point_count": 8313,
+      "type_counts": {
+        "1005": 31,
+        "1001": 112,
+        "1015": 5,
+        "3": 6023,
+        "5": 1675,
+        "310": 60,
+        "330": 50,
+        "340": 37,
+        "322": 22,
+        "323": 20,
+        "324": 20,
+        "321": 20,
+        "1": 217,
+        "391": 3,
+        "392": 3,
+        "393": 3,
+        "394": 3,
+        "395": 3,
+        "396": 3,
+        "397": 3
+      }
+    }
+  ],
+  "variants_identical": true,
+  "sources": {
+    "control": {
+      "path": "research/builds/2022/full-extraction-20261010/extracted/DATA/TABLE/EULOOT/EUENTITYLOOTCONTROLCFGTABLE_1.XML",
+      "sha256": "adc7317526d15d3a9d807ba74c5c49c9c7e220a3664233d49fb8a626bc494e7d"
+    },
+    "items": {
+      "path": "research/builds/2022/full-extraction-20261010/extracted/DATA/TABLE/EULOOT/EUENTITYLOOTITEMCFGTABLE_1.XML",
+      "sha256": "1e429f65b0b529f3addab0fe4f2e4c0be4102362781e627b2ae434637f8a7763"
+    }
+  }
+}

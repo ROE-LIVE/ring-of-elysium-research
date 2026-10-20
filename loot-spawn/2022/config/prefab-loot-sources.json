@@ -1,0 +1,740 @@
+{
+  "version": 1,
+  "build": "2022-0.2.989.0-x64",
+  "map_id": 16010,
+  "layout": "DATA/WORLD/EU_ICELAND_4096/CONFIG/LAYOUTMANAGER.XML",
+  "expected_nodes": 7155,
+  "prefabs": [
+    "DATA/LAYOUT/PREFAB/CH_GOTHIC_001_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/DK_BUILDING_001B_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/DK_BUILDING_001D_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/DK_BUILDING_001F_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/DK_BUILDING_008A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/DK_VEHICLE_003D_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/EU_HUAXUECHANG_BUILDING01_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/FA_BUILDING_031A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/FA_BUILDING_031B_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/FA_BUILDING_033A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/FA_BUILDING_034A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/FM_BUILDING_002A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/FM_BUILDING_005A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/FM_BUILDING_006A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/FM_BUILDING_008_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/FM_BUILDLING_001A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/GS_GASSTATION_001A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_1FLOOR_001_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_1FLOOR_002_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_001_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_002_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_003_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_004_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_005_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_006_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_008_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_009_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_010_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_011_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_012_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_CABIN_001_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_CABIN_002_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_CABIN_003_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/IMJ_CABIN_004_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/LY_BUILDING_004_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/LY_BUILDING_005_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MJ_CABIN_002A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MJ_CABIN_003A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MJ_CABIN_005A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MJ_CABIN_006A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MJ_CABIN_007A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MJ_CABIN_010A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MJ_GARAGE_001_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MJ_GARAGE_002_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MT_BUILDING_001_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MT_BUILDING_002_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MT_BUILDING_005_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MT_BUILDING_006A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MT_BUILDING_006_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MT_BUILDING_007_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MT_BUILDING_009A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MT_TENT01_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MT_TENT02_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MT_TENT03_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/MT_TENT04_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/NS_BUILDING_001_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/NS_BUILDING_002_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/PK_TENT_01_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/PL_BUILDING_001_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/PL_BUILDING_002_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/PL_BUILDING_003_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/PL_BUILDING_005_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/PL_BUILDING_006A_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/PL_BUILDING_006B_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/PL_BUILDING_006_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/PL_BUILDING_007_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/PL_BUILDING_008_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/RT_BUILDING_01_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/SHIZHENG_DALOU_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/SH_BUILDING_001_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/SH_BUILDING_002_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/SH_BUILDING_003_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/ST_SUPERMARKET_001C_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/TENT_SMALL_01_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/TENT_SMALL_02_LAYOUT.XML",
+    "DATA/LAYOUT/PREFAB/TENT_SMALL_03_LAYOUT.XML"
+  ],
+  "resources": [
+    {
+      "path": "DATA/LAYOUT/PREFAB/CH_GOTHIC_001_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984479232,
+      "storage": "vfs_zlib",
+      "size": 44881,
+      "sha256": "135dbbd233a14698139198bbfadb7f137afa17236176350340d2716acf2a098d"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/DK_BUILDING_001B_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984566272,
+      "storage": "vfs_zlib",
+      "size": 1490,
+      "sha256": "bf6c75baa3fe1b1dec16245939474d7c452ea038413274f2e9574a6ca250a578"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/DK_BUILDING_001D_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984567296,
+      "storage": "vfs_zlib",
+      "size": 1490,
+      "sha256": "0ee2f5a3596e14c2ffdf23ddc13e48fe911bcff492086f81b9a28d5004ae4e48"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/DK_BUILDING_001F_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984568320,
+      "storage": "vfs_zlib",
+      "size": 1505,
+      "sha256": "327a4619d02ff5672680f2c156cefd781d4319e6c9a35f2b6f43c4d872998581"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/DK_BUILDING_008A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984570368,
+      "storage": "vfs_zlib",
+      "size": 65775,
+      "sha256": "13d48136ff92b89311ad1f4056d52a677ded9edd47bb98b9194530ae6e08b02c"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/DK_VEHICLE_003D_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984587264,
+      "storage": "vfs_zlib",
+      "size": 2053,
+      "sha256": "8401598ce6bf89b773a4ec7d008168e19a1f6ce97a9b6308844d9f52761e71ce"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/EU_HUAXUECHANG_BUILDING01_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984593920,
+      "storage": "vfs_zlib",
+      "size": 107059,
+      "sha256": "7ca129b81c2b1bc9a7692b66349c108b0f6a8b2e7fd99138c6f28e09045f18b9"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/FA_BUILDING_031A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984776192,
+      "storage": "vfs_zlib",
+      "size": 7763,
+      "sha256": "1f301fc370420a6452c7366ac47f809ae6e8361d2e63e43a04cfbf14e5d2b024"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/FA_BUILDING_031B_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984777728,
+      "storage": "vfs_zlib",
+      "size": 7136,
+      "sha256": "1a9649e4cf280ab8ac84562fa8b51dc0ca87df8a504206814d1880e8c4e74917"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/FA_BUILDING_033A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984785920,
+      "storage": "vfs_zlib",
+      "size": 7269,
+      "sha256": "3f74ab966688576e319f0fb9b5300e76d5cc3b6e0fdd91a6eb9618ddde33530e"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/FA_BUILDING_034A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984790528,
+      "storage": "vfs_zlib",
+      "size": 3102,
+      "sha256": "d2189cfc229582b2aec116d84df641f83d77e68f6278424ad00923203ae47b18"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/FM_BUILDING_002A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984815616,
+      "storage": "vfs_zlib",
+      "size": 9608,
+      "sha256": "1be356237262caf1c872f7a4fef4de86d0d6655279f70fc96f985d299a2d7cd7"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/FM_BUILDING_005A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984818688,
+      "storage": "vfs_zlib",
+      "size": 3577,
+      "sha256": "c882f466a0853b7e647bbaaba28b63e12c6756ccea0ddbd9aa11a4e355815f63"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/FM_BUILDING_006A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984819712,
+      "storage": "vfs_zlib",
+      "size": 3157,
+      "sha256": "e236144ecc341a124cd9c19f34c10d39c8e8c341814f0f94a5c3970673b9a93f"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/FM_BUILDING_008_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984820736,
+      "storage": "vfs_zlib",
+      "size": 4928,
+      "sha256": "795e19681721bf1f53aa9f52d772facf86a88694525c72b078eb2adacdb57837"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/FM_BUILDLING_001A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984821760,
+      "storage": "vfs_zlib",
+      "size": 6821,
+      "sha256": "99b0d678734f8cafdb7fcb7bc0d27a007d821a9dd59354435a13fd7037835f43"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/GS_GASSTATION_001A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4984845312,
+      "storage": "vfs_zlib",
+      "size": 26755,
+      "sha256": "09b41bf21e3c5beb6e4f89bb59e5143fa5eaac74df70b202a46d5b5627111aec"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_1FLOOR_001_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985146368,
+      "storage": "vfs_zlib",
+      "size": 16345,
+      "sha256": "e99ec55da53e62e70d144361d82d644b045583a3a6698800de0184f154b216fc"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_1FLOOR_002_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985148416,
+      "storage": "vfs_zlib",
+      "size": 79412,
+      "sha256": "4945e7e550a53150c94d33b8c2753f76c4d0b216536cd48284485e61e2a744f7"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_001_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985152000,
+      "storage": "vfs_zlib",
+      "size": 148924,
+      "sha256": "fd5bfa3f1d764ab009fa2115088a7ce43a098cdbfdbc0ba5b8a54cd95261cbc1"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_002_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985157632,
+      "storage": "vfs_zlib",
+      "size": 142962,
+      "sha256": "976c6114bc3b6d660fab31f429fac223cf5b9366f7a087155046a0c38a608b09"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_003_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985165824,
+      "storage": "vfs_zlib",
+      "size": 166480,
+      "sha256": "0fec904b109d8b7c7149c5fc1c844f19eb6f1438118bd80f94ab957055f0711c"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_004_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985172992,
+      "storage": "vfs_zlib",
+      "size": 101978,
+      "sha256": "e782632260bdc07f310c152437c5380bf2de331c5423a1b24eafd72be22c18bb"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_005_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985178112,
+      "storage": "vfs_zlib",
+      "size": 116605,
+      "sha256": "2a00de79068ddaf66a73b9b2768466148124e239291619c260a4765f58b17e4f"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_006_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985182720,
+      "storage": "vfs_zlib",
+      "size": 139464,
+      "sha256": "37a34b862862c00073d1de53ce87e699fd02f057511dfe9d49252e21697111bc"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_008_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985190912,
+      "storage": "vfs_zlib",
+      "size": 145872,
+      "sha256": "16b56334833e793da42d5f7eb980e85a99efbcfd7343780c88324c05e4a4e9a6"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_009_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985196544,
+      "storage": "vfs_zlib",
+      "size": 86706,
+      "sha256": "4cd2ff165b37ca0d520d86a89a73a9e11c4377a95405fb19acd21509f09694a4"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_010_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985200640,
+      "storage": "vfs_zlib",
+      "size": 106870,
+      "sha256": "0f6cf6b04c3acf3ece1d2c51e813fdc62db8ad7f4acf5a2162431eaed2fd0f58"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_011_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985204736,
+      "storage": "vfs_zlib",
+      "size": 60296,
+      "sha256": "7f36d61668a7d2b5bd1a0fb756cc837236237697e724ad74215d0e6c06aaa407"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_2FLOOR_012_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985208320,
+      "storage": "vfs_zlib",
+      "size": 214186,
+      "sha256": "16536abf521157f8aeef8c7242fa14268692eb9b1f6d199474a46952651a3571"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_CABIN_001_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985214464,
+      "storage": "vfs_zlib",
+      "size": 4152,
+      "sha256": "c87ebadb44db3f369ff70f832fe778a515646996ff79291363c81a25fc39dd40"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_CABIN_002_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985215488,
+      "storage": "vfs_zlib",
+      "size": 2040,
+      "sha256": "efb10a35be9d6accc42720aac66247fa08b57e3ae5a1da682411c51e79c2dc1f"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_CABIN_003_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985216512,
+      "storage": "vfs_zlib",
+      "size": 5859,
+      "sha256": "eef023a215d83f5d9ecda5e70b7107505fe080f2c25840eb2ff584d0f0b263e0"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/IMJ_CABIN_004_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985217536,
+      "storage": "vfs_zlib",
+      "size": 5323,
+      "sha256": "f26b39bc24f2bb17b3b6971124ec9a317d6c694677d940761d01ae540037a4b9"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/LY_BUILDING_004_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985269760,
+      "storage": "vfs_zlib",
+      "size": 6315,
+      "sha256": "9a144985b119117163dd4be2ef0760e8c1c1f25b0bb95e66aa8d71d4beaa4df7"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/LY_BUILDING_005_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985271296,
+      "storage": "vfs_zlib",
+      "size": 9974,
+      "sha256": "3b0ecbf766b15d7d935d6fd96ca10bead33e2666e40abadd1b530eecfd55b66c"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MJ_CABIN_002A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985462272,
+      "storage": "vfs_zlib",
+      "size": 1477,
+      "sha256": "f4b537eb25c592c13f468bdb3c95ca8b8ed8f21fee5746b84727cafd2cc6856a"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MJ_CABIN_003A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985463296,
+      "storage": "vfs_zlib",
+      "size": 2048,
+      "sha256": "cb20c00784a7df657788dfa33c0d54630148f34d30f30dcabe4f3e8bb551d223"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MJ_CABIN_005A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985465344,
+      "storage": "vfs_zlib",
+      "size": 2638,
+      "sha256": "7454dbdf88d339f5b7c98dad2cd55ae713c64128e03e7618cb2940e95da94604"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MJ_CABIN_006A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985466368,
+      "storage": "vfs_zlib",
+      "size": 8132,
+      "sha256": "374ecc285c37defe99501e35f352540a4fa3501923bc946b84cbf0defedcbe81"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MJ_CABIN_007A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985467904,
+      "storage": "vfs_zlib",
+      "size": 4052,
+      "sha256": "0c096c7ea74bdf5aeddb99d39405963780d824ee0cfc6a5ea6f5f1553c8f8360"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MJ_CABIN_010A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985472000,
+      "storage": "vfs_zlib",
+      "size": 5109,
+      "sha256": "469086e5ea99b8db37c3eff8d12437e277e3cceee309ca76f1e29d91aee2d367"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MJ_GARAGE_001_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985473024,
+      "storage": "vfs_zlib",
+      "size": 53513,
+      "sha256": "c5f3b952e0c3ee7bdca963a4b68c919719b0e2dc3b4afe8545839d8f2fb8fcfc"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MJ_GARAGE_002_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985477632,
+      "storage": "vfs_zlib",
+      "size": 21303,
+      "sha256": "8051fbf69fba58eb9c2e1ec725e5ddd94de732c4e29a84132aa259da2ba8519c"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MT_BUILDING_001_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985498624,
+      "storage": "vfs_zlib",
+      "size": 202348,
+      "sha256": "c4f0aad66cb71f755a3d369e0f8380fbb5f996ddb14d32033c8c94867b97f949"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MT_BUILDING_002_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985512960,
+      "storage": "vfs_zlib",
+      "size": 66422,
+      "sha256": "afd19132504df41f26fbb6716bb11454dad6c2699c1fef031234107a84a6b505"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MT_BUILDING_005_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985520128,
+      "storage": "vfs_zlib",
+      "size": 105061,
+      "sha256": "41b5bc9f2f7d38a4bcca666211d2603cdc3da01dd92308f02cbb4a7676ce3921"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MT_BUILDING_006_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985529856,
+      "storage": "vfs_zlib",
+      "size": 72127,
+      "sha256": "35ddf66c634bc7c0d8886e0388900cc696f6faf433afe128c21b3a33ac63d92d"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MT_BUILDING_006A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985526272,
+      "storage": "vfs_zlib",
+      "size": 43873,
+      "sha256": "41bf0aecd5126f1efa6a09982f903012b8700fab01b971d839ca5d3ef574eab0"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MT_BUILDING_007_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985534976,
+      "storage": "vfs_zlib",
+      "size": 1497,
+      "sha256": "c0ffe8704e1d89abae4f31c3c0510bdaeb10b83452f1627c4be1f6c537a5c889"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MT_BUILDING_009A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985536000,
+      "storage": "vfs_zlib",
+      "size": 84718,
+      "sha256": "1fa476d12936d15b2ed6768508e8ea0fdc0f166b6bebaa55e61a0b2b46d24caf"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MT_TENT01_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985552896,
+      "storage": "vfs_zlib",
+      "size": 13750,
+      "sha256": "778488d7820fd116f8a73f5b3d1f9815a329b2e80f33d8a28fe594dc5800ef22"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MT_TENT02_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985554432,
+      "storage": "vfs_zlib",
+      "size": 8572,
+      "sha256": "b2b29e8c75bd11e5179eb5d220715852eaaa5385b13ed77a28abde57ef37d362"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MT_TENT03_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985555968,
+      "storage": "vfs_zlib",
+      "size": 6221,
+      "sha256": "560a8a20530ef4cc86831d7c29ba0931e6170177a3c59cfbcc2870e6d4d9983d"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/MT_TENT04_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985557504,
+      "storage": "vfs_zlib",
+      "size": 7365,
+      "sha256": "5cf2df8cec809df2fcfcfb4498541f699a789dc7ac5327e9d508f3e2f2212b9f"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/NS_BUILDING_001_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985563648,
+      "storage": "vfs_zlib",
+      "size": 6979,
+      "sha256": "6c2800e9bd61d2c5b61454cea8532ff1a3b6ae60cfcd971245423345dd349db4"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/NS_BUILDING_002_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985564672,
+      "storage": "vfs_zlib",
+      "size": 7602,
+      "sha256": "6f8e0791562f880329e0d7ea914667ef1affddb4eb89ae14edaf4086ccf7e9df"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/PK_TENT_01_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985616896,
+      "storage": "vfs_zlib",
+      "size": 24534,
+      "sha256": "8114750e0357fb486cb63c5d73acb5b5cbf12716da4217fb846f2239c9fcdca4"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/PL_BUILDING_001_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985619968,
+      "storage": "vfs_zlib",
+      "size": 37607,
+      "sha256": "2e17e4462f6c5c3285a58c8e035bf9affb83fff731dcfe5673847d3c3119c5d4"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/PL_BUILDING_002_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985623552,
+      "storage": "vfs_zlib",
+      "size": 25856,
+      "sha256": "badc43c121da6bf1855a573e994be1ba4a7216b655c3125f1b9de863be6a8185"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/PL_BUILDING_003_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985625600,
+      "storage": "vfs_zlib",
+      "size": 43051,
+      "sha256": "5a29a50ac67d32138c161b290c6099f26721bb7f43d70961f0f7b0d2275356bb"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/PL_BUILDING_005_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985629696,
+      "storage": "vfs_zlib",
+      "size": 222878,
+      "sha256": "5a75924b3752ce04ce935b2a7813a8eeaac2f0b35b7ed2de16e9446b62695f8b"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/PL_BUILDING_006_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985649664,
+      "storage": "vfs_zlib",
+      "size": 6217,
+      "sha256": "68ef8401b2223affb860a8ef9ec1065e1dd254d7d6548ff382185401f3b41846"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/PL_BUILDING_006A_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985646592,
+      "storage": "vfs_zlib",
+      "size": 7358,
+      "sha256": "2d852800b397e0b69576842a4e5ca4f4b12b26ec5a88f64a62d7e69cf08d7b72"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/PL_BUILDING_006B_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985648128,
+      "storage": "vfs_zlib",
+      "size": 6244,
+      "sha256": "3caedad357769333d10681bb7eb29a5902b9196f1e2e9f85b2905e60faee2875"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/PL_BUILDING_007_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985651200,
+      "storage": "vfs_zlib",
+      "size": 31660,
+      "sha256": "d171fe1a0f4033e3b3b702d157ead71e26a8fe30bc26bfea80c3d9b9168fa6c6"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/PL_BUILDING_008_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985654272,
+      "storage": "vfs_zlib",
+      "size": 60204,
+      "sha256": "34e6a20194bdc861c3eb63ada1c0dd099261e5ac6b48e6bc2fbec8f992f26d64"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/RT_BUILDING_01_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985706496,
+      "storage": "vfs_zlib",
+      "size": 143761,
+      "sha256": "0e1f345c326691b878c158113b3356059ed378099e4fea1dbcde7bc6a44e6e14"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/SH_BUILDING_001_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985776640,
+      "storage": "vfs_zlib",
+      "size": 430513,
+      "sha256": "bda3b83a44545edfc493cdf7ecacdcbcdfadea5a3a11c7ad8c2dd7d098143cc4"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/SH_BUILDING_002_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985800192,
+      "storage": "vfs_zlib",
+      "size": 167264,
+      "sha256": "7762e6aedb68b0c401f5435d2b07e30ccc07e2e9f5d6134ca8ecfd071964261f"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/SH_BUILDING_003_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985810944,
+      "storage": "vfs_zlib",
+      "size": 140633,
+      "sha256": "e2831dbaf6e4dcba150c37e54c1f513e495d250ce5f56852b0086a651fdf02a2"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/SHIZHENG_DALOU_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985758720,
+      "storage": "vfs_zlib",
+      "size": 217712,
+      "sha256": "7085141cd6103b3c644d9472f02d9c91763d4c95687c7a0dc53b4c667e7bff59"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/ST_SUPERMARKET_001C_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985835520,
+      "storage": "vfs_zlib",
+      "size": 66020,
+      "sha256": "ebb4f6fe84df3f7d2613018799ebd9841c4f4ebe90d68b3ec66a4ea6edab1212"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/TENT_SMALL_01_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985952768,
+      "storage": "vfs_zlib",
+      "size": 8770,
+      "sha256": "17ef54d96c20cba50bd1a1fec225cd713c2955f2bc7c6f64fb2b62ead5765e2c"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/TENT_SMALL_02_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985954816,
+      "storage": "vfs_zlib",
+      "size": 15072,
+      "sha256": "cab04e8af8ec0e59eb4ee86e6f5cb16e86407a78af2312ee29d69e92b4a4144c"
+    },
+    {
+      "path": "DATA/LAYOUT/PREFAB/TENT_SMALL_03_LAYOUT.XML",
+      "source": "data_bas_0.vfs",
+      "offset": 4985956864,
+      "storage": "vfs_zlib",
+      "size": 17575,
+      "sha256": "36dc3f95d40e20e3de273adcd267f13eeeaf0d10c1f0231056ecb5e5039e5422"
+    },
+    {
+      "path": "DATA/TABLE/EULOOT/EUENTITYLOOTCONTROLCFGTABLE_1.XML",
+      "source": "SFC/TableBin.sfc",
+      "offset": 4760066,
+      "storage": "sfc_lz4",
+      "size": 45902,
+      "sha256": "adc7317526d15d3a9d807ba74c5c49c9c7e220a3664233d49fb8a626bc494e7d",
+      "table_alias": "000001bb.xml"
+    },
+    {
+      "path": "DATA/TABLE/EULOOT/EUENTITYLOOTCONTROLCFGTABLE_VEHICLE.XML",
+      "source": "SFC/TableBin.sfc",
+      "offset": 24025009,
+      "storage": "sfc_lz4",
+      "size": 20480,
+      "sha256": "a78fc5c53f3c3f12d8e7f2c8e7fcf2dc5089ab132528dd5147a41f0b852cafda",
+      "table_alias": "0000083c.xml"
+    },
+    {
+      "path": "DATA/TABLE/EULOOT/EUENTITYLOOTITEMCFGTABLE_1.XML",
+      "source": "SFC/TableBin.sfc",
+      "offset": 27784450,
+      "storage": "sfc_lz4",
+      "size": 714147,
+      "sha256": "1e429f65b0b529f3addab0fe4f2e4c0be4102362781e627b2ae434637f8a7763",
+      "table_alias": "00000a71.xml"
+    },
+    {
+      "path": "DATA/TABLE/EULOOT/EUENTITYLOOTITEMCFGTABLE_VEHICLE.XML",
+      "source": "SFC/TableBin.sfc",
+      "offset": 4638381,
+      "storage": "sfc_lz4",
+      "size": 36001,
+      "sha256": "a043b4928a9aa6f5929711805c1a0e8fc6b021b8b55cc52563335022252113bf",
+      "table_alias": "000001a5.xml"
+    },
+    {
+      "path": "DATA/WORLD/EU_ICELAND_4096/CONFIG/LAYOUTMANAGER.XML",
+      "source": "SFC/World_EU_ICELAND_4096_RemainingFiles.sfc",
+      "offset": 841580614,
+      "storage": "sfc_lz4",
+      "size": 7265106,
+      "sha256": "52b72929495b2ffcf2b108b8db57120af80e72ac775ac3accacbbda1d774ac39"
+    }
+  ],
+  "original_algorithm_verified": false
+}

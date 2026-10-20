@@ -1,0 +1,24 @@
+{
+  "resources_read": 82,
+  "client_launched": false,
+  "services_started": false,
+  "secrets_required": false,
+  "published_original_game_files": false,
+  "data_checks": {
+    "prefab-nodes.csv": {
+      "equal": true,
+      "published_sha256": "c30853d1d21a83269b5f09a3a0cc82335ea70760306e2ff3148ad1a118a8010a",
+      "regenerated_sha256": "c30853d1d21a83269b5f09a3a0cc82335ea70760306e2ff3148ad1a118a8010a"
+    },
+    "loot-tables.json": {
+      "equal": true,
+      "published_sha256": "09f850774911eaee0b0fd7dc74863c4bda973f8d944207ec76f2d5b9c1a1d6f4",
+      "regenerated_sha256": "09f850774911eaee0b0fd7dc74863c4bda973f8d944207ec76f2d5b9c1a1d6f4"
+    },
+    "legacy-entitypoints.csv": {
+      "equal": true,
+      "published_sha256": "3766f27d0a2e5025b631f23c1aaf30f266657864793e59890d5bf553419fa5fd",
+      "regenerated_sha256": "3766f27d0a2e5025b631f23c1aaf30f266657864793e59890d5bf553419fa5fd"
+    }
+  }
+}

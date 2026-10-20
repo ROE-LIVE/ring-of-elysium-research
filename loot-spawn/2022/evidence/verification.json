@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-20",
+  "python": "3.13.15",
+  "lz4": "4.4.5",
+  "bundle_unittest": {
+    "command": "python -B -m unittest discover -s tests -v",
+    "cwd": "loot-spawn/2022",
+    "passed": 31,
+    "failed": 0
+  },
+  "public_repository_unittest": {
+    "command": "python -B -m unittest discover -s tests -v",
+    "cwd": ".",
+    "passed": 13,
+    "failed": 0
+  },
+  "task_structure": {
+    "command": "python -B tools/tasks.py --validate",
+    "tasks": 115,
+    "valid": true,
+    "stages_changed": false
+  },
+  "source_export": {
+    "selected_resources": 82,
+    "byte_equal_outputs": [
+      "prefab-nodes.csv",
+      "legacy-entitypoints.csv",
+      "loot-tables.json"
+    ],
+    "evidence": "evidence/source-reproduction-checks.json"
+  },
+  "starter_presets": {
+    "checked": 3,
+    "mismatches": 0,
+    "evidence": "evidence/starter-source-check.json"
+  },
+  "original_algorithm_verified": false,
+  "all_points_native_verified": false,
+  "client_launched_for_publication": false,
+  "services_started_for_publication": false
+}

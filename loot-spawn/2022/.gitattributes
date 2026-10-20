@@ -1,0 +1,3 @@
+# Хеши пакета должны сохраняться и при checkout на Windows.
+* -text
+*.csv whitespace=cr-at-eol
